@@ -83,6 +83,7 @@
 		{
 
 			id = int(this.name.charAt(1));
+			gotoAndStop("Null");
 			if (id==8)
 			{
 				gotoAndStop("Null");
@@ -91,7 +92,37 @@
 			}
 			else
 			{
-				gotoAndStop("Null");
+				if (weapon!=null && addButton!=null)
+				{
+					if (weapon.purchased)
+					{
+						if (GameMenuPM.menuState == GameMenuPM.LOADOUT)
+						{
+							addButton.visible = true;
+							gotoAndStop("upgradingDisabled");
+							addButton.gotoAndStop(1);
+						}
+						else
+						{
+							gotoAndStop("Selected");
+							addButton.visible = false;
+						}
+					}
+					else
+					{
+						if (GameMenuPM.menuState == GameMenuPM.ARMORY)
+						{
+							addButton.visible = true;
+							gotoAndStop("Unselected");
+						}
+						else
+						{
+							addButton.visible = false;
+						}
+
+					}
+				}
+				//gotoAndStop("Null");
 				purchaseUI.gotoAndStop("Null");
 				if (GameMenuPM.weaponList)
 				{
@@ -103,21 +134,24 @@
 							weapon = Weapon(GameMenuPM.weaponList[id - 1]);
 							fromSelection();
 						}
-						if (selected)
+						if (GameMenuPM.menuState == GameMenuPM.LOADOUT)
 						{
-							gotoAndStop("Selected");
-						}
-						else
-						{
-							gotoAndStop("Unselected");
+							if (selected)
+							{
+								gotoAndStop("Selected");
+							}
+							else
+							{
+								gotoAndStop("Unselected");
+							}
 						}
 						if (GameMenuPM.menuState == GameMenuPM.ARMORY)
 						{
-							upgradeGlow.visible = true;
+							//upgradeGlow.visible = true;
 						}
 						else
 						{
-							upgradeGlow.visible = false;
+							//upgradeGlow.visible = false;
 						}
 						if (weapon.purchased)
 						{
@@ -366,34 +400,7 @@
 					//addButton.visible=false;
 				}
 			}
-			if (weapon!=null && addButton!=null)
-			{
 
-
-				if (weapon.purchased)
-				{
-					if (GameMenuPM.menuState == GameMenuPM.ARMORY)
-					{
-						addButton.visible = false;
-					}
-					else
-					{
-						addButton.visible = true;
-					}
-				}
-				else
-				{
-					if (GameMenuPM.menuState == GameMenuPM.ARMORY)
-					{
-						addButton.visible = false;
-					}
-					else
-					{
-						addButton.visible = true;
-					}
-
-				}
-			}
 		}
 		private function updateGlow(e:Event):void
 		{
