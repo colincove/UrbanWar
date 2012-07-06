@@ -187,11 +187,11 @@
   </Weapons>
 
   <Enemies>
-    <Enemy name='Tank' health='220' fireDelay='100' damage='100' pointWorth="500" ></Enemy>
-    <Enemy name='Thor' health='500' fireDelay='100' damage='20' pointWorth="600" ></Enemy>
-    <Enemy name='Bomber' health='100' fireDelay='15' damage='15' pointWorth="400" ></Enemy>
-    <Enemy name='Spinbot' health='150' fireDelay='100' damage='20' movePow='20' pointWorth="100" ></Enemy>
-    <Enemy name='Droid' health='100' fireDelay='5' damage='5' pointWorth="100" ></Enemy>
-    <Enemy name='Archer' health='100' fireDelay='100' damage='20' pointWorth="100" ></Enemy>
+    <Enemy name='Tank' health='220' fireDelay='100' damage='100' pointWorth="500" orbWorth="5" ></Enemy>
+    <Enemy name='Thor' health='500' fireDelay='100' damage='20' pointWorth="600"  orbWorth="5"></Enemy>
+    <Enemy name='Bomber' health='100' fireDelay='15' damage='15' pointWorth="400"  orbWorth="5"></Enemy>
+    <Enemy name='Spinbot' health='150' fireDelay='100' damage='20' movePow='20' pointWorth="100" orbWorth="5" ></Enemy>
+    <Enemy name='Droid' health='100' fireDelay='5' damage='5' pointWorth="100"  orbWorth="5"></Enemy>
+    <Enemy name='Archer' health='100' fireDelay='100' damage='20' pointWorth="100"  orbWorth="5"></Enemy>
   </Enemies>
 </SideScroller>
