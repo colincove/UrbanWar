@@ -227,10 +227,8 @@ addEventListener(MenuEvent.UPGRADE_BUY_OUT, upgradeOut);
 					//}
 					if(GameMenuPM.menuState==GameMenuPM.ARMORY)
 					{
-						addButton.visible=true;
+						addButton.visible =true;
 					}
-					
-
 			}else{
 				if(GameMenuPM.menuState==GameMenuPM.LOADOUT)
 					{

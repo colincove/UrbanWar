@@ -290,7 +290,7 @@ globals.letPlayerLive=false;
 					enemyObj.damage=tmpEnemyXML.@damage;
 					enemyObj.pointWorth=tmpEnemyXML.@pointWorth;
 					enemyObj.orbWorth=tmpEnemyXML.@orbWorth;
-					if (enemyObj.name=='Bomber')
+				if (enemyObj.name=='Bomber')
 					{
 						enemyObj.bombRadius=tmpEnemyXML.@bombRadius;
 					}

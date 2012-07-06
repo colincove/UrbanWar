@@ -197,7 +197,6 @@
 		private function heatControl():void
 		{
 			if(isHeroWpn && weaponName=="MiniGun"){
-				trace("1",weaponName,getHeat());
 			}
 
 			if (getHeat()>0)
@@ -256,7 +255,6 @@
 			}
 			if(isHeroWpn && weaponName=="MiniGun")
 			{
-				trace("2",weaponName,getHeat());
 			}
 		}
 		public function isOverheated():Boolean

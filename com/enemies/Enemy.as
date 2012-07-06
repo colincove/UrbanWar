@@ -40,6 +40,7 @@
 			{
 				enemyVars.movePow = vars.movePow;
 			}
+			
 			orbWorth=vars.orbWorth;
 			pointWorth = vars.pointWorth;
 			enemyVars.name = vars.name;
