@@ -289,7 +289,9 @@ globals.letPlayerLive=false;
 					enemyObj.fireDelay=tmpEnemyXML.@fireDelay;
 					enemyObj.damage=tmpEnemyXML.@damage;
 					enemyObj.pointWorth=tmpEnemyXML.@pointWorth;
-					if (enemyObj.name=='Bomber') {
+					enemyObj.orbWorth=tmpEnemyXML.@orbWorth;
+					if (enemyObj.name=='Bomber')
+					{
 						enemyObj.bombRadius=tmpEnemyXML.@bombRadius;
 					}
 					if (enemyObj.name=='Spinbot') {

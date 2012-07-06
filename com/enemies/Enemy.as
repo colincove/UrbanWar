@@ -12,6 +12,7 @@
 	{
 		protected var size:int;
 		protected var enemyVars:Object;
+		protected var orbWorth:int;
 		public function Enemy(enemyName:String = 'Droid'):void
 		{
 			super();
@@ -39,6 +40,7 @@
 			{
 				enemyVars.movePow = vars.movePow;
 			}
+			orbWorth=vars.orbWorth;
 			pointWorth = vars.pointWorth;
 			enemyVars.name = vars.name;
 			enemyVars.health = int(vars.health);
@@ -54,7 +56,7 @@
 			if (withOrbs)
 			{
 				var points:Points = new Points(pointWorth,x,y,true);
-				globalFunctions.spawnOrbs(size*2, globalFunctions.getMainX(this), globalFunctions.getMainY(this));
+				globalFunctions.spawnOrbs(orbWorth, globalFunctions.getMainX(this), globalFunctions.getMainY(this));
 				var shieldInterval:int = (int)(Math.random() * 3);
 				if (shieldInterval==1)
 				{
