@@ -196,7 +196,7 @@
 							i+=20;
 							tmpObj.x+=.5;
 							hitList.push(tmpObj);
-							Points.displayPoint(Math.random()*1000,xComp-globals.neutralContainer.x,yComp-globals.neutralContainer.y);
+							Points.displayPoint(pointWorth,xComp-globals.neutralContainer.x,yComp-globals.neutralContainer.y);
 							//var points:Points=new Points(Math.random()*1000,xComp-globals.neutralContainer.x,yComp-globals.neutralContainer.y);
 
 							doDamage(xComp, yComp, tmpObj, strength);
