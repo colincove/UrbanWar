@@ -220,15 +220,24 @@ addEventListener(MenuEvent.UPGRADE_BUY_OUT, upgradeOut);
 					GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.HOVER_UPDATE,true,false));
 					}*/
 				}
-				if(!weapon.purchased)
-					{
+				//if(!weapon.purchased)
+					//{
 					GameMenuPM.selectedMoney=cost;
 					GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.HOVER_UPDATE,true,false));
+					//}
+					if(GameMenuPM.menuState==GameMenuPM.ARMORY)
+					{
+						addButton.visible=true;
 					}
+					
 
+			}else{
+				if(GameMenuPM.menuState==GameMenuPM.LOADOUT)
+					{
+				addButton.visible=true;
+				addButton.gotoAndStop(2);
+					}
 			}
-			addButton.visible=true;
-			addButton.gotoAndStop(2);
 		}
 		private var rolled:Boolean=false;
 		private function rollOut(e:MouseEvent):void
