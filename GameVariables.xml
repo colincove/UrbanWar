@@ -26,11 +26,11 @@
 		  </GradeScaleResponse>
     <level stage = '1' screenSpeed='1'>
 	<GradeScale>
-			<A>38000</A>
-			<B>33250</B>
-			<C>28500</C>
-			<D>25650</D>
-			<F>19000</F>
+			<A>25000</A>
+			<B>22500</B>
+			<C>20000</C>
+			<D>15000</D>
+			<F>12500</F>
 		</GradeScale>
 	</level>
     <level stage = '2'screenSpeed='1'>
@@ -127,12 +127,12 @@
 		0-0-0|1-0-0|2-0-0|3-0-0|4-0-0|5-0-0|6-0-0
 		in this compositioin: first value is weapon, second is the upgrade that it is at, third value is whether it has been purchased or not (0 for no, 1 for yes). -->
 		
-  <Weapons loadOut='012' inventory='02543' inventoryAndUpgrades="0-1-1|1-0-0|4-1-1|3-0-0|2-2-1|5-0-0|6-0-0">
+  <Weapons loadOut='012' inventory='02543' inventoryAndUpgrades="0-0-0|1-0-0|4-0-0|3-0-0|2-0-0|5-0-0|6-0-0">
     <Weapon  name='MiniGun'upgrade='0'>
       <Upgrade id='0' cost='300'damage = '5' heatUp='100' coolDown='20' fireDelay='3' pointWorth="15" stager='1'></Upgrade>
       <Upgrade id='1'cost='250'damage = '5' heatUp='100' coolDown='22' fireDelay='2' pointWorth="10" stager='2'></Upgrade>
-      <Upgrade id='2'cost='300'damage = '5' heatUp='100' coolDown='23' fireDelay='1' pointWorth="8" stager='3'></Upgrade>
-	<Upgrade id='3'cost='300'damage = '7' heatUp='100' coolDown='25' fireDelay='1' pointWorth="8" stager='4'></Upgrade>
+      <Upgrade id='2'cost='300'damage = '5' heatUp='100' coolDown='23' fireDelay='2' pointWorth="10" stager='3'></Upgrade>
+	<Upgrade id='3'cost='300'damage = '5' heatUp='100' coolDown='25' fireDelay='1' pointWorth="8" stager='4'></Upgrade>
     </Weapon>
 
     <Weapon name='MissileLauncher' upgrade='0' >
@@ -144,9 +144,9 @@
 
     <Weapon name='ClusterLauncher' upgrade='0' >
       <Upgrade id='0' cost='300'damage = '5' heatUp='60' coolDown='10' fireDelay='200' pointWorth="100" missileCount='3'></Upgrade>
-      <Upgrade id='1'cost='250'damage = '5' heatUp='50' coolDown='10' fireDelay='300' pointWorth="60" missileCount='5'></Upgrade>
-      <Upgrade id='2'cost='300'damage = '5' heatUp='40' coolDown='10' fireDelay='300' pointWorth="50" missileCount='6'></Upgrade>
-	<Upgrade id='3'cost='350'damage = '5' heatUp='30' coolDown='10' fireDelay='300' pointWorth="35" missileCount='9'></Upgrade>
+      <Upgrade id='1'cost='250'damage = '3' heatUp='60' coolDown='10' fireDelay='200' pointWorth="50" missileCount='6'></Upgrade>
+      <Upgrade id='2'cost='300'damage = '2' heatUp='60' coolDown='10' fireDelay='200' pointWorth="35" missileCount='9'></Upgrade>
+	<Upgrade id='3'cost='350'damage = '2' heatUp='60' coolDown='10' fireDelay='200' pointWorth="25" missileCount='12'></Upgrade>
     </Weapon>
 
     <Weapon  name='ClusterLockLauncher' upgrade='0'  >
