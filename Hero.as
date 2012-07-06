@@ -309,7 +309,7 @@ public override function destroy():void
 		{
 			health = 0;
 			globals.main.heroDie();
-
+shield=null;
 
 			animation.gotoAndStop('die');
 

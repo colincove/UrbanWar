@@ -24,6 +24,7 @@
 
 	public class gameStart
 	{
+		
 		private var gameContinue:Boolean;
 		private var camera:Cam;
 		private var defaultsLoaded:Boolean=false;
@@ -64,6 +65,7 @@
 					globals.activeObjectList[i].removeSelf();
 				}
 			}
+			
 			globals.resetLists();
 			WeaponList.emptyLoadout();
 			globals.smoke.destroy();
@@ -76,10 +78,19 @@
 			}
 			globals.levelObj=null;
 			weaponControl.clearProjectiles();
-			globals.main.launchWeaponMenu();
-			System.gc();
-			System.gc();
+			if(currentLevelID==1)
+			{
+				globals.hero.jetpack=null;
+				globals.hero.armCannon.clearWeapon();
+				WeaponList.loadDefaultWeapons(gameVars);
 			
+				globals.skipWeaponMenu=true;
+			}
+			
+			globals.main.launchWeaponMenu();
+			
+			System.gc();
+			System.gc();
 		}
 		public function beatCurrentLevel():void
 		{
@@ -117,6 +128,7 @@
 		}
 		public function startLevel():void
 		{
+			globals.skipWeaponMenu=false;
 System.gc();
 System.gc();
 globals.enemiesKilled=0;

@@ -271,5 +271,10 @@
 
 
 		}
+		public function clearWeapon():void
+		{
+			selectedWeapon=null;
+			globals.hero.armCannon.gotoAndStop(1);
+		}
 	}
 }

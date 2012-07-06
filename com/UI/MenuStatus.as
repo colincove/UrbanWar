@@ -16,6 +16,21 @@
 			GameMenuPM.dispatcher.addEventListener(MenuEvent.UPDATE,update);
 loadoutButton.addEventListener(MouseEvent.CLICK, onClickLoadout);
 playLevelButtonX=playLevelButton.x;
+tabBar.gotoAndStop(1);
+tabBar.armoryButton.addEventListener(MouseEvent.CLICK, armoryClick);
+tabBar.loadoutButton.addEventListener(MouseEvent.CLICK, loadoutClick);
+		}
+		private function armoryClick(e:MouseEvent):void
+		{
+			GameMenuPM.menuState = GameMenuPM.ARMORY;
+			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE));
+			tabBar.gotoAndStop("armory");
+		}
+		private function loadoutClick(e:MouseEvent):void
+		{
+			GameMenuPM.menuState = GameMenuPM.LOADOUT;
+			tabBar.gotoAndStop("loadout");
+			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE));
 		}
 		private function onClickLoadout(e:MouseEvent):void
 		{

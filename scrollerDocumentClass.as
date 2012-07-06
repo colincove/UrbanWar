@@ -57,10 +57,15 @@ var endLevelScreen:EndLevelScreen;
 		}
 		public function launchWeaponMenu():void 
 		{
-			this.x=0;
+			if(globals.skipWeaponMenu){
+				game.startLevel();
+			}else{
+				this.x=0;
 			this.y=0;
 			weaponUI.launch();
 			this.addChild(weaponUI);
+			}
+			
 		}
 		public function launchPauseMenu():void 
 		{
