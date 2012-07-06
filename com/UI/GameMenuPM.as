@@ -59,8 +59,8 @@
 			}
 		}
 		public static function selectWeapon(selectState:Boolean, weapon:Weapon):Boolean
-		{if(!launching){
-			
+		{if(!launching)
+		{
 			if(selectState)
 			{
 				if(loadOut.length>=3)
@@ -81,6 +81,7 @@
 		}
 		public static function continueCampaign():void
 		{
+			menuState=ARMORY;
 			globals.gameVars.orbs=money;
 			dispatcher.dispatchEvent(new MenuEvent(MenuEvent.CLEAR_WEAPONS,true, true));
 			globals.main.getWeaponMenu().parent.removeChild(globals.main.getWeaponMenu());
