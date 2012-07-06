@@ -76,13 +76,12 @@
 				globalFunctions.removeFromList(loadOut, weapon);
 				return false;
 			}
-			
 		}
 		return false;
 		}
 		public static function continueCampaign():void
 		{
-			
+			globals.gameVars.orbs=money;
 			dispatcher.dispatchEvent(new MenuEvent(MenuEvent.CLEAR_WEAPONS,true, true));
 			globals.main.getWeaponMenu().parent.removeChild(globals.main.getWeaponMenu());
 			globals.main.getGame().currentLevelID=globals.main.getGame().currentLevelID++;

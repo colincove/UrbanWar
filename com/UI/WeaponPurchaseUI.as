@@ -132,7 +132,7 @@ addEventListener(MenuEvent.UPGRADE_BUY_OUT, upgradeOut);
 					}
 					else
 					{
-						purchaseUI.visible=false;
+						//purchaseUI.visible=false;
 						NewAnimation.visible=false;
 						icon.alpha = 0.20;
 						defineButton(buyButton);
@@ -341,11 +341,28 @@ GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.WEAPON_SELECTED,true
 				addButton.addEventListener(MouseEvent.ROLL_OUT, rollOut, false, 0, true);
 				this.iconContainer.addChild(addButton);
 			}
+			if(weapon.purchased)
+			{
+				if(GameMenuPM.menuState==GameMenuPM.ARMORY)
+				{
+					addButton.visible=false;
+				}else{
+					addButton.visible=true;
+				}
+			}else{
+				if(GameMenuPM.menuState==GameMenuPM.ARMORY)
+				{
+					addButton.visible=true;
+				}else{
+					addButton.visible=false;
+				}
+				
+			}
 			if(rolled )
 			{
-				addButton.visible=true;
+				//addButton.visible=true;
 			}else{
-				addButton.visible=false;
+				//addButton.visible=false;
 			}
 			}
 		}
