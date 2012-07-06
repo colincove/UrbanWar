@@ -9,8 +9,10 @@
 		public static var currentLevel:int;
 		public static var weaponList:Array;
 		public static var _money:int=0;
-		
-		
+		public static const LOADOUT:String="loadout";
+		public static const ARMORY:String="armory";
+		public static var menuState:String=ARMORY;
+		public static var loadoutSelected:Boolean=false;
 		public static function get money():int
 		{
 			return _money;

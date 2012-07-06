@@ -83,6 +83,12 @@ addEventListener(MenuEvent.UPGRADE_BUY_OUT, upgradeOut);
 		{
 
 			id = int(this.name.charAt(1));
+			if(id==8)
+			{
+				gotoAndStop("Null");
+			purchaseUI.gotoAndStop("Null");
+			weaponName.text="";
+			}else{
 			gotoAndStop("Null");
 			purchaseUI.gotoAndStop("Null");
 			if (GameMenuPM.weaponList)
@@ -103,9 +109,19 @@ addEventListener(MenuEvent.UPGRADE_BUY_OUT, upgradeOut);
 					{
 						gotoAndStop("Unselected");
 					}
+					if(GameMenuPM.menuState==GameMenuPM.ARMORY)
+					{
+						upgradeGlow.visible=true;
+					}else{
+						upgradeGlow.visible=false;
+					}
 					if (weapon.purchased)
 					{
+						if(GameMenuPM.menuState==GameMenuPM.ARMORY){
 						purchaseUI.visible = true;
+						}else{
+							purchaseUI.visible = false;
+						}
 						icon.alpha = 1;
 						if(weapon.isNew)
 						{
@@ -128,6 +144,7 @@ addEventListener(MenuEvent.UPGRADE_BUY_OUT, upgradeOut);
 				{
 
 				}
+			}
 			}
 		}
 		private function clearWeapon(e:MenuEvent=null):void
@@ -221,7 +238,7 @@ addEventListener(MenuEvent.UPGRADE_BUY_OUT, upgradeOut);
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.HOVER_UPDATE,true,false));
 					GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.ROLL_OUT,true,false));
 			addButton.gotoAndStop(1);
-			addButton.visible=false;
+			//addButton.visible=false;
 		}
 		private function purchase(e:MenuEvent):void
 		{
@@ -242,7 +259,8 @@ addEventListener(MenuEvent.UPGRADE_BUY_OUT, upgradeOut);
 		{
 			if (! weapon.purchased)
 			{
-				if(GameMenuPM.money>=weapon.wpnUpVars.cost)
+				
+				if(GameMenuPM.money>=weapon.wpnUpVars.cost && GameMenuPM.menuState==GameMenuPM.ARMORY)
 				{
 				weapon.purchased = true;
 				GameMenuPM.money-=weapon.wpnUpVars.cost;
@@ -255,7 +273,10 @@ addEventListener(MenuEvent.UPGRADE_BUY_OUT, upgradeOut);
 			}
 			else
 			{
+				if(GameMenuPM.menuState==GameMenuPM.LOADOUT)
+				{
 				fromSelection();
+				}
 			}
 
 
