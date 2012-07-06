@@ -195,6 +195,7 @@ public override function destroy():void
 			if (! haveAir)
 			{
 				jet = false;
+				
 				if (! walking)
 				{
 					if (right||left)
@@ -213,11 +214,21 @@ public override function destroy():void
 							else
 							{
 								GlobalSounds.playSound('land');
-
 								animation.gotoAndStop('land');
 							}
 							idle = true;
 						}
+					}
+				}else{
+					if(dir==-1 && animation.currentLabel!="runStart")
+					{
+						//animation.scaleX=dir;
+						//animation.gotoAndStop("runStart");
+					}
+					if(dir==1&& animation.currentLabel!="runStart")
+					{
+						//animation.scaleX=dir;
+						//animation.gotoAndStop("runStart");
 					}
 				}
 				backFlame.visible = false;
@@ -260,6 +271,11 @@ public override function destroy():void
 					backFlame.visible = false;
 					bottemFlame.visible = false;
 				}
+				}
+				if(animation.currentLabel=="runStart" ||animation.currentLabel=="idle")
+				{
+					walking=false;
+					animation.gotoAndStop("jump");
 				}
 				if (walking)
 				{
@@ -356,12 +372,14 @@ public override function destroy():void
 		{
 			right = true;
 			startWalk();
+			if(!left){
 			dir = 1;
+			}
 		}
 		private function startWalk():void
 		{
 			idle = false;
-			if (! haveAir)
+			if (! haveAir && ySpeed==0)
 			{
 				animation.gotoAndStop('runStart');
 			}
@@ -377,16 +395,28 @@ public override function destroy():void
 		{
 			left = true;
 			startWalk();
+			if(!right){
 			dir = -1;
+			}
 		}
 		public function rightUp():void
 		{
-			stopWalk();
+			
+			if(left){
+				dir=-1;
+			}else{
+				stopWalk();
+			}
 			right = false;
 		}
 		public function leftUp():void
 		{
-			stopWalk();
+			
+			if(right){
+				dir=1;
+			}else{
+				stopWalk();
+			}
 			left = false;
 		}
 		public function noFuel():void
