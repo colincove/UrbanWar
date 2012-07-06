@@ -146,7 +146,8 @@
 		}
 		public static function spawnOrbs(numberOfPoints:int=3, xPoint:int=0,yPoint:int=0):void
 		{
-			for (var i:int=1; i<numberOfPoints; i++) {
+			for (var i:int=0; i<numberOfPoints; i++)
+			{
 				var pointOrb:OrbPoint=new OrbPoint((360/numberOfPoints)*i,xPoint,yPoint);
 
 			}
