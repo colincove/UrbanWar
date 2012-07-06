@@ -5,7 +5,7 @@
 -->
 <SideScroller>
 
-  <Game forKarl="0" stageStart='1'godMode='0' orbs='0'  testingMode='0' startUpgrade='0' fightBoss='0' muteSounds='1' outsideScreenTime='200'>
+  <Game forKarl="0" stageStart='4'godMode='0' orbs='0'  testingMode='0' startUpgrade='0' fightBoss='0' muteSounds='1' outsideScreenTime='200'>
     <!--stageStart will define the level that starts when program is run
   godMode will give you unlimited health and fuel. 
   orbs will start you off with however many orbs or defined. 
@@ -127,11 +127,11 @@
 		0-0-0|1-0-0|2-0-0|3-0-0|4-0-0|5-0-0|6-0-0
 		in this compositioin: first value is weapon, second is the upgrade that it is at, third value is whether it has been purchased or not (0 for no, 1 for yes). -->
 		
-  <Weapons loadOut='012' inventory='02543' inventoryAndUpgrades="0-0-0|1-0-0|4-0-0|3-0-0|2-0-0|5-0-0|6-0-0">
+  <Weapons loadOut='012' inventory='02543' inventoryAndUpgrades="0-2-1|1-2-1|4-0-0|3-0-1|2-0-0|5-0-0|6-0-0">
     <Weapon  name='MiniGun'upgrade='0'>
       <Upgrade id='0' cost='300'damage = '5' heatUp='100' coolDown='20' fireDelay='3' pointWorth="15" stager='1'></Upgrade>
-      <Upgrade id='1'cost='250'damage = '5' heatUp='100' coolDown='22' fireDelay='2' pointWorth="10" stager='2'></Upgrade>
-      <Upgrade id='2'cost='300'damage = '5' heatUp='100' coolDown='23' fireDelay='2' pointWorth="10" stager='3'></Upgrade>
+      <Upgrade id='1'cost='250'damage = '5' heatUp='110' coolDown='23' fireDelay='2' pointWorth="10" stager='2'></Upgrade>
+      <Upgrade id='2'cost='300'damage = '5' heatUp='110' coolDown='24' fireDelay='2' pointWorth="10" stager='3'></Upgrade>
 	<Upgrade id='3'cost='300'damage = '5' heatUp='100' coolDown='25' fireDelay='1' pointWorth="8" stager='4'></Upgrade>
     </Weapon>
 
@@ -144,9 +144,9 @@
 
     <Weapon name='ClusterLauncher' upgrade='0' >
       <Upgrade id='0' cost='300'damage = '5' heatUp='60' coolDown='10' fireDelay='200' pointWorth="100" missileCount='3'></Upgrade>
-      <Upgrade id='1'cost='250'damage = '3' heatUp='60' coolDown='10' fireDelay='200' pointWorth="50" missileCount='6'></Upgrade>
-      <Upgrade id='2'cost='300'damage = '2' heatUp='60' coolDown='10' fireDelay='200' pointWorth="35" missileCount='9'></Upgrade>
-	<Upgrade id='3'cost='350'damage = '2' heatUp='60' coolDown='10' fireDelay='200' pointWorth="25" missileCount='12'></Upgrade>
+      <Upgrade id='1'cost='250'damage = '5' heatUp='45' coolDown='10' fireDelay='200' pointWorth="50" missileCount='4'></Upgrade>
+      <Upgrade id='2'cost='300'damage = '5' heatUp='36' coolDown='10' fireDelay='200' pointWorth="35" missileCount='5'></Upgrade>
+	<Upgrade id='3'cost='350'damage = '5' heatUp='30' coolDown='10' fireDelay='200' pointWorth="25" missileCount='6'></Upgrade>
     </Weapon>
 
     <Weapon  name='ClusterLockLauncher' upgrade='0'  >
@@ -187,11 +187,11 @@
   </Weapons>
 
   <Enemies>
-    <Enemy name='Tank' health='220' fireDelay='100' damage='100' pointWorth="500" orbWorth="5" ></Enemy>
-    <Enemy name='Thor' health='500' fireDelay='100' damage='20' pointWorth="600"  orbWorth="5"></Enemy>
-    <Enemy name='Bomber' health='100' fireDelay='15' damage='15' pointWorth="400"  orbWorth="5"></Enemy>
-    <Enemy name='Spinbot' health='150' fireDelay='100' damage='20' movePow='20' pointWorth="100" orbWorth="5" ></Enemy>
-    <Enemy name='Droid' health='100' fireDelay='5' damage='5' pointWorth="100"  orbWorth="5"></Enemy>
-    <Enemy name='Archer' health='100' fireDelay='100' damage='20' pointWorth="100"  orbWorth="5"></Enemy>
+    <Enemy name='Tank' health='220' fireDelay='100' damage='100' pointWorth="500" orbWorth="2" ></Enemy>
+    <Enemy name='Thor' health='500' fireDelay='100' damage='20' pointWorth="600"  orbWorth="3"></Enemy>
+    <Enemy name='Bomber' health='100' fireDelay='15' damage='15' pointWorth="400"  orbWorth="1"></Enemy>
+    <Enemy name='Spinbot' health='120' fireDelay='100' damage='20' movePow='20' pointWorth="100" orbWorth="1" ></Enemy>
+    <Enemy name='Droid' health='100' fireDelay='5' damage='5' pointWorth="100"  orbWorth="1"></Enemy>
+    <Enemy name='Archer' health='40' fireDelay='100' damage='20' pointWorth="100"  orbWorth="1"></Enemy>
   </Enemies>
 </SideScroller>
