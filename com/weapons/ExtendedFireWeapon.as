@@ -14,9 +14,7 @@
 			} else {
 				heatIntervalThing++;
 				shooting=true;
-				trace("A",overheated,getHeat(),getHeatSpeed(),getHeatCapacity());
 				setHeat(getHeat()+getHeatSpeed());
-				trace("B",overheated,getHeat(),getHeatSpeed(),getHeatCapacity());
 			}
 		}
 		protected function stopExtendedWeapon():void 

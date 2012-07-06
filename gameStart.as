@@ -39,9 +39,10 @@
 		public var gameVars:Object;
 
 		public var replayingLevel:Boolean=false;
-		public function gameStart():void {
+		public function gameStart():void 
+		{
 			gameVars=new Object();
-			defineGameVars(gameVars);
+			globals.gameVars=defineGameVars(gameVars);
 		}
 		public function playSelectLevel(selectedLevel:int):void {
 			playLevelID=selectedLevel;
@@ -178,6 +179,7 @@ globals.letPlayerLive=false;
 			myLoader.addEventListener(Event.COMPLETE, processXML);
 			function processXML(e:Event):void {
 				var i:int;
+				trace("PROCESSING XML");
 				myXML=new XML(e.target.data);
 				//Game Variables
 				///////////////
@@ -278,7 +280,8 @@ globals.letPlayerLive=false;
 				////////////////
 				enemyXML=myXML.Enemies;
 				var enemyVars:Object = new Object();
-				for (i=0; i<enemyXML.*.length(); i++) {
+				for (i=0; i<enemyXML.*.length(); i++) 
+				{
 					var enemyObj:Object = new Object();
 					var tmpEnemyXML:XML=enemyXML.*[i];
 					enemyObj.name=tmpEnemyXML.@name;
