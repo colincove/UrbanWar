@@ -5,6 +5,7 @@
 	import com.interfaces.removable;
 	import com.globalFunctions;
 	import com.myMath.dist;
+	//dsdsd
 	import com.interfaces.Program;
 	import flash.events.TimerEvent;
 	public class Cam extends MovieClip implements Program {
