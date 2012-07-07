@@ -1,0 +1,1 @@
+﻿package com.interfaces{	public interface removable {		function removeSelf():void;	}}

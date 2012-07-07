@@ -1,0 +1,1 @@
+﻿package com.displayObjects{	import flash.display.MovieClip;	import com.physics.movement;	public class screenCheckPoint extends MovieClip {		public function screenCheckPoint():void {			if (parent is movement) {				movement(parent).setScreenPoint(this);			}			visible=false;		}	}}

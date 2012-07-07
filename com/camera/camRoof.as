@@ -1,0 +1,1 @@
+﻿package com.camera {	import com.globals;	import flash.events.Event;	public class camRoof extends MovieClip{		public function camRoof():void {		}	}}

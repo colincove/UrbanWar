@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+0=false
+1=true
+-->
+<SideScroller>
+  <Game stageStart='8'godMode='0' orbs='200'  testingMode='0' startUpgrade='0' fightBoss='0' muteSounds='1' outsideScreenTime='200'>
+    <!--stageStart will define the level that starts when program is run
+  godMode will give you unlimited health and fuel. 
+  orbs will start you off with however many orbs or defined. 
+  if testing mode is true, you will skip all opening scenes and menu's, and go directly into a level.
+  startUpgrade will start you in the upgrade menu as opposed to the game. 
+  fightBoss, if true AND there is a boss available in the selected level, go straight to the boss.  
+  -->
+  
+      <!--screenSpeed will change the speed at which the camera moves durring the entire stage. Universal stage speed. 
+  -->
+  
+    <level stage = '1' screenSpeed='1'></level>
+    <level stage = '2'screenSpeed='2'></level>
+    <level stage = '3'screenSpeed='2'></level>
+    <level stage = '4'screenSpeed='2'></level>
+    <level stage = '5'screenSpeed='2'></level>
+    <level stage = '6'screenSpeed='4'></level>
+    <level stage = '7'screenSpeed='3'></level>
+    <level stage = '8'screenSpeed='4'></level>
+    <level stage = '9'screenSpeed='4'></level>
+  </Game>
+  <Fuel addFuel='300' fallSpeed='6'></Fuel>
+    <Blimp health='100' speed='5'></Blimp>
+
+  <Weapons loadOut='MiniGun MissileLauncher Laser' inventory='MiniGun MissileLauncher Laser ClusterLockLauncher'>
+    <Weapon  name='MiniGun'upgrade='0'>
+      <Upgrade id='0' cost='0'damage = '4' heatUp='95' coolDown='15' fireDelay='4' stager='1'></Upgrade>
+      <Upgrade id='1'cost='60'damage = '5' heatUp='75' coolDown='20' fireDelay='2'stager='2'></Upgrade>
+      <Upgrade id='2'cost='100'damage = '5' heatUp='72' coolDown='25' fireDelay='1'stager='3'></Upgrade>
+	  <Upgrade id='3'cost='100'damage = '5' heatUp='80' coolDown='30' fireDelay='1'stager='5'></Upgrade>
+    </Weapon>
+    <Weapon name='MissileLauncher' upgrade='0' >
+      <Upgrade id='0' cost='0'damage = '35' heatUp='300' coolDown='12' fireDelay='150' speed='20'></Upgrade>
+      <Upgrade id='1'cost='60'damage = '45' heatUp='240' coolDown='13' fireDelay='150'></Upgrade>
+      <Upgrade id='2'cost='100'damage = '60' heatUp='230' coolDown='14' fireDelay='200'></Upgrade>
+	       <Upgrade id='3'cost='150'damage = '50' heatUp='250' coolDown='15' fireDelay='200'></Upgrade>
+    </Weapon>
+    <Weapon name='ClusterLauncher' upgrade='0' >
+      <Upgrade id='0' cost='0'damage = '25' heatUp='80' coolDown='5' fireDelay='200'missileCount='3'></Upgrade>
+      <Upgrade id='1'cost='60'damage = '20' heatUp='3' coolDown='1' fireDelay='300'missileCount='6'></Upgrade>
+      <Upgrade id='2'cost='100'damage = '20' heatUp='3' coolDown='1' fireDelay='300'missileCount='9'></Upgrade>
+	    <Upgrade id='3'cost='150'damage = '20' heatUp='3' coolDown='1' fireDelay='300'missileCount='12'></Upgrade>
+    </Weapon>
+    <Weapon  name='ClusterLockLauncher' upgrade='0'  >
+      <Upgrade id='0' cost='0'damage = '20' heatUp='3' coolDown='1' fireDelay='100' lockSpeed ='10'></Upgrade>
+      <Upgrade id='1'cost='60'damage = '20' heatUp='3' coolDown='1' fireDelay='100'lockSpeed ='7'></Upgrade>
+      <Upgrade id='2'cost='100'damage = '20' heatUp='3' coolDown='1' fireDelay='100'lockSpeed ='4'></Upgrade>
+	    <Upgrade id='3'cost='150'damage = '20' heatUp='3' coolDown='1' fireDelay='100'lockSpeed ='4'></Upgrade>
+    </Weapon>
+    <Weapon  name='LaserCannon' upgrade='0'  >
+      <Upgrade id='0' cost='0'damage = '3' heatUp='20' coolDown='10' fireDelay='2'></Upgrade>
+      <Upgrade id='1'cost='60'damage = '3' heatUp='20' coolDown='12' fireDelay='2'></Upgrade>
+      <Upgrade id='2'cost='100'damage = '4' heatUp='20' coolDown='12' fireDelay='2'></Upgrade>
+	  <Upgrade id='3'cost='150'damage = '5' heatUp='25' coolDown='15' fireDelay='2'></Upgrade>
+    </Weapon>
+	  <Weapon  name='WaveCannon' upgrade='0'  >
+      <Upgrade id='0' cost='0'damage = '3' heatUp='20' coolDown='10' fireDelay='2' degree='50'density='15'></Upgrade>
+      <Upgrade id='1'cost='60'damage = '3' heatUp='20' coolDown='12' fireDelay='2'degree='20'density='10'></Upgrade>
+      <Upgrade id='2'cost='100'damage = '4' heatUp='20' coolDown='12' fireDelay='2'degree='20'density='10'></Upgrade>
+	  <Upgrade id='3'cost='150'damage = '5' heatUp='25' coolDown='15' fireDelay='2'degree='20'density='10'></Upgrade>
+    </Weapon>
+	   <Weapon  name='TheVine' upgrade='0'  >
+      <Upgrade id='0' cost='0'damage = '3' heatUp='20' coolDown='10' fireDelay='2'></Upgrade>
+      <Upgrade id='1'cost='60'damage = '3' heatUp='20' coolDown='12' fireDelay='2'></Upgrade>
+      <Upgrade id='2'cost='100'damage = '4' heatUp='20' coolDown='12' fireDelay='2'></Upgrade>
+	  <Upgrade id='3'cost='150'damage = '5' heatUp='25' coolDown='15' fireDelay='2'></Upgrade>
+    </Weapon>
+  </Weapons>
+  <Enemies>
+    <Enemy name='Tank' health='200' fireDelay='100' damage='100'></Enemy>
+    <Enemy name='Thor' health='100' fireDelay='100' damage='20'></Enemy>
+    <Enemy name='Bomber' health='150' fireDelay='100' damage='15'></Enemy>
+    <Enemy name='Spinbot' health='100' fireDelay='100' damage='20' movePow='20'></Enemy>
+    <Enemy name='Droid' health='100' fireDelay='5' damage='5'></Enemy>
+    <Enemy name='Archer' health='100' fireDelay='100' damage='20'></Enemy>
+  </Enemies>
+</SideScroller>
