@@ -15,13 +15,17 @@
 
 	public class WaveParticle extends projectile implements activeWeaponInterface
 	{
+		private var waveParticleStrength:int;
 		private var waveLink:WaveParticle;
 		private var particleArray:Array;
 		public var key:int;
-		public function WaveParticle(Angle:int, originPoint:Point,primaryHitCheck:MovieClip,attackList:Array, strength:int=20, particleArray:Array=null, key:int=0,pointWorth:int=0, speed:int=10):void
+		private var wave:Wave;
+		public function WaveParticle(Angle:int, originPoint:Point,primaryHitCheck:MovieClip,attackList:Array, wave:Wave, strength:int=20, particleArray:Array=null, key:int=0,pointWorth:int=0, speed:int=10):void
 		{
 			super(Angle, 40,originPoint,primaryHitCheck, strength, pointWorth);
 			this.attackList = attackList;
+			this.wave=wave;
+			waveParticleStrength=strength;
 			ground = primaryHitCheck;
 			this.key = key;
 			this.particleArray = particleArray;
@@ -56,6 +60,10 @@
 		}
 		public function update():void
 		{
+			if(wave!=null)
+			{
+			strength=waveParticleStrength*wave.waveAlpha;
+			}
 			moveObj();
 			checkScreen();
 			removeCheck();
@@ -82,7 +90,6 @@
 			{
 
 				var index:int = particleArray.indexOf(this);
-				trace(index);
 				if (index!=-1)
 				{
 					particleArray[index] = null;

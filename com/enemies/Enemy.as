@@ -38,6 +38,7 @@
 			}
 			if (enemyName=='Spinbot')
 			{
+				trace("SPIN BOT VARS",vars.damage);
 				enemyVars.movePow = vars.movePow;
 			}
 			
@@ -48,6 +49,7 @@
 			this.health=enemyVars.health;
 			healthTot=health;
 			enemyVars.fireDelay = vars.fireDelay;
+			
 			enemyVars.damage = vars.damage;
 		}
 		protected function removeEnemy(withOrbs:Boolean=true):void

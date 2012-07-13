@@ -82,7 +82,7 @@
 			return desire;
 		}
 		public static function makeDebry(debryClassName:String,qty:int, xPos:int, yPos:int, screenGrab:Boolean=true):void {
-			var debryClass:Class=getDefinitionByName(debryClassName) as Class;
+			/*var debryClass:Class=getDefinitionByName(debryClassName) as Class;
 			var debryObj:debry;
 			for (var i:int=0; i<qty; i++) 
 			{
@@ -91,10 +91,11 @@
 				debryObj.x=globalFunctions.makeX(debryObj,xPos);
 				debryObj.y=globalFunctions.makeY(debryObj,yPos);
 				if(screenGrab)
+				
 				{
 				ScreenGrabber.debryAdd(debryObj);
 				}
-			}
+			}*/
 		}
 		public static function explosive(weapon):void {
 			var distance:int;
