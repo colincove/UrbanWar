@@ -78,8 +78,10 @@
 			}
 			globals.levelObj=null;
 			weaponControl.clearProjectiles();
+			trace("CURRENT LEVEL ID",currentLevelID);
 			if(currentLevelID==1)
 			{
+				trace("DELETE ALLs WEAPONS AND STUFF",currentLevelID );
 				globals.hero.jetpack=null;
 				globals.hero.armCannon.clearWeapon();
 				WeaponList.loadDefaultWeapons(gameVars);
@@ -128,6 +130,7 @@
 		}
 		public function startLevel():void
 		{
+			
 			globals.skipWeaponMenu=false;
 System.gc();
 System.gc();
@@ -152,6 +155,7 @@ globals.letPlayerLive=false;
 				defaultsLoaded=true;
 				WeaponList.loadDefaultWeapons(gameVars);
 			}
+			WeaponList.setOldInventory();
 			WeaponList.makeAllWeaponsNotNew();
 			globals.main.addChild(camera);
 		}
@@ -204,7 +208,6 @@ globals.letPlayerLive=false;
 					var stageVars:Object = new Object();
 					stageVars.stage=tmpXMLList.@stage;
 					stageVars.screenSpeed=tmpXMLList.@screenSpeed;
-					trace("STAGE STUFF", gameXML.*[i].@stage);
 					gameVars['stage'+gameXML.*[i].@stage]=stageVars;
 				}
 				gameVars.forKarl=Boolean(gameXML.@forKarl==1);
