@@ -6,6 +6,7 @@
 import com.Sound.GlobalSounds;
 import flash.events.TimerEvent;
 import flash.utils.Timer;
+import com.database.WebServices;
 
 	public class scrollerDocumentClass extends MovieClip {
 		var weaponUI:MovieClip;
@@ -38,6 +39,7 @@ var endLevelScreen:EndLevelScreen;
 			titleScreen = new TitleScreen();
 			leaderboards=new Leaderboards();
 			endLevelScreen = new EndLevelScreen();
+			WebServices.ping();
 		}
 		public function launchEndLevelScreen():void
 		{

@@ -32,11 +32,13 @@ private var randomRemove:int;
 			super.destroy();
 			if(deleteTimer!=null)
 			{
+				
 				deleteTimer.stop();
 				deleteTimer.reset();
 				deleteTimer.removeEventListener(TimerEvent.TIMER, deleteSelf);
 			}
-						globals.game_progThread.removeProg(this);
+			
+			globals.game_progThread.removeProg(this);
 			deleteTimer=null;
 		}
 		private function deleteSelf(e:TimerEvent):void 

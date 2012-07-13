@@ -12,8 +12,11 @@
 	import flash.display.BitmapData;
 	import flash.events.IOErrorEvent;
 	import flash.events.ErrorEvent;
+	
+	import com.adobe.crypto.MD5;
 
 	public class WebServices {
+		public static const PING:String="ping";
 		public static const GET_USER_BY_ID:String="get-user-by-id";
 		public static const GET_USER_BY_EMAIL:String="get-user-by-email";
 		public static const CREATE_USER:String="create-user";
@@ -23,10 +26,14 @@
 		public static const LOGIN:String="login";
 		public static const GET_HIGH_SCORE:String="get-high-score";
 		public static const GET_USER_HIGH_SCORE:String="get-user-high-score";
-				//public static const WEBSERVICE:String="http://covertstudios.ca/urbanWar/webservices/";
+				public static const WEBSERVICE:String="http://covertstudios.ca/urbanWar/webservices/";
 				//break the link for testing. 
-		public static const WEBSERVICE:String="http://XXXcovertstudios.ca/urbanWar/webservices/";
+		//public static const WEBSERVICE:String="http://XXXcovertstudios.ca/urbanWar/webservices/";
 
+;
+public static const DATABASE_AVAILABLE:int=1;
+public static const DATABASE_UNAVAILABLE:int=0;
+public static var databaseStatus:int=DATABASE_UNAVAILABLE;
 		public static function login(email:String, callback:Function, failCallback:Function=null):void {
 			var request:URLRequest=new URLRequest(WEBSERVICE);
 			request.method=URLRequestMethod.POST;
@@ -52,6 +59,35 @@
 				{
 					failCallback();
 				}
+			}
+		}
+		public static function ping():void
+		{
+			var request:URLRequest=new URLRequest(WEBSERVICE);
+			request.method=URLRequestMethod.POST;
+			var variables:URLVariables = new URLVariables();
+			variables.action=PING;
+			request.data=variables;
+			var loader:URLLoader=new URLLoader(request);
+			loader.addEventListener(Event.COMPLETE, onComplete);
+			loader.addEventListener(IOErrorEvent.IO_ERROR,onFail);
+			loader.dataFormat=URLLoaderDataFormat.TEXT;
+			loader.load(request);
+			
+			function onComplete(e:Event):void 
+			{
+				var pingResult:int=e.target.data;
+				if(pingResult==DATABASE_AVAILABLE||
+				   DATABASE_UNAVAILABLE){
+					   databaseStatus=pingResult;
+				   }else{
+					    databaseStatus=DATABASE_UNAVAILABLE;
+				   }
+				
+			}
+			function onFail(e:Event):void
+			{
+				databaseStatus=DATABASE_UNAVAILABLE;
 				
 			}
 		}
@@ -60,7 +96,8 @@
 			request.method=URLRequestMethod.POST;
 			var variables:URLVariables = new URLVariables();
 			variables.action=CREATE_USER;
-			variables.email=email;
+			
+			variables.email=MD5.hash(email);
 			variables.name=name;
 			request.data=variables;
 			var loader:URLLoader=new URLLoader(request);

@@ -67,17 +67,47 @@
 				{
 					globalFunctions.removeFromList(loadOut, weapon);
 					OkPrompt.createPrompt(globals.main, "You may only select 3 weapons as your loadout");
+					setLoadoutStatus();
 					return false;
 				}else{
 					loadOut.push(weapon);
+					setLoadoutStatus();
 					return true;
 				}
 			}else{
 				globalFunctions.removeFromList(loadOut, weapon);
+				setLoadoutStatus();
 				return false;
 			}
+			
 		}
+		setLoadoutStatus();
 		return false;
+		}
+		public static function setLoadoutStatus():void
+		{
+			var numberOfPossibleWeapons:int=0;
+			for (var i:int=0; i<WeaponList.weaponList.length; i++)
+				{
+					if (WeaponList.weaponList[i].purchased)
+					{
+						numberOfPossibleWeapons++;
+					}
+				}
+				if (numberOfPossibleWeapons>3)
+				{
+					numberOfPossibleWeapons = 3;
+				}
+				if (GameMenuPM.loadOut.length == numberOfPossibleWeapons)
+				{
+					GameMenuPM.loadoutSelected=true;
+					//this.gotoAndStop("select");
+				}
+				else
+				{
+					GameMenuPM.loadoutSelected=false;
+					//this.gotoAndStop("choose");
+				}
 		}
 		public static function continueCampaign():void
 		{

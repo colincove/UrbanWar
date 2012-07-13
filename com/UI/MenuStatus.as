@@ -14,6 +14,7 @@
 		public function MenuStatus():void
 		{
 			GameMenuPM.dispatcher.addEventListener(MenuEvent.UPDATE,update);
+			GameMenuPM.dispatcher.addEventListener(MenuEvent.SELECT_WEAPONS,selectWeapons);
 loadoutButton.addEventListener(MouseEvent.CLICK, onClickLoadout);
 playLevelButtonX=playLevelButton.x;
 tabBar.gotoAndStop(1);
@@ -25,6 +26,9 @@ tabBar.loadoutButton.addEventListener(MouseEvent.CLICK, loadoutClick);
 			GameMenuPM.menuState = GameMenuPM.ARMORY;
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE));
 			tabBar.gotoAndStop("armory");
+		}
+		private function selectWeapons(e:MenuEvent):void{
+			
 		}
 		private function loadoutClick(e:MouseEvent):void
 		{

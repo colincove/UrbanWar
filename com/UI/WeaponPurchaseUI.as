@@ -98,7 +98,12 @@
 					{
 						if (GameMenuPM.menuState == GameMenuPM.LOADOUT)
 						{
+							
 							addButton.visible = true;
+							if(GameMenuPM.loadoutSelected && !selected)
+							{
+								addButton.visible=false;
+							}
 							gotoAndStop("upgradingDisabled");
 							addButton.gotoAndStop(1);
 						}
@@ -270,14 +275,14 @@
 				//};
 				if (GameMenuPM.menuState == GameMenuPM.ARMORY)
 				{
-					addButton.visible = true;
+					//addButton.visible = true;
 				}
 			}
 			else
 			{
 				if (GameMenuPM.menuState == GameMenuPM.LOADOUT)
 				{
-					addButton.visible = true;
+					//addButton.visible = true;
 					addButton.gotoAndStop(2);
 				}
 			}
@@ -330,11 +335,13 @@
 			{
 				if (GameMenuPM.menuState == GameMenuPM.LOADOUT)
 				{
+					if(!selected && GameMenuPM.loadoutSelected)
+					{
+						return;
+					}
 					fromSelection();
 				}
 			}
-
-
 		}
 		private function fromSelection():void
 		{
@@ -350,12 +357,12 @@
 				GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.WEAPON_SELECTED,true));
 				icon.transform.colorTransform=new ColorTransform();
 				//weaponName.transform.colorTransform=new ColorTransform();
-
 			}
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE,true));
 		}
 		private function deselect():void
 		{
+			
 			selected = false;
 			if (icon!=null)
 			{
@@ -365,7 +372,9 @@
 			{
 				//weaponName.transform.colorTransform = colorTransform;
 			}
+			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.WEAPON_SELECTED,true));
 			defineButton(addButtonButton);
+			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE,true));
 		}
 		private function defineButton(button:MovieClip):void
 		{
