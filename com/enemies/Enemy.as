@@ -38,10 +38,8 @@
 			}
 			if (enemyName=='Spinbot')
 			{
-				trace("SPIN BOT VARS",vars.damage);
 				enemyVars.movePow = vars.movePow;
 			}
-			
 			orbWorth=vars.orbWorth;
 			pointWorth = vars.pointWorth;
 			enemyVars.name = vars.name;

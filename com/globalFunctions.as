@@ -37,7 +37,8 @@
 				yVar-=obj.parent.y;
 			}
 			var parentObj:DisplayObject=obj.parent;
-			while (parentObj!=parentObjCheck) {
+			while (parentObj!=parentObjCheck)
+			{
 				yVar+=parentObj.y;
 				parentObj=parentObj.parent;
 			}

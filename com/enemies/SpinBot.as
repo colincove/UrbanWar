@@ -98,9 +98,9 @@
 			ySpeed=(Math.random()-Math.random())*Speed;
 			xSpeed=(Math.random()-Math.random())*Speed;
 		}
-		private function fire():void {
+		private function fire():void 
+		{
 			if (weapon==null) {
-				trace("SPIN BOT",enemyVars.damage);
 				weapon=new MissileLauncher(globals.heroList, enemyVars.damage);
 			}
 			WeaponInterface(weapon).fire(arm.rotation,shootPoint, globals.heroContainer);

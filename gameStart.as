@@ -78,10 +78,8 @@
 			}
 			globals.levelObj=null;
 			weaponControl.clearProjectiles();
-			trace("CURRENT LEVEL ID",currentLevelID);
 			if(currentLevelID==1)
 			{
-				trace("DELETE ALLs WEAPONS AND STUFF",currentLevelID );
 				globals.hero.jetpack=null;
 				globals.hero.armCannon.clearWeapon();
 				WeaponList.loadDefaultWeapons(gameVars);
@@ -195,7 +193,6 @@ globals.letPlayerLive=false;
 			myLoader.addEventListener(Event.COMPLETE, processXML);
 			function processXML(e:Event):void {
 				var i:int;
-				trace("PROCESSING XML");
 				myXML=new XML(e.target.data);
 				//Game Variables
 				///////////////
@@ -311,7 +308,6 @@ globals.letPlayerLive=false;
 					}
 					if (enemyObj.name=='Spinbot') {
 						enemyObj.movePow=tmpEnemyXML.@movePow;
-						enemyObj.damage=tmpEnemyXML.@gamage;
 					}
 					enemyVars[tmpEnemyXML.@name]=enemyObj;
 				}

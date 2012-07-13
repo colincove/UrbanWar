@@ -11,7 +11,7 @@
 		private var heat:int;
 		private var speed:int;
 		public function MissileLauncher(attackList:Array ,damage:int=20,heat:int=0, heatCapacity:int=20, coolSpeed:int=2, heatSpeed:int =5, radius:int=50, shotDelay:int=100):void {
-			super(0, 500, 5, 150,0,0,damage);
+			super(0, 500, 5, 150,0,damage);
 			this.attackList=attackList;
 			this.selfReference=this;
 			setTimer();
