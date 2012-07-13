@@ -34,7 +34,7 @@
 			soundChannel=null;
 		}
 		public function fire(Angle:int,origin:Point, primaryHitCheck:MovieClip, secondaryHitCheck:MovieClip=null):void {
-			bullet=new MiniBullet(Angle,origin,primaryHitCheck,arm,attackList,shotDelay,this,strength,secondaryHitCheck, stager, pointWorth);
+			bullet=new MiniBullet(Angle,origin,primaryHitCheck,arm,attackList,shotDelay,this,strength,secondaryHitCheck, stager, pointWorth,this.isHeroWpn);
 			shooting=true;
 			if(this.isHeroWpn)
 			{

@@ -18,8 +18,8 @@
 		protected var attackList:Array;
 		protected var primaryHitCheck:MovieClip;
 		protected var secondaryHitCheck:MovieClip;
-		public var isHeroWeapon:Boolean=false;
-		
+		private var _isHeroWeapon:Boolean = false;
+
 		public function activeWeapon( originPoint:Point,primaryHitCheck:MovieClip, strength:int=20, secondaryHitCheck:MovieClip=null, pointWorth:int=0):void
 		{
 			this.strength = strength;
@@ -33,15 +33,26 @@
 			globals.levelObj.addChild(this);
 			this.pointWorth = pointWorth;
 		}
-		public override function destroy():void{
+		public function get isHeroWeapon():Boolean
+		{
+			return _isHeroWeapon;
+		}
+		public function set isHeroWeapon(value:Boolean):void
+		{
+			trace(this,value);
+			_isHeroWeapon=value;
+		}
+		public override function destroy():void
+		{
 			super.destroy();
-			if(hitCheck!=null){
-			hitCheck.destroy();
+			if (hitCheck!=null)
+			{
+				hitCheck.destroy();
 			}
-			hitCheck=null;
-			primaryHitCheck=null;
-			secondaryHitCheck=null;
-			attackList=null;
+			hitCheck = null;
+			primaryHitCheck = null;
+			secondaryHitCheck = null;
+			attackList = null;
 		}
 		public function getGnd():MovieClip
 		{
@@ -49,7 +60,10 @@
 		}
 		protected function doDamage(xPos:int, yPos:int,obj:activeObj, strength:int):void
 		{
-			obj.hit(xPos, yPos,strength);
+			if ((obj==globals.hero && !this.isHeroWeapon) || (obj!=globals.hero))
+			{
+				obj.hit(xPos, yPos,strength);
+			}
 		}
 		protected function findDmgObj(xPos:int, yPos:int, list:Array):activeObj
 		{
@@ -82,14 +96,20 @@
 						return null;
 					}
 				}
+				//if the target is the hero and this is a hero weapon, then dont do damage. 
+				//otherwise, just do thr damage. 
 				doDamage(xPos, yPos, tmpObj, strength);
 				if (primaryHitCheck==globals.enemyContainer)
 				{
 					Points.displayPoint(pointWorth,xPos - globals.neutralContainer.x,yPos - globals.neutralContainer.y);
 					//var points:Points = new Points(pointWorth,xPos - globals.neutralContainer.x,yPos - globals.neutralContainer.y);
 				}
+
+
 				return tmpObj;
-			}else{
+			}
+			else
+			{
 				return null;
 			}
 			return null;
