@@ -112,7 +112,7 @@
 			}
 						globals.game_progThread.removeProg(this);
 
-			globalFunctions.makeDebry("enemyDebry",6,globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			globalFunctions.makeDebry("enemyDebry",2,globalFunctions.getMainX(this),globalFunctions.getMainY(this));
 			if (parent!=null) {
 				parent.removeChild(this);
 			}

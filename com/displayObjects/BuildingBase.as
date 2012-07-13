@@ -13,7 +13,7 @@
 			globals.buildings.push(this);
 		}
 			protected var dieSound:String="WoodCrash";
-		protected var numberOfDebry:int=6;
+		protected var numberOfDebry:int=3;
 
 		public function die():void 
 		{

@@ -132,7 +132,7 @@
 			WeaponInterface(weapon).fire(180,shootPoint,globals.heroContainer);
 		}
 		public function die():void {
-			globalFunctions.makeDebry("enemyDebry",6,globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			globalFunctions.makeDebry("enemyDebry",2,globalFunctions.getMainX(this),globalFunctions.getMainY(this));
 			removeEnemy();
 			removeSelf();
 			if (weapon!=null) {

@@ -23,7 +23,6 @@
 			shake=0;
 			xShake=0;
 			yShake=0;
-			trace("INSTANTIATE Cam");
 			randomNum=Math.random()*100;
 			globals.hero.addEventListener(Event.ADDED_TO_STAGE,spawnCam,false,0,true);
 			

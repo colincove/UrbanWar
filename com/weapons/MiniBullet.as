@@ -10,7 +10,8 @@
 	import flash.geom.Point;
 	import flash.display.MovieClip;
 	public class MiniBullet extends Bullet implements activeWeaponInterface {
-		public function MiniBullet(Angle:int, originPoint:Point,primaryHitCheck:MovieClip, arm:MovieClip, attackList:Array, fireDelay:int=100, weapon:ExtendedFireWeapon=null, strength:int=0,secondaryHitCheck:MovieClip=null,stager:int=7, pointWorth:int=0):void {
+		public function MiniBullet(Angle:int, originPoint:Point,primaryHitCheck:MovieClip, arm:MovieClip, attackList:Array, fireDelay:int=100, weapon:ExtendedFireWeapon=null, strength:int=0,secondaryHitCheck:MovieClip=null,stager:int=7, pointWorth:int=0):void
+		{
 			super(Angle,originPoint,primaryHitCheck, arm,fireDelay, weapon, strength, secondaryHitCheck, stager, pointWorth);
 			this.attackList=attackList;
 			switch(weapon.currentUpgrade)
