@@ -19,9 +19,16 @@ import com.database.WebServices;
 		var menuBackground:MovieClip;
 		var levelEndTimer:Timer;
 var endLevelScreen:EndLevelScreen;
+
+		
+
+		
+		
 		public function scrollerDocumentClass():void 
 		{
 			
+			// create instance with encryption key
+			WebServices.init();
 			GlobalSounds.defineSounds();
 			menuBackground=new MenuBackground();
 			globals.prog=new Prog();

@@ -34,6 +34,13 @@
 public static const DATABASE_AVAILABLE:int=1;
 public static const DATABASE_UNAVAILABLE:int=0;
 public static var databaseStatus:int=DATABASE_UNAVAILABLE;
+// instance of crypto class
+		public static var _crypto:CryptoCode;
+		public static function init():void
+		{
+			
+			_crypto = new CryptoCode("PASSWORD");
+		}
 		public static function login(email:String, callback:Function, failCallback:Function=null):void {
 			var request:URLRequest=new URLRequest(WEBSERVICE);
 			request.method=URLRequestMethod.POST;
@@ -67,6 +74,7 @@ public static var databaseStatus:int=DATABASE_UNAVAILABLE;
 			request.method=URLRequestMethod.POST;
 			var variables:URLVariables = new URLVariables();
 			variables.action=PING;
+			variables.message=_crypto.encrypt("Hello");
 			request.data=variables;
 			var loader:URLLoader=new URLLoader(request);
 			loader.addEventListener(Event.COMPLETE, onComplete);
@@ -76,6 +84,7 @@ public static var databaseStatus:int=DATABASE_UNAVAILABLE;
 			
 			function onComplete(e:Event):void 
 			{
+				trace(e.target.data);
 				var pingResult:int=e.target.data;
 				if(pingResult==DATABASE_AVAILABLE||
 				   DATABASE_UNAVAILABLE){
