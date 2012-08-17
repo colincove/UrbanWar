@@ -190,7 +190,10 @@
 		}
 		private function overheat():void
 		{
+			if(this.isHeroWpn)
+			{
 			GlobalSounds.playSound('steamOverload');
+			}
 			overheated = true;
 			setHeat(getHeatCapacity());
 		}

@@ -158,11 +158,12 @@
 		}
 		public function makeHeroWave()
 		{
-			for (var i:int=0; i<particleArray.length; i++)
+			var i:int;
+			for ( i=0; i<particleArray.length; i++)
 			{
 				weaponControl.addHeroProjectile(particleArray[i]);
 			}
-			for (var i:int=0; i<tmpParticleArray.length; i++)
+			for (i=0; i<tmpParticleArray.length; i++)
 			{
 				weaponControl.addHeroProjectile(tmpParticleArray[i]);
 			}

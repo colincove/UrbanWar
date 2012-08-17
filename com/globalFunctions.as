@@ -84,18 +84,16 @@
 		}
 		public static function makeDebry(debryClassName:String,qty:int, xPos:int, yPos:int, screenGrab:Boolean=true):void {
 			var debryClass:Class=getDefinitionByName(debryClassName) as Class;
-			//var debryObj:debry;
+			var debryObj:debry;
 			for (var i:int=0; i<qty; i++) 
 			{
-				//debryObj=new debryClass();
-				//globals.neutralContainer.addChild(debryObj);
-				//debryObj.x=globalFunctions.makeX(debryObj,xPos);
-				//debryObj.y=globalFunctions.makeY(debryObj,yPos);
+				debryObj=new debryClass();
+				globals.neutralContainer.addChild(debryObj);
+				debryObj.x=globalFunctions.makeX(debryObj,xPos);
+				debryObj.y=globalFunctions.makeY(debryObj,yPos);
 				if(screenGrab)
-				
 				{
-				ScreenGrabber.debryAdd(new debryClass());
-				
+				ScreenGrabber.debryAdd(debryObj);
 				}
 			}
 		}

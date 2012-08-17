@@ -11,7 +11,6 @@
 	import flash.display.DisplayObjectContainer;
 	import com.displayObjects.Numbers;
 	import com.weapons.AccuracyStats;
-	import flashx.textLayout.accessibility.TextAccImpl;
 	import flash.text.TextField;
 
 	public class EndLevelScreen extends PromptBase
