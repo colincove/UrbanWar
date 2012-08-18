@@ -11,8 +11,8 @@
 		private var bm:Bitmap;
 		public function ScreenGrabDisplay():void
 		{
-			GameMenuPM.dispatcher.addEventListener(MenuEvent.UPDATE,update);
-			bm=new Bitmap(new BitmapData(800,600));
+			//GameMenuPM.dispatcher.addEventListener(MenuEvent.UPDATE,update);
+			bm=new Bitmap(new BitmapData(800,600,false,0x000000));
 			this.addChild(bm);
 			bm.scaleX=.4;
 			bm.scaleY=.4;

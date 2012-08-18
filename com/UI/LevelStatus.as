@@ -7,7 +7,7 @@
 	{
 		public function LevelStatus():void
 		{
-			GameMenuPM.dispatcher.addEventListener(MenuEvent.UPDATE,update);
+			GameMenuPM.dispatcher.addEventListener(MenuEvent.UPDATE_LEVEL_STATUS,update);
 		}
 		private function update(e:MenuEvent=null):void 
 		{

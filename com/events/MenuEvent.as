@@ -7,6 +7,7 @@ public class MenuEvent extends Event{
 	public static const HOVER_UPDATE:String="hoverUpdate";
 	public static const ROLL_OUT:String="menuRollOut";
 	public static const SELECT_LEVEL:String="selectLevel";
+	public static const UPDATE_LEVEL_STATUS:String="selectLevel";
 	public static const SELECT_WEAPONS:String="selectWeapons";
 	public static const WEAPON_SELECTED:String="weaponSelected";
 	public static const CLEAR_WEAPONS:String="clearWeapons";

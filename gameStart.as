@@ -38,7 +38,7 @@
 		private var compiler:classCompiler;
 		public var progRun:Boolean;//Program Run. True if running, false if not. 
 		public var gameVars:Object;
-
+		public var wonLevel:Boolean=false;
 		public var replayingLevel:Boolean=false;
 		public function gameStart():void 
 		{
@@ -110,6 +110,7 @@
 				globals.levelProgress++;
 				currentLevelID++;
 			}
+			wonLevel=true;
 			endCurrentLevel();
 		}
 		private function startGame():void 

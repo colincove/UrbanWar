@@ -120,8 +120,9 @@ var endLevelScreen:EndLevelScreen;
 			//weaponUI.launch();
 			this.addChild(leaderboards);
 		}
-		public function launchLoginScreen():void{
-			validateMenuBackground()
+		public function launchLoginScreen():void
+		{
+			validateMenuBackground();
 			addChild(loginScreen);
 		}
 		public function getWeaponMenu():MovieClip
@@ -135,6 +136,7 @@ var endLevelScreen:EndLevelScreen;
 		
 		public function heroDie():void
 		{
+			game.wonLevel=false;
 			globals.gameVars.orbs=globals.gameVars.oldOrbs;
 			globals.HUD.stopCAM();
 			if(game.levelsUnlocked==1)

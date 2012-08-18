@@ -2,7 +2,7 @@
 	import flash.utils.getDefinitionByName;
 		import com.Sound.GlobalSounds;
 
-	public class level6Control extends levelControl{
+	public class level6Control  extends levelDawnControl{
 				private var levelPuppet:level;
 
 		public function level6Control(ID:int=0):void 
