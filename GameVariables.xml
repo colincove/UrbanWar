@@ -5,7 +5,7 @@
 -->
 <SideScroller>
 
-  <Game forKarl="0" stageStart='5'godMode='0' orbs='0'  testingMode='0' startUpgrade='0' fightBoss='0' muteSounds='1' outsideScreenTime='200'>
+  <Game forKarl="0" stageStart='1'godMode='0' orbs='0'  testingMode='0' startUpgrade='0' fightBoss='0' muteSounds='1' outsideScreenTime='200'>
     <!--stageStart will define the level that starts when program is run
   godMode will give you unlimited health and fuel. 
   orbs will start you off with however many orbs or defined. 

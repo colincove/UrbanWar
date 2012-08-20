@@ -2,6 +2,7 @@
 	import flash.display.MovieClip;
 	import com.globals;
 	import com.Prog;
+	import flash.events.Event;
 	import com.UI.*;
 import com.Sound.GlobalSounds;
 import flash.events.TimerEvent;
@@ -22,7 +23,7 @@ var endLevelScreen:EndLevelScreen;
 
 		
 
-		
+		var introAnimation:MovieClip;
 		
 		public function scrollerDocumentClass():void 
 		{
@@ -95,13 +96,28 @@ var endLevelScreen:EndLevelScreen;
 		{
 			launchTitleScreen();
 		}
+		
 		public function playGame():void
 		{
+			
 			if(menuBackground.parent)
 			{
 			this.removeChild(menuBackground);
 			}
-			game.startLevel();
+			introAnimation = new IntroAnimation();
+			this.addChild(introAnimation);
+			introAnimation.addEventListener(Event.ENTER_FRAME, listenForCompleteAnimation);
+			//game.startLevel();
+		}
+		private function listenForCompleteAnimation(e:Event):void
+		{
+			if(introAnimation.currentFrame==514)
+			{
+				introAnimation.removeEventListener(Event.ENTER_FRAME, listenForCompleteAnimation);
+				removeChild(introAnimation);
+				introAnimation=null;
+				game.startLevel();
+			}
 		}
 		public function launchTitleScreen():void 
 		{

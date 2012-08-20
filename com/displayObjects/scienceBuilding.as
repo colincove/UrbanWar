@@ -1,7 +1,5 @@
 ﻿package com.displayObjects
 {
-	import flash.utils.getDefinitionByName;
-	import flash.utils.getQualifiedClassName;
 	import com.displayObjects.activeObj;
 	import com.interfaces.dieable;
 	import com.globalFunctions;
