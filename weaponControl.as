@@ -63,6 +63,7 @@
 					{
 						//globals.hero.armCannon.artwork.gotoAndPlay('shoot');
 						WeaponInterface(selectedWeapon).fire(this.rotation,origin, globals.enemyContainer);
+						globals.hero.armCannon.artwork.gotoAndPlay("shoot");
 					}
 					else
 					{
@@ -111,11 +112,13 @@
 
 		private function prevWeapon():void
 		{
+			
 			if (weaponNum!=0)
 			{
 				weaponNum--;
+				changeWeapon();
 			}
-			changeWeapon();
+			
 		}
 		private function nextWeapon():void
 		{
@@ -123,8 +126,8 @@
 			if (weaponNum!=WeaponList.loadOut.length-1)
 			{
 				weaponNum++;
+				changeWeapon();
 			}
-			changeWeapon();
 		}
 		protected function changeWeapon():void
 		{
@@ -133,6 +136,7 @@
 			{
 				selectedWeapon = WeaponList.loadOut[weaponNum];
 				globals.hero.armCannon.gotoAndStop(selectedWeapon.getName());
+				globals.hero.armCannon.artwork.gotoAndPlay(1);
 			}
 		}
 		protected function scrollUp(e:MouseEvent):void
@@ -145,7 +149,7 @@
 			{
 				prevWeapon();
 			}
-			changeWeapon();
+			
 		}
 		public function getWeaponList():Array
 		{
@@ -160,9 +164,11 @@
 			var Code = e.keyCode - 48;
 			if (Code>-1&&Code<10&&Code<=WeaponList.loadOut.length)
 			{
+				if(weaponNum!=Code - 1){
 				weaponNum = Code - 1;
-				stopShoot();
-				selectedWeapon = WeaponList.loadOut[weaponNum];
+				changeWeapon();
+				}
+				
 			}
 			else
 			{

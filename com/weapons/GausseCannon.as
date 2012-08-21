@@ -35,7 +35,7 @@
 		}
 		public function getIcon():MovieClip 
 		{
-			return new MiniGunIcon();
+			return new GausseCannonIcon();
 		}
 public function setVars(weaponUpVars:Object):void
 {

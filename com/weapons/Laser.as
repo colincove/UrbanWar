@@ -147,10 +147,12 @@
 		}
 		public function laserHitCheck():void {
 		}
+		private var oldHitCount:int=0;
 		public function getAngledLineDmg(startX:int, startY:int, myAngle:int,testObj:MovieClip,dist:int, testPoints:int, sight:Boolean=false):int {
 			//I had to make sight for bullets. with sight set to false, the method goes for the entire loop and counts all the hits. if set to true, 
 			//the method will exit at the first hit, calculating the distance from the object to the wall. 
 			var lineVar:int=0;
+			var tmpHitCount:int=0;
 			for (var h:int=0; h<hitGraphicList.length; h++) {
 				hitGraphicList[h].visible=false;
 			}
@@ -180,15 +182,20 @@
 					AccuracyStats.addHit();
 						var onList:Boolean=false;//variables used to determine whether I have already delth damage to that particular enemy already. 
 						for (var j:int=0; j<hitList.length; j++) {//need to see if i alrerady hit that enemy. I only want to hit every object once. 
-							if (hitList[j]==tmpObj) {
+							if (hitList[j]==tmpObj)
+							{
 								onList=true;
 								break;
 							}
 						}
-
-
 						if (! onList) {//finnaly, If that object was not on the list already, I need to do damage to it and add it to the list of hit objects.
-							if (hitList.length<hitGraphicList.length) {
+							if (hitList.length<hitGraphicList.length)
+							{
+								tmpHitCount++;
+								if(hitList.length>oldHitCount)
+								{
+									hitGraphicList[hitList.length].gotoAndPlay(0);
+								}
 								hitGraphicList[hitList.length].x=xComp;
 								hitGraphicList[hitList.length].y=yComp;
 								globals.main.addChild(hitGraphicList[hitList.length]).visible=true;
@@ -205,7 +212,9 @@
 
 					}
 				}
+				
 			}
+			oldHitCount=tmpHitCount;
 			if (lineVar==0) {
 				lineVar=dist;
 			}
