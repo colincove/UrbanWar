@@ -3,6 +3,7 @@
 	import com.globals;
 	import com.Prog;
 	import flash.events.Event;
+	import flash.events.MouseEvent;
 	import com.UI.*;
 import com.Sound.GlobalSounds;
 import flash.events.TimerEvent;
@@ -21,7 +22,7 @@ import com.database.WebServices;
 		var levelEndTimer:Timer;
 var endLevelScreen:EndLevelScreen;
 
-		
+		var skipButton:SkipButton;
 
 		var introAnimation:MovieClip;
 		
@@ -104,15 +105,32 @@ var endLevelScreen:EndLevelScreen;
 			{
 			this.removeChild(menuBackground);
 			}
+			skipButton = new SkipButton();
+			skipButton.x=17;
+			skipButton.y=558.9;
 			introAnimation = new IntroAnimation();
+			skipButton.addEventListener(MouseEvent.CLICK, skipScene);
+			//introAnimation = new ClosingCinematic();
 			this.addChild(introAnimation);
+			addChild(skipButton);
 			introAnimation.addEventListener(Event.ENTER_FRAME, listenForCompleteAnimation);
 			//game.startLevel();
 		}
+		private function skipScene(e:MouseEvent):void
+		{
+			introAnimation.gotoAndPlay(479);
+		}
 		private function listenForCompleteAnimation(e:Event):void
 		{
+			if(introAnimation.currentFrame==480){
+				skipButton.removeEventListener(MouseEvent.CLICK, skipScene);
+							removeChild(skipButton);
+skipButton=null;
+			}
 			if(introAnimation.currentFrame==514)
+			//if(introAnimation.currentFrame==900)
 			{
+							
 				introAnimation.removeEventListener(Event.ENTER_FRAME, listenForCompleteAnimation);
 				removeChild(introAnimation);
 				introAnimation=null;
