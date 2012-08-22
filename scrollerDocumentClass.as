@@ -5,6 +5,7 @@
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import com.UI.*;
+	import sekati.crypt.Rijndael;
 import com.Sound.GlobalSounds;
 import flash.events.TimerEvent;
 import flash.utils.Timer;
@@ -128,7 +129,7 @@ var endLevelScreen:EndLevelScreen;
 skipButton=null;
 			}
 			if(introAnimation.currentFrame==514)
-			//if(introAnimation.currentFrame==900)
+			//if(introAnimation.currentFrame==1000)
 			{
 							
 				introAnimation.removeEventListener(Event.ENTER_FRAME, listenForCompleteAnimation);
