@@ -10,6 +10,8 @@ import com.Sound.GlobalSounds;
 import flash.events.TimerEvent;
 import flash.utils.Timer;
 import com.database.WebServices;
+import com.globalFunctions;
+import com.removeChildrenUtil;
 
 	public class scrollerDocumentClass extends MovieClip {
 		var weaponUI:MovieClip;
@@ -133,7 +135,12 @@ skipButton=null;
 			{
 							
 				introAnimation.removeEventListener(Event.ENTER_FRAME, listenForCompleteAnimation);
-				removeChild(introAnimation);
+				//removeChild(introAnimation);
+				removeChildrenUtil.removeAllChildren(introAnimation);
+				introAnimation.stop();
+				if(introAnimation.parent!=null){
+					removeChild(introAnimation);
+				}
 				introAnimation=null;
 				game.startLevel();
 			}
