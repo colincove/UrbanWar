@@ -13,6 +13,7 @@
 	import flash.events.IOErrorEvent;
 	import flash.events.ErrorEvent;
 	
+	import sekati.crypt.RC4;
 	import com.adobe.crypto.MD5;
 
 	public class WebServices {
@@ -24,6 +25,7 @@
 		public static const ADD_PLAYTHROUGH:String="add-playthrough";
 		public static const UPDATE_USER:String="update-user";
 		public static const LOGIN:String="login";
+		public static const KEY:String = "0011001101000111011100001111100100101000011000010110100001001";
 		public static const GET_HIGH_SCORE:String="get-high-score";
 		public static const GET_USER_HIGH_SCORE:String="get-user-high-score";
 				public static const WEBSERVICE:String="http://covertstudios.ca/urbanWar/webservices/";
@@ -47,18 +49,19 @@ public static var databaseStatus:int=DATABASE_UNAVAILABLE;
 			//request.requestHeaders.push(new URLRequestHeader('Content-type', 'multipart/form-data'));
 
 			var variables:URLVariables = new URLVariables();
-			variables.action=LOGIN;
-			variables.email=email;
+			var postData:Object = new Object();
+			postData.action=LOGIN;
+			postData.email=email;
+			variables.postData=RC4.encrypt(JSON.encode(postData),KEY);
 			request.data=variables;
 			var loader:URLLoader=new URLLoader(request);
-
 			loader.addEventListener(Event.COMPLETE, onComplete);
 			loader.addEventListener(IOErrorEvent.IO_ERROR,onFail);
 			loader.dataFormat=URLLoaderDataFormat.TEXT;
 			loader.load(request);
 			function onComplete(e:Event):void
 			{
-				callback(e.target.data);
+				callback(RC4.decrypt(e.target.data,KEY));
 			}
 			function onFail(e:Event):void
 			{
@@ -68,13 +71,13 @@ public static var databaseStatus:int=DATABASE_UNAVAILABLE;
 				}
 			}
 		}
+	
 		public static function ping():void
 		{
 			var request:URLRequest=new URLRequest(WEBSERVICE);
 			request.method=URLRequestMethod.POST;
 			var variables:URLVariables = new URLVariables();
 			variables.action=PING;
-			//variables.message=_crypto.encrypt("Hello");
 			request.data=variables;
 			var loader:URLLoader=new URLLoader(request);
 			loader.addEventListener(Event.COMPLETE, onComplete);
@@ -104,18 +107,21 @@ public static var databaseStatus:int=DATABASE_UNAVAILABLE;
 			var request:URLRequest=new URLRequest(WEBSERVICE);
 			request.method=URLRequestMethod.POST;
 			var variables:URLVariables = new URLVariables();
-			variables.action=CREATE_USER;
+			var postData:Object = new Object();
+			postData.action=CREATE_USER;
 			
-			variables.email=MD5.hash(email);
-			variables.name=name;
+			postData.email=MD5.hash(email);
+			postData.name=name;
+			variables.postData=RC4.encrypt(JSON.encode(postData),KEY);
 			request.data=variables;
 			var loader:URLLoader=new URLLoader(request);
 			loader.addEventListener(Event.COMPLETE, onComplete);
 			loader.addEventListener(IOErrorEvent.IO_ERROR,onFail);
 			loader.dataFormat=URLLoaderDataFormat.TEXT;
 			loader.load(request);
-			function onComplete(e:Event):void {
-				callback(e.target.data);
+			function onComplete(e:Event):void 
+			{
+				callback(RC4.decrypt(e.target.data,KEY));
 			}
 			function onFail(e:Event):void
 			{
@@ -139,18 +145,18 @@ public static var databaseStatus:int=DATABASE_UNAVAILABLE;
 			var request:URLRequest=new URLRequest(WEBSERVICE);
 			request.method=URLRequestMethod.POST;
 			var variables:URLVariables = new URLVariables();
-			variables.action=ADD_PLAYTHROUGH;
-			variables.score=score;
-			variables.userId=User.uid;
+			var postData:Object = new Object();
+			postData.action=ADD_PLAYTHROUGH;
+			postData.score=score;
+			postData.userId=User.uid;
 			var encoder:JPGEncoder= new JPGEncoder(80);
-variables.imgData=Base64.encode(encoder.encode(imgData));
-			//variables.photoId="342fds899sfgds9s";
-			variables.level=levelId;
+postData.imgData=Base64.encode(encoder.encode(imgData));
+			postData.level=levelId;
 
-			variables.loadOut=loadOut;
-			variables.replay=int(replay);
+			postData.loadOut=loadOut;
+			postData.replay=int(replay);
 
-
+variables.postData=RC4.encrypt(JSON.encode(postData),KEY);
 			request.data=variables;
 			var loader:URLLoader=new URLLoader(request);
 			loader.addEventListener(Event.COMPLETE, onComplete);
@@ -178,8 +184,10 @@ variables.imgData=Base64.encode(encoder.encode(imgData));
 			var request:URLRequest=new URLRequest(WEBSERVICE);
 			request.method=URLRequestMethod.POST;
 			var variables:URLVariables = new URLVariables();
-			variables.action=GET_HIGH_SCORE;
-			variables.level=level;
+			var postData:Object = new Object();
+			postData.action=GET_HIGH_SCORE;
+			postData.level=level;
+			variables.postData=RC4.encrypt(JSON.encode(postData),KEY);
 			request.data=variables;
 			var loader:URLLoader=new URLLoader(request);
 			loader.addEventListener(Event.COMPLETE, onComplete);
@@ -187,7 +195,7 @@ variables.imgData=Base64.encode(encoder.encode(imgData));
 			loader.dataFormat=URLLoaderDataFormat.TEXT;
 			loader.load(request);
 			function onComplete(e:Event):void {
-				resultDisplay.createResults(JSON.decode(e.target.data));
+				resultDisplay.createResults(JSON.decode(RC4.decrypt(e.target.data,KEY)));
 				callback();
 			}
 			function onFail(e:Event):void
@@ -204,11 +212,13 @@ variables.imgData=Base64.encode(encoder.encode(imgData));
 			var request:URLRequest=new URLRequest(WEBSERVICE);
 			request.method=URLRequestMethod.POST;
 			var variables:URLVariables = new URLVariables();
-			variables.action=UPDATE_USER;
-			variables.name=User.name;
-			variables.levelsUnlocked=User.levelsUnlocked;
-			variables.unlockedWeapons=User.unlockedWeapons;
-			variables.uid=User.uid;
+			var postData:Object = new Object();
+			postData.action=UPDATE_USER;
+			postData.name=User.name;
+			postData.levelsUnlocked=User.levelsUnlocked;
+			postData.unlockedWeapons=User.unlockedWeapons;
+			postData.uid=User.uid;
+			variables.postData=RC4.encrypt(JSON.encode(postData),KEY);
 			request.data=variables;
 			var loader:URLLoader=new URLLoader(request);
 			loader.addEventListener(Event.COMPLETE, onComplete);
@@ -235,9 +245,11 @@ variables.imgData=Base64.encode(encoder.encode(imgData));
 			var request:URLRequest=new URLRequest(WEBSERVICE);
 			request.method=URLRequestMethod.POST;
 			var variables:URLVariables = new URLVariables();
-			variables.action=GET_USER_HIGH_SCORE;
-			variables.level=level;
-			variables.user=userId;
+			var postData:Object = new Object();
+			postData.action=GET_USER_HIGH_SCORE;
+			postData.level=level;
+			postData.user=userId;
+			variables.postData=RC4.encrypt(JSON.encode(postData),KEY);
 			request.data=variables;
 			var loader:URLLoader=new URLLoader(request);
 			loader.addEventListener(Event.COMPLETE, onComplete);
@@ -252,7 +264,7 @@ variables.imgData=Base64.encode(encoder.encode(imgData));
 				//trace(resultData[i].name+" "+resultData[i].score);
 				//}
 
-				resultDisplay.createResults(JSON.decode(e.target.data));
+				resultDisplay.createResults(JSON.decode(RC4.decrypt(e.target.data,KEY)));
 				trace(e.target.data);
 				callback();
 			}
