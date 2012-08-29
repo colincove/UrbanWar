@@ -14,6 +14,7 @@
 			login.addEventListener(MouseEvent.CLICK,onLoginClick);
 			newUser.addEventListener(MouseEvent.CLICK,onNewUserClick);
 			continueButton.addEventListener(MouseEvent.CLICK,continueToTitle);
+			infoButton.addEventListener(MouseEvent.CLICK,infoClick);
 		}
 		private function onLoginClick(e:MouseEvent):void
 		{
@@ -44,6 +45,10 @@
 				currentPrompt.remove();
 				currentPrompt=OkPrompt.createPrompt(DisplayObjectContainer(root),"An error occured. Login Failed. Please try again.");
 			}
+		}
+		private function infoClick(e:MouseEvent):void
+		{
+			RegistrationInfoPrompt.createPrompt(DisplayObjectContainer(root));
 		}
 		private function onNewUserClick(e:MouseEvent):void {
 			login.removeEventListener(MouseEvent.CLICK,onLoginClick);

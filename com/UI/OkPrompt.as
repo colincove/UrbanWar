@@ -1,11 +1,13 @@
 ﻿package com.UI{
 	import flash.display.MovieClip;
+	import flash.display.SimpleButton;
 	import flash.display.DisplayObjectContainer;
 	import flash.events.MouseEvent;
+	import com.globals;
 	public class OkPrompt extends Prompt
 	{
 		private var callback:Function;
-		public function OkPrompt(parent:DisplayObjectContainer,msg:String, callback:Function=null):void
+		public function OkPrompt(parent:DisplayObjectContainer,msg:String, callback:Function=null, altOkButton:SimpleButton=null):void
 		{
 			super(parent, msg);
 			this.callback=callback;

@@ -12,7 +12,7 @@
 	import flash.display.BitmapData;
 	import flash.events.IOErrorEvent;
 	import flash.events.ErrorEvent;
-	
+	import sekati.crypt.RC4;
 	import sekati.crypt.RC4;
 	import com.adobe.crypto.MD5;
 
