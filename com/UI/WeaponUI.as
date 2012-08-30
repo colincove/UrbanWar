@@ -34,7 +34,12 @@ progRun = true;
 		}
 		public function update():Object
 		{
-			
+			if(globals.hideUI)
+			{
+				visible=false;
+			}else{
+				visible=true;
+			}
 			checkDisplay();
 			checkIcons();
 			if (weaponSelect.selectedWeapon != null)

@@ -10,14 +10,22 @@ package com.UI{
 	public class HealthUI extends MovieClip  implements Program{
 		private var frame:int;
 		public var progRun:Boolean;//Program Run. True if running, false if not. 
-		public function HealthUI():void {
+		public function HealthUI():void 
+		{
 			frame=0;
 			progRun=true;
 			
 			globals.static_progThread.addProg(this);
 			progRun=true;
 		}
-	public function update():Object{
+	public function update():Object
+	{
+		if(globals.hideUI)
+			{
+				visible=false;
+			}else{
+				visible=true;
+			}
 			frame+=((1000-currentFrame)-(globals.hero.getHealth()/globals.hero.getHealthTot()*1000))/10;
 			gotoAndStop(frame);
 			return this;

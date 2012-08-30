@@ -46,6 +46,7 @@
 		}
 		protected function shoot(origin:Point):void
 		{
+			if(!Hero.disableHero){
 			if (! globals.game_progThread.isPaused)
 			{
 				if (! selectedWeapon)
@@ -71,6 +72,7 @@
 					}
 				}
 			}
+			}
 		}
 		public override function hit(xPos:int, yPos:int, strength:int=20):void
 		{
@@ -78,6 +80,7 @@
 		}
 		protected function stopShoot():void
 		{
+			if(!Hero.disableHero){
 			if (selectedWeapon!=null)
 			{
 				if (! selectedWeapon.isOverheated())
@@ -85,6 +88,7 @@
 					globals.hero.armCannon.artwork.gotoAndPlay('stopShoot');
 					WeaponInterface(selectedWeapon).stopFiring();
 				}
+			}
 			}
 		}
 		public function addLoadoutWeapon(weapon:Weapon, reload:Boolean=false)
@@ -141,6 +145,7 @@
 		}
 		protected function scrollUp(e:MouseEvent):void
 		{
+			if(!Hero.disableHero){
 			if (e.delta > 0)
 			{
 				nextWeapon();
@@ -148,6 +153,7 @@
 			else
 			{
 				prevWeapon();
+			}
 			}
 			
 		}
@@ -161,6 +167,7 @@
 		}
 		protected function checkWeaponSwitch(e:KeyboardEvent):void
 		{
+			if(!Hero.disableHero){
 			var Code = e.keyCode - 48;
 			if (Code>-1&&Code<10&&Code<=WeaponList.loadOut.length)
 			{
@@ -180,6 +187,7 @@
 				{
 					prevWeapon();
 				}
+			}
 			}
 		}
 		protected function makeSteam(ratio:Number):void

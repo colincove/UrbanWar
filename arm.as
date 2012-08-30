@@ -69,7 +69,8 @@
 			return this;
 		}
 		private function mouseClick(e:MouseEvent):void {
-			if(progRun){
+			
+			if(progRun && !globals.hideUI){
 			shoot(barrelPoint);
 			}
 		}
@@ -77,8 +78,9 @@
 			
 			return progRun;
 		}
-		private function mouseUnClick(e:MouseEvent):void {
-			if(progRun){
+		private function mouseUnClick(e:MouseEvent):void 
+		{
+			if(progRun && !Hero.disableHero){
 			stopShoot();
 			}
 		}

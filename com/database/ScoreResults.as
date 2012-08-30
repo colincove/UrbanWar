@@ -24,6 +24,7 @@
 					this.addChild(newResult);
 					if(i<results.length)
 					{
+						
 					newResult.setData(results[i]);
 					
 					}

@@ -11,6 +11,9 @@
 		
 		}
 public function setData(result:Object):void{
+	if(result.name==null){
+		result.name="";
+	}
 	if(result.user==User.uid)
 	{
 		gotoAndStop(2);

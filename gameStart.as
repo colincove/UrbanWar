@@ -10,6 +10,7 @@
 	import com.interfaces.removable;
 	import com.globalFunctions;
 	import com.weapons.Weapon;
+	import flash.display.MovieClip;
 	import com.camera.ScreenGrabber;
 	import com.UI.GameMenuPM;
 	import com.UI.OffScreen;
@@ -28,6 +29,7 @@
 		private var gameContinue:Boolean;
 		private var camera:Cam;
 		private var defaultsLoaded:Boolean=false;
+		public static var firstLevelPlay:Boolean=false;
 		var myXML:XML;
 		var myLoader:URLLoader;
 		private var currentLevelObj:level;
@@ -40,6 +42,7 @@
 		public var gameVars:Object;
 		public var wonLevel:Boolean=false;
 		public var replayingLevel:Boolean=false;
+		private var fastFade:MovieClip;
 		public function gameStart():void 
 		{
 			gameVars=new Object();
@@ -78,13 +81,16 @@
 			}
 			globals.levelObj=null;
 			weaponControl.clearProjectiles();
+			
 			if(currentLevelID==1)
 			{
 				globals.hero.jetpack=null;
 				globals.hero.armCannon.clearWeapon();
 				WeaponList.loadDefaultWeapons(gameVars);
-			
+			gameStart.firstLevelPlay=true;
 				globals.skipWeaponMenu=true;
+			}else{
+				gameStart.firstLevelPlay=false;
 			}
 			
 			globals.main.launchWeaponMenu();
@@ -129,7 +135,12 @@
 		}
 		public function startLevel():void
 		{
-			
+			if(currentLevelID==1)
+			{
+			gameStart.firstLevelPlay=true;
+			}else{
+				gameStart.firstLevelPlay=false;
+			}
 			globals.skipWeaponMenu=false;
 System.gc();
 System.gc();
@@ -141,7 +152,12 @@ globals.letPlayerLive=false;
 			if (camera==null) 
 			{
 				camera = new HUD();
+				
 				globals.setCam(camera, 1);//must set before starting game.
+				if(gameStart.firstLevelPlay)
+				{
+					camera.initFade();
+				}
 				var fps:FPS = new FPS();
 			} else {
 				camera.resetCAM();
@@ -157,6 +173,10 @@ globals.letPlayerLive=false;
 			WeaponList.setOldInventory();
 			WeaponList.makeAllWeaponsNotNew();
 			globals.main.addChild(camera);
+			if(gameStart.firstLevelPlay){
+				fastFade=new FastFade();
+				globals.main.addChild(fastFade);
+			}
 		}
 		private function buildLevel():void 
 		{

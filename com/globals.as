@@ -21,6 +21,7 @@ import com.levels.LevelEnd;
 	public class globals
 	
 	{
+		public static var hideUI:Boolean=false;
 		public static var skipWeaponMenu:Boolean=false;
 		public static var enemiesKilled:int=0;
 		public static var accuracy:AccuracyStats = new AccuracyStats();

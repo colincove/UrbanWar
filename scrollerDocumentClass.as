@@ -87,10 +87,12 @@ var endLevelScreen:EndLevelScreen;
 			pauseUI.x=globals.HUD.x;
 			pauseUI.y=globals.HUD.y;
 		}
-		public function removePauseMenu():void {
+		public function removePauseMenu():void
+		{
 			pauseUI.parent.removeChild(pauseUI);
 		}
-		public function launchLevelMenu():void {
+		public function launchLevelMenu():void 
+		{
 			this.x=0;
 			this.y=0;
 			//weaponUI.launch();
@@ -100,7 +102,6 @@ var endLevelScreen:EndLevelScreen;
 		{
 			launchTitleScreen();
 		}
-		
 		public function playGame():void
 		{
 			
@@ -121,16 +122,17 @@ var endLevelScreen:EndLevelScreen;
 		}
 		private function skipScene(e:MouseEvent):void
 		{
-			introAnimation.gotoAndPlay(479);
+			introAnimation.gotoAndPlay(559);
 		}
 		private function listenForCompleteAnimation(e:Event):void
 		{
-			if(introAnimation.currentFrame==480){
+			if(introAnimation.currentFrame==560)
+			{
 				skipButton.removeEventListener(MouseEvent.CLICK, skipScene);
 							removeChild(skipButton);
 skipButton=null;
 			}
-			if(introAnimation.currentFrame==514)
+			if(introAnimation.currentFrame==768)
 			//if(introAnimation.currentFrame==1000)
 			{
 							

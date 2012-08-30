@@ -40,6 +40,12 @@
 		}
 		public function update():Object
 		{
+			if(globals.hideUI)
+			{
+				visible=false;
+			}else{
+				visible=true;
+			}
 			scaleX=addScale;
 			scaleY=addScale;
 			addScale+=(2-addScale)/5;

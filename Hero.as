@@ -31,7 +31,8 @@
 		public var jet:Boolean;
 		private var fire:MovieClip;
 		public var weaponInventory:Array;
-
+		private var firstRunInterval:int=0;
+public static var disableHero:Boolean=false;
 		private var empTimer:Timer;
 		public function Hero():void
 		{
@@ -156,12 +157,28 @@ public override function destroy():void
 			{
 				WeaponList.weaponList[i].reloadWeapon();
 			}
+			frontFlame.visible = false;
+					backFlame.visible = false;
+					bottemFlame.visible = false;
 			visible =true;
 		}
 		//removeEventListener(Event.ADDED_TO_STAGE, loadSelf, false);
 
 		public function update():Object
 		{
+			Hero.disableHero=false;
+			if(gameStart.firstLevelPlay)
+			{
+				if(firstRunInterval<300)
+				{
+					Hero.disableHero=true;
+				}else{
+					Hero.disableHero=false;
+				}
+				firstRunInterval++;
+			}
+			if(!Hero.disableHero){
+			
 			animation.scaleX = dir;
 			if (jet)
 			{
@@ -290,6 +307,7 @@ public override function destroy():void
 			{
 				die();
 			}
+			}
 			checkSecondaryHit();
 			return this;
 		}
@@ -370,10 +388,12 @@ shield=null;
 		}
 		public function rightPress():void
 		{
+			if(!Hero.disableHero){
 			right = true;
 			startWalk();
 			if(!left){
 			dir = 1;
+			}
 			}
 		}
 		private function startWalk():void
@@ -393,31 +413,35 @@ shield=null;
 		}
 		public function leftPress():void
 		{
+			if(!Hero.disableHero){
 			left = true;
 			startWalk();
 			if(!right){
 			dir = -1;
 			}
+			}
 		}
 		public function rightUp():void
 		{
-			
+			if(!Hero.disableHero){
 			if(left){
 				dir=-1;
 			}else{
 				stopWalk();
 			}
 			right = false;
+			}
 		}
 		public function leftUp():void
 		{
-			
+			if(!Hero.disableHero){
 			if(right){
 				dir=1;
 			}else{
 				stopWalk();
 			}
 			left = false;
+			}
 		}
 		public function noFuel():void
 		{
