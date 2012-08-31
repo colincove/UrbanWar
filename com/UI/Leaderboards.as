@@ -32,15 +32,15 @@
 		private function getLeaderboardRecords(e:MouseEvent):void 
 		{
 			levelView=int(e.target.name.split("leaderboard")[1]);
-			currentPrompt=InfoModal.createPrompt(DisplayObjectContainer(root),"Retrieving results...");
+			//currentPrompt=InfoModal.createPrompt(DisplayObjectContainer(root),"Retrieving results...");
 			WebServices.getScore(resultDisplay,levelView,resultFound, onFail);
 			function resultFound():void 
 			{
-				currentPrompt.remove();
+				//currentPrompt.remove();
 			}
 			function onFail():void 
 			{
-				currentPrompt.remove();
+				//currentPrompt.remove();
 				currentPrompt=OkPrompt.createPrompt(DisplayObjectContainer(root),"An error occured. Results could not be found. Please Try again.");
 
 			}
@@ -50,11 +50,11 @@
 			parent.removeChild(this);
 		}
 		private function findMe(e:MouseEvent):void{
-			currentPrompt=InfoModal.createPrompt(DisplayObjectContainer(root),"Retrieving results...");
+			//currentPrompt=InfoModal.createPrompt(DisplayObjectContainer(root),"Retrieving results...");
 			WebServices.getUserScore(resultDisplay,levelView,resultFound, User.uid);
 			function resultFound():void 
 			{
-				currentPrompt.remove();
+				//currentPrompt.remove();
 			}
 		}
 		public function launch():void{

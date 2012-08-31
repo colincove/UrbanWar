@@ -12,6 +12,9 @@
 	import com.displayObjects.Numbers;
 	import com.weapons.AccuracyStats;
 	import flash.text.TextField;
+	import com.displayObjects.RollingNumber;
+	import flash.events.TimerEvent;
+	import flash.utils.Timer;
 
 	public class EndLevelScreen extends PromptBase
 	{
@@ -20,24 +23,32 @@
 
 		private var currentPrompt:PromptBase;
 		private var resultDisplay:ScoreResults;
-		private var enemiesKilledDisplay:Numbers;
-		private var accuracyDisplay:Numbers;
-		private var pointsDisplay:Numbers;
+		private var enemiesKilledDisplay:RollingNumber;
+		private var accuracyDisplay:RollingNumber;
+		private var pointsDisplay:RollingNumber;
 		
 		private var levelGrade:TextField;
+		private var rollingCompleted:int=0;
+		private var continueTimer:Timer;
+		private var startCountingTimer:Timer;
 		public function EndLevelScreen():void
 		{
 
 			super(globals.main,40,true);
+			continueTimer =  new Timer(5000);
+			startCountingTimer =  new Timer(1000);
 			resultDisplay = new ScoreResults();
 			if (parent)
 			{
 				parent.removeChild(this);
 			}
 			fadeAnimation.addChild(resultDisplay);
-			enemiesKilledDisplay = new Numbers(0);
-			accuracyDisplay = new Numbers(0);
-			pointsDisplay = new Numbers(0);
+			enemiesKilledDisplay = new RollingNumber(0);
+			accuracyDisplay = new RollingNumber(0);
+			pointsDisplay = new RollingNumber(0);
+			enemiesKilledDisplay.addEventListener(RollingNumber.ROLLING_COMPLETE,rollingComplete);
+			accuracyDisplay.addEventListener(RollingNumber.ROLLING_COMPLETE,rollingComplete);
+			pointsDisplay.addEventListener(RollingNumber.ROLLING_COMPLETE,rollingComplete);
 			levelGrade = new TextField();
 			fadeAnimation.numberDisplayContainer1.addChild(enemiesKilledDisplay);
 			fadeAnimation.numberDisplayContainer2.addChild(accuracyDisplay);
@@ -45,11 +56,64 @@
 			fadeAnimation.numberDisplayContainer4.addChild(levelGrade);
 			fadeAnimation.okButton.addEventListener(MouseEvent.CLICK,continueGame);
 		}
+		private function rollingComplete(e:Event):void
+		{
+			if(++rollingCompleted>3)
+			{
+				continueTimer.addEventListener(TimerEvent.TIMER, continueToMenu);
+				continueTimer.start();
+				fadeAnimation.numberDisplayContainer4.visible=true;
+				play();
+			}
+			if(rollingCompleted==1)
+			{
+				fadeAnimation.enemiesKilledText.visible=true;
+				fadeAnimation.numberDisplayContainer1.visible=true;
+				enemiesKilledDisplay.rollNumberTo(globals.enemiesKilled);
+				startCountingTimer.reset();
+			startCountingTimer.removeEventListener(TimerEvent.TIMER, rollingComplete);
+			}
+			if(rollingCompleted==2)
+			{
+				fadeAnimation.accuracyText.visible=true;
+				fadeAnimation.numberDisplayContainer2.visible=true;
+				accuracyDisplay.rollNumberTo(int(AccuracyStats.pct));
+				
+			}
+			if(rollingCompleted==3)
+			{
+				fadeAnimation.totalScoreText.visible=true;
+				fadeAnimation.numberDisplayContainer3.visible=true;
+				pointsDisplay.rollNumberTo(globals.score.score);
+			}
+		}
+		private function continueToMenu(e:TimerEvent):void{
+			continueTimer.removeEventListener(TimerEvent.TIMER, continueToMenu);
+				continueTimer.reset();
+				remove();
+				globals.hideUI=false;
+			globals.main.getGame().beatCurrentLevel();
+		}
+		
 		public function launch():void
 		{
-			enemiesKilledDisplay.setPointArray(globals.enemiesKilled);
-			accuracyDisplay.setPointArray(int(AccuracyStats.pct));
-			pointsDisplay.setPointArray(globals.score.score);
+			startCountingTimer.start();
+			startCountingTimer.addEventListener(TimerEvent.TIMER, rollingComplete);
+			fadeAnimation.numberDisplayContainer1.visible=false;
+			fadeAnimation.numberDisplayContainer2.visible=false;
+			fadeAnimation.numberDisplayContainer3.visible=false;
+			fadeAnimation.numberDisplayContainer4.visible=false;
+			fadeAnimation.enemiesKilledText.visible=false;
+					fadeAnimation.accuracyText.visible=false;
+							fadeAnimation.totalScoreText.visible=false;
+			globals.hideUI=true;
+			rollingCompleted=0;
+			//enemiesKilledDisplay.setPointArray(globals.enemiesKilled);
+			//accuracyDisplay.setPointArray(int(AccuracyStats.pct));
+			//pointsDisplay.setPointArray(globals.score.score);
+			//enemiesKilledDisplay.rollNumberTo(globals.enemiesKilled);
+			//accuracyDisplay.rollNumberTo(int(AccuracyStats.pct));
+			//pointsDisplay.rollNumberTo(globals.score.score);
 			levelGrade.text = globals.gradingScaleController.getStatement(globals.score.score,globals.main.getGame().playLevelID);
 			if (parent==null)
 			{

@@ -6,11 +6,20 @@
 	import flash.utils.Timer;
 	import flash.events.TimerEvent;
 	import flash.events.MouseEvent;
+	import com.database.User;
+	import com.database.WebServices;
+	import com.database.ScoreResults;
+
 	public class GameMenu extends MovieClip
 	{
 		private var updateLevelStandingTimer:Timer;
+		private var resultDisplay:ScoreResults;
 		public function GameMenu():void
 		{
+			resultDisplay=new ScoreResults();
+			this.userStats.addChild(resultDisplay);
+			resultDisplay.y=-50.25;
+			resultDisplay.x=-100;
 			this.addEventListener(MenuEvent.SELECT_LEVEL,selectLevel);
 			this.addEventListener(MenuEvent.SELECT_WEAPONS, selectWeapons);
 			this.stop();
@@ -26,6 +35,12 @@
 			
 			GameMenuPM.update();
 			GameMenuPM.launching=false;
+			if(User.active)
+			{
+				WebServices.getUserScore(resultDisplay,globals.main.getGame().playLevelID,function (){},User.uid);
+			}else{
+				WebServices.getScore(resultDisplay,globals.main.getGame().playLevelID,function (){});
+			}
 			if(globals.main.getGame().wonLevel)
 			{
 				updateLevelStandingTimer.start();
@@ -33,7 +48,7 @@
 		}
 		private function updateLevelStanding(e:TimerEvent):void
 		{
-			userStats.screenGrab.manualUpdate();
+			//userStats.screenGrab.manualUpdate();
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE_LEVEL_STATUS));
 			updateLevelStandingTimer.stop();
 			updateLevelStandingTimer.reset();

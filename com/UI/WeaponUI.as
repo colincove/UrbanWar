@@ -15,12 +15,15 @@
 		private var fireIcon0:OverheatSymbol = new OverheatSymbol();
 		private var fireIcon1:OverheatSymbol = new OverheatSymbol();
 		private var fireIcon2:OverheatSymbol = new OverheatSymbol();
+		private var weaponKeys:WeaponKeys;
 		public var progRun:Boolean;//Program Run. True if running, false if not. 
 		private var frameNum:Number;
 		public function WeaponUI(weaponSelect:MovieClip):void
 		{
 			///x=-380;
 			y = -240;
+			weaponKeys=new WeaponKeys();
+			addChild(weaponKeys);
 			frameNum = 1;
 			this.weaponSelect = weaponSelect;
 			globals.static_progThread.addProg(this);
@@ -40,8 +43,18 @@ progRun = true;
 			}else{
 				visible=true;
 			}
+			
 			checkDisplay();
 			checkIcons();
+			
+			if(WeaponList.loadOut.length<=1)
+			{
+			weaponKeys.visible=false;
+			}else{
+				weaponKeys.visible=true;
+			}
+			weaponKeys.gotoAndStop(currentFrame);
+			
 			if (weaponSelect.selectedWeapon != null)
 			{
 				frameNum -=  (frameNum - weaponSelect.weaponNum * 20) / 10;

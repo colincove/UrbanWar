@@ -148,6 +148,8 @@ private var overlayLayer:MovieClip;
 			globals.neutralContainer=null;
 			globals.groundContainer=null;
 			progRun=false;
+			globals.main.stage.removeEventListener(KeyboardEvent.KEY_DOWN,pauseCheck,false);
+			globals.main.stage.removeEventListener(KeyboardEvent.KEY_UP,pauseUnCheck,false);
 		}
 		public function removeSelf():void
 		{

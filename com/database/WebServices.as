@@ -181,6 +181,7 @@ variables.postData=RC4.encrypt(JSON.encode(postData),KEY);
 			}
 		}
 		public static function getScore(resultDisplay:ScoreResults, level:int, callback:Function, failCallback:Function=null):void {
+			resultDisplay.startLoading();
 			var request:URLRequest=new URLRequest(WEBSERVICE);
 			request.method=URLRequestMethod.POST;
 			var variables:URLVariables = new URLVariables();
@@ -194,12 +195,15 @@ variables.postData=RC4.encrypt(JSON.encode(postData),KEY);
 					loader.addEventListener(IOErrorEvent.IO_ERROR,onFail);
 			loader.dataFormat=URLLoaderDataFormat.TEXT;
 			loader.load(request);
-			function onComplete(e:Event):void {
+			function onComplete(e:Event):void 
+			{
+				resultDisplay.finishLoading();
 				resultDisplay.createResults(JSON.decode(RC4.decrypt(e.target.data,KEY)));
 				callback();
 			}
 			function onFail(e:Event):void
 			{
+				resultDisplay.onLoadFail();
 				if(failCallback!=null)
 				{
 					failCallback();

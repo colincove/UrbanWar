@@ -3,7 +3,10 @@
 	public class ScoreResults extends MovieClip
 	{
 		private var resultsVector:Vector.<Result>;
-		public function ScoreResults():void {
+		private var loading:LoadingBlackout;
+		public function ScoreResults():void 
+		{
+			loading=new LoadingBlackout();
 		}
 
 		public function addResult():void {
@@ -32,6 +35,25 @@
 										resultsVector.push(newResult);
 				}
 			}
+		}
+		public function startLoading():void
+		{
+			if(loading.parent==null)
+			{
+			addChild(loading);
+			}
+			loading.Black.width=550;
+			loading.Black.height=33*10;
+		}
+		public function finishLoading():void
+		{
+			loading.gotoAndStop(1);
+			if(loading.parent!=null){
+				loading.parent.removeChild(loading);
+			}
+		}
+		public function onLoadFail():void{
+		loading.gotoAndStop(2);
 		}
 	}
 }
