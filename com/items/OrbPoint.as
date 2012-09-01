@@ -8,6 +8,7 @@
 	import com.globals;
 	import com.Sound.GlobalSounds;
 	import com.globalFunctions;
+	import com.displayObjects.Points;
 	public class OrbPoint extends movement implements Program {
 		private var distance:Number;
 		private var angle:Number;
@@ -50,9 +51,12 @@
 					xSpeed=Math.cos(angle*Math.PI/180)*Speed;
 					ySpeed=Math.sin(angle*Math.PI/180)*Speed;
 					Speed=Speed*1.2;
-					if (distance<75) {
+					if (distance<75) 
+					{
 						removing=true;
 						globals.gameVars.orbs+=10;
+						Points.displayPoint(50,x - globals.neutralContainer.x,y - globals.neutralContainer.y);
+						//Points.displayPoint(50,x,y );
 						GlobalSounds.playSound('getOrb');
 						xSpeed=0;
 						ySpeed=0;

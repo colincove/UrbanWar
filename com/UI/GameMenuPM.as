@@ -6,6 +6,7 @@
 	import com.weapons.Weapon;
 	import flash.display.MovieClip;
 	public class GameMenuPM {
+		public static var numberOfPossibleWeapons:int=0;
 		public static var currentLevel:int;
 		public static var weaponList:Array;
 		public static var _money:int=0;

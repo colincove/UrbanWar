@@ -16,11 +16,15 @@
 			timer = new Timer(1000);
 			timer.addEventListener(TimerEvent.TIMER, promptComplete);
 			timer.start();
-			x=globals.HUD.x-width/2;
-			y=globals.HUD.y-height/2;
+			x=globals.HUD.x-800/2;
+			y=globals.HUD.y-600/2;
 			globals.game_progThread.pauseProgram();
 			globals.static_progThread.pauseProgram();
-			this.iconAnimation.addChild(weapon.getIcon());
+			msg.text=((Weapon(weapon)).weaponName)+" retrieved!";
+			var icon:MovieClip = weapon.getIcon();
+			this.iconAnimation.addChild(icon);
+			icon.x=-icon.width/2;
+			icon.y=-icon.height/2;
 		}
 		public static function createPrompt(weapon:WeaponInterface):PromptBase
 		{

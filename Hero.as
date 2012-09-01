@@ -13,7 +13,7 @@
 	import com.globals;
 	import com.items.Shield;
 	import com.weapons.Weapon;
-	import com.weapons.jetPack;
+	import com.weapons.LimitedJetPack;
 	import com.globalFunctions;
 	import flash.utils.Timer;
 	import flash.events.TimerEvent;
@@ -25,7 +25,7 @@
 		private var currentSprite:String;
 		private var walking:Boolean;
 		private var idle:Boolean;
-		public var jetpack:jetPack;
+		public var jetpack:LimitedJetPack;
 		public var armCannon:arm;
 		public var shield:Shield;
 		public var jet:Boolean;
@@ -451,7 +451,7 @@ shield=null;
 			jetpack.addFuel(amt);
 		}
 
-		public function getJetPack():jetPack
+		public function getJetPack():LimitedJetPack
 		{
 			return jetpack;
 		}
@@ -472,7 +472,7 @@ shield=null;
 		public function createJetpack():void{
 			if(jetpack==null)
 			{
-				jetpack = new jetPack(this);
+				jetpack = new LimitedJetPack(this);
 			}
 		}
 		public function EMP():void

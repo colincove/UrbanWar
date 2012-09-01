@@ -31,6 +31,12 @@
 			}else{
 				gotoAndStop("Inactive");
 			}
+			if(GameMenuPM.menuState==GameMenuPM.ARMORY)
+			{
+				visible=true;
+			}else{
+				visible=false;
+			}
 		}
 		private function updateMoney(e:MenuEvent):void
 		{

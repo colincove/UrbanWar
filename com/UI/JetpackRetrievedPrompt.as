@@ -13,8 +13,9 @@
 			timer = new Timer(1000);
 			timer.addEventListener(TimerEvent.TIMER, promptComplete);
 			timer.start();
-			x=globals.HUD.x-width/2;
-			y=globals.HUD.y-height/2;
+			msg.text="Jetpack retrieved!";
+			x=globals.HUD.x-800/2;
+			y=globals.HUD.y-600/2;
 			globals.game_progThread.pauseProgram();
 			globals.static_progThread.pauseProgram();
 			//this.iconAnimation.addChild(weapon.getIcon());

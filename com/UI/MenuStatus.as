@@ -4,6 +4,7 @@
 	import com.events.MenuEvent;
 	import com.globals;
 	import com.weapons.Weapon;
+	import flash.events.Event;
 	import flash.display.MovieClip;
 	import flash.events.MouseEvent;
 
@@ -11,29 +12,33 @@
 	{
 		private var numberOfPossibleWeapons:int = 0;
 		private var playLevelButtonX:int;
+		private var tabBarControl:TabBarControl;
 		public function MenuStatus():void
 		{
 			GameMenuPM.dispatcher.addEventListener(MenuEvent.UPDATE,update);
 			GameMenuPM.dispatcher.addEventListener(MenuEvent.SELECT_WEAPONS,selectWeapons);
 loadoutButton.addEventListener(MouseEvent.CLICK, onClickLoadout);
 playLevelButtonX=playLevelButton.x;
-tabBar.gotoAndStop(1);
-tabBar.armoryButton.addEventListener(MouseEvent.CLICK, armoryClick);
-tabBar.loadoutButton.addEventListener(MouseEvent.CLICK, loadoutClick);
+tabBarControl  = new TabBarControl(tabBar.btn1, tabBar.btn2, tabBar);
+tabBarControl.addEventListener(TabBarControl.BTN1, armoryClick);
+tabBarControl.addEventListener(TabBarControl.BTN2, loadoutClick);
+//tabBar.armoryButton.addEventListener(MouseEvent.CLICK, armoryClick);
+//tabBar.loadoutButton.addEventListener(MouseEvent.CLICK, loadoutClick);
 		}
-		private function armoryClick(e:MouseEvent):void
+		private function armoryClick(e:Event=null):void
 		{
 			GameMenuPM.menuState = GameMenuPM.ARMORY;
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE));
-			tabBar.gotoAndStop("armory");
+			//tabBar.gotoAndStop("armory");
 		}
 		private function selectWeapons(e:MenuEvent):void{
 			
 		}
-		private function loadoutClick(e:MouseEvent):void
+		
+		private function loadoutClick(e:Event=null):void
 		{
 			GameMenuPM.menuState = GameMenuPM.LOADOUT;
-			tabBar.gotoAndStop("loadout");
+			//tabBar.gotoAndStop("loadout");
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE));
 		}
 		private function onClickLoadout(e:MouseEvent):void
@@ -79,6 +84,7 @@ shineAnimation.visible=false;
 				{
 					numberOfPossibleWeapons = 3;
 				}
+				GameMenuPM.numberOfPossibleWeapons=numberOfPossibleWeapons;
 				if (GameMenuPM.loadOut.length == numberOfPossibleWeapons && currentLabel == "select")
 				{
 					shineAnimation.visible=true;
