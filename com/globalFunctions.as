@@ -83,7 +83,13 @@
 			return desire;
 		}
 		public static function makeDebry(debryClassName:String,qty:int, xPos:int, yPos:int, screenGrab:Boolean=true):void {
-			var debryClass:Class=getDefinitionByName(debryClassName) as Class;
+			var debryClass:Class;
+			if(globals.darkLevel)
+			{
+				debryClass = darkDebry;
+			}else{
+			debryClass=getDefinitionByName(debryClassName) as Class;
+			}
 			var debryObj:debry;
 			for (var i:int=0; i<qty; i++) 
 			{

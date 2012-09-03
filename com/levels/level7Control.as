@@ -7,6 +7,7 @@
 		public function level7Control(ID:int=0):void
 		{
 			super(7);
+			globals.darkLevel=true;
 			progRun=true;
 			globals.game_progThread.addProg(this);
 			levelSongChannel=GlobalSounds.playSound('song7');

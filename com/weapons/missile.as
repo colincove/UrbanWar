@@ -6,6 +6,7 @@
 	import com.weapons.activeWeapon;
 	import com.displayObjects.tmpDisplayObj;
 	import com.displayObjects.explosion;
+	import com.displayObjects.smallExplosion;
 	import com.interfaces.activeWeaponInterface;
 	import com.interfaces.Program;
 	import flash.geom.Point;
@@ -54,7 +55,13 @@
 					AccuracyStats.addMiss();
 				}
 			}
-			var Explosion:tmpDisplayObj = new explosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			var Explosion:tmpDisplayObj;
+			if(targetObj==null)
+			{
+				Explosion=new smallExplosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			}else{
+				Explosion=new explosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			}
 			removeSelf();
 		}
 		public function removeSelf():void

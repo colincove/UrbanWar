@@ -28,7 +28,7 @@ var endLevelScreen:EndLevelScreen;
 		var skipButton:SkipButton;
 
 		var introAnimation:MovieClip;
-		
+		var outroAnimation:MovieClip;
 		public function scrollerDocumentClass():void 
 		{
 			
@@ -120,10 +120,37 @@ var endLevelScreen:EndLevelScreen;
 			introAnimation.addEventListener(Event.ENTER_FRAME, listenForCompleteAnimation);
 			//game.startLevel();
 		}
+		public function playEndGameScene():void{
+			skipButton = new SkipButton();
+			skipButton.x=17;
+			skipButton.y=558.9;
+			outroAnimation = new ClosingCinematic();
+			skipButton.addEventListener(MouseEvent.CLICK, skipScene);
+			//introAnimation = new ClosingCinematic();
+			this.addChild(outroAnimation);
+			addChild(skipButton);
+			outroAnimation.addEventListener(Event.ENTER_FRAME, listenForCompleteEndAnimation);
+			//game.startLevel();
+			x=0;
+			y=0;
+		}
 		private function skipScene(e:MouseEvent):void
 		{
 			introAnimation.gotoAndPlay(559);
 		}
+		private function skipEndScene(e:MouseEvent):void
+		{
+			introAnimation.gotoAndPlay(559);
+		}
+		private function listenForCompleteEndAnimation(e:Event):void
+		{
+			if(outroAnimation.currentFrame==560)
+			{
+				skipButton.removeEventListener(MouseEvent.CLICK, skipScene);
+							removeChild(skipButton);
+skipButton=null;
+			}
+			}
 		private function listenForCompleteAnimation(e:Event):void
 		{
 			if(introAnimation.currentFrame==560)

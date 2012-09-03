@@ -146,7 +146,6 @@ public override function destroy():void
 			{
 				this.addChild(animation);
 			}
-//trace("Loading hero", animation, animation.parent);
 			progRun = true;
 			if (parent!=null)
 			{

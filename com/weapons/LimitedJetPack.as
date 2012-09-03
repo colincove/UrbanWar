@@ -32,7 +32,7 @@
 		}
 		public function update():Object
 		{
-		if(++coolDownInterval>100)
+		if(++coolDownInterval>20)
 			{
 				if(current>0)
 				{

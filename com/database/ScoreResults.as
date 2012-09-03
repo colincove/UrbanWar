@@ -16,7 +16,6 @@
 			if (resultsVector) {
 				
 				for (i=0; i<(results.length>10 ? 10:results.length); i++) {
-					trace(results[i].name, results[i].place);
 					resultsVector[i].setData(results[i]);
 				}
 			} else {

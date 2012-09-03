@@ -39,7 +39,6 @@
 		}
 		public function set isHeroWeapon(value:Boolean):void
 		{
-			trace(this,value);
 			_isHeroWeapon=value;
 		}
 		public override function destroy():void

@@ -109,7 +109,7 @@
 			}
 			catch (e:Error)
 			{
-trace("ERROR");
+//trace("ERROR");
 			}
 		}
 		public function removeSelf():void

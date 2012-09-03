@@ -12,12 +12,13 @@
 		public function TitleScreen():void {
 			this.leaderboardsButton.addEventListener(MouseEvent.CLICK, showLeaderboards);
 			this.playGameButton.addEventListener(MouseEvent.CLICK, playGame);
-
+this.controlsButton.addEventListener(MouseEvent.CLICK, controlsClick);
 		}
 		private function showLeaderboards(e:MouseEvent):void {
 			globals.main.launchLeaderboards();
 		}
-		private function playGame(e:MouseEvent):void {
+		private function playGame(e:MouseEvent):void 
+		{
 			if (!User.active || (User.active && User.levelsUnlocked==0)) {
 				globals.main.playGame();
 			} else {
@@ -43,6 +44,10 @@
 				this.userContext.loginButton.addEventListener(MouseEvent.CLICK, login);
 			}
 
+		}
+		private function controlsClick(e:MouseEvent):void 
+		{
+			ControlsPrompt.createPrompt(globals.main);
 		}
 		private function login(e:MouseEvent):void {
 			close();

@@ -22,10 +22,8 @@
 	import com.ProgThread;
 	import flash.system.System;
 	import com.controllers.GradingScaleController;
-
 	public class gameStart
 	{
-		
 		private var gameContinue:Boolean;
 		private var camera:Cam;
 		private var defaultsLoaded:Boolean=false;
@@ -92,8 +90,12 @@
 			}else{
 				gameStart.firstLevelPlay=false;
 			}
+			if(globals.endOfGame){
+				globals.main.playEndGameScene();
+			}else{
 			
 			globals.main.launchWeaponMenu();
+			}
 			
 			System.gc();
 			System.gc();

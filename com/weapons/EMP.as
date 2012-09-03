@@ -20,6 +20,7 @@
 		}
 		public function fire(Angle:int,origin:Point, primaryHitCheck:MovieClip, secondaryHitCheck:MovieClip=null):void
 		{
+			trace("FIRE EMP");
 			var wave:EMPWave = new EMPWave(Angle, origin, primaryHitCheck, attackList);
 			globals.levelObj.addChild(wave);
 		}

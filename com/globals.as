@@ -21,6 +21,8 @@ import com.levels.LevelEnd;
 	public class globals
 	
 	{
+		public static var darkLevel:Boolean;
+		public static var endOfGame:Boolean;
 		public static var hideUI:Boolean=false;
 		public static var skipWeaponMenu:Boolean=false;
 		public static var enemiesKilled:int=0;

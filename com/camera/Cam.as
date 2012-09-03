@@ -19,6 +19,7 @@
 		private var randomNum:int;
 		private var stopHorizontal:Boolean=false;
 		private var whiteFade:HUDWhiteFade;
+		public var screenSpeedMod:Number=0.0;
 		public function Cam():void {
 			//roof=new camRoof ();
 			shake=0;
@@ -95,7 +96,7 @@
 				globals.hideUI=false;
 			}
 			if (! this.stopHorizontal) {
-				xPos+=Number(globals.gameVars['stage'+globals.gameVars.stageStart].screenSpeed);
+				xPos+=Number(globals.gameVars['stage'+globals.gameVars.stageStart].screenSpeed)+screenSpeedMod;
 			}
 			yPos-=(yPos-(globalFunctions.getMainY(globals.hero)-globals.levelObj.y)/5)/5;
 			xShake=(Math.random()-Math.random())*shake;

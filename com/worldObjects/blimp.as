@@ -58,7 +58,7 @@
 			globals.game_progThread.removeProg(this);
 
 			fuel.y=y;
-			globalFunctions.makeDebry("houseDebry",6,globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			globalFunctions.makeDebry("houseDebry",2,globalFunctions.getMainX(this),globalFunctions.getMainY(this));
 			parent.removeChild(this);
 		}
 	}

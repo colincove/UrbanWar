@@ -87,7 +87,6 @@ public static var databaseStatus:int=DATABASE_UNAVAILABLE;
 			
 			function onComplete(e:Event):void 
 			{
-				trace(e.target.data);
 				var pingResult:int=e.target.data;
 				if(pingResult==DATABASE_AVAILABLE||
 				   DATABASE_UNAVAILABLE){
@@ -212,7 +211,6 @@ variables.postData=RC4.encrypt(JSON.encode(postData),KEY);
 			}
 		}
 		public static function updateUser( callback:Function=null, failCallback:Function=null):void {
-			trace(User.name, User.levelsUnlocked,User.unlockedWeapons,User.uid);
 			var request:URLRequest=new URLRequest(WEBSERVICE);
 			request.method=URLRequestMethod.POST;
 			var variables:URLVariables = new URLVariables();
@@ -269,7 +267,6 @@ variables.postData=RC4.encrypt(JSON.encode(postData),KEY);
 				//}
 
 				resultDisplay.createResults(JSON.decode(RC4.decrypt(e.target.data,KEY)));
-				trace(e.target.data);
 				callback();
 			}
 			function onFail(e:Event):void

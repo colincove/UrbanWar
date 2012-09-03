@@ -129,13 +129,13 @@
 							arm.y=animation.gun.y+modY1+modY2;
 						arm.rotation=myAngle.getObjAngle(arm,globals.hero);
 						}
-						
 						fire();
 						interval=0;
 					}
 				} else {
 					movementUpdate();
 					moveObj();
+					trace("CHECKING FOR FIRE",Math.abs(globalFunctions.getMainX(this)-globals.HUD.x));
 					if (Math.abs(globalFunctions.getMainX(this)-globals.HUD.x)<350)
 					{
 					attackMode=true;

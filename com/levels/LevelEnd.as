@@ -65,6 +65,8 @@
 		}
 		public override function hit(xPos:int, yPos:int, strength:int=20):void
 		{
+			checkScreen();
+			if(onScreen){
 			super.hit(xPos, yPos, strength);
 			if (health<=0)
 			{
@@ -89,6 +91,7 @@
 				dead=true;
 				}
 
+			}
 			}
 		}
 		public override function destroy():void

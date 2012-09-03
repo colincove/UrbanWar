@@ -19,9 +19,12 @@
 		protected var onScreen:Boolean;
 		protected var spawnScreen:Boolean;//is true when the spawn point is on screen;
 		public var healthTot:int;
+		private var screenCheckPoint:MovieClip;
 		public var pointWorth:int=0;
 		protected var healthBarObj:healthBar;
 		private var art:Array;
+		private var checkInterval:int=0;
+		protected var checkIntervalLimit:int=0;
 		private var personSpawnNum:int;
 		private var personSpawnAmt:int;
 		protected var modifyHealthX:int;
@@ -46,6 +49,7 @@
 		public override function destroy():void
 		{
 			super.destroy();
+			screenCheckPoint=null;
 			removeActiveObj();
 			//DIE=null;
 			if (healthBarObj!=null)
@@ -133,6 +137,35 @@
 			this.dispatchEvent(new Event(DIE));
 			
 			removeEventListener(Event.REMOVED_FROM_STAGE,removedFromStage);
+		}
+		public function checkScreen():void {
+			if (++checkInterval>checkIntervalLimit) {
+				try {
+					checkInterval=0;
+					if (parent!=null) {
+						if (globals.levelObj.parent==null) {
+						} else {
+							if (globals.HUD.hitTestPoint(globalFunctions.getMainX(this),globalFunctions.getMainY(this),true)) {
+								onScreen=true;
+							} else {
+								onScreen=false;
+							}
+							if ((screenCheckPoint!=null)&&(!spawned)) {
+								if (globals.HUD.hitTestPoint(globalFunctions.getMainX(screenCheckPoint),globalFunctions.getMainY(screenCheckPoint),true)) {
+									spawnScreen=true;
+								} else {
+									spawnScreen=false;
+								}
+							}
+						}
+					}
+				} catch (e:Error) {
+					onScreen=false;
+				}
+			}
+		}
+		public function setScreenPoint(obj:MovieClip):void {
+			this.screenCheckPoint=obj;
 		}
 	}
 }

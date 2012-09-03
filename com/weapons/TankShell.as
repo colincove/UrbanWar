@@ -8,6 +8,7 @@
 	import com.globalFunctions;
 	import com.displayObjects.tmpDisplayObj;
 	import com.displayObjects.explosion;
+		import com.displayObjects.smallExplosion;
 	import com.displayObjects.activeObj;
 
 	public class TankShell extends activeWeapon implements activeWeaponInterface {
@@ -50,8 +51,13 @@
 					AccuracyStats.addMiss();
 				}
 			}
-			var Explosion:tmpDisplayObj = new explosion(globalFunctions.getMainX(originObj)+ xPos,globalFunctions.getMainY(originObj)+ yPos);
-		}
+var Explosion:tmpDisplayObj;
+			if(targetObj==null)
+			{
+				Explosion=new smallExplosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			}else{
+				Explosion=new explosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			}			}
 		public function removeSelf():void
 		{
 		}

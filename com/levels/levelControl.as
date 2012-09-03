@@ -20,6 +20,7 @@
 			this.ID=ID;
 			globals.game_progThread.addProg(this);
 			progRun=true;
+			globals.darkLevel=false;
 			//globals.levelObj.addEventListener(Event.REMOVED_FROM_STAGE, removeSelf);
 		}
 		public function update():Object

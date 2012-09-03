@@ -139,7 +139,7 @@
         // traces out a message and logs it to our debug TextField if we have one
         private static function _log( msg:String ):void
         {
-            trace( msg , "");
+          //  trace( msg , "");
             if ( MemoryTracker.m_debug != null )
                 MemoryTracker.m_debug.appendText( msg + "\n" );
         }

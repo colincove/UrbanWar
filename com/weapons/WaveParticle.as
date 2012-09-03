@@ -8,7 +8,7 @@
 	import flash.geom.Point;
 	import com.displayObjects.tmpDisplayObj;
 	import com.displayObjects.whiteExplosion;
-
+import com.displayObjects.smallExplosion;
 	import flash.events.Event;
 	import flash.display.MovieClip;
 	import com.displayObjects.activeObj;
@@ -70,9 +70,7 @@
 		}
 		public function impact():void
 		{
-			var Explosion:tmpDisplayObj = new whiteExplosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
-			Explosion.scaleX = .75;
-			Explosion.scaleY = .75;
+			
 			GlobalSounds.playSound('explosion1');
 			var targetObj:activeObj = checkObjDmg(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
 			if (targetObj!=null && targetObj!=globals.hero)
@@ -81,7 +79,15 @@
 			}else{
 				AccuracyStats.addMiss();
 			}
-
+var Explosion:tmpDisplayObj;
+			if(targetObj==null)
+			{
+				Explosion=new smallExplosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			}else{
+				Explosion=new whiteExplosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+				Explosion.scaleX = .75;
+			Explosion.scaleY = .75;
+			}
 			removeSelf();
 		}
 		public function removeSelf():void

@@ -38,9 +38,7 @@
 		}
 		public static function setOldInventory():void
 		{
-			trace("Old Inventory", 1, WeaponList.oldInventory);
 			WeaponList.oldInventory=WeaponsEnum.composeWeaponStringFromArray(weaponList);
-			trace("Old Inventory", 2, WeaponList.oldInventory);
 		}
 		public static function addToLoadout(weapon:Weapon)
 		{
@@ -69,7 +67,6 @@
 		}
 		public static function loadWeapons(weaponString:String):void
 		{
-			trace("loadWEAPON", weaponString);
 			var weaponInventoryList:Vector.<Weapon >  = WeaponsEnum.parseWeaponString(weaponString);
 			weaponList.splice(0);
 			loadOut.splice(0);
