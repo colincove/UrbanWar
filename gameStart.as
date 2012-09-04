@@ -84,7 +84,7 @@
 			{
 				globals.hero.jetpack=null;
 				globals.hero.armCannon.clearWeapon();
-				WeaponList.loadDefaultWeapons(gameVars);
+				//WeaponList.loadDefaultWeapons(gameVars);
 			gameStart.firstLevelPlay=true;
 				globals.skipWeaponMenu=true;
 			}else{
@@ -127,6 +127,7 @@
 		}
 		private function startGame():void 
 		{
+			
 			globals.defineGameVars(gameVars);
 			compiler = new classCompiler();
 			currentLevelID=gameVars.stageStart;
@@ -183,7 +184,7 @@ globals.letPlayerLive=false;
 				fastFade=new FastFade();
 				globals.main.addChild(fastFade);
 			}
-			globals.activeObjectList.push(globals.hero.armCannon);
+			//globals.activeObjectList.push(globals.hero.armCannon);
 		}
 		private function buildLevel():void 
 		{

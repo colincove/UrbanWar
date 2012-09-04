@@ -197,7 +197,7 @@
 		}
 		private function clearWeapon(e:MenuEvent=null):void
 		{
-			deselect();
+			deselect(true);
 			gotoAndStop("Null");
 			purchaseUI.gotoAndStop("Null");
 			weapon = null;
@@ -360,7 +360,8 @@
 			}
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE,true));
 		}
-		private function deselect():void
+		//if it is soft, then dont dispatch events that will alert other elements to whats going on. 
+		private function deselect(soft:Boolean=false):void
 		{
 			
 			selected = false;
@@ -372,9 +373,13 @@
 			{
 				//weaponName.transform.colorTransform = colorTransform;
 			}
+			if(!soft){
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.WEAPON_SELECTED,true));
+			}
 			defineButton(addButtonButton);
+			if(!soft){
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE,true));
+			}
 		}
 		private function defineButton(button:MovieClip):void
 		{

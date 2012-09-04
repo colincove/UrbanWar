@@ -55,10 +55,7 @@ var endLevelScreen:EndLevelScreen;
 		}
 		public function launchEndLevelScreen():void
 		{
-			if(endLevelScreen==null)
-			{
-				endLevelScreen=new EndLevelScreen();
-			}
+			endLevelScreen=new EndLevelScreen();
 			endLevelScreen.launch();
 		}
 		private function validateMenuBackground():void

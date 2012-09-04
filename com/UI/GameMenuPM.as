@@ -37,6 +37,7 @@
 		{
 			//selectedMoney=0;
 			weaponList = WeaponList.weaponList;
+			WeaponList.emptyLoadout();
 			loadOut=WeaponList.loadOut;
 			money=globals.gameVars.orbs;
 			currentLevel=globals.levelProgress;
@@ -71,7 +72,8 @@
 					setLoadoutStatus();
 					return false;
 				}else{
-					loadOut.push(weapon);
+					WeaponList.addToLoadout(weapon);
+					//loadOut.push(weapon);
 					setLoadoutStatus();
 					return true;
 				}

@@ -27,17 +27,17 @@
 		private var accuracyDisplay:RollingNumber;
 		private var pointsDisplay:RollingNumber;
 		private var gearsDisplay:RollingNumber;
-		
+
 		private var levelGrade:TextField;
-		private var rollingCompleted:int=0;
+		private var rollingCompleted:int = 0;
 		private var continueTimer:Timer;
 		private var startCountingTimer:Timer;
 		public function EndLevelScreen():void
 		{
 
 			super(globals.main,40,true);
-			continueTimer =  new Timer(7000);
-			startCountingTimer =  new Timer(2000);
+			continueTimer = new Timer(7000);
+			startCountingTimer = new Timer(2000);
 			resultDisplay = new ScoreResults();
 			if (parent)
 			{
@@ -57,76 +57,98 @@
 			numberDisplayContainer2.addChild(accuracyDisplay);
 			numberDisplayContainer3.addChild(gearsDisplay);
 			numberDisplayContainer4.addChild(pointsDisplay);
-			
+
 			okButton.addEventListener(MouseEvent.CLICK,continueGame);
 		}
+		public override function destroy():void
+		{
+			super.destroy();
+			enemiesKilledDisplay.removeEventListener(RollingNumber.ROLLING_COMPLETE,rollingComplete);
+			accuracyDisplay.removeEventListener(RollingNumber.ROLLING_COMPLETE,rollingComplete);
+			pointsDisplay.removeEventListener(RollingNumber.ROLLING_COMPLETE,rollingComplete);
+			gearsDisplay.removeEventListener(RollingNumber.ROLLING_COMPLETE,rollingComplete);
+			currentPrompt = null;
+			resultDisplay = null;
+			enemiesKilledDisplay = null;
+			accuracyDisplay = null;
+			pointsDisplay = null;
+			gearsDisplay = null;
+
+			levelGrade = null;
+			continueTimer = null;
+			startCountingTimer = null;
+		}
+
+
 		private function rollingComplete(e:Event):void
 		{
-			if(++rollingCompleted>4)
+			if (++rollingCompleted > 4)
 			{
 				continueTimer.addEventListener(TimerEvent.TIMER, continueToMenu);
 				continueTimer.start();
-				msg.text=globals.gradingScaleController.getStatement(globals.score.score,globals.main.getGame().playLevelID);
+				msg.text = globals.gradingScaleController.getStatement(globals.score.score,globals.main.getGame().playLevelID);
 				play();
 			}
-			if(rollingCompleted==1)
+			if (rollingCompleted==1)
 			{
-				enemiesKilledText.visible=true;
-				numberDisplayContainer1.visible=true;
+				enemiesKilledText.visible = true;
+				numberDisplayContainer1.visible = true;
 				enemiesKilledDisplay.rollNumberTo(globals.enemiesKilled);
 				startCountingTimer.reset();
-			startCountingTimer.removeEventListener(TimerEvent.TIMER, rollingComplete);
+				startCountingTimer.removeEventListener(TimerEvent.TIMER, rollingComplete);
 			}
-			if(rollingCompleted==2)
+			if (rollingCompleted==2)
 			{
-				accuracyText.visible=true;
-				numberDisplayContainer2.visible=true;
+				accuracyText.visible = true;
+				numberDisplayContainer2.visible = true;
 				accuracyDisplay.rollNumberTo(int(AccuracyStats.pct));
-				
+
 			}
-			if(rollingCompleted==3)
+			if (rollingCompleted==3)
 			{
-				gearsText.visible=true;
-				numberDisplayContainer3.visible=true;
+				gearsText.visible = true;
+				numberDisplayContainer3.visible = true;
 				gearsDisplay.rollNumberTo(globals.gameVars.orbs-globals.gameVars.oldOrbs);
 			}
-			if(rollingCompleted==4)
+			if (rollingCompleted==4)
 			{
-				totalScoreText.visible=true;
-				numberDisplayContainer4.visible=true;
+				totalScoreText.visible = true;
+				numberDisplayContainer4.visible = true;
 				pointsDisplay.rollNumberTo(globals.score.score);
 			}
 		}
 		private function continueToMenu(e:TimerEvent):void
 		{
 			continueTimer.removeEventListener(TimerEvent.TIMER, continueToMenu);
-				continueTimer.reset();
-				remove();
-				globals.hideUI=false;
-				if(globals.endOfGame)
-				{
-					globals.main. launchTitleScreen();
-				}else{
-					globals.main.getGame().beatCurrentLevel();
-				}
-			
+			continueTimer.reset();
+			remove();
+			globals.hideUI = false;
+			if (globals.endOfGame)
+			{
+				globals.main.launchTitleScreen();
+			}
+			else
+			{
+				globals.main.getGame().beatCurrentLevel();
+			}
+destroy();
 		}
-		
+
 		public function launch():void
 		{
 			startCountingTimer.start();
-			msg.text="";
+			msg.text = "";
 			startCountingTimer.addEventListener(TimerEvent.TIMER, rollingComplete);
-			numberDisplayContainer1.visible=false;
-			numberDisplayContainer2.visible=false;
-			numberDisplayContainer3.visible=false;
-			numberDisplayContainer4.visible=false;
-			enemiesKilledText.visible=false;
-					accuracyText.visible=false;
-							totalScoreText.visible=false;
-							gearsText.visible=false;
-			globals.hideUI=true;
-			rollingCompleted=0;
+			numberDisplayContainer1.visible = false;
+			numberDisplayContainer2.visible = false;
+			numberDisplayContainer3.visible = false;
+			numberDisplayContainer4.visible = false;
+			enemiesKilledText.visible = false;
+			accuracyText.visible = false;
+			totalScoreText.visible = false;
+			gearsText.visible = false;
+			globals.hideUI = true;
+			rollingCompleted = 0;
 			//enemiesKilledDisplay.setPointArray(globals.enemiesKilled);
 			//accuracyDisplay.setPointArray(int(AccuracyStats.pct));
 			//pointsDisplay.setPointArray(globals.score.score);

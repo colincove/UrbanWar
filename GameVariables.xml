@@ -5,7 +5,7 @@
 -->
 <SideScroller>
 
-  <Game forKarl="0" stageStart='9'godMode='0' orbs='0'  testingMode='0' startUpgrade='0' fightBoss='0' muteSounds='1' outsideScreenTime='200'>
+  <Game forKarl="0" stageStart='1'godMode='0' orbs='480'  testingMode='0' startUpgrade='0' fightBoss='0' muteSounds='1' outsideScreenTime='200'>
     <!--stageStart will define the level that starts when program is run
   godMode will give you unlimited health and fuel. 
   orbs will start you off with however many orbs or defined. 
@@ -127,7 +127,7 @@
 		0-0-0|1-0-0|2-0-0|3-0-0|4-0-0|5-0-0|6-0-0
 		in this compositioin: first value is weapon, second is the upgrade that it is at, third value is whether it has been purchased or not (0 for no, 1 for yes). -->
 		
-  <Weapons loadOut='012' inventory='02543' inventoryAndUpgrades="0-1-0|1-3-1|4-0-0|3-0-0|2-3-1|5-3-1|6-0-0">
+  <Weapons loadOut='012' inventory='02543' inventoryAndUpgrades="0-0-0|1-0-0|4-0-0|3-0-0|2-0-0|5-0-0|6-0-0">
     <Weapon  name='MiniGun'upgrade='0'>
       <Upgrade id='0' cost='300'damage = '5' heatUp='100' coolDown='20' fireDelay='3' pointWorth="15" stager='1'></Upgrade>
       <Upgrade id='1'cost='300'damage = '5' heatUp='110' coolDown='23' fireDelay='2' pointWorth="15" stager='2'></Upgrade>
