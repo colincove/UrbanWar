@@ -471,14 +471,16 @@ shield=null;
 		public function createJetpack():void{
 			if(jetpack==null)
 			{
-				jetpack = new LimitedJetPack(this);
+				jetpack = new LimitedJetPack(this, 200);
 			}
 		}
 		public function EMP():void
 		{
-			if(jetpack!=null){
+			if(jetpack!=null)
+			{
 			jetpack.active = false;
 			}
+			shield=null;
 			empTimer.addEventListener(TimerEvent.TIMER, empComplete);
 			empTimer.start();
 		}

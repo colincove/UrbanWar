@@ -124,6 +124,8 @@ var endLevelScreen:EndLevelScreen;
 			skipButton = new SkipButton();
 			skipButton.x=17;
 			skipButton.y=558.9;
+			globals.endOfGame=true;
+				globals.letPlayerLive=true;
 			outroAnimation = new ClosingCinematic();
 			skipButton.addEventListener(MouseEvent.CLICK, skipScene);
 			//introAnimation = new ClosingCinematic();
@@ -131,8 +133,7 @@ var endLevelScreen:EndLevelScreen;
 			addChild(skipButton);
 			outroAnimation.addEventListener(Event.ENTER_FRAME, listenForCompleteEndAnimation);
 			//game.startLevel();
-			x=0;
-			y=0;
+			
 		}
 		private function skipScene(e:MouseEvent):void
 		{
@@ -144,11 +145,29 @@ var endLevelScreen:EndLevelScreen;
 		}
 		private function listenForCompleteEndAnimation(e:Event):void
 		{
-			if(outroAnimation.currentFrame==560)
+			if(outroAnimation.currentFrame==530)
+			{
+				
+				x=0;
+			y=0;
+			globals.endOfGame=true;
+			
+					globals.main.getGame().beatCurrentLevel();
+			}
+			if(outroAnimation.currentFrame==1000)
 			{
 				skipButton.removeEventListener(MouseEvent.CLICK, skipScene);
 							removeChild(skipButton);
 skipButton=null;
+			}
+			if(outroAnimation.currentFrame==1525)
+			{
+				globals.main.launchEndLevelScreen();
+				
+				outroAnimation.stop();
+				outroAnimation.removeEventListener(Event.ENTER_FRAME, listenForCompleteEndAnimation);
+				//removeChild(introAnimation);
+				removeChildrenUtil.removeAllChildren(outroAnimation);
 			}
 			}
 		private function listenForCompleteAnimation(e:Event):void

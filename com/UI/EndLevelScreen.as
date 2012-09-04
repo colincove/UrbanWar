@@ -97,12 +97,19 @@
 				pointsDisplay.rollNumberTo(globals.score.score);
 			}
 		}
-		private function continueToMenu(e:TimerEvent):void{
+		private function continueToMenu(e:TimerEvent):void
+		{
 			continueTimer.removeEventListener(TimerEvent.TIMER, continueToMenu);
 				continueTimer.reset();
 				remove();
 				globals.hideUI=false;
-			globals.main.getGame().beatCurrentLevel();
+				if(globals.endOfGame)
+				{
+					globals.main. launchTitleScreen();
+				}else{
+					globals.main.getGame().beatCurrentLevel();
+				}
+			
 		}
 		
 		public function launch():void

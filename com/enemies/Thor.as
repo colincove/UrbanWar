@@ -116,6 +116,7 @@
 					if (interval>15)
 					{
 						if(globals.hero.getHaveAir()){
+							
 							shootPoint.x=globalFunctions.getMainX(animation.body);
 						shootPoint.y=globalFunctions.getMainY(animation.body);
 						animation.body.gotoAndPlay('shoot');
@@ -135,9 +136,10 @@
 				} else {
 					movementUpdate();
 					moveObj();
-					trace("CHECKING FOR FIRE",Math.abs(globalFunctions.getMainX(this)-globals.HUD.x));
 					if (Math.abs(globalFunctions.getMainX(this)-globals.HUD.x)<350)
 					{
+						shootPoint.x=globalFunctions.getMainX(animation);
+						shootPoint.y=globalFunctions.getMainY(animation);
 					attackMode=true;
 					emp.fire(arm.rotation,shootPoint, globals.heroContainer);
 					animation.gotoAndStop('Shooting');

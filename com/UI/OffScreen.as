@@ -31,72 +31,71 @@
 			globals.game_progThread.addProg(this);
 			progRun=true;
 		}
-		public function update():Object 
-		{
-			if(!globals.letPlayerLive){
-			xDist=CAM.x-globalFunctions.getMainX(globals.hero);
-			yDist=CAM.y-globalFunctions.getMainY(globals.hero);
-			xOut=0;
-			yOut=0;
-			if (xDist>globals.gameWidth/2+padding) {
-				xOut=-1;
-			}
-			if (xDist<globals.gameWidth/2*-1-padding) {
-				xOut=1;
-			}
-			if (yDist>globals.gameHeight/2+padding) {
-				yOut=-1;
-			}
-			if (yDist<globals.gameHeight/2*-1-padding) {
-				yOut=1;
-			}
-			if (xOut!=0||yOut!=0) {
-				visible=true;
-				var angle:Number=Math.atan2(yDist,xDist);
-				this.pointer.rotation=angle/(Math.PI/180);
-				var h:int=100;
-				//i change x and y dist for the use of the next conditonal. it is used differently each time. 
-				xDist=Math.cos(angle)*h;
-				yDist=Math.sin(angle)*h;
-				//(globals.gameHeight/globals.gameWidth) is because the stage is not a perffect square.
-				if (Math.abs(xDist)*(globals.gameHeight/globals.gameWidth)>Math.abs(yDist)) {
-					xDiff=(globals.gameWidth/2-margin)*xOut;
-					yDiff=Math.tan(angle)*xDiff;
+		public function update():Object {
+			if (! globals.letPlayerLive) {
+				xDist=CAM.x-globalFunctions.getMainX(globals.hero);
+				yDist=CAM.y-globalFunctions.getMainY(globals.hero);
+				xOut=0;
+				yOut=0;
+				if (xDist>globals.gameWidth/2+padding) {
+					xOut=-1;
+				}
+				if (xDist<globals.gameWidth/2*-1-padding) {
+					xOut=1;
+				}
+				if (yDist>globals.gameHeight/2+padding) {
+					yOut=-1;
+				}
+				if (yDist<globals.gameHeight/2*-1-padding) {
+					yOut=1;
+				}
+				if (xOut!=0||yOut!=0) {
+					visible=true;
+					var angle:Number=Math.atan2(yDist,xDist);
+					this.pointer.rotation=angle/(Math.PI/180);
+					var h:int=100;
+					//i change x and y dist for the use of the next conditonal. it is used differently each time. 
+					xDist=Math.cos(angle)*h;
+					yDist=Math.sin(angle)*h;
+					//(globals.gameHeight/globals.gameWidth) is because the stage is not a perffect square.
+					if (Math.abs(xDist)*(globals.gameHeight/globals.gameWidth)>Math.abs(yDist)) {
+						xDiff=(globals.gameWidth/2-margin)*xOut;
+						yDiff=Math.tan(angle)*xDiff;
+					} else {
+						yDiff=(globals.gameHeight/2-margin)*yOut;
+						xDiff=yDiff/Math.tan(angle);
+					}
+					interval++;
+					x=CAM.x+xDiff;
+					y=CAM.y+yDiff;
+					this.hero.scaleX=globals.hero.animation.scaleX*heroScale;
+					if (this.hero.currentFrame!=globals.hero.animation.currentFrame) {
+						this.hero.gotoAndStop(globals.hero.animation.currentFrame);
+					}
+					if (currentFrame==totalFrames) {
+						progRun=false;
+						globals.hero.die();
+						this.hero.gotoAndStop('die');
+					}
+					///this code claculates how far away from being back in the scren the hero is. 
+					xDist=x-globalFunctions.getMainX(globals.hero);
+					yDist=y-globalFunctions.getMainY(globals.hero);
+					dist=Math.sqrt(xDist*xDist+yDist*yDist)-margin-padding;
+					if (dist<outsidePadDist) {
+						var arrowScale:Number=dist/outsidePadDist;
+						this.pointer.arrowHead.scaleX=arrowScale;
+						this.pointer.arrowHead.scaleY=arrowScale;
+					} else {
+						this.pointer.arrowHead.scaleX=1;
+						this.pointer.arrowHead.scaleY=1;
+					}
+					//
+					gotoAndStop(Math.ceil(interval/outsideScreenTime*100));
 				} else {
-					yDiff=(globals.gameHeight/2-margin)*yOut;
-					xDiff=yDiff/Math.tan(angle);
+					interval=0;
+					visible=false;
 				}
-				interval++;
-				x=CAM.x+xDiff;
-				y=CAM.y+yDiff;
-				this.hero.scaleX=globals.hero.animation.scaleX*heroScale;
-				if (this.hero.currentFrame!=globals.hero.animation.currentFrame) {
-					this.hero.gotoAndStop(globals.hero.animation.currentFrame);
-				}
-				if (currentFrame==totalFrames) {
-					progRun=false;
-					globals.hero.die();
-					this.hero.gotoAndStop('die');
-				}
-				///this code claculates how far away from being back in the scren the hero is. 
-				xDist=x-globalFunctions.getMainX(globals.hero);
-				yDist=y-globalFunctions.getMainY(globals.hero);
-				dist=Math.sqrt(xDist*xDist+yDist*yDist)-margin-padding;
-				if (dist<outsidePadDist) {
-					var arrowScale:Number=dist/outsidePadDist;
-					this.pointer.arrowHead.scaleX=arrowScale;
-					this.pointer.arrowHead.scaleY=arrowScale;
-				} else {
-					this.pointer.arrowHead.scaleX=1;
-					this.pointer.arrowHead.scaleY=1;
-				}
-				//
-				gotoAndStop(Math.ceil(interval/outsideScreenTime*100));
 			} else {
-				interval=0;
-				visible=false;
-			}
-			}else{
 				visible=false;
 			}
 			return this;

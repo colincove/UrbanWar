@@ -79,6 +79,19 @@ import com.displayObjects.smallExplosion;
 			}else{
 				AccuracyStats.addMiss();
 			}
+			var dontDmg:Boolean=false;
+			if (isHeroWeapon) 
+			{
+				if (targetObj!=null)
+				{
+					if (targetObj==globals.hero) 
+					{
+						dontDmg=true;
+					}
+				}
+			}
+			if(!dontDmg)
+			{
 var Explosion:tmpDisplayObj;
 			if(targetObj==null)
 			{
@@ -89,6 +102,7 @@ var Explosion:tmpDisplayObj;
 			Explosion.scaleY = .75;
 			}
 			removeSelf();
+			}
 		}
 		public function removeSelf():void
 		{

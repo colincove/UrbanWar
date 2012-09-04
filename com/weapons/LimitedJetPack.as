@@ -32,6 +32,10 @@
 		}
 		public function update():Object
 		{
+			if(!active){
+				coolDownInterval=0;
+				current=total;
+			}
 		if(++coolDownInterval>20)
 			{
 				if(current>0)

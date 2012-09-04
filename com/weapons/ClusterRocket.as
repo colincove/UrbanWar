@@ -66,6 +66,19 @@
 					AccuracyStats.addMiss();
 				}
 			}
+			var dontDmg:Boolean=false;
+			if (isHeroWeapon) 
+			{
+				if (targetObj!=null)
+				{
+					if (targetObj==globals.hero) 
+					{
+						dontDmg=true;
+					}
+				}
+			}
+			if(!dontDmg)
+			{
 var Explosion:tmpDisplayObj;
 			if(targetObj==null)
 			{
@@ -74,6 +87,7 @@ var Explosion:tmpDisplayObj;
 				Explosion=new explosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
 			}			
 			removeSelf();
+			}
 		}
 		public function removeSelf():void
 		{

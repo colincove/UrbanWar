@@ -20,7 +20,8 @@
 			unlockedWeapons=responseObject.unlockedWeapons;
 			globals.main.getGame().gameVars.stageStart=levelsUnlocked+1;
 			globals.main.getGame().currentLevelID=levelsUnlocked+1;
-			globals.main.getGame().playLevelID=levelsUnlocked+1;
+						globals.levelProgress=globals.main.getGame().currentLevelID;
+globals.levelProgress=globals.main.getGame().currentLevelID;
 			active=true;
 			WeaponList.loadWeapons(unlockedWeapons);
 		}

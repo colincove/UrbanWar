@@ -90,8 +90,9 @@
 			}else{
 				gameStart.firstLevelPlay=false;
 			}
-			if(globals.endOfGame){
-				globals.main.playEndGameScene();
+			if(globals.endOfGame)
+			{
+				//globals.main.playEndGameScene();
 			}else{
 			
 			globals.main.launchWeaponMenu();
@@ -115,8 +116,11 @@
 			}
 			if (globals.levelProgress!==9&&replayingLevel!==true) 
 			{
-				globals.levelProgress++;
+				if(currentLevelID<9)
+				{
 				currentLevelID++;
+				}
+				globals.levelProgress=currentLevelID;
 			}
 			wonLevel=true;
 			endCurrentLevel();
@@ -179,6 +183,7 @@ globals.letPlayerLive=false;
 				fastFade=new FastFade();
 				globals.main.addChild(fastFade);
 			}
+			globals.activeObjectList.push(globals.hero.armCannon);
 		}
 		private function buildLevel():void 
 		{
@@ -188,11 +193,12 @@ globals.letPlayerLive=false;
 						 globals.key.toString = function() { return "levelKey" }
 						 
 			currentLevelObj=level(loadLevel("level"+playLevelID));
-		
-			currentLevelControl=new (loadClass("com.levels.level"+playLevelID+"Control"))(currentLevelObj);
-			globals.setLevel(currentLevelObj);
-			globals.setVars();
 			globals.main.addChild(currentLevelObj);
+		globals.setLevel(currentLevelObj);
+			currentLevelControl=new (loadClass("com.levels.level"+playLevelID+"Control"))(currentLevelObj);
+			
+			globals.setVars();
+			
 			
 		}
 		private function loadClass(objString:String):Class {

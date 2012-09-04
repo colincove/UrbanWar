@@ -19,7 +19,7 @@ private var hitHero:Boolean=false;
 			globals.game_progThread.addProg(this);
 			//selfReferance=this;
 			progRun=true;
-			trace("startWave");
+			
 			x=originPoint.x;
 			y=originPoint.y;
 		}
@@ -32,7 +32,6 @@ public function update():Object
 			}
 			if(currentFrame==totalFrames)
 			{
-				trace("REMOVE WAVE", totalFrames);
 				removeSelf();
 			}
 			return this;

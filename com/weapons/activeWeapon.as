@@ -83,6 +83,7 @@
 		{
 			if (attackList==globals.enemyList)
 			{
+				
 				attackList = globals.activeObjectList;
 			}
 			var tmpObj:activeObj = findDmgObj(xPos,yPos,attackList);
@@ -92,7 +93,7 @@
 				{
 					if (weaponControl.containsProjectile(this))
 					{
-						return null;
+						return globals.hero;
 					}
 				}
 				//if the target is the hero and this is a hero weapon, then dont do damage. 

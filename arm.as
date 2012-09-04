@@ -36,8 +36,10 @@
 		{
 			if(progRun)
 			{
-			barrelPoint.x=globalFunctions.getMainX(this);
-			barrelPoint.y=globalFunctions.getMainY(this);
+				var xComp:Number  = Math.cos(rotation*(Math.PI/180))*20;
+				var yComp:Number  = Math.sin(rotation*(Math.PI/180))*20;
+			barrelPoint.x=globalFunctions.getMainX(this)+xComp;
+			barrelPoint.y=globalFunctions.getMainY(this)+yComp;
 			x=15;
 			y=-50;
 			if (selectedWeapon!=null) {
