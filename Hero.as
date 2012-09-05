@@ -52,6 +52,7 @@ public static var disableHero:Boolean=false;
 			walking = false;
 			idle = false;
 			globals.setHero(this);
+			hideHealthBar=true;
 			radius = 10;
 			speedMax = 7;
 			empTimer = new Timer(10000);

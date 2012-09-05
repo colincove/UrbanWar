@@ -15,6 +15,8 @@
 	import flash.display.BitmapData;
 	import flash.display.MovieClip;
 	import flash.events.Event;
+	import com.displayObjects.smallExplosion;
+
 	public class SlowMissile extends Enemy implements Program, dieable {
 		public function SlowMissile(xd:int, yd:int):void {
 			super();
@@ -35,6 +37,8 @@
 			if(distance<50){
 				impact();
 				globals.hero.hit(x,y,20);
+				var Explosion:tmpDisplayObj;
+				Explosion=new explosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
 			}
 			checkScreen();
 			return this;
@@ -43,8 +47,14 @@
 			GlobalSounds.playSound('explosion1');
 			globalFunctions.explosive(this);
 			removeEnemy(false);
-			//checkObjDmg(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
-			var Explosion:tmpDisplayObj=new explosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			//var targetObj:Object=checkObjDmg(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			//var Explosion:tmpDisplayObj;
+			//if(targetObj==null)
+			//{
+				//Explosion=new smallExplosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			//}else{
+				//Explosion=new explosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			//}			
 			removeSelf();
 		}
 		public override function destroy():void

@@ -45,7 +45,7 @@
 			}
 			if(possibleList.length==0)
 			{
-							globalFunctions.spawnOrbs(20, globalFunctions.getMainX(this), globalFunctions.getMainY(this));
+							globalFunctions.spawnOrbs(20, globalFunctions.getMainX(this), globalFunctions.getMainY(this)+100);
 
 			}else{
 			var spawnedWeaponChance:int = int(Math.random() * possibleList.length);
@@ -53,10 +53,9 @@
 			if (spawnedItem!=null)
 			{
 				spawnedItem.x = x;
-				spawnedItem.y = y;
-				spawnedItem.yPos = y;
+				spawnedItem.y = y+100;
+				spawnedItem.yPos = y+100;
 				globals.neutralContainer.addChild(spawnedItem);
-				
 			}
 			for(var i:int=0;i<possibleList.length;i++)
 			{
@@ -68,7 +67,7 @@
 				}
 			}
 			}else{
-			globalFunctions.spawnOrbs(20, globalFunctions.getMainX(this), globalFunctions.getMainY(this));
+			globalFunctions.spawnOrbs(20, globalFunctions.getMainX(this), globalFunctions.getMainY(this)+100);
 			}
 			super.die();
 		}

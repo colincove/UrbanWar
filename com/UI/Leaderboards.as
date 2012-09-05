@@ -7,14 +7,16 @@
 	import flash.display.DisplayObjectContainer;
 	import com.database.User;
 
-	public class Leaderboards extends MovieClip {
+	public class Leaderboards extends MovieClip
+	{
 		private var currentPrompt:Prompt;
 		private var resultDisplay:ScoreResults;
 		private var levelView:int;
-		public function Leaderboards():void {
+		public function Leaderboards():void 
+		{
 			resultDisplay=new ScoreResults();
-			resultDisplay.x=225;
-			resultDisplay.y=145;
+			resultDisplay.x=19;
+			resultDisplay.y=254;
 			this.addChild(resultDisplay);
 			leaderboard1.addEventListener(MouseEvent.CLICK,getLeaderboardRecords);
 			leaderboard2.addEventListener(MouseEvent.CLICK,getLeaderboardRecords);
@@ -57,14 +59,30 @@
 				//currentPrompt.remove();
 			}
 		}
+		private function findTop10(e:MouseEvent):void{
+			//currentPrompt=InfoModal.createPrompt(DisplayObjectContainer(root),"Retrieving results...");
+			WebServices.getScore(resultDisplay,levelView,resultFound, onFail);
+			function resultFound():void 
+			{
+				//currentPrompt.remove();
+			}
+			function onFail():void 
+			{
+				//currentPrompt.remove();
+				currentPrompt=OkPrompt.createPrompt(DisplayObjectContainer(root),"An error occured. Results could not be found. Please Try again.");
+
+			}
+		}
 		public function launch():void{
 			if(User.active){
 				userContext.gotoAndStop(1);
 				userContext.findMeButton.addEventListener(MouseEvent.CLICK,findMe);
+				userContext.top10.addEventListener(MouseEvent.CLICK,findTop10);
 				userContext.userNameDisplay.text=User.name;
 			}else{
 				userContext.gotoAndStop(2);
 			}
+			
 		}
 	}
 }

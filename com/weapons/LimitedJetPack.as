@@ -8,10 +8,13 @@
 		private var total:Number;
 		private var current:Number=0;
 		private var coolDownInterval:int=0;
+		private var coolDownStart:int=0;
 				public var progRun:Boolean;//Program Run. True if running, false if not. 
 		public function LimitedJetPack(user:jetPackInterface, fuel:int=500):void {
 			super(user, fuel);
 			total=fuel;
+			coolDownStart=globals.gameVars.heroJetpack.restoreTime;
+			total=globals.gameVars.heroJetpack.capacity;
 			progRun=true;
 						globals.static_progThread.addProg(this);
 
@@ -36,7 +39,7 @@
 				coolDownInterval=0;
 				current=total;
 			}
-		if(++coolDownInterval>20)
+		if(++coolDownInterval>coolDownStart)
 			{
 				if(current>0)
 				{

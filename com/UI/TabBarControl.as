@@ -24,7 +24,7 @@
 			setActiveButton(btn2);
 
 		}
-		private function btn1Hit(e:MouseEvent=null):void {
+		private function btn1Hit(e:MouseEvent=null, silent:Boolean=false):void {
 
 			state=BTN1;
 				setActiveButton(btn2);
@@ -36,20 +36,21 @@
 
 
 		}
-		private function btn2Hit(e:MouseEvent=null):void 
+		private function btn2Hit(e:MouseEvent=null, silent:Boolean=false):void 
 		{
 			state=BTN2;
 				setActiveButton(btn1);
 		}
-		private function setState(state:String):void {
+		public function setState(state:String, silent:Boolean=false):void {
 			if (state==TabBarControl.BTN1) {
-				btn1Hit();
+				btn1Hit(null, silent);
 			}
 			if (state==TabBarControl.BTN2) {
-				btn2Hit();
+				btn2Hit(null, silent);
 			}
 		}
-		private function setActiveButton(newButton:MovieClip):void
+		
+		private function setActiveButton(newButton:MovieClip, silent:Boolean=false):void
 		{
 			
 			if (activeButton!=newButton) 
@@ -72,7 +73,9 @@
 				//activeButton.addEventListener(MouseEvent.ROLL_OVER, btnDown);
 				activeButton.buttonMode=true;
 				activeButton.gotoAndStop(1);
+				if(!silent){
 				this.dispatchEvent(new Event(state));
+				}
 				}
 			}
 

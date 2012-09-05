@@ -51,10 +51,12 @@ tabBarControl.addEventListener(TabBarControl.BTN2, loadoutClick);
 			numberOfPossibleWeapons = 0;
 			if(GameMenuPM.menuState==GameMenuPM.LOADOUT)
 			{
+				tabBarControl.setState(TabBarControl.BTN2, true);
 				playLevelButton.x=playLevelButtonX;
 				loadoutButton.visible=false;
 				//playLevelButton.visible=true;
 			}else{
+				tabBarControl.setState(TabBarControl.BTN1, true);
 				playLevelButton.x=10000;
 				//playLevelButton.visible=false;
 				loadoutButton.visible=true;

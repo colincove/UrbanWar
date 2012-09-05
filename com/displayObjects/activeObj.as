@@ -28,6 +28,7 @@
 		private var personSpawnNum:int;
 		private var personSpawnAmt:int;
 		protected var modifyHealthX:int;
+		protected var hideHealthBar:Boolean=false;
 		protected var modifyHealthY:int;
 		public function activeObj():void {
 			health=100;
@@ -84,7 +85,9 @@
 			if (health>0) {
 				health-=strength;
 				personSpawnNum+=strength;
+				if(!hideHealthBar){
 				healthBarObj.activateBar();
+				}
 				if (this is populated&&parent!=null&&personSpawnNum>personSpawnAmt)
 				{
 					/*for (var j:int =1; j<personSpawnNum/personSpawnAmt; j++)

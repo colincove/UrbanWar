@@ -52,6 +52,14 @@ progRun = true;
 			weaponKeys.visible=false;
 			}else{
 				weaponKeys.visible=true;
+				weaponKeys.E.visible=true;
+				if(WeaponList.loadOut.length==1)
+				{
+					weaponKeys.E.visible=false;
+				}
+				if(WeaponList.loadOut.length==2 && weaponSelect.weaponNum==2){
+					weaponKeys.E.visible=false;
+				}
 			}
 			weaponKeys.gotoAndStop(currentFrame);
 			

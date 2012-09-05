@@ -115,6 +115,15 @@
 	</level>
   </Game>
   <Fuel addFuel='300' fallSpeed='6'></Fuel>
+   <HeroJetpack>
+   <RestoreTime> 
+   20
+   </RestoreTime>
+      <Capacity>
+	    <!--each frame-->
+		300
+	  </Capacity>
+   </HeroJetpack>
     <Blimp health='100' speed='5'></Blimp>
 	<!--public static const MINI_GUN:String="0";
 		public static const MISSILE_LAUNCHER:String="1";

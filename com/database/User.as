@@ -4,7 +4,7 @@
 	public class User 
 	{
 		public static var name:String;
-		public static var uid:int;
+		public static var uid:int=-1;
 		public static var email:String;
 		public static var levelsUnlocked:int;
 		public static var unlockedWeapons:String;

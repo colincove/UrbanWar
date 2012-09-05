@@ -268,6 +268,8 @@
 					GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.HOVER_UPDATE,true,false));
 					}*/
 				}
+				if(
+				
 				//if(!weapon.purchased)
 				//{
 				GameMenuPM.selectedMoney = cost;
@@ -275,6 +277,7 @@
 				//};
 				if (GameMenuPM.menuState == GameMenuPM.ARMORY)
 				{
+					icon.alpha=.6;
 					//addButton.visible = true;
 				}
 			}
@@ -295,6 +298,9 @@
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.HOVER_UPDATE,true,false));
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.ROLL_OUT,true,false));
 			addButton.gotoAndStop(1);
+			if (! weapon.purchased){
+			icon.alpha=0.20;
+			}
 		}
 		//addButton.visible=false;
 
@@ -325,6 +331,7 @@
 					GameMenuPM.dispatcher.dispatchEvent(new PurchaseWeaponEvent(weapon, PurchaseWeaponEvent.PURCHASE_WEAPON));
 					GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE,true));
 					defineButton(addButtonButton);
+					addButton.visible=false;
 				}
 				else
 				{

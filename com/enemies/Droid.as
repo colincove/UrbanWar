@@ -122,7 +122,7 @@
 			{
 				WeaponInterface(weapon).stopFiring();
 			}
-			globalFunctions.makeDebry("enemyDebry",2,globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			globalFunctions.makeDebry("enemyDebry",2,globalFunctions.getMainX(this),globalFunctions.getMainY(this)-10);
 			if (parent!=null) {
 				parent.removeChild(this);
 			}

@@ -10,6 +10,8 @@
 	import flash.display.BitmapData;
 	import flash.display.MovieClip;
 	import flash.events.Event;
+	import com.displayObjects.smallExplosion;
+
 	public class Bomb extends projectile implements activeWeaponInterface,Program {
 		public function Bomb( originPoint:Point,primaryHitCheck:MovieClip,attackList:Array, radius:int=5, strength:int=20, reverse:int=1):void {
 			super(Angle,20,originPoint,primaryHitCheck);
@@ -27,9 +29,15 @@
 		}
 		public function impact():void {
 			globalFunctions.explosive(this);
-			checkObjDmg(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			var targetObj:Object=checkObjDmg(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
 			checkAreaDmg(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
-			var Explosion:tmpDisplayObj=new explosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			var Explosion:tmpDisplayObj;
+			if(targetObj==null)
+			{
+				Explosion=new smallExplosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			}else{
+				Explosion=new explosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+			}	
 			removeSelf();
 		}
 		public function isRunning():Boolean {

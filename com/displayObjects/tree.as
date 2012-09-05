@@ -7,7 +7,7 @@
 	{
 		public function tree():void 
 		{
-			this.numberOfDebry=3;
+			this.numberOfDebry=1;
 			dieSound="WoodCrashSmall";
 		}
 

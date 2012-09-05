@@ -54,7 +54,7 @@
 			playLevelID=currentLevelID;
 			replayingLevel=false;
 		}
-		public function endCurrentLevel():void 
+		public function endCurrentLevel(completeRemoval:Boolean=false):void 
 		{
 			globals.hero.destroy();
 			currentLevelControl.destroy();
@@ -87,16 +87,26 @@
 				//WeaponList.loadDefaultWeapons(gameVars);
 			gameStart.firstLevelPlay=true;
 				globals.skipWeaponMenu=true;
+				//globals.main.playGame();
 			}else{
 				gameStart.firstLevelPlay=false;
 			}
+			if(completeRemoval)
+			{
+				currentLevelID=gameVars.stageStart;
+			playLevelID=currentLevelID;
+				globals.HUD.destroy();
+				
+			}else{
+				
+			
 			if(globals.endOfGame)
 			{
 				//globals.main.playEndGameScene();
 			}else{
 			
 			globals.main.launchWeaponMenu();
-			}
+			}}
 			
 			System.gc();
 			System.gc();
@@ -156,19 +166,20 @@ globals.letPlayerLive=false;
 			globals.static_progThread.resumeProgram();
 			globals.game_progThread=new ProgThread();
 			gameVars.oldOrbs=gameVars.orbs;
-			if (camera==null) 
+			if (globals.HUD==null) 
 			{
 				camera = new HUD();
 				
 				globals.setCam(camera, 1);//must set before starting game.
-				if(gameStart.firstLevelPlay)
-				{
-					camera.initFade();
-				}
+				
 				var fps:FPS = new FPS();
 			} else {
 				camera.resetCAM();
 			}
+			if(gameStart.firstLevelPlay)
+				{
+					camera.initFade();
+				}
 			buildLevel();
 			var offScreen:OffScreen=new OffScreen(camera);
 			//we may have alreayd loaded weapons from the server, so dont do it here again. 
@@ -229,6 +240,10 @@ globals.letPlayerLive=false;
 				////////////////
 				////////////
 				globals.gradingScaleController = new GradingScaleController(myXML);
+				gameVars.heroJetpack = new Object();
+				gameVars.heroJetpack.restoreTime = myXML.HeroJetpack.RestoreTime;
+				gameVars.heroJetpack.capacity = myXML.HeroJetpack.Capacity;
+				trace("JetpackTest", gameVars.heroJetpack.restoreTime,gameVars.heroJetpack.capacity);
 				gameXML=myXML.Game;
 				for (i=0; i<gameXML.*.length(); i++) {
 					var tmpXMLList:XML=gameXML.*[i];

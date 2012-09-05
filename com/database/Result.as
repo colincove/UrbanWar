@@ -33,7 +33,7 @@ public function setData(result:Object):void{
 		}
 		public function set place(value:int):void {
 			_place=value;
-			placeDisplay.text=value.toString();
+			placeDisplay.text=(value+1).toString();
 		}
 		public function set loadOut(value:String):void {
 			_loadOut=value;
@@ -47,8 +47,7 @@ public function setData(result:Object):void{
 					frame=1;
 					
 				}else{
-					frame=Result.findFrame(enums[i]);
-					
+					frame=Result.findFrame(enums[i]+1);
 				}
 				switch(i)
 				{

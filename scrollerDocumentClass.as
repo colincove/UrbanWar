@@ -68,11 +68,17 @@ var endLevelScreen:EndLevelScreen;
 		}
 		public function launchWeaponMenu():void 
 		{
-			if(globals.skipWeaponMenu){
-				game.startLevel();
-			}else{
-				this.x=0;
+			this.x=0;
 			this.y=0;
+			if(globals.skipWeaponMenu)
+			{
+				//game.startLevel();
+				if(globals.HUD!=null){
+					globals.HUD.resetForLevel();
+				}
+				playGame();
+			}else{
+				
 			weaponUI.launch();
 			this.addChild(weaponUI);
 			}
@@ -117,6 +123,7 @@ var endLevelScreen:EndLevelScreen;
 			introAnimation.addEventListener(Event.ENTER_FRAME, listenForCompleteAnimation);
 			//game.startLevel();
 		}
+		
 		public function playEndGameScene():void{
 			skipButton = new SkipButton();
 			skipButton.x=17;

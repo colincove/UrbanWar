@@ -26,7 +26,8 @@ public static const ROLLING_COMPLETE:String="rollingComplete";
 		}
 		private function roll(e:TimerEvent):void
 		{
-			currentDisplay+=rollBy++;
+			currentDisplay+=rollBy;
+			rollBy=rollBy*2;
 			if(rollTo>currentDisplay)
 			{
 				setPointArray(currentDisplay);

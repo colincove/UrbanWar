@@ -4,6 +4,8 @@
 	import flash.events.MouseEvent;
 	import flash.display.DisplayObjectContainer;
 import com.globals;
+import com.database.User;
+
 	public class PausePrompt extends PromptBase
 	{
 private var callback:Function;
@@ -18,7 +20,23 @@ private var callback:Function;
 		}
 		private function onMainMenu(e:MouseEvent):void
 		{
-			remove();
+			var msg:String;
+			if(User.active){
+				msg="Are you sure? You will lose the progress you have made on this current stage.";
+			}else{
+						msg="Are you sure? You will lose all progress. Register and Login to have data saved during gameplay.";
+			}
+			ChoicePrompt.createPrompt(globals.main, yes, no, msg);
+			function yes():void
+			{
+				
+				globals.main.getGame().endCurrentLevel(true);
+			globals.main.launchTitleScreen();
+				remove();
+			}
+			function no():void{
+				remove();
+			}
 		}
 		private function onResume(e:MouseEvent):void
 		{
@@ -27,6 +45,7 @@ private var callback:Function;
 		private function onEndLevel(e:MouseEvent):void
 		{
 			remove();
+			//globals.main.playGame();
 			globals.main.getGame().endCurrentLevel();
 		}
 		public override function remove():void
