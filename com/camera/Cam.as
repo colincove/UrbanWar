@@ -10,6 +10,7 @@
 	import com.interfaces.Program;
 	import flash.events.TimerEvent;
 	import com.GameComponent;
+	import com.UI.ControlsPrompt;
 
 	public class Cam extends GameComponent implements Program
 	{
@@ -49,10 +50,18 @@
 			}
 			globals.HUD=null;
 		}
+		public function placeCam():void{
+			x = globalFunctions.getMainX(globals.hero);
+					y = globalFunctions.getMainY(globals.hero);
+					xPos = x;
+					yPos = y;
+					globals.main.y =  -  y + globals.gameHeight / 2;
+			globals.main.x =  -  x + globals.gameWidth / 2;
+		}
 		public function spawnCam(e:Event):void
 		{
 			x = globalFunctions.getMainX(globals.hero);
-			y = globalFunctions.getMainY(globals.hero);
+			y = (globalFunctions.getMainY(globals.hero)-globals.levelObj.y)/5;
 			xPos = x;
 			yPos = y;
 			stopHorizontal = false;
@@ -114,15 +123,24 @@
 
 						}
 					}
-					globals.hideUI = false;
-					stopHorizontal = false;
+				
+					progRun=false;
+					globals.hero.progRun=false;
 					whiteFade = null;
-					gameStart.firstLevelPlay = false;
-
-					x = globalFunctions.getMainX(globals.hero);
+					ControlsPrompt.createPrompt(globals.main, controlsLookedAt);
+					function controlsLookedAt():void
+					{
+						
+						globals.hideUI = false;
+					stopHorizontal = false;
+					globals.hero.progRun=true;
+						gameStart.firstLevelPlay = false;
+						progRun=true;
+						x = globalFunctions.getMainX(globals.hero);
 					y = globalFunctions.getMainY(globals.hero);
 					xPos = x;
 					yPos = y;
+					}
 				}
 				if (firstRunInterval==0)
 				{

@@ -39,16 +39,17 @@ public function setData(result:Object):void{
 			_loadOut=value;
 			loadOutDisplay.text=value;
 			var enums:Vector.<String> = WeaponsEnum.getEnum(value);
-			for(var i:int=0;i<3;i++)
-			{
-				var frame:int=1;
-				if(i>=enums.length)
-				{
-					frame=1;
+			wpn1.gotoAndStop(1);
 					
-				}else{
-					frame=Result.findFrame(enums[i]+1);
-				}
+					wpn2.gotoAndStop(1);
+					
+					wpn3.gotoAndStop(1);
+					trace(enums);
+					var frame:int=0;
+			for(var i:int=0;i<enums.length;i++)
+			{
+				frame=0;
+					frame=Result.findFrame(((int(enums[i]))+1).toString());
 				switch(i)
 				{
 					case 0:
@@ -63,16 +64,19 @@ public function setData(result:Object):void{
 				}
 			}
 		}
-		public function set score(value:String):void {
+		public function set score(value:String):void
+		{
 			_score=value;
 			scoreDisplay.text=value;
 		}
-		public function set date(value:String):void {
+		public function set date(value:String):void
+		{
 			_date=value;
 		}
-		public static function findFrame(enum:String):int{
-			
-				switch(enum){
+		public static function findFrame(enum:String):int
+		{
+				switch(enum)
+				{
 					case WeaponsEnum.MINI_GUN:
 					return 2;
 					case WeaponsEnum.MISSILE_LAUNCHER:
@@ -85,6 +89,14 @@ public function setData(result:Object):void{
 					return 5;
 					case WeaponsEnum.WAVE_CANNON:
 					return 6;
+					case WeaponsEnum.GAUSSE_CANNON:
+					return 7;
+					case "8":
+					return 7;
+					case "9":
+					return 7;
+					case "10":
+					return 7;
 					default:
 					return 1;
 				}

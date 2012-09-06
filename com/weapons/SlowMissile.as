@@ -43,18 +43,13 @@
 			checkScreen();
 			return this;
 		}
-		public function impact():void {
+		public function impact():void 
+		{
+			var Explosion:tmpDisplayObj=new explosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
 			GlobalSounds.playSound('explosion1');
 			globalFunctions.explosive(this);
 			removeEnemy(false);
-			//var targetObj:Object=checkObjDmg(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
-			//var Explosion:tmpDisplayObj;
-			//if(targetObj==null)
-			//{
-				//Explosion=new smallExplosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
-			//}else{
-				//Explosion=new explosion(globalFunctions.getMainX(this),globalFunctions.getMainY(this));
-			//}			
+				
 			removeSelf();
 		}
 		public override function destroy():void

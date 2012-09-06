@@ -268,7 +268,7 @@
 					GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.HOVER_UPDATE,true,false));
 					}*/
 				}
-				if(
+				
 				
 				//if(!weapon.purchased)
 				//{

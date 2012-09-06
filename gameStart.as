@@ -122,7 +122,7 @@
 				WebServices.updateUser();
 				
 				var prompt:Prompt=Prompt.createPrompt(globals.main,"Recording playthrough!");
-				WebServices.addPlaythrough(prompt.remove,globals.points, playLevelID,WeaponsEnum.composeWeaponStringFromArray(WeaponList.loadOut),replayingLevel,ScreenGrabber.currentGrab.bitmapData,prompt.remove);
+				WebServices.addPlaythrough(prompt.remove,globals.points-globals.memoryPadding, playLevelID,WeaponsEnum.composeWeaponStringFromArray(WeaponList.loadOut),replayingLevel,ScreenGrabber.currentGrab.bitmapData,prompt.remove);
 			}
 			if (globals.levelProgress!==9&&replayingLevel!==true) 
 			{
@@ -180,6 +180,7 @@ globals.letPlayerLive=false;
 				{
 					camera.initFade();
 				}
+				globals.score.resetScore();
 			buildLevel();
 			var offScreen:OffScreen=new OffScreen(camera);
 			//we may have alreayd loaded weapons from the server, so dont do it here again. 
@@ -194,7 +195,10 @@ globals.letPlayerLive=false;
 			if(gameStart.firstLevelPlay){
 				fastFade=new FastFade();
 				globals.main.addChild(fastFade);
+			}else{
+				globals.hero.doStartAnimation();
 			}
+			
 			//globals.activeObjectList.push(globals.hero.armCannon);
 		}
 		private function buildLevel():void 
@@ -243,7 +247,6 @@ globals.letPlayerLive=false;
 				gameVars.heroJetpack = new Object();
 				gameVars.heroJetpack.restoreTime = myXML.HeroJetpack.RestoreTime;
 				gameVars.heroJetpack.capacity = myXML.HeroJetpack.Capacity;
-				trace("JetpackTest", gameVars.heroJetpack.restoreTime,gameVars.heroJetpack.capacity);
 				gameXML=myXML.Game;
 				for (i=0; i<gameXML.*.length(); i++) {
 					var tmpXMLList:XML=gameXML.*[i];

@@ -15,6 +15,7 @@
 	import sekati.crypt.RC4;
 	import sekati.crypt.RC4;
 	import com.adobe.crypto.MD5;
+	import com.globals;
 
 	public class WebServices {
 		public static const PING:String="ping";

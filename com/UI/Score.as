@@ -11,7 +11,7 @@
 		public function Score():void  
 		{
 			super(0);
-			score=0;
+			score=globals.memoryPadding;
 			scaleX=1.5;
 			scaleY=1.5;
 			globals.setScoreUI(this);
@@ -19,12 +19,20 @@
 			progRun=true;
 			this.Bar.width=Math.abs(digitList.length*digitSpace)+1;
 		}
+		public function resetScore():void
+		{
+			trace("1RESET SCORE", score);
+			score=globals.memoryPadding;
+			addPoints(0);
+			trace("2RESET SCORE", score);
+		}
 		public function addPoints(points:int, major:Boolean=false):void
 		{
+			trace("addTo SCORE", score);
 			score+=points;
 			Score.staticScore=score;
 			globals.points=score;
-			pointList=makeArray(score, new Array());
+			pointList=makeArray(score-globals.memoryPadding, new Array());
 			makeNumbers();
 			setNumbers();
 			if(major)

@@ -86,7 +86,7 @@
 			{
 				continueTimer.addEventListener(TimerEvent.TIMER, continueToMenu);
 				continueTimer.start();
-				msg.text = globals.gradingScaleController.getStatement(globals.score.score,globals.main.getGame().playLevelID);
+				msg.text = globals.gradingScaleController.getStatement(globals.score.score-globals.memoryPadding,globals.main.getGame().playLevelID);
 				play();
 			}
 			if (rollingCompleted==1)

@@ -21,6 +21,8 @@ import com.levels.LevelEnd;
 	public class globals
 	
 	{
+		//value used to pad values wuch as gears and score to stop memory based hacks. 
+		public static var memoryPadding:int=500;
 		public static var darkLevel:Boolean;
 		public static var endOfGame:Boolean;
 		public static var hideUI:Boolean=false;

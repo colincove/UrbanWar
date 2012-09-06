@@ -43,7 +43,6 @@ this.controlsButton.addEventListener(MouseEvent.CLICK, controlsClick);
 				userContext.gotoAndStop(2);
 				this.userContext.loginButton.addEventListener(MouseEvent.CLICK, login);
 			}
-			trace("Launching Title Screen ",globals.levelProgress);
 			if(globals.levelProgress==9){
 				gotoAndStop(2);
 			}

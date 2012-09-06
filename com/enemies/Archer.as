@@ -28,6 +28,7 @@
 
 		private var attackMode:Boolean;
 		private var jetpack:jetPack;
+		private var hasBeenOnScreen:Boolean=false;
 		public function Archer():void {
 			super("Archer");
 			shootPoint=new Point  ;
@@ -81,8 +82,9 @@
 		public function unpauseSelf():void {
 		}
 		public function update():Object {
-			checkScreen();
-			if (onScreen) {
+			
+			
+			if (hasBeenOnScreen) {
 				moveObj();
 				if (xSpeed>speedMax) {
 					xSpeed/=1.05;
@@ -111,6 +113,9 @@
 					}
 				}
 				movementUpdate();
+				checkScreen();
+				if(onScreen)
+				{
 				if (interval==75) {
 					xSpeed+=20;
 					artwork.animation.gotoAndPlay('shoot');
@@ -119,7 +124,12 @@
 					fire();
 					interval=0;
 
-
+				}
+				}
+			}else{
+				checkScreen();
+				if(this.onScreen){
+					hasBeenOnScreen=true;
 				}
 			}
 			return this;

@@ -62,6 +62,18 @@ public static var disableHero:Boolean=false;
 			keyStrokes = new Controls(this);
 			addEventListener(Event.ADDED_TO_STAGE, loadSelf, false, 0, true);
 		}
+		public function spawnLandingDebry():void
+		{
+							globalFunctions.makeDebry("houseDebry",6,globalFunctions.getMainX(this),globalFunctions.getMainY(this)-20);
+
+		}
+		public function landAnimationComplete():void
+		{
+Hero.disableHero=false;
+globals.HUD.progRun=true;
+progRun=true;
+animation.gotoAndStop("idle");
+		}
 		public function addShield(shield:Shield):void
 		{
 			if(this.shield!=null)
@@ -98,6 +110,14 @@ public static var disableHero:Boolean=false;
 				//GlobalSounds.playSound('ShieldHit'.concat((String)((int)(Math.ceil(Math.random()*2)))));
 				shield.hit(xPos, yPos, strength);
 			}
+		}
+		public function doStartAnimation():void
+		{
+			Hero.disableHero=true;
+			globals.HUD.placeCam();
+			progRun=false;
+			globals.HUD.progRun=false;
+			animation.gotoAndStop("startLevelLand");
 		}
 public override function destroy():void
 {
@@ -161,6 +181,7 @@ public override function destroy():void
 					backFlame.visible = false;
 					bottemFlame.visible = false;
 			visible =true;
+			
 		}
 		//removeEventListener(Event.ADDED_TO_STAGE, loadSelf, false);
 
@@ -355,6 +376,7 @@ shield=null;
 		}
 		public function upPress():void
 		{
+			if(!Hero.disableHero){
 			if (! haveAir)
 			{
 				idle = false;
@@ -375,7 +397,7 @@ shield=null;
 					}
 				}
 				}
-			}
+			}}
 		}
 		public function downPress():void
 		{
