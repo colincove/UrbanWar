@@ -117,6 +117,7 @@
 				pointsDisplay.rollNumberTo(globals.score.score);
 			}
 		}
+		
 		private function continueToMenu(e:TimerEvent):void
 		{
 			continueTimer.removeEventListener(TimerEvent.TIMER, continueToMenu);
@@ -125,7 +126,18 @@
 			globals.hideUI = false;
 			if (globals.endOfGame)
 			{
-				globals.main.launchTitleScreen();
+				if(User.active)
+				{
+					globals.main.launchTitleScreen();
+				}else{
+					ChoicePrompt.createPrompt(globals.main,proceedToLogin,globals.main.launchTitleScreen,"Congradulations! You have completed the game! If you would like to have tour scores recorded in the leaderboards, register or login by pressing OK!");
+					function proceedToLogin():void
+					{
+						globals.loginAfterCompletion=true;
+						globals.main.launchLoginScreen();
+					}
+				}
+				
 			}
 			else
 			{

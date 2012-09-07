@@ -53,14 +53,15 @@ tabBarControl.addEventListener(TabBarControl.BTN2, loadoutClick);
 			{
 				tabBarControl.setState(TabBarControl.BTN2, true);
 				playLevelButton.x=playLevelButtonX;
-				loadoutButton.visible=false;
+				
 				//playLevelButton.visible=true;
 			}else{
 				tabBarControl.setState(TabBarControl.BTN1, true);
 				playLevelButton.x=10000;
 				//playLevelButton.visible=false;
-				loadoutButton.visible=true;
+				
 			}
+			
 			if (currentLabel=="choose" && GameMenuPM.menuState==GameMenuPM.LOADOUT)
 			{
 				gotoAndStop("select");
@@ -89,16 +90,24 @@ shineAnimation.visible=false;
 				GameMenuPM.numberOfPossibleWeapons=numberOfPossibleWeapons;
 				if (GameMenuPM.loadOut.length == numberOfPossibleWeapons && currentLabel == "select")
 				{
-					shineAnimation.visible=true;
+					
 					GameMenuPM.loadoutSelected=true;
 					//this.gotoAndStop("select");
 				}
 				else
 				{
-					shineAnimation.visible=false;
+					
 					GameMenuPM.loadoutSelected=false;
 					//this.gotoAndStop("choose");
 				}
+			}
+			if(GameMenuPM.loadoutSelected)
+			{
+				shineAnimation.visible=true;
+				loadoutButton.visible=false;
+			}else{
+				loadoutButton.visible=true;
+				shineAnimation.visible=false;
 			}
 			/*if(GameMenuPM.weaponList.length==GameMenuPM.loadOut.length)
 			{

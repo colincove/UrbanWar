@@ -44,7 +44,6 @@ public function setData(result:Object):void{
 					wpn2.gotoAndStop(1);
 					
 					wpn3.gotoAndStop(1);
-					trace(enums);
 					var frame:int=0;
 			for(var i:int=0;i<enums.length;i++)
 			{
@@ -66,12 +65,22 @@ public function setData(result:Object):void{
 		}
 		public function set score(value:String):void
 		{
+			if(value!=null){
 			_score=value;
 			scoreDisplay.text=value;
+			}
 		}
 		public function set date(value:String):void
 		{
 			_date=value;
+		}
+		public function resetDisplay():void{
+			nameDisplay.text="";
+			placeDisplay.text="";
+			scoreDisplay.text="";
+			wpn1.gotoAndStop(1);
+			wpn2.gotoAndStop(1);
+			wpn3.gotoAndStop(1);
 		}
 		public static function findFrame(enum:String):int
 		{

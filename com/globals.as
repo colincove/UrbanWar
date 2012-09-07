@@ -16,6 +16,7 @@ import com.levels.LevelEnd;
 	import com.weapons.activeWeapon;
 	import flash.utils.Dictionary;
 	import com.controllers.GradingScaleController;
+	import com.database.PlaythroughMemory;
 
 
 	public class globals
@@ -23,6 +24,8 @@ import com.levels.LevelEnd;
 	{
 		//value used to pad values wuch as gears and score to stop memory based hacks. 
 		public static var memoryPadding:int=500;
+		public static var loginAfterCompletion:Boolean=false;
+		public static var playthroughMemory:PlaythroughMemory = new PlaythroughMemory();
 		public static var darkLevel:Boolean;
 		public static var endOfGame:Boolean;
 		public static var hideUI:Boolean=false;

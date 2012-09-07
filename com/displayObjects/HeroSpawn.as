@@ -15,6 +15,7 @@
 		}
 private function addedToStage(e:Event):void
 {
+
 		globals.hero.x=x;
 	globals.hero.y=y;
 	parent.addChild(globals.hero);

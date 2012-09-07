@@ -21,14 +21,11 @@
 		}
 		public function resetScore():void
 		{
-			trace("1RESET SCORE", score);
 			score=globals.memoryPadding;
 			addPoints(0);
-			trace("2RESET SCORE", score);
 		}
 		public function addPoints(points:int, major:Boolean=false):void
 		{
-			trace("addTo SCORE", score);
 			score+=points;
 			Score.staticScore=score;
 			globals.points=score;

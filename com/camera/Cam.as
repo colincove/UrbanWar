@@ -52,7 +52,7 @@
 		}
 		public function placeCam():void{
 			x = globalFunctions.getMainX(globals.hero);
-					y = globalFunctions.getMainY(globals.hero);
+					y = (globalFunctions.getMainY(globals.hero)-globals.levelObj.y)/5;
 					xPos = x;
 					yPos = y;
 					globals.main.y =  -  y + globals.gameHeight / 2;

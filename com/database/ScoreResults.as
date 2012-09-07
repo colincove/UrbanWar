@@ -13,8 +13,12 @@
 		}
 		public function createResults(results:Object):void {
 			var i:int;
+			
 			if (resultsVector) {
-				
+				for (i=0; i<resultsVector.length; i++)
+				{
+					resultsVector[i].resetDisplay();
+				}
 				for (i=0; i<(results.length>10 ? 10:results.length); i++) {
 					resultsVector[i].setData(results[i]);
 				}

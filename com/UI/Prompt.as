@@ -13,13 +13,13 @@
 		public function Prompt(parent:DisplayObjectContainer, msg:String=""):void 
 		{
 			super(parent);
-			//msgText=  new TextField();
-			//msgText.width=290;
-			//msgText.height=200;
-			//msgText.y=170;
-			//msgText.x=this.width/2-msgText.width/2;
-			//msgText.text=msg;
-			//this.addChild(msgText);
+			msgText=  new TextField();
+			msgText.width=290;
+			msgText.height=200;
+			msgText.y=170;
+			msgText.x=this.width/2-msgText.width/2;
+			msgText.text=msg;
+			this.addChild(msgText);
 		}
 		public static function createPrompt(parent:DisplayObjectContainer, msg:String):Prompt {
 			var prompt:Prompt=new Prompt(parent,msg);

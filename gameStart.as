@@ -123,6 +123,8 @@
 				
 				var prompt:Prompt=Prompt.createPrompt(globals.main,"Recording playthrough!");
 				WebServices.addPlaythrough(prompt.remove,globals.points-globals.memoryPadding, playLevelID,WeaponsEnum.composeWeaponStringFromArray(WeaponList.loadOut),replayingLevel,ScreenGrabber.currentGrab.bitmapData,prompt.remove);
+			}else{
+				globals.playthroughMemory.addPlaythrough(globals.points,playLevelID, WeaponsEnum.composeWeaponStringFromArray(WeaponList.loadOut),replayingLevel,ScreenGrabber.currentGrab.bitmapData.clone());
 			}
 			if (globals.levelProgress!==9&&replayingLevel!==true) 
 			{

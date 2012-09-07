@@ -12,6 +12,10 @@
 			super(parent, msg);
 			this.callback=callback;
 			okButton.addEventListener(MouseEvent.CLICK,onClick);
+			if(msg!=null)
+			{
+			this.msgText2.text=msg;
+			}
 		}
 		public static function  createPrompt(parent:DisplayObjectContainer, msg:String, callback:Function=null):Prompt
 		{

@@ -131,13 +131,12 @@ var endLevelScreen:EndLevelScreen;
 			globals.endOfGame=true;
 				globals.letPlayerLive=true;
 			outroAnimation = new ClosingCinematic();
-			skipButton.addEventListener(MouseEvent.CLICK, skipScene);
+			skipButton.addEventListener(MouseEvent.CLICK, skipEndScene);
 			//introAnimation = new ClosingCinematic();
 			this.addChild(outroAnimation);
 			addChild(skipButton);
 			outroAnimation.addEventListener(Event.ENTER_FRAME, listenForCompleteEndAnimation);
 			//game.startLevel();
-			
 		}
 		private function skipScene(e:MouseEvent):void
 		{
@@ -145,8 +144,9 @@ var endLevelScreen:EndLevelScreen;
 		}
 		private function skipEndScene(e:MouseEvent):void
 		{
-			introAnimation.gotoAndPlay(559);
+			outroAnimation.gotoAndPlay(1299);
 		}
+		
 		private function listenForCompleteEndAnimation(e:Event):void
 		{
 			if(outroAnimation.currentFrame==530)
@@ -158,12 +158,13 @@ var endLevelScreen:EndLevelScreen;
 			
 					globals.main.getGame().beatCurrentLevel();
 			}
-			if(outroAnimation.currentFrame==1000)
+			if(outroAnimation.currentFrame==1300)
 			{
 				skipButton.removeEventListener(MouseEvent.CLICK, skipScene);
 							removeChild(skipButton);
 skipButton=null;
 			}
+			
 			if(outroAnimation.currentFrame==1525)
 			{
 				globals.main.launchEndLevelScreen();
@@ -215,9 +216,13 @@ skipButton=null;
 			this.addChild(leaderboards);
 		}
 		public function launchLoginScreen():void
-		{
-			validateMenuBackground();
+		{			
+		validateMenuBackground();
+			this.x=0;
+			this.y=0;
 			addChild(loginScreen);
+loginScreen.launch();
+			
 		}
 		public function getWeaponMenu():MovieClip
 		{

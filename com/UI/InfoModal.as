@@ -8,6 +8,7 @@
 		public function InfoModal(parent:DisplayObjectContainer,msg:String):void
 		{
 		super(parent, msg);
+		msgText2.text=msg;
 		}
 		public static function  createPrompt(parent:DisplayObjectContainer, msg:String):Prompt
 		{
