@@ -1,14 +1,18 @@
 ﻿package com.UI
 {
 	import com.UI.PromptBase;
+	
 	import flash.events.MouseEvent;
+	import flash.events.Event;
 	import flash.display.DisplayObjectContainer;
 import com.globals;
 import com.database.User;
 
+import flash.display.StageQuality;
 	public class PausePrompt extends PromptBase
 	{
 private var callback:Function;
+private var tabBarControl:TabBarControl;
 		public function PausePrompt(parent:DisplayObjectContainer, callback:Function=null)
 		{
 			// constructor code
@@ -17,6 +21,21 @@ private var callback:Function;
 			resumeGame.addEventListener(MouseEvent.CLICK, onResume);
 			mainMenu.addEventListener(MouseEvent.CLICK, onMainMenu);
 			endLevel.addEventListener(MouseEvent.CLICK, onEndLevel);
+			tabBarControl  = new TabBarControl(qualityTabBar.btn1, qualityTabBar.btn2, qualityTabBar);
+tabBarControl.addEventListener(TabBarControl.BTN1, highClick);
+tabBarControl.addEventListener(TabBarControl.BTN2, lowClick);
+if(globals.main.stage.quality==StageQuality.HIGH)
+{
+	tabBarControl.setState(TabBarControl.BTN1);
+}else{
+	tabBarControl.setState(TabBarControl.BTN2);
+}
+		}
+		public function highClick(e:Event):void{
+			globals.main.stage.quality=StageQuality.HIGH;
+		}
+		public function lowClick(e:Event):void{
+			globals.main.stage.quality=StageQuality.LOW;
 		}
 		private function onMainMenu(e:MouseEvent):void
 		{
@@ -63,6 +82,18 @@ private var callback:Function;
 		{
 			var prompt:PausePrompt = new PausePrompt(parent, callback);
 			return prompt;
+		}
+		public override function destroy():void
+		{
+			super.destroy();
+			tabBarControl.destroy();
+			resumeGame.removeEventListener(MouseEvent.CLICK, onResume);
+			mainMenu.removeEventListener(MouseEvent.CLICK, onMainMenu);
+			endLevel.removeEventListener(MouseEvent.CLICK, onEndLevel);
+			tabBarControl.removeEventListener(TabBarControl.BTN1, highClick);
+tabBarControl.removeEventListener(TabBarControl.BTN2, lowClick);
+			tabBarControl=null;
+			callback=null;
 		}
 	}
 

@@ -39,7 +39,7 @@
 		}
 		private function buy(e:MouseEvent):void 
 		{
-			if(netCost<=globals.main.getGame().gameVars.orbs){
+			if(netCost<=globals.main.getGame().gameVars.orbs-globals.memoryPadding){
 			globals.main.getGame().gameVars.orbs-=netCost;
 			weapon.currentUpgrade=designation;
 			weapon.wpnVars.upgrade=designation;

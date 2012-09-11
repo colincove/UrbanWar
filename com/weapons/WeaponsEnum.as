@@ -70,13 +70,16 @@
 			}
 			return "";
 		}
+		//given our standard loadout string data, will return array filed with enums used. 
+		//eg. 0-0-1|1-0-1|2-0-1
 		public static function getEnum(enumGroup:String):Vector.<String > 
 		{
-			var result:Vector.<String >  = new Vector.<String >   ;
-			for (var i:int=0; i<enumGroup.length; i++)
+			var result:Vector.<String >  = new Vector.<String >;
+			var splitArray:Array = enumGroup.split("|");
+			for (var i:int=0; i<splitArray.length; i++)
 			{
 				//will need more login in the future to account for 1a, 2a, , 4b
-				result.push(String(enumGroup.charAt(i)));
+				result.push(String(splitArray[i].charAt(0)));
 			}
 			return result;
 		}

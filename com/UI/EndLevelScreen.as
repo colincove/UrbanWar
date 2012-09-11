@@ -10,6 +10,7 @@
 	import com.database.User;
 	import flash.display.DisplayObjectContainer;
 	import com.displayObjects.Numbers;
+	import com.database.PlaythroughData;
 	import com.weapons.AccuracyStats;
 	import flash.text.TextField;
 	import com.displayObjects.RollingNumber;
@@ -32,12 +33,27 @@
 		private var rollingCompleted:int = 0;
 		private var continueTimer:Timer;
 		private var startCountingTimer:Timer;
-		public function EndLevelScreen():void
+		private var endOfLevel:Boolean;
+		private var playthroughData:PlaythroughData;
+		//if endOfLevel is false, then there will be a cancel button that closes the prompt as opposed to a timer that makes it go to the main weapon menu whendone. 
+		public function EndLevelScreen(endOfLevel:Boolean=true,playthroughData:PlaythroughData=null):void
 		{
-
 			super(globals.main,40,true);
+			this.endOfLevel = endOfLevel;
+			if(endOfLevel)
+			{
+				closeButton.visible=false;
+			}else{
+				this.playthroughData=playthroughData;
+				
+				closeButton.addEventListener(MouseEvent.CLICK,closeWindow);
+			}
 			continueTimer = new Timer(7000);
+			if(endOfLevel){
 			startCountingTimer = new Timer(2000);
+			}else{
+				startCountingTimer = new Timer(500);
+			}
 			resultDisplay = new ScoreResults();
 			if (parent)
 			{
@@ -60,6 +76,8 @@
 
 			okButton.addEventListener(MouseEvent.CLICK,continueGame);
 		}
+		private function fetchImgData():void{
+		}
 		public override function destroy():void
 		{
 			super.destroy();
@@ -67,27 +85,36 @@
 			accuracyDisplay.removeEventListener(RollingNumber.ROLLING_COMPLETE,rollingComplete);
 			pointsDisplay.removeEventListener(RollingNumber.ROLLING_COMPLETE,rollingComplete);
 			gearsDisplay.removeEventListener(RollingNumber.ROLLING_COMPLETE,rollingComplete);
+			closeButton.removeEventListener(MouseEvent.CLICK,closeWindow);
 			currentPrompt = null;
 			resultDisplay = null;
 			enemiesKilledDisplay = null;
 			accuracyDisplay = null;
 			pointsDisplay = null;
 			gearsDisplay = null;
-
+screenGrab.destroy();
 			levelGrade = null;
 			continueTimer = null;
 			startCountingTimer = null;
 		}
 
-
+private function closeWindow(e:MouseEvent):void
+{
+	destroy();
+}
 		private function rollingComplete(e:Event):void
 		{
 			if (++rollingCompleted > 4)
 			{
+				if(endOfLevel)
+				{
 				continueTimer.addEventListener(TimerEvent.TIMER, continueToMenu);
 				continueTimer.start();
-				msg.text = globals.gradingScaleController.getStatement(globals.score.score-globals.memoryPadding,globals.main.getGame().playLevelID);
-				play();
+								msg.text = globals.gradingScaleController.getStatement(globals.score.score-globals.memoryPadding,globals.main.getGame().playLevelID);
+play();
+				}else{
+				}
+				
 			}
 			if (rollingCompleted==1)
 			{
@@ -114,7 +141,13 @@
 			{
 				totalScoreText.visible = true;
 				numberDisplayContainer4.visible = true;
-				pointsDisplay.rollNumberTo(globals.score.score);
+				if(endOfLevel){
+					pointsDisplay.rollNumberTo(globals.score.score);
+				}else{
+					
+					pointsDisplay.rollNumberTo(playthroughData.score);
+				}
+				
 			}
 		}
 		
@@ -167,7 +200,10 @@ destroy();
 			//enemiesKilledDisplay.rollNumberTo(globals.enemiesKilled);
 			//accuracyDisplay.rollNumberTo(int(AccuracyStats.pct));
 			//pointsDisplay.rollNumberTo(globals.score.score);
+			if(endOfLevel)
+			{
 			levelGrade.text = globals.gradingScaleController.getStatement(globals.score.score,globals.main.getGame().playLevelID);
+			}
 			if (parent==null)
 			{
 				globals.main.addChild(this);
@@ -187,7 +223,12 @@ destroy();
 			fadeIn();
 			interval = 0;
 			visible = true;
-			screenGrab.manualUpdate();
+			if(endOfLevel){
+				screenGrab.manualUpdate();
+			}else{
+				screenGrab.fetchImgData(playthroughData.photoId);
+			}
+			
 			//currentPrompt = InfoModal.createPrompt(DisplayObjectContainer(root),"Retrieving results...");
 			if (User.active)
 			{

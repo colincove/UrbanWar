@@ -43,6 +43,7 @@
 			attackMode=false;
 			Speed=-2;
 			xSpeed=0;
+			additionalHitBox=200;
 			right=true;
 			globals.game_progThread.addProg(this);
 			progRun=true;

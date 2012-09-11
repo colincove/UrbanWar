@@ -25,9 +25,12 @@
 			updateLevelStandingTimer=new Timer(500);
 			updateLevelStandingTimer.addEventListener(TimerEvent.TIMER,updateLevelStanding);
 		}
-		public function launch():void {
+		public function launch():void 
+		{
 			GameMenuPM.launching=true;
 			GameMenuPM.reset();
+			trace("GameMenu launch");
+			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.LAUNCH));
 			gotoAndStop(40);
 
 			GameMenuPM.update();
@@ -35,8 +38,9 @@
 			if (User.active) {
 				WebServices.getUserScore(resultDisplay,globals.main.getGame().playLevelID,function (){},User.uid);
 			} else {
+				WebServices.getScore(resultDisplay,globals.main.getGame().playLevelID,function (){});
 			}
-			WebServices.getScore(resultDisplay,globals.main.getGame().playLevelID,function (){});
+			
 
 			if (globals.main.getGame().wonLevel) {
 				updateLevelStandingTimer.start();

@@ -324,7 +324,7 @@
 			if (! weapon.purchased)
 			{
 
-				if (GameMenuPM.money >= weapon.wpnUpVars.cost && GameMenuPM.menuState == GameMenuPM.ARMORY)
+				if (GameMenuPM.money-globals.memoryPadding >= weapon.wpnUpVars.cost && GameMenuPM.menuState == GameMenuPM.ARMORY)
 				{
 					weapon.purchased = true;
 					GameMenuPM.money -=  weapon.wpnUpVars.cost;

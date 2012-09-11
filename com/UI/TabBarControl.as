@@ -3,10 +3,11 @@
 	import flash.events.MouseEvent;
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
-	public class TabBarControl extends EventDispatcher {
+	import com.GameComponent;
+	public class TabBarControl extends GameComponent {
 		public static const BTN1:String="btn1";
 		public static const BTN2:String="btn2";
-		
+
 		private var btn1:MovieClip;
 		private var btn2:MovieClip;
 		private var container:MovieClip;
@@ -27,19 +28,18 @@
 		private function btn1Hit(e:MouseEvent=null, silent:Boolean=false):void {
 
 			state=BTN1;
-				setActiveButton(btn2);
+			trace(state);
+			setActiveButton(btn2);
 
 		}
-		private function btnHit(e:MouseEvent=null):void
-		{
-			
+		private function btnHit(e:MouseEvent=null):void {
+
 
 
 		}
-		private function btn2Hit(e:MouseEvent=null, silent:Boolean=false):void 
-		{
+		private function btn2Hit(e:MouseEvent=null, silent:Boolean=false):void {
 			state=BTN2;
-				setActiveButton(btn1);
+			setActiveButton(btn1);
 		}
 		public function setState(state:String, silent:Boolean=false):void {
 			if (state==TabBarControl.BTN1) {
@@ -49,48 +49,66 @@
 				btn2Hit(null, silent);
 			}
 		}
-		
-		private function setActiveButton(newButton:MovieClip, silent:Boolean=false):void
-		{
-			
-			if (activeButton!=newButton) 
-			{
 
-				if (activeButton==null)
-				{
+		private function setActiveButton(newButton:MovieClip, silent:Boolean=false):void {
+			
+			trace(0);
+			if (activeButton==null)
+			{
+				trace(0.5);
 					activeButton=btn1;
 				}
-				if(activeButton!=null){
+				trace(0.55, newButton, activeButton);
+				trace(1, newButton.name, activeButton.name);
+				trace(2);
+				
+			if (activeButton!=newButton || silent==true)
+			{
+trace(3);
+				
+				if (activeButton!=null)
+				{
+					trace(4);
 					//activeButton.removeEventListener(MouseEvent.MOUSE_DOWN,btn1Hit);
-				activeButton.removeEventListener(MouseEvent.ROLL_OUT, btnRollOut);
-				activeButton.removeEventListener(MouseEvent.ROLL_OVER, btnRollOver);
-				//activeButton.removeEventListener(MouseEvent.ROLL_OVER, btnDown);
-				activeButton.buttonMode=false;
-				activeButton.gotoAndStop(3);
-				activeButton=newButton;
-				activeButton.addEventListener(MouseEvent.ROLL_OUT, btnRollOut);
-				activeButton.addEventListener(MouseEvent.ROLL_OVER, btnRollOver);
-				//activeButton.addEventListener(MouseEvent.ROLL_OVER, btnDown);
-				activeButton.buttonMode=true;
-				activeButton.gotoAndStop(1);
-				if(!silent){
-				this.dispatchEvent(new Event(state));
-				}
+					activeButton.removeEventListener(MouseEvent.ROLL_OUT, btnRollOut);
+					activeButton.removeEventListener(MouseEvent.ROLL_OVER, btnRollOver);
+					//activeButton.removeEventListener(MouseEvent.ROLL_OVER, btnDown);
+					activeButton.buttonMode=false;
+					activeButton.gotoAndStop(3);
+					activeButton=newButton;
+					activeButton.addEventListener(MouseEvent.ROLL_OUT, btnRollOut);
+					activeButton.addEventListener(MouseEvent.ROLL_OVER, btnRollOver);
+					//activeButton.addEventListener(MouseEvent.ROLL_OVER, btnDown);
+					activeButton.buttonMode=true;
+					activeButton.gotoAndStop(1);
+					trace(5);
+					if (! silent) {
+						this.dispatchEvent(new Event(state));
+					}
 				}
 			}
 
 		}
-		private function btnRollOut(e:MouseEvent=null):void 
-		{
+		private function btnRollOut(e:MouseEvent=null):void {
 			activeButton.gotoAndStop(1);
 		}
-		private function btnRollOver(e:MouseEvent=null):void
-		{
+		private function btnRollOver(e:MouseEvent=null):void {
 			activeButton.gotoAndStop(2);
 		}
-		private function btnDown(e:MouseEvent=null):void
-		{
-			
+		private function btnDown(e:MouseEvent=null):void {
+
+		}
+		public override function destroy():void {
+			//super.destroy();
+			//activeButton.removeEventListener(MouseEvent.ROLL_OUT, btnRollOut);
+			//activeButton.removeEventListener(MouseEvent.ROLL_OVER, btnRollOver);
+			//btn1=null;
+			//btn2=null;
+			//trace("DestroyTabBar");
+			//container=null;
+			//state=null;
+			//activeButton=null;
+
 		}
 	}
 }

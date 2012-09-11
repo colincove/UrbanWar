@@ -5,12 +5,15 @@
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import com.UI.*;
+	import flash.ui.ContextMenu;
 	import sekati.crypt.Rijndael;
 import com.Sound.GlobalSounds;
 import flash.events.TimerEvent;
+import flash.display.StageQuality;
 import flash.utils.Timer;
 import com.database.WebServices;
 import com.globalFunctions;
+import com.database.User;
 import com.removeChildrenUtil;
 
 	public class scrollerDocumentClass extends MovieClip {
@@ -52,6 +55,11 @@ var endLevelScreen:EndLevelScreen;
 			leaderboards=new Leaderboards();
 			endLevelScreen = new EndLevelScreen();
 			WebServices.ping();
+			stage.quality=StageQuality.LOW;
+			var my_menu:ContextMenu = new ContextMenu();
+			my_menu.hideBuiltInItems();
+			my_menu.builtInItems.quality = false;
+			contextMenu = my_menu;
 		}
 		public function launchEndLevelScreen():void
 		{
@@ -78,7 +86,6 @@ var endLevelScreen:EndLevelScreen;
 				}
 				playGame();
 			}else{
-				
 			weaponUI.launch();
 			this.addChild(weaponUI);
 			}
@@ -107,6 +114,9 @@ var endLevelScreen:EndLevelScreen;
 		}
 		public function playGame():void
 		{
+			if(User.active || (User.active && User.levelsUnlocked>1)){
+																	game.startLevel();
+			}else{
 			
 			if(menuBackground.parent)
 			{
@@ -122,6 +132,7 @@ var endLevelScreen:EndLevelScreen;
 			addChild(skipButton);
 			introAnimation.addEventListener(Event.ENTER_FRAME, listenForCompleteAnimation);
 			//game.startLevel();
+			}
 		}
 		
 		public function playEndGameScene():void{

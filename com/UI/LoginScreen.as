@@ -48,7 +48,8 @@
 			function response(result:*):void
 			{
 				currentPrompt.remove();
-				if (result=="-1")
+				//{} are because I slice off anything thats not } or ]. simply having -1 would get the 1 split off. 
+				if (result=="{-1}")
 				{
 					OkPrompt.createPrompt(DisplayObjectContainer(root),"User does not exist!");
 				}
@@ -100,7 +101,9 @@
 			function response(result:*):void
 			{
 				currentPrompt.remove();
-				if (result=="-1")
+								//{} are because I slice off anything thats not } or ]. simply having -1 would get the 1 split off. 
+
+				if (result=="{-1}")
 				{
 					OkPrompt.createPrompt(DisplayObjectContainer(root),"User Already exists!");
 				}

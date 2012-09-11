@@ -17,6 +17,7 @@
 		{
 			GameMenuPM.dispatcher.addEventListener(MenuEvent.UPDATE,update);
 			GameMenuPM.dispatcher.addEventListener(MenuEvent.SELECT_WEAPONS,selectWeapons);
+			GameMenuPM.dispatcher.addEventListener(MenuEvent.LAUNCH,launch);
 loadoutButton.addEventListener(MouseEvent.CLICK, onClickLoadout);
 playLevelButtonX=playLevelButton.x;
 tabBarControl  = new TabBarControl(tabBar.btn1, tabBar.btn2, tabBar);
@@ -24,6 +25,10 @@ tabBarControl.addEventListener(TabBarControl.BTN1, armoryClick);
 tabBarControl.addEventListener(TabBarControl.BTN2, loadoutClick);
 //tabBar.armoryButton.addEventListener(MouseEvent.CLICK, armoryClick);
 //tabBar.loadoutButton.addEventListener(MouseEvent.CLICK, loadoutClick);
+		}
+		private function launch(e:MenuEvent):void
+		{
+			tabBarControl.setState(TabBarControl.BTN1, true);
 		}
 		private function armoryClick(e:Event=null):void
 		{
@@ -52,12 +57,12 @@ tabBarControl.addEventListener(TabBarControl.BTN2, loadoutClick);
 			if(GameMenuPM.menuState==GameMenuPM.LOADOUT)
 			{
 				tabBarControl.setState(TabBarControl.BTN2, true);
-				playLevelButton.x=playLevelButtonX;
+				//playLevelButton.x=playLevelButtonX;
 				
 				//playLevelButton.visible=true;
 			}else{
 				tabBarControl.setState(TabBarControl.BTN1, true);
-				playLevelButton.x=10000;
+				//playLevelButton.x=10000;
 				//playLevelButton.visible=false;
 				
 			}
@@ -105,6 +110,8 @@ shineAnimation.visible=false;
 			{
 				shineAnimation.visible=true;
 				loadoutButton.visible=false;
+				playLevelButton.x=playLevelButtonX;
+				playLevelButton.visible=true;
 			}else{
 				loadoutButton.visible=true;
 				shineAnimation.visible=false;

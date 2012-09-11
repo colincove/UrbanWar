@@ -52,7 +52,7 @@
 		{
 			var weapon:Weapon=weaponList[weaponID-1];
 			var cost:int=weapon.wpnVars['upgrade'+(weapon.wpnVars.upgrade+1)].cost;
-			if (cost<=money)
+			if (cost<=money-globals.memoryPadding)
 			{
 				money-=cost;
 				weapon.wpnVars.upgrade++;

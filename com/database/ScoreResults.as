@@ -11,16 +11,20 @@
 
 		public function addResult():void {
 		}
-		public function createResults(results:Object):void {
+		public function createResults(results:Object):void
+		{
 			var i:int;
-			
-			if (resultsVector) {
+			if (resultsVector)
+			{
 				for (i=0; i<resultsVector.length; i++)
 				{
 					resultsVector[i].resetDisplay();
 				}
-				for (i=0; i<(results.length>10 ? 10:results.length); i++) {
+				if(results!=null){
+				for (i=0; i<(results.length>=10 ? 10:results.length); i++) 
+				{
 					resultsVector[i].setData(results[i]);
+				}
 				}
 			} else {
 				resultsVector=new Vector.<Result>;
@@ -28,11 +32,12 @@
 				{
 					var newResult:Result=new Result();
 					this.addChild(newResult);
+					if(results!=null)
+					{
 					if(i<results.length)
 					{
-						
 					newResult.setData(results[i]);
-					
+					}
 					}
 					newResult.y=i*newResult.height;
 										resultsVector.push(newResult);

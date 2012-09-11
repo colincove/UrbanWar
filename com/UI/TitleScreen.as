@@ -19,16 +19,27 @@ this.controlsButton.addEventListener(MouseEvent.CLICK, controlsClick);
 		}
 		private function playGame(e:MouseEvent):void 
 		{
-			if (!User.active || (User.active && User.levelsUnlocked==0)) {
+			if (!User.active || (User.active && User.levelsUnlocked==1)) {
 				globals.main.playGame();
 			} else {
+				globals.main.getGame().wonLevel=true;
 				globals.main.launchWeaponMenu();
 			}
 			close();
 		}
-		private function logout(e:MouseEvent):void {
-			User.logout();
+		private function logout(e:MouseEvent):void 
+		{
 			globals.main.launchLoginScreen();
+					OkPrompt.createPrompt(globals.main,"User "+User.name+" succesfuly logged out");
+			User.logout();
+			globals.main.getGame().currentLevelID=1;
+		globals.main.getGame().playLevelID=1;
+		globals.main.getGame().levelsUnlocked=1;
+		globals.main.getGame().wonLevel=false;
+		globals.main.getGame().gameVars.orbs=globals.memoryPadding;
+globals.levelProgress=1;
+		WeaponList.loadDefaultWeapons(globals.main.getGame().gameVars);
+			
 			close();
 		}
 		private function close():void {

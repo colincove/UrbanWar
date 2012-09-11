@@ -11,6 +11,7 @@
 		}
 		private function update(e:MenuEvent=null):void 
 		{
+			trace("UupdateLevelStatu");
 			this.gotoAndStop(globals.main.getGame().currentLevelID);
 		}
 	}

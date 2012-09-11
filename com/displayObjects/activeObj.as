@@ -32,6 +32,8 @@
 		protected var modifyHealthX:int;
 		protected var hideHealthBar:Boolean = false;
 		protected var modifyHealthY:int;
+		protected var mainHitBox:int=500;
+		protected var additionalHitBox:int=0;
 		public function activeObj():void
 		{
 			health = 100;
@@ -175,10 +177,10 @@
 						}
 						else
 						{
-							if (globalFunctions.getMainX(this)>globals.HUD.x+600||
-							   globalFunctions.getMainX(this)<globals.HUD.x-600||
-							   globalFunctions.getMainY(this)>globals.HUD.y+600||
-							   globalFunctions.getMainY(this)<globals.HUD.y-600)
+							if (globalFunctions.getMainX(this)>globals.HUD.x+(mainHitBox+additionalHitBox)||
+							   globalFunctions.getMainX(this)<globals.HUD.x-(mainHitBox+additionalHitBox)||
+							   globalFunctions.getMainY(this)>globals.HUD.y+(mainHitBox+additionalHitBox)||
+							   globalFunctions.getMainY(this)<globals.HUD.y-(mainHitBox+additionalHitBox))
 							{
 onScreen=false;
 							}

@@ -6,6 +6,7 @@
 	import flash.text.TextField;
 	import flash.text.TextFormat;
 	import fl.motion.Color;
+	import com.globals;
 
 	public class Money extends MovieClip{
 		private var localMoney:int=0;
@@ -24,8 +25,8 @@
 		private function update(e:MenuEvent=null):void 
 		{
 			
-			this.gearValue.text=String(GameMenuPM.money)
-			if(GameMenuPM.money>=GameMenuPM.selectedMoney)
+			this.gearValue.text=String(GameMenuPM.money-globals.memoryPadding)
+			if(GameMenuPM.money-globals.memoryPadding>=GameMenuPM.selectedMoney)
 			{
 				gotoAndStop("Active");
 			}else{

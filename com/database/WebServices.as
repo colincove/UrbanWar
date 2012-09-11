@@ -55,7 +55,7 @@
 			var variables:URLVariables = new URLVariables();
 			var postData:Object = new Object();
 			postData.action = LOGIN;
-			postData.email = email;
+			postData.email = MD5.hash(email);
 			variables.postData = RC4.encrypt(JSON.encode(postData),KEY);
 			request.data = variables;
 			var loader:URLLoader = new URLLoader(request);
@@ -66,7 +66,9 @@
 			function onComplete(e:Event):void
 			{
 				//sometimes i find random ￛ at the end of these messsgaes. not sure why. 
-				callback(RC4.decrypt(e.target.data,KEY).replace("ￛ",""));
+				trace("Login",e.target.data);
+				trace("LoginDecrpyted",handleData(e.target.data));
+				callback(handleData(e.target.data));
 			}
 			function onFail(e:Event):void
 			{
@@ -143,8 +145,8 @@
 		public static function handleData(data:String):String
 		{
 			var dataString:String = RC4.decrypt(data,KEY);
-			
-			if(dataString.charAt(dataString.length-1)!="}")
+			//} ends an objet, ] ends an array. The only 2 datatypes I get back from my server. 
+			if(dataString.charAt(dataString.length-1)!="}" && dataString.charAt(dataString.length-1)!="]" && dataString!="null")
 			{
 				return dataString.slice(0,dataString.length-1);
 			}
@@ -159,7 +161,7 @@
 		getHighScore.addEventListener(MouseEvent.CLICK,getScore);
 		addPlaythrough.addEventListener(MouseEvent.CLICK,add);
 		getUserHighScoreButton.addEventListener(MouseEvent.CLICK,getUserScore);*/
-		public static function addPlaythrough(callback:Function,score:int,levelId:int, loadOut:String,replay:Boolean, imgData:BitmapData, failCallback:Function=null ):void
+		public static function addPlaythrough(callback:Function,score:int,levelId:int, loadOut:String,replay:Boolean,enemiesKilled:int, accuracy:int, gearsCollected:int, imgData:BitmapData, failCallback:Function=null ):void
 		{
 			var request:URLRequest = new URLRequest(WEBSERVICE);
 			request.method = URLRequestMethod.POST;
@@ -172,6 +174,9 @@
 			postData.imgData = Base64.encode(encoder.encode(imgData));
 			postData.level = levelId;
 			postData.loadOut = loadOut;
+			postData.enemiesKilled = enemiesKilled;
+			postData.accuracy = accuracy;
+			postData.gearsCollected = gearsCollected;
 			postData.replay = int(replay);
 			variables.postData = RC4.encrypt(JSON.encode(postData),KEY);
 			request.data = variables;
@@ -182,7 +187,6 @@
 			loader.load(request);
 			function onComplete(e:Event):void
 			{
-
 				if (callback!=null)
 				{
 					callback();
@@ -216,7 +220,8 @@
 			function onComplete(e:Event):void
 			{
 				resultDisplay.finishLoading();
-				resultDisplay.createResults(JSON.decode(RC4.decrypt(e.target.data,KEY).replace("ￛ","")));
+				
+				resultDisplay.createResults(JSON.decode(handleData(e.target.data)));
 				callback();
 			}
 			function onFail(e:Event):void
@@ -226,7 +231,6 @@
 				{
 					failCallback();
 				}
-
 			}
 		}
 		public static function updateUser( callback:Function=null, failCallback:Function=null):void
@@ -239,7 +243,9 @@
 			postData.name = User.name;
 			postData.levelsUnlocked = User.levelsUnlocked;
 			postData.unlockedWeapons = User.unlockedWeapons;
+			postData.gears = User.gears-globals.memoryPadding;
 			postData.uid = User.uid;
+			trace("UpdateUserPostData", JSON.encode(postData));
 			variables.postData = RC4.encrypt(JSON.encode(postData),KEY);
 			request.data = variables;
 			var loader:URLLoader = new URLLoader(request);
@@ -288,8 +294,9 @@
 				//{
 				//trace(resultData[i].name+" "+resultData[i].score);
 				//}
-
-				resultDisplay.createResults(JSON.decode(RC4.decrypt(e.target.data,KEY).replace("ￛ","")));
+trace("Got Results First", e.target.data);
+				trace("Got Results", handleData(e.target.data));
+				resultDisplay.createResults(JSON.decode(handleData(e.target.data)));
 				callback();
 			}
 			function onFail(e:Event):void

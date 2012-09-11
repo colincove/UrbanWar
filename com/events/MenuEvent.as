@@ -13,6 +13,7 @@ public class MenuEvent extends Event{
 	public static const CLEAR_WEAPONS:String="clearWeapons";
 	public static const UPGRADE_BUY_OVER:String="upgradeBuyOver";
 	public static const UPGRADE_BUY_OUT:String="upgradeBuyOut";
+	public static const LAUNCH:String="launch";
 	public function MenuEvent(type:String, bubbles:Boolean=false, cancelable:Boolean=false):void {
 		super(type, bubbles, cancelable);
 	}

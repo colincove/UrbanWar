@@ -8,6 +8,7 @@
 	import flash.utils.getDefinitionByName;
 	import com.interfaces.Program;
 	import com.interfaces.removable;
+	import com.weapons.AccuracyStats;
 	import com.globalFunctions;
 	import com.weapons.Weapon;
 	import flash.display.MovieClip;
@@ -115,16 +116,14 @@
 		{
 			if (User.active) 
 			{
-				
-				User.levelsUnlocked=currentLevelID;
-				
+				User.levelsUnlocked=currentLevelID+1;
+				User.gears=globals.gameVars.orbs;
 				User.unlockedWeapons=WeaponsEnum.composeWeaponStringFromArray(WeaponList.weaponList);
 				WebServices.updateUser();
-				
 				var prompt:Prompt=Prompt.createPrompt(globals.main,"Recording playthrough!");
-				WebServices.addPlaythrough(prompt.remove,globals.points-globals.memoryPadding, playLevelID,WeaponsEnum.composeWeaponStringFromArray(WeaponList.loadOut),replayingLevel,ScreenGrabber.currentGrab.bitmapData,prompt.remove);
+				WebServices.addPlaythrough(prompt.remove,globals.points-globals.memoryPadding, playLevelID,WeaponsEnum.composeWeaponStringFromArray(WeaponList.loadOut),replayingLevel,globals.enemiesKilled,int(AccuracyStats.pct),globals.gameVars.orbs-globals.gameVars.oldOrbs-globals.memoryPadding,ScreenGrabber.currentGrab.bitmapData,prompt.remove);
 			}else{
-				globals.playthroughMemory.addPlaythrough(globals.points,playLevelID, WeaponsEnum.composeWeaponStringFromArray(WeaponList.loadOut),replayingLevel,ScreenGrabber.currentGrab.bitmapData.clone());
+				globals.playthroughMemory.addPlaythrough(globals.points,playLevelID, WeaponsEnum.composeWeaponStringFromArray(WeaponList.loadOut),replayingLevel,globals.enemiesKilled,int(AccuracyStats.pct),globals.gameVars.orbs-globals.gameVars.oldOrbs-globals.memoryPadding,ScreenGrabber.currentGrab.bitmapData.clone());
 			}
 			if (globals.levelProgress!==9&&replayingLevel!==true) 
 			{
@@ -178,6 +177,7 @@ globals.letPlayerLive=false;
 			} else {
 				camera.resetCAM();
 			}
+			camera.screenSpeedMod=0.0;
 			if(gameStart.firstLevelPlay)
 				{
 					camera.initFade();
@@ -261,7 +261,7 @@ globals.letPlayerLive=false;
 				gameVars.outsideScreenTime=gameXML.@outsideScreenTime;
 				gameVars.stageStart=gameXML.@stageStart;
 				gameVars.godMode=gameXML.@godMode;
-				gameVars.orbs=int(gameXML.@orbs);
+				gameVars.orbs=int(gameXML.@orbs)+globals.memoryPadding;
 				gameVars.muteSounds=gameXML.@muteSounds;
 				gameVars.testingMode=gameXML.@testingMode;
 				gameVars.startUpgrade=gameXML.@startUpgrade;

@@ -11,7 +11,7 @@
 	{
 		private var currentPrompt:Prompt;
 		private var resultDisplay:ScoreResults;
-		private var levelView:int;
+		private var levelView:int=1;
 		public function Leaderboards():void 
 		{
 			resultDisplay=new ScoreResults();

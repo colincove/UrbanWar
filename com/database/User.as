@@ -10,16 +10,19 @@
 		public static var unlockedWeapons:String;
 		public static var joinDate:Date;
 		public static var active:Boolean;
+		public static var gears:int;
 		public static function defineFromLoginResponse(response:String):void 
 		{
 			var responseObject:Object=JSON.decode(response);
 			name=responseObject.name;
 			email=responseObject.email;
 			uid=responseObject.uid;
+			gears=responseObject.gears;
+			globals.gameVars.orbs=gears+globals.memoryPadding;
 			levelsUnlocked=responseObject.levelsUnlocked;
 			unlockedWeapons=responseObject.unlockedWeapons;
-			globals.main.getGame().gameVars.stageStart=levelsUnlocked+1;
-			globals.main.getGame().currentLevelID=levelsUnlocked+1;
+			globals.main.getGame().gameVars.stageStart=levelsUnlocked;
+			globals.main.getGame().currentLevelID=levelsUnlocked;
 						globals.levelProgress=globals.main.getGame().currentLevelID;
 globals.levelProgress=globals.main.getGame().currentLevelID;
 			active=true;
