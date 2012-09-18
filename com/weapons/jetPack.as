@@ -8,6 +8,8 @@
 	import com.GameComponent;
 	public class jetPack extends GameComponent
 	{
+		public static const MODE_DOUBLE_JUMP:String="DoubleJump";
+		public static const MODE_SPACE:String="SpaceBar";
 		private var user:jetPackInterface;
 		private var fuel:int;
 		private var prevFuel:int;
@@ -17,7 +19,9 @@
 
 		private var startStrength:Number;
 		public var active:Boolean=true;
-		public function jetPack(user:jetPackInterface, fuel:int=500):void {
+		public var controlMode:String=MODE_DOUBLE_JUMP;
+		public function jetPack(user:jetPackInterface, fuel:int=500):void
+		{
 			this.user=user;
 			totalFuel=fuel;
 			strength=-1.8;

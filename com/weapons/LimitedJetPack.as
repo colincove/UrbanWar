@@ -15,20 +15,19 @@
 			total=fuel;
 			coolDownStart=globals.gameVars.heroJetpack.restoreTime;
 			total=globals.gameVars.heroJetpack.capacity;
+			controlMode = globals.gameVars.heroJetpack.mode;
 			progRun=true;
 						globals.static_progThread.addProg(this);
 
 		}
 		public override function jetPackIgnite(silent:Boolean=true):void
 		{
-			
 			if(current<total)
 			{
 				coolDownInterval=0;
 				super.jetPackIgnite(silent);
 				current++;
 			}
-			
 		}
 		public override function destroy():void{
 			super.destroy();

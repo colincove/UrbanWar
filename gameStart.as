@@ -249,6 +249,7 @@ globals.letPlayerLive=false;
 				gameVars.heroJetpack = new Object();
 				gameVars.heroJetpack.restoreTime = myXML.HeroJetpack.RestoreTime;
 				gameVars.heroJetpack.capacity = myXML.HeroJetpack.Capacity;
+				gameVars.heroJetpack.mode =  myXML.HeroJetpack.ControlModes.@mode;
 				gameXML=myXML.Game;
 				for (i=0; i<gameXML.*.length(); i++) {
 					var tmpXMLList:XML=gameXML.*[i];

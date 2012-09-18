@@ -12,6 +12,7 @@
 		public static var downArrowPress:Boolean=false;
 		public static var rightArrowPress:Boolean=false;
 		public static var leftArrowPress:Boolean=false;
+		public static var spacePress:Boolean=false;
 		public static var pPress:Boolean=false;
 		private var keyListener:MovieClip;
 		public function Controls(keyListener:MovieClip) {
@@ -28,8 +29,17 @@
 			rightArrowPress=false;
 			leftArrowPress=false;
 		}
-		protected function checkDown(e:KeyboardEvent):void {
+		protected function checkDown(e:KeyboardEvent):void
+		{
+			trace(e.keyCode);
 			switch (e.keyCode) {
+				case 32 :
+					//keySpace
+					if (! spacePress) {
+						spacePress=true;
+						keyListener.upPress();
+					}
+					break;
 				case 87 :
 					//keyUp
 					if (! upArrowPress) {
@@ -37,6 +47,7 @@
 						keyListener.upPress();
 					}
 					break;
+					
 				case 83 :
 					//keyDown
 					if (! downArrowPress) {
@@ -69,6 +80,14 @@
 		}
 		protected function checkUp(e:KeyboardEvent):void {
 			switch (e.keyCode) {
+				case 32 :
+					//keySpace
+					if ( spacePress)
+					{
+						spacePress=false;
+					
+					}
+					break;
 				case 87 :
 					//keyUp
 					if (upArrowPress) {

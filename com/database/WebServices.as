@@ -132,6 +132,7 @@
 			function onComplete(e:Event):void
 			{
 				//var dataString = RC4.decrypt(,KEY);
+				trace("RegisterStuff",e.target.data,RC4.decrypt(e.target.data,KEY));
 				callback(handleData(e.target.data));
 			}
 			function onFail(e:Event):void
