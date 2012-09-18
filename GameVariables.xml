@@ -17,29 +17,29 @@
       <!--screenSpeed will change the speed at which the camera moves durring the entire stage. Universal stage speed. 
   -->
   <GradeScaleResponse>
-			<A>You are amazing!</A>
-			<B>Damn good!</B>
-			<C>Meh...</C>
-			<D>You Suck!</D>
-			<F>Dont waste my time</F>
+			<A>Amazing! These feeble humans tremble at your awesome power.</A>
+			<B>Success! Truly, you crush your foes underfoot.</B>.
+			<C>Passable, but more must be done to ensure this species' demise.</C>
+			<D>You survived, but the humans see your weakness. You must teach them otherwise.</D>
+			<F>Catastrophic failure! Surely you are the weakest of warriors.</F>
 		
 		  </GradeScaleResponse>
     <level stage = '1' screenSpeed='1'>
 	<GradeScale>
 			<A>25000</A>
-			<B>22500</B>
-			<C>20000</C>
-			<D>15000</D>
+			<B>25000</B>
+			<C>22500</C>
+			<D>20000</D>
 			<F>12500</F>
 		</GradeScale>
 	</level>
     <level stage = '2'screenSpeed='1'>
 	<GradeScale>
-			<A>71000</A>
-			<B>600</B>
-			<C>400</C>
-			<D>200</D>
-			<F>35500</F>
+			<A>55000</A>
+			<B>55000</B>
+			<C>50000</C>
+			<D>42000</D>
+			<F>25500</F>
 		</GradeScale>
 	</level>
 	
@@ -123,7 +123,7 @@
 	    <!--each frame-->
 		80
 	  </Capacity>
-	  <ControlModes mode="0">
+	  <ControlModes mode="DoubleJump">
 	  <Mode id = "0">DoubleJump</Mode>
 	   <Mode id = "1">SpaceBar</Mode>
 	  </ControlModes>
