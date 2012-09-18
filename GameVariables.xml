@@ -123,6 +123,10 @@
 	    <!--each frame-->
 		80
 	  </Capacity>
+	  <ControlModes mode="0">
+	  <Mode id = "0">DoubleJump</Mode>
+	   <Mode id = "1">SpaceBar</Mode>
+	  </ControlModes>
    </HeroJetpack>
     <Blimp health='100' speed='5'></Blimp>
 	<!--public static const MINI_GUN:String="0";
