@@ -101,7 +101,7 @@ animation.gotoAndStop("idle");
 				randomNum = Math.ceil(Math.random() * 2);
 				GlobalSounds.playSound('HeroHit'.concat((String)(randomNum)));
 				//GlobalSounds.playSound('HeroHit');
-				//super.hit(xPos,yPos,strength);
+				super.hit(xPos,yPos,strength);
 			}
 			else
 			{
