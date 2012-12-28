@@ -25,6 +25,9 @@
 	import com.controllers.GradingScaleController;
 	public class gameStart
 	{
+		[Embed(source = "GameVariables.xml", mimeType = "application/octet-stream")]
+		private var XMLDataClass:Class;
+	
 		private var gameContinue:Boolean;
 		private var camera:Cam;
 		private var defaultsLoaded:Boolean=false;
@@ -235,12 +238,13 @@ globals.letPlayerLive=false;
 			var blimpXML:XMLList = new XMLList();
 
 			var enemyXML:XMLList = new XMLList();
-			myLoader = new URLLoader();
-			myLoader.load(new URLRequest("GameVariables.xml"));
-			myLoader.addEventListener(Event.COMPLETE, processXML);
-			function processXML(e:Event):void {
+			//myLoader = new URLLoader();
+			//myLoader.load(new URLRequest("GameVariables.xml"));
+			//myLoader.addEventListener(Event.COMPLETE, processXML);
+			//function processXML(e:Event):void {
 				var i:int;
-				myXML=new XML(e.target.data);
+				//myXML=new XML(e.target.data);
+				myXML = new XML(new XMLDataClass());
 				//Game Variables
 				///////////////
 				////////////////
@@ -367,8 +371,11 @@ globals.letPlayerLive=false;
 				startGame();
 
 
-			}
+			//}
 			return gameVars;
 		}
+		
+
 	}
+	
 }

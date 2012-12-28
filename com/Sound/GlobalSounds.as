@@ -1,6 +1,7 @@
 ﻿package com.Sound{
 	import flash.net.URLRequest;
 	import flash.media.SoundChannel;
+		import flash.utils.getDefinitionByName;
 	import com.Sound.MySound;
 	import com.globals;
 	public class GlobalSounds {
@@ -14,14 +15,26 @@
 			if (globals.gameVars.muteSounds=='1') {
 				return new SoundChannel();
 			}
-			if (GlobalSounds.soundObj[sound]==null) {
+			/*if (GlobalSounds.soundObj[sound]==null) {
 				var tmpString:String='Sound/'+sound+'.mp3';
 				GlobalSounds.soundObj[sound]=new MySound(new URLRequest(tmpString));
+			}*/
+			//getDefinitionByName(objString) as Class
+			if (GlobalSounds.soundObj[sound]==null) 
+			{
+				GlobalSounds.soundObj[sound]=new (getDefinitionByName(sound) as Class)();
+				trace(sound,GlobalSounds.soundObj[sound]);
 			}
 			try {
-				return GlobalSounds.soundObj[sound].playSound(loop);
-			} catch (error:Error) {
 				
+			var sc:SoundChannel  =  GlobalSounds.soundObj[sound].play(loop);
+				if(sc==null){
+				return new SoundChannel();
+				}else{
+					return sc;
+				}
+			} catch (error:Error) {
+				trace(error, error.message);
 				return new SoundChannel();
 			}
 			return new SoundChannel();

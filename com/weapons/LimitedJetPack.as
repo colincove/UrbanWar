@@ -17,6 +17,7 @@
 			total=globals.gameVars.heroJetpack.capacity;
 			controlMode = globals.gameVars.heroJetpack.mode;
 			progRun=true;
+			
 						globals.static_progThread.addProg(this);
 
 		}

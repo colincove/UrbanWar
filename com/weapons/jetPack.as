@@ -47,7 +47,7 @@
 			
 			if(soundChannel==null&&!silent){
 				addEventListener(Event.ENTER_FRAME, soundListener, false, 0, true);
-				soundChannel=GlobalSounds.playSound('jetPack',10);
+				soundChannel=GlobalSounds.playSound('jetPackSound',10);
 			}
 			if (fuel==0) {
 				user.noFuel();

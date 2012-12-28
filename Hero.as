@@ -17,7 +17,6 @@
 	import com.globalFunctions;
 	import flash.utils.Timer;
 	import flash.events.TimerEvent;
-	import com.weapons.jetPack;
 
 	public class Hero extends objMovement implements pausable,jetPackInterface,dieable,removable,Program
 	{
@@ -210,10 +209,7 @@ public override function destroy():void
 					{
 						jet = false;
 					}
-					if(jetpack.controlMode==jetPack.MODE_SPACE)
-					{
 					jetpack.jetPackIgnite(false);
-					}
 					bottemFlame.visible = true;
 				}
 				//globals.smoke.fireDownBM.drawObject(fire);
@@ -390,45 +386,16 @@ shield=null;
 			}
 			else
 			{
-				if(jetpack.controlMode==jetPack.MODE_DOUBLE_JUMP)
-					{
 				jet = true;
 				if(jetpack!=null)
 				{
-					
 				if (jetpack.active)
 				{
 					if (ySpeed>0)
 					{
 						ySpeed = 0;
 					}
-				}}
 				}
-			}}
-		}
-		public function spacePress():void
-		{
-			if(!Hero.disableHero)
-			{
-			if (! haveAir)
-			{
-				
-
-			}
-			else
-			{
-				if(jetpack.controlMode==jetPack.MODE_SPACE)
-					{
-				jet = true;
-				if(jetpack!=null)
-				{
-				if (jetpack.active)
-				{
-					if (ySpeed>0)
-					{
-						ySpeed = 0;
-					}
-				}}
 				}
 			}}
 		}
