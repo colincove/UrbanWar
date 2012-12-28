@@ -34,8 +34,10 @@ var endLevelScreen:EndLevelScreen;
 		var outroAnimation:MovieClip;
 		public function scrollerDocumentClass():void 
 		{
-			
-			// create instance with encryption key
+		}
+		public function initialize():void
+		{
+		// create instance with encryption key
 			WebServices.init();
 			GlobalSounds.defineSounds();
 			menuBackground=new MenuBackground();
@@ -44,6 +46,7 @@ var endLevelScreen:EndLevelScreen;
 			globals.menus_progThread=globals.prog.newThread();
 			globals.static_progThread=globals.prog.newThread();
 			weaponUI  =  new GameMenu();
+			weaponUI.initialize();
 		levelUI  =  new levelMenu();
 			pauseUI  =  new PauseUI();
 			loginScreen = new LoginScreen();
@@ -190,9 +193,13 @@ skipButton=null;
 		{
 			if(introAnimation.currentFrame==560)
 			{
+				
+				if(skipButton!=null){
 				skipButton.removeEventListener(MouseEvent.CLICK, skipScene);
 							removeChild(skipButton);
+				}
 skipButton=null;
+
 			}
 			if(introAnimation.currentFrame==768)
 			//if(introAnimation.currentFrame==1000)
@@ -202,6 +209,7 @@ skipButton=null;
 				//removeChild(introAnimation);
 				removeChildrenUtil.removeAllChildren(introAnimation);
 				introAnimation.stop();
+				trace(5);
 				if(introAnimation.parent!=null){
 					removeChild(introAnimation);
 				}

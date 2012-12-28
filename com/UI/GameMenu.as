@@ -13,8 +13,12 @@
 	public class GameMenu extends MovieClip {
 		private var updateLevelStandingTimer:Timer;
 		private var resultDisplay:ScoreResults;
-		public function GameMenu():void {
-			resultDisplay=new ScoreResults();
+		public function GameMenu():void 
+		{
+			
+		}
+		public function initialize():void{
+		resultDisplay=new ScoreResults();
 			this.userStats.addChild(resultDisplay);
 			resultDisplay.y=-42;
 			resultDisplay.x=-105;

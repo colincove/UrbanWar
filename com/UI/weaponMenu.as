@@ -29,12 +29,12 @@
 		}
 		public function updateForLoadout():void {
 			if (loadOut.length==weaponList.length||loadOut.length==3) {
-				leaveMenu.addEventListener(MouseEvent.CLICK, leaveMenuFunction, false, 0, true);
-				leaveMenu.alpha=1;
+				//leaveMenu.addEventListener(MouseEvent.CLICK, leaveMenuFunction, false, 0, true);
+				//leaveMenu.alpha=1;
 
 			} else {
-				leaveMenu.alpha=.5;
-				leaveMenu.removeEventListener(MouseEvent.CLICK, leaveMenuFunction, false);
+				//leaveMenu.alpha=.5;
+				//leaveMenu.removeEventListener(MouseEvent.CLICK, leaveMenuFunction, false);
 
 			}
 		}
@@ -84,10 +84,10 @@
 			orbContainer.y=500;
 			weaponContainer.addChild(orbContainer);
 			//
-			leaveMenu=new LeaveWeaponMenu();
-			weaponContainer.addChild(leaveMenu);
-			leaveMenu.addEventListener(MouseEvent.CLICK, leaveMenuFunction, false, 0, true);
-			leaveMenu.x=600;
+			//leaveMenu=new LeaveWeaponMenu();
+			//weaponContainer.addChild(leaveMenu);
+			//leaveMenu.addEventListener(MouseEvent.CLICK, leaveMenuFunction, false, 0, true);
+			//leaveMenu.x=600;
 			//
 			var netCostTF:TextFormat = new TextFormat();
 			netCostText=new TextField();
