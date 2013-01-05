@@ -156,6 +156,7 @@
 		}
 		public function startLevel():void
 		{
+			
 			if(currentLevelID==1)
 			{
 			gameStart.firstLevelPlay=true;

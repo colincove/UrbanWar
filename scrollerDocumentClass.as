@@ -58,7 +58,8 @@ var endLevelScreen:EndLevelScreen;
 			leaderboards=new Leaderboards();
 			endLevelScreen = new EndLevelScreen();
 			WebServices.ping();
-			stage.quality=StageQuality.LOW;
+			//stage.quality=StageQuality.LOW;
+			stage.quality=StageQuality.HIGH;
 			var my_menu:ContextMenu = new ContextMenu();
 			my_menu.hideBuiltInItems();
 			my_menu.builtInItems.quality = false;
@@ -79,6 +80,7 @@ var endLevelScreen:EndLevelScreen;
 		}
 		public function launchWeaponMenu():void 
 		{
+			stage.quality=StageQuality.HIGH;
 			this.x=0;
 			this.y=0;
 			if(globals.skipWeaponMenu)
@@ -133,12 +135,14 @@ var endLevelScreen:EndLevelScreen;
 			//introAnimation = new ClosingCinematic();
 			this.addChild(introAnimation);
 			addChild(skipButton);
+			stage.quality=StageQuality.HIGH;
 			introAnimation.addEventListener(Event.ENTER_FRAME, listenForCompleteAnimation);
 			//game.startLevel();
 			}
 		}
 		
 		public function playEndGameScene():void{
+			stage.quality=StageQuality.HIGH;
 			skipButton = new SkipButton();
 			skipButton.x=17;
 			skipButton.y=558.9;
@@ -201,7 +205,7 @@ skipButton=null;
 skipButton=null;
 
 			}
-			if(introAnimation.currentFrame==768)
+			if(introAnimation.currentFrame==706)
 			//if(introAnimation.currentFrame==1000)
 			{
 							
@@ -219,6 +223,7 @@ skipButton=null;
 		}
 		public function launchTitleScreen():void 
 		{
+			stage.quality=StageQuality.HIGH;
 			validateMenuBackground()
 			this.x=0;
 			this.y=0;
@@ -236,6 +241,7 @@ skipButton=null;
 		}
 		public function launchLoginScreen():void
 		{			
+		stage.quality=StageQuality.HIGH;
 		validateMenuBackground();
 			this.x=0;
 			this.y=0;

@@ -5,6 +5,10 @@
 	import com.globalFunctions;
 	import com.weapons.Weapon;
 	import flash.display.MovieClip;
+	import flash.media.SoundChannel;
+	import com.Sound.GlobalSounds;
+	import flash.media.Sound;
+
 	public class GameMenuPM {
 		public static var numberOfPossibleWeapons:int=0;
 		public static var currentLevel:int;
@@ -12,6 +16,7 @@
 		public static var _money:int=0;
 		public static const LOADOUT:String="loadout";
 		public static const ARMORY:String="armory";
+		public static var musicChannel:SoundChannel;
 		public static var menuState:String=ARMORY;
 		public static var loadoutSelected:Boolean=false;
 		public static function get money():int
@@ -28,10 +33,16 @@
 		public static var loadOut:Array;
 		public static var selectedMoney:int=0;
 		public static var gameWeaponMenu:weaponMenu;
+		
 		public static const dispatcher:EventDispatcher = new EventDispatcher();
 
 		public function GameMenuPM():void 
 		{
+		}
+		public static function startMusic(){
+		//musicChannel=GlobalSounds.playSound("GameMenuMusic",99);
+			var song:Sound = new GameMenuMusic();
+			musicChannel=song.play(0,99);
 		}
 		public static function update():void 
 		{
@@ -114,6 +125,8 @@
 		}
 		public static function continueCampaign():void
 		{
+			musicChannel.stop();
+			musicChannel=null;
 			menuState=ARMORY;
 			globals.gameVars.orbs=money;
 			dispatcher.dispatchEvent(new MenuEvent(MenuEvent.CLEAR_WEAPONS,true, true));

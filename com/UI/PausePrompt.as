@@ -24,7 +24,7 @@ private var tabBarControl:TabBarControl;
 			tabBarControl  = new TabBarControl(qualityTabBar.btn1, qualityTabBar.btn2, qualityTabBar);
 tabBarControl.addEventListener(TabBarControl.BTN1, highClick);
 tabBarControl.addEventListener(TabBarControl.BTN2, lowClick);
-if(globals.main.stage.quality==StageQuality.HIGH)
+if(globals.stageQuality==StageQuality.HIGH)
 {
 	tabBarControl.setState(TabBarControl.BTN1);
 }else{
@@ -32,10 +32,12 @@ if(globals.main.stage.quality==StageQuality.HIGH)
 }
 		}
 		public function highClick(e:Event):void{
-			globals.main.stage.quality=StageQuality.HIGH;
+			globals.stageQuality=StageQuality.HIGH;
+			globals.main.stage.quality=globals.stageQuality;
 		}
 		public function lowClick(e:Event):void{
-			globals.main.stage.quality=StageQuality.LOW;
+			globals.stageQuality=StageQuality.LOW;
+			globals.main.stage.quality=globals.stageQuality;
 		}
 		private function onMainMenu(e:MouseEvent):void
 		{

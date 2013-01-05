@@ -9,11 +9,19 @@
 		public function GlobalSounds():void {
 		}
 		public static function defineSounds():void {
+			if(GlobalSounds.soundObj==null){
 			GlobalSounds.soundObj=new Object();
+			}
 		}
 		public static function playSound(sound:String, loop:int=0):SoundChannel {
-			if (globals.gameVars.muteSounds=='1') {
+			if(GlobalSounds.soundObj==null){
+				defineSounds();
+			}
+			if(globals.gameVars!=null){
+			if (globals.gameVars.muteSounds=='1') 
+			{
 				return new SoundChannel();
+			}
 			}
 			/*if (GlobalSounds.soundObj[sound]==null) {
 				var tmpString:String='Sound/'+sound+'.mp3';

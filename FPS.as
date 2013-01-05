@@ -35,9 +35,9 @@
 			fps_avg_txt.x=-390;
 			fps_txt.y=265;
 			fps_txt.x=-390;
-			globals.HUD.addChild(fps_avg_txt);
-			globals.HUD.addChild(fps_txt);
-			globals.HUD.addChild(mem_txt);
+			//globals.HUD.addChild(fps_avg_txt);
+			//globals.HUD.addChild(fps_txt);
+			//globals.HUD.addChild(mem_txt);
 			fpsAvgTimer.start();
 			fpsAvgTimer.addEventListener(TimerEvent.TIMER,fpsAvgHandler, false, 0, true);
 			addEventListener(Event.ENTER_FRAME,getFps, false, 0, true);

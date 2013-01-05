@@ -6,6 +6,8 @@
 
 	import flash.display.DisplayObjectContainer;
 	import com.database.User;
+	import com.Sound.GlobalSounds;
+	import flash.media.Sound;
 
 	public class TitleScreen extends MovieClip {
 		private var currentPrompt:Prompt;
@@ -19,6 +21,11 @@ this.controlsButton.addEventListener(MouseEvent.CLICK, controlsClick);
 		}
 		private function playGame(e:MouseEvent):void 
 		{
+			if(globals.mainMenuSoundChannel!=null)
+			{
+			globals.mainMenuSoundChannel.stop();
+			globals.mainMenuSoundChannel=null;
+			}
 			if (!User.active || (User.active && User.levelsUnlocked==1)) {
 				globals.main.playGame();
 			} else {
@@ -42,10 +49,18 @@ globals.levelProgress=1;
 			
 			close();
 		}
-		private function close():void {
+		private function close():void 
+		{
 			parent.removeChild(this);
 		}
-		public function launch():void {
+		public function launch():void
+		{
+			if(globals.mainMenuSoundChannel==null)
+			{
+				var song:Sound = new MainMenuMusic();
+			globals.mainMenuSoundChannel=song.play(0,99);
+			//globals.mainMenuSoundChannel=GlobalSounds.playSound("MainMenuMusic",99);
+			}
 			if (User.active) {
 				userContext.gotoAndStop(1);
 				this.userContext.logoutButton.addEventListener(MouseEvent.CLICK, logout);

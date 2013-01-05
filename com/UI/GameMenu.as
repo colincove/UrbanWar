@@ -19,6 +19,7 @@
 		}
 		public function initialize():void{
 		resultDisplay=new ScoreResults();
+		loadoutTip.okButton.addEventListener(MouseEvent.CLICK, loadoutTipOK);
 			this.userStats.addChild(resultDisplay);
 			resultDisplay.y=-42;
 			resultDisplay.x=-105;
@@ -29,11 +30,18 @@
 			updateLevelStandingTimer=new Timer(500);
 			updateLevelStandingTimer.addEventListener(TimerEvent.TIMER,updateLevelStanding);
 		}
+		private function loadoutTipOK(e:MouseEvent):void{
+			removeChild(loadoutTip);
+		}
 		public function launch():void 
 		{
 			GameMenuPM.launching=true;
+			if(loadoutTip.parent!=null)
+			{
+			removeChild(loadoutTip);
+			}
 			GameMenuPM.reset();
-			trace("GameMenu launch");
+			GameMenuPM.startMusic();
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.LAUNCH));
 			gotoAndStop(40);
 
@@ -65,6 +73,12 @@
 		}
 		private function selectWeapons(e:MenuEvent) {
 			gotoAndStop(1);
+			if(globals.main.getGame().currentLevelID==1){
+			addChild(loadoutTip);
+			
+			}else{
+			
+			}
 		}
 	}
 }

@@ -6,6 +6,8 @@
 	import flash.events.MouseEvent;
 	import flash.display.DisplayObjectContainer;
 	import com.database.User;
+	import com.Sound.GlobalSounds;
+	import flash.media.Sound;
 
 	public class LoginScreen extends MovieClip
 	{
@@ -19,14 +21,20 @@
 		}
 		public function launch():void
 		{
+			if(globals.mainMenuSoundChannel==null)
+			{//MainMenuMusic
+			//globals.mainMenuSoundChannel=GlobalSounds.playSound("MainMenuMusic",30);
+			var song:Sound = new MainMenuMusic();
+			globals.mainMenuSoundChannel=song.play(0,99);
+			}
 			if (globals.loginAfterCompletion)
 			{
-				loginPrompt.visible = true;
+				//loginPrompt.visible = true;
 				currentPrompt=OkPrompt.createPrompt(DisplayObjectContainer(globals.main),"After logging in or registering, your games will be uploaded automatically to the server.");
 			}
 			else
 			{
-				loginPrompt.visible = false;
+				//loginPrompt.visible = false;
 			}
 		}
 		private function onLoginClick(e:MouseEvent):void

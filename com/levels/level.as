@@ -73,7 +73,6 @@ private var overlayLayer:MovieClip;
 			this.swapChildren(BG2_BM,BG2);
 			BGController1=new BG_BitmapController(BG1_BM,BG1);
 			BGController2=new BG_BitmapController(BG2_BM,BG2,8);
-
 		}
 		public function isRunning():Boolean {
 			return progRun;
@@ -83,7 +82,7 @@ private var overlayLayer:MovieClip;
 		}
 		private var pausePrompt:PausePrompt;
 		private function pauseCheck(e:KeyboardEvent):void {
-			if (e.keyCode==80) {
+			if (e.keyCode==80 ||e.keyCode==27 ) {
 				if (! pPress) {
 					if (! globals.gamePause) 
 					{

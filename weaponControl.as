@@ -209,7 +209,7 @@
 				}
 				steam.scaleX = ratio * 2;
 				steam.scaleY = ratio * 2;
-				steam.gotoAndStop(Math.round(ratio*100));
+				//steam.gotoAndStop(Math.round(ratio*100));
 				ratio = 30 - (ratio * 30);
 				steam.x = globals.hero.x + 5;
 				steam.y = globals.hero.y - 40;

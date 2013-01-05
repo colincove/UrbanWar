@@ -17,6 +17,8 @@ import com.levels.LevelEnd;
 	import flash.utils.Dictionary;
 	import com.controllers.GradingScaleController;
 	import com.database.PlaythroughMemory;
+	import flash.display.StageQuality;
+	import flash.media.SoundChannel;
 
 
 	public class globals
@@ -24,6 +26,8 @@ import com.levels.LevelEnd;
 	{
 		//value used to pad values wuch as gears and score to stop memory based hacks. 
 		public static var memoryPadding:int=500;
+		public static var mainMenuSoundChannel:SoundChannel;
+		public static var stageQuality:String=StageQuality.LOW;
 		public static var loginAfterCompletion:Boolean=false;
 		public static var playthroughMemory:PlaythroughMemory = new PlaythroughMemory();
 		public static var darkLevel:Boolean;
