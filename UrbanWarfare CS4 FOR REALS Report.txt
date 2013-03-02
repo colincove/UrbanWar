@@ -1,0 +1,1855 @@
+﻿UrbanWarfare CS4 FOR REALS.swf Movie Report
+--------------------------------------------
+
+Metadata
+--------
+Bytes         Value
+----------    -----
+      1217    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2010-10-08T21:04:40-07:00</xmp:CreateDate> <xmp:MetadataDate>2013-02-02T19:05:57-08:00</xmp:MetadataDate> <xmp:ModifyDate>2013-02-02T19:05:57-08:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:InstanceID>xmp.iid:91052A91AC6DE211911E95C8E69C2995</xmpMM:InstanceID> <xmpMM:DocumentID>xmp.did:91052A91AC6DE211911E95C8E69C2995</xmpMM:DocumentID> <xmpMM:OriginalDocumentID>xmp.did:E8CF905C5AD3DF11B46B935C27344EDF</xmpMM:OriginalDocumentID> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:F5D33138A36DE211911E95C8E69C2995</stRef:instanceID> <stRef:documentID>xmp.did:6AD9C1522551E211BA009A19C0ECBE20</stRef:documentID> <stRef:originalDocumentID>xmp.did:E8CF905C5AD3DF11B46B935C27344EDF</stRef:originalDocumentID> </xmpMM:DerivedFrom> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> </rdf:RDF> 
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    -----
+      1         175511         175511    Scene 2092
+      2       23390919       23566430     (AS 3.0 Classes Export Frame)
+      3              1       23566431    
+      4              1       23566432    Scene 1
+
+Scene         Shape Bytes    Text Bytes    ActionScript Bytes
+----------    -----------    ----------    ------------------
+Scene 2092              0             0                229846
+Scene 1                 0             0                     0
+
+Symbol                               Shape Bytes    Text Bytes    ActionScript Bytes
+---------------------------------    -----------    ----------    ------------------
+accuracyText                                   0            60                     0
+Armory                                         0             0                     0
+vcsdcvd                                        0             0                     0
+Bar                                          100             0                     0
+ChooseLoadoutButton                            0             0                     0
+ClosingCinematic                               0             0                     0
+fdsfdsfsdfsdfsd                                0             0                     0
+AlienAnimationContainer                        0             0                     0
+ALienDead                                      0             0                     0
+AlienDeadAnimation                             0             0                     0
+BossRun copy                                   0             0                     0
+dff                                           35             0                     0
+dfgdf                                        109             0                     0
+dg                                             0             0                     0
+dgf                                           36             0                     0
+dgfdfg                                        51             0                     0
+Symbol 4                                    3320             0                     0
+ererter                                       36             0                     0
+erter                                         35             0                     0
+ertre                                         52             0                     0
+ertsr                                         36             0                     0
+werew                                          0             0                     0
+Twdfgdfeen 2                                  56             0                     0
+hbbgbhbhbbjh                                  48             0                     0
+fggdf                                        136             0                     0
+<Path>_1_0                                    57             0                     0
+fsafs copy 2                                   0             0                     0
+Tween 13                                       0             0                     0
+Tween 11                                      96             0                     0
+Symbol 2 copy                                199             0                     0
+Tween 1                                     6232             0                     0
+Tween 3 copy                                   0             0                     0
+Symbol 2 copy 2                                0             0                     0
+Tween 5                                     2041             0                     0
+Tween 7                                     2695             0                     0
+Symbol 1                                     664             0                     0
+Tween 9                                       59             0                     0
+Light                                          0             0                     0
+ret                                           35             0                     0
+rtre                                          35             0                     0
+sfasfas                                        0             0                     0
+Sydgfmbol 2                                   72             0                     0
+Symbol 1 copy                                 93             0                     0
+Symbol 10                                   2784            46                     0
+Symbol 831                                     0             0                     0
+Symbol 832                                    79             0                     0
+Symbol 833                                     0             0                     0
+Symbol 834                                    61             0                     0
+Symbol 835                                   179             0                     0
+Symbol 836                                   181             0                     0
+Symbol 837                                    95             0                     0
+Symbol 838                                    87             0                     0
+Symbol 839                                   145             0                     0
+Symbol 840                                   149             0                     0
+Symbol 841                                    83             0                     0
+Symbol 842                                   115             0                     0
+Symbol 843                                     0             0                     0
+Symbol 844                                    44             0                     0
+Symbol 845                                     0             0                     0
+Symbol 846                                   180             0                     0
+Symbol 847                                   175             0                     0
+Symbol 848                                    96             0                     0
+Symbol 849                                    90             0                     0
+Symbol 850                                   146             0                     0
+Symbol 851                                   152             0                     0
+Symbol 852                                     0             0                     0
+Symbol 853                                   181             0                     0
+Symbol 854                                   230             0                     0
+Symbol 855                                    94             0                     0
+Symbol 856                                    87             0                     0
+Symbol 857                                   144             0                     0
+Symbol 858                                   149             0                     0
+Symbol 859                                     0             0                     0
+Symbol 860                                   175             0                     0
+Symbol 861                                   191             0                     0
+Symbol 862                                    96             0                     0
+Symbol 863                                    98             0                     0
+Symbol 864                                   145             0                     0
+Symbol 865                                   148             0                     0
+Symbol 866                                     0             0                     0
+Symbol 867                                   173             0                     0
+Symbol 868                                   192             0                     0
+Symbol 869                                   160             0                     0
+Symbol 870                                   172             0                     0
+Symbol 871                                   142             0                     0
+Symbol 872                                   216             0                     0
+Symbol 873                                    58             0                     0
+Symbol 874                                   231             0                     0
+Symbol 875                                   255             0                     0
+Symbol 876                                   147             0                     0
+Symbol 877                                   140             0                     0
+Symbol 878                                   310             0                     0
+Symbol 879                                   252             0                     0
+Symbol 880                                     0             0                     0
+Symbol 881                                   238             0                     0
+Symbol 882                                   191             0                     0
+Symbol 883                                   124             0                     0
+Symbol 884                                   145             0                     0
+Symbol 885                                   189             0                     0
+Symbol 886                                   145             0                     0
+Symbol 887                                    81             0                     0
+Symbol 888                                   237             0                     0
+Symbol 889                                   243             0                     0
+Symbol 890                                   106             0                     0
+Symbol 891                                   150             0                     0
+Symbol 892                                   251             0                     0
+Symbol 893                                   154             0                     0
+Symbol 894                                     0             0                     0
+Symbol 895                                   190             0                     0
+Symbol 896                                   201             0                     0
+Symbol 897                                   105             0                     0
+Symbol 898                                    94             0                     0
+Symbol 899                                   145             0                     0
+Symbol 900                                   144             0                     0
+Symbol 901                                     0             0                     0
+Symbol 902                                   186             0                     0
+Symbol 903                                   193             0                     0
+Symbol 904                                   103             0                     0
+Symbol 905                                    98             0                     0
+Symbol 906                                   142             0                     0
+Symbol 907                                   150             0                     0
+Symbol 908                                     0             0                     0
+Symbol 909                                     0             0                     0
+Symbol 910                                   186             0                     0
+Symbol 911                                   202             0                     0
+Symbol 912                                   107             0                     0
+Symbol 913                                   101             0                     0
+Symbol 914                                   141             0                     0
+Symbol 915                                   155             0                     0
+Symbol 916                                     0             0                     0
+Symbol 917                                   184             0                     0
+Symbol 918                                   200             0                     0
+Symbol 919                                   104             0                     0
+Symbol 920                                    97             0                     0
+Symbol 921                                   148             0                     0
+Symbol 922                                   155             0                     0
+Symbol 923                                     0             0                     0
+Symbol 924                                   177             0                     0
+Symbol 925                                   195             0                     0
+Symbol 926                                   103             0                     0
+Symbol 927                                    97             0                     0
+Symbol 928                                   143             0                     0
+Symbol 929                                   156             0                     0
+Symbol 930                                     0             0                     0
+Symbol 931                                   190             0                     0
+Symbol 932                                   194             0                     0
+Symbol 933                                   102             0                     0
+Symbol 934                                   102             0                     0
+Symbol 935                                   150             0                     0
+Symbol 936                                   150             0                     0
+Symbol 937                                     0             0                     0
+Symbol 938                                   181             0                     0
+Symbol 939                                   200             0                     0
+Symbol 940                                   102             0                     0
+Symbol 941                                    98             0                     0
+Symbol 942                                   150             0                     0
+Symbol 943                                   154             0                     0
+Symbol 944                                     0             0                     0
+Symbol 945                                     0             0                     0
+Symbol 946                                   193             0                     0
+Symbol 947                                   207             0                     0
+Symbol 948                                   108             0                     0
+Symbol 949                                   100             0                     0
+Symbol 950                                   152             0                     0
+Symbol 951                                   153             0                     0
+Symbol 952                                     0             0                     0
+Symbol 953                                   192             0                     0
+Symbol 954                                   203             0                     0
+Symbol 955                                   113             0                     0
+Symbol 956                                    99             0                     0
+Symbol 957                                   155             0                     0
+Symbol 958                                     0             0                     0
+Symbol 959                                   197             0                     0
+Symbol 960                                   200             0                     0
+Symbol 961                                   104             0                     0
+Symbol 962                                    99             0                     0
+Symbol 963                                   146             0                     0
+Symbol 964                                   153             0                     0
+Symbol 965                                     0             0                     0
+Symbol 966                                   198             0                     0
+Symbol 967                                   192             0                     0
+Symbol 968                                   108             0                     0
+Symbol 969                                   102             0                     0
+Symbol 970                                   146             0                     0
+Symbol 971                                   153             0                     0
+Symbol 972                                     0             0                     0
+Symbol 973                                   196             0                     0
+Symbol 974                                   195             0                     0
+Symbol 975                                   108             0                     0
+Symbol 976                                   102             0                     0
+Symbol 977                                   150             0                     0
+Symbol 978                                   155             0                     0
+Symbol 979                                     0             0                     0
+Symbol 980                                   197             0                     0
+Symbol 981                                   205             0                     0
+Symbol 982                                   114             0                     0
+Symbol 983                                   100             0                     0
+Symbol 984                                   142             0                     0
+Symbol 985                                   157             0                     0
+Symbol 986                                     0             0                     0
+Symbol 987                                   189             0                     0
+Symbol 988                                   189             0                     0
+Symbol 989                                   107             0                     0
+Symbol 990                                    99             0                     0
+Symbol 991                                   151             0                     0
+Symbol 992                                   161             0                     0
+Symbol 993                                     0             0                     0
+Symbol 994                                   186             0                     0
+Symbol 995                                   193             0                     0
+Symbol 996                                   108             0                     0
+Symbol 997                                   102             0                     0
+Symbol 998                                   150             0                     0
+Symbol 999                                   168             0                     0
+Symbol 1000                                    0             0                     0
+Symbol 1001                                  195             0                     0
+Symbol 1002                                  187             0                     0
+Symbol 1003                                  110             0                     0
+Symbol 1004                                  106             0                     0
+Symbol 1005                                  154             0                     0
+Symbol 1006                                  166             0                     0
+Symbol 1007                                    0             0                     0
+Symbol 1008                                  202             0                     0
+Symbol 1009                                  208             0                     0
+Symbol 1010                                  114             0                     0
+Symbol 1011                                  107             0                     0
+Symbol 1012                                    0             0                     0
+Symbol 1013                                  169             0                     0
+Symbol 1014                                    0             0                     0
+Symbol 1015                                  205             0                     0
+Symbol 1016                                  207             0                     0
+Symbol 1017                                  108             0                     0
+Symbol 1018                                  100             0                     0
+Symbol 1019                                  154             0                     0
+Symbol 1020                                  167             0                     0
+Symbol 1021                                    0             0                     0
+Symbol 1022                                  202             0                     0
+Symbol 1023                                  201             0                     0
+Symbol 1024                                  105             0                     0
+Symbol 1025                                  101             0                     0
+Symbol 1026                                  153             0                     0
+Symbol 1027                                  161             0                     0
+Symbol 1028                                    0             0                     0
+Symbol 1029                                  200             0                     0
+Symbol 1030                                  197             0                     0
+Symbol 1031                                  102             0                     0
+Symbol 1032                                  108             0                     0
+Symbol 1033                                  154             0                     0
+Symbol 1034                                  164             0                     0
+Symbol 1035                                    0             0                     0
+Symbol 1036                                  202             0                     0
+Symbol 1037                                  195             0                     0
+Symbol 1038                                  110             0                     0
+Symbol 1039                                  107             0                     0
+Symbol 1040                                  157             0                     0
+Symbol 1041                                  165             0                     0
+Symbol 1042                                    0             0                     0
+Symbol 1043                                  195             0                     0
+Symbol 1044                                  202             0                     0
+Symbol 1045                                  111             0                     0
+Symbol 1046                                  107             0                     0
+Symbol 1047                                  159             0                     0
+Symbol 1048                                  166             0                     0
+Symbol 1049                                    0             0                     0
+Symbol 1050                                  200             0                     0
+Symbol 1051                                  204             0                     0
+Symbol 1052                                  111             0                     0
+Symbol 1053                                  102             0                     0
+Symbol 1054                                  150             0                     0
+Symbol 1055                                  161             0                     0
+Symbol 1056                                    0             0                     0
+Symbol 1057                                  197             0                     0
+Symbol 1058                                  200             0                     0
+Symbol 1059                                  116             0                     0
+Symbol 1060                                  102             0                     0
+Symbol 1061                                  161             0                     0
+Symbol 1062                                  167             0                     0
+Symbol 1063                                    0             0                     0
+Symbol 1064                                  191             0                     0
+Symbol 1065                                  200             0                     0
+Symbol 1066                                  119             0                     0
+Symbol 1067                                  101             0                     0
+Symbol 1068                                  160             0                     0
+Symbol 1069                                  169             0                     0
+Symbol 1070                                    0             0                     0
+Symbol 1071                                  194             0                     0
+Symbol 1072                                  191             0                     0
+Symbol 1073                                  115             0                     0
+Symbol 1074                                  101             0                     0
+Symbol 1075                                  153             0                     0
+Symbol 1076                                  174             0                     0
+Symbol 1077                                    0             0                     0
+Symbol 1078                                  196             0                     0
+Symbol 1079                                  203             0                     0
+Symbol 1080                                  117             0                     0
+Symbol 1081                                  100             0                     0
+Symbol 1082                                  158             0                     0
+Symbol 1083                                  178             0                     0
+Symbol 1084                                    0             0                     0
+Symbol 1085                                    0             0                     0
+Symbol 1086                                  194             0                     0
+Symbol 1087                                  185             0                     0
+Symbol 1088                                  117             0                     0
+Symbol 1089                                  166             0                     0
+Symbol 1090                                  174             0                     0
+Symbol 1091                                    0             0                     0
+Symbol 1092                                  203             0                     0
+Symbol 1093                                  185             0                     0
+Symbol 1094                                    0             0                     0
+Symbol 1095                                  164             0                     0
+Symbol 1096                                  181             0                     0
+Symbol 1097                                    0             0                     0
+Symbol 1098                                  201             0                     0
+Symbol 1099                                  195             0                     0
+Symbol 1100                                  100             0                     0
+Symbol 1101                                  166             0                     0
+Symbol 1102                                  178             0                     0
+Symbol 1103                                    0             0                     0
+Symbol 1104                                  187             0                     0
+Symbol 1105                                  213             0                     0
+Symbol 1106                                  116             0                     0
+Symbol 1107                                  162             0                     0
+Symbol 1108                                  173             0                     0
+Symbol 1109                                    0             0                     0
+Symbol 1110                                  189             0                     0
+Symbol 1111                                  219             0                     0
+Symbol 1112                                  121             0                     0
+Symbol 1113                                  105             0                     0
+Symbol 1114                                  163             0                     0
+Symbol 1115                                  169             0                     0
+Symbol 1116                                    0             0                     0
+Symbol 1117                                  190             0                     0
+Symbol 1118                                  211             0                     0
+Symbol 1119                                  115             0                     0
+Symbol 1120                                  100             0                     0
+Symbol 1121                                  161             0                     0
+Symbol 1122                                  174             0                     0
+Symbol 1123                                    0             0                     0
+Symbol 1124                                  194             0                     0
+Symbol 1125                                  229             0                     0
+Symbol 1126                                  116             0                     0
+Symbol 1127                                  104             0                     0
+Symbol 1128                                  164             0                     0
+Symbol 1129                                  176             0                     0
+Symbol 1130                                    0             0                     0
+Symbol 1131                                  197             0                     0
+Symbol 1132                                  233             0                     0
+Symbol 1133                                  117             0                     0
+Symbol 1134                                  103             0                     0
+Symbol 1135                                  158             0                     0
+Symbol 1136                                  172             0                     0
+Symbol 1137                                    0             0                     0
+Symbol 1138                                  201             0                     0
+Symbol 1139                                  222             0                     0
+Symbol 1140                                  118             0                     0
+Symbol 1141                                  100             0                     0
+Symbol 1142                                  167             0                     0
+Symbol 1143                                  169             0                     0
+Symbol 1144                                    0             0                     0
+Symbol 1145                                  205             0                     0
+Symbol 1146                                  236             0                     0
+Symbol 1147                                  119             0                     0
+Symbol 1148                                  109             0                     0
+Symbol 1149                                  167             0                     0
+Symbol 1150                                  167             0                     0
+Symbol 1151                                  798             0                     0
+Symbol 1152                                  907             0                     0
+Symbol 1153                                  898             0                     0
+Symbol 1154                                  878             0                     0
+Symbol 1155                                  898             0                     0
+Symbol 1156                                    0             0                     0
+Symbol 1157                                  892             0                     0
+Symbol 1158                                  875             0                     0
+Symbol 1159                                  752             0                     0
+Symbol 1160                                  161             0                     0
+Symbol 1161                                  656             0                     0
+Symbol 1162                                  119             0                     0
+Symbol 1163                                  799             0                     0
+Symbol 1164                                  886             0                     0
+Symbol 1165                                  800             0                     0
+Symbol 1166                                  118             0                     0
+Symbol 1167                                  807             0                     0
+Symbol 1168                                  898             0                     0
+Symbol 1169                                  881             0                     0
+Symbol 1170                                  882             0                     0
+Symbol 1171                                  870             0                     0
+Symbol 1172                                  879             0                     0
+Symbol 1173                                  874             0                     0
+Symbol 1174                                  871             0                     0
+Symbol 1175                                  864             0                     0
+Symbol 1176                                  895             0                     0
+Symbol 1177                                  883             0                     0
+Symbol 1178                                  881             0                     0
+Symbol 1179                                  901             0                     0
+Symbol 1180                                  881             0                     0
+Symbol 1181                                  891             0                     0
+Symbol 1182                                  881             0                     0
+Symbol 1183                                  907             0                     0
+Symbol 1184                                  741             0                     0
+Symbol 1185                                  163             0                     0
+Symbol 1186                                  906             0                     0
+Symbol 1187                                  743             0                     0
+Symbol 1188                                  746             0                     0
+Symbol 1189                                  167             0                     0
+Symbol 1190                                  760             0                     0
+Symbol 1191                                  904             0                     0
+Symbol 1192                                  904             0                     0
+Symbol 1193                                  905             0                     0
+Symbol 1194                                  896             0                     0
+Symbol 1195                                  880             0                     0
+Symbol 1196                                  894             0                     0
+Symbol 1197                                  415             0                     0
+Symbol 1198                                  878             0                     0
+Symbol 1199                                  852             0                     0
+Symbol 1200                                  855             0                     0
+Symbol 1201                                  653             0                     0
+Symbol 1202                                   88             0                     0
+Symbol 1203                                  161             0                     0
+Symbol 1204                                  646             0                     0
+Symbol 1205                                  872             0                     0
+Symbol 1206                                  900             0                     0
+Symbol 1207                                  862             0                     0
+Symbol 1208                                  668             0                     0
+Symbol 1209                                   96             0                     0
+Symbol 1210                                  167             0                     0
+Symbol 1211                                  732             0                     0
+Symbol 1212                                  812             0                     0
+Symbol 1213                                  806             0                     0
+Symbol 1214                                  112             0                     0
+Symbol 1215                                  798             0                     0
+Symbol 1216                                  803             0                     0
+Symbol 1217                                  113             0                     0
+Symbol 1218                                  822             0                     0
+Symbol 1219                                  896             0                     0
+Symbol 1220                                  800             0                     0
+Symbol 1221                                  111             0                     0
+Symbol 1222                                  800             0                     0
+Symbol 1223                                  817             0                     0
+Symbol 1224                                  798             0                     0
+Symbol 1225                                  791             0                     0
+Symbol 1226                                  115             0                     0
+Symbol 1227                                  798             0                     0
+Symbol 1228                                  898             0                     0
+Symbol 1229                                  834             0                     0
+Symbol 1230                                   98             0                     0
+Symbol 1231                                  686             0                     0
+Symbol 1232                                   93             0                     0
+Symbol 1233                                  164             0                     0
+Symbol 1234                                  677             0                     0
+Symbol 1235                                  586             0                     0
+Symbol 1236                                  115             0                     0
+Symbol 1237                                  570             0                     0
+Symbol 1238                                  572             0                     0
+Symbol 1239                                  671             0                     0
+Symbol 1240                                  585             0                     0
+Symbol 1241                                  113             0                     0
+Symbol 1242                                  557             0                     0
+Symbol 1243                                  506             0                     0
+Symbol 1244                                  175             0                     0
+Symbol 1245                                  499             0                     0
+Symbol 1246                                  577             0                     0
+Symbol 1247                                  115             0                     0
+Symbol 1248                                  665             0                     0
+Symbol 1249                                  578             0                     0
+Symbol 1250                                  110             0                     0
+Symbol 1251                                  572             0                     0
+Symbol 1252                                  588             0                     0
+Symbol 1253                                  575             0                     0
+Symbol 1254                                  607             0                     0
+Symbol 1255                                  111             0                     0
+Symbol 1256                                  600             0                     0
+Symbol 1257                                  115             0                     0
+Symbol 1258                                  588             0                     0
+Symbol 1259                                  111             0                     0
+Symbol 1260                                  584             0                     0
+Symbol 1261                                  111             0                     0
+Symbol 1262                                  603             0                     0
+Symbol 1263                                  583             0                     0
+Symbol 1264                                  587             0                     0
+Symbol 1265                                  691             0                     0
+Symbol 1266                                  714             0                     0
+Symbol 1267                                  598             0                     0
+Symbol 1268                                  115             0                     0
+Symbol 1269                                  602             0                     0
+Symbol 1270                                  113             0                     0
+Symbol 1271                                  597             0                     0
+Symbol 1272                                  609             0                     0
+Symbol 1273                                  598             0                     0
+Symbol 1274                                  602             0                     0
+Symbol 1275                                  110             0                     0
+Symbol 1276                                  599             0                     0
+Symbol 1277                                  613             0                     0
+Symbol 1278                                  613             0                     0
+Symbol 1279                                  607             0                     0
+Symbol 1280                                  704             0                     0
+Symbol 1281                                  602             0                     0
+Symbol 1282                                    0             0                     0
+Symbol 1283                                  594             0                     0
+Symbol 1284                                  607             0                     0
+Symbol 1285                                  107             0                     0
+Symbol 1286                                  603             0                     0
+Symbol 1287                                  598             0                     0
+Symbol 1288                                  596             0                     0
+Symbol 1289                                  838             0                     0
+Symbol 1290                                  743             0                     0
+Symbol 1291                                  106             0                     0
+Symbol 1292                                  757             0                     0
+Symbol 1293                                  860             0                     0
+Symbol 1294                                  764             0                     0
+Symbol 1295                                  691             0                     0
+Symbol 1296                                  167             0                     0
+Symbol 1297                                  855             0                     0
+Symbol 1298                                  717             0                     0
+Symbol 1299                                  855             0                     0
+Symbol 1300                                  624             0                     0
+Symbol 1301                                  163             0                     0
+Symbol 1302                                  614             0                     0
+Symbol 1303                                  750             0                     0
+Symbol 1304                                  852             0                     0
+Symbol 1305                                  854             0                     0
+Symbol 1306                                  845             0                     0
+Symbol 1307                                  851             0                     0
+Symbol 1308                                  581             0                     0
+Symbol 1309                                  113             0                     0
+Symbol 1310                                  163             0                     0
+Symbol 1311                                  585             0                     0
+Symbol 1312                                  817             0                     0
+Symbol 1313                                  821             0                     0
+Symbol 1314                                  823             0                     0
+Symbol 1315                                  836             0                     0
+Symbol 1316                                  828             0                     0
+Symbol 1317                                  673             0                     0
+Symbol 1318                                  167             0                     0
+Symbol 1319                                  684             0                     0
+Symbol 1320                                  819             0                     0
+Symbol 1321                                  822             0                     0
+Symbol 1322                                  795             0                     0
+Symbol 1323                                  820             0                     0
+Symbol 1324                                  830             0                     0
+Symbol 1325                                  882             0                     0
+Symbol 1326                                  882             0                     0
+Symbol 1327                                  550             0                     0
+Symbol 1328                                  114             0                     0
+Symbol 1329                                  178             0                     0
+Symbol 1330                                  669             0                     0
+Symbol 1331                                  804             0                     0
+Symbol 1332                                  897             0                     0
+Symbol 1333                                  887             0                     0
+Symbol 1334                                  893             0                     0
+Symbol 1335                                  886             0                     0
+Symbol 1336                                  655             0                     0
+Symbol 1337                                   91             0                     0
+Symbol 1338                                  171             0                     0
+Symbol 1339                                  722             0                     0
+Symbol 1340                                  108             0                     0
+Symbol 1341                                  581             0                     0
+Symbol 1342                                  100             0                     0
+Symbol 1343                                  669             0                     0
+Symbol 1344                                   99             0                     0
+Symbol 1345                                  671             0                     0
+Symbol 1346                                  163             0                     0
+Symbol 1347                                  674             0                     0
+Symbol 1348                                  168             0                     0
+Symbol 1349                                  684             0                     0
+Symbol 1350                                   91             0                     0
+Symbol 1351                                  667             0                     0
+Symbol 1352                                  740             0                     0
+Symbol 1353                                  741             0                     0
+Symbol 1354                                  794             0                     0
+Symbol 1355                                  110             0                     0
+Symbol 1356                                  806             0                     0
+Symbol 1357                                  821             0                     0
+Symbol 1358                                   95             0                     0
+Symbol 1359                                  825             0                     0
+Symbol 1360                                  727             0                     0
+Symbol 1361                                  109             0                     0
+Symbol 1362                                  585             0                     0
+Symbol 1363                                   97             0                     0
+Symbol 1364                                  167             0                     0
+Symbol 1365                                  680             0                     0
+Symbol 1366                                  810             0                     0
+Symbol 1367                                   92             0                     0
+Symbol 1368                                  829             0                     0
+Symbol 1369                                  670             0                     0
+Symbol 1370                                   98             0                     0
+Symbol 1371                                  163             0                     0
+Symbol 1372                                  672             0                     0
+Symbol 1373                                  815             0                     0
+Symbol 1374                                  732             0                     0
+Symbol 1375                                  732             0                     0
+Symbol 1376                                  110             0                     0
+Symbol 1377                                   99             0                     0
+Symbol 1378                                  724             0                     0
+Symbol 1379                                  762             0                     0
+Symbol 1380                                  162             0                     0
+Symbol 1381                                  912             0                     0
+Symbol 1382                                  669             0                     0
+Symbol 1383                                  116             0                     0
+Symbol 1384                                  660             0                     0
+Symbol 1385                                  164             0                     0
+Symbol 1386                                  756             0                     0
+Symbol 1387                                  884             0                     0
+Symbol 1388                                  743             0                     0
+Symbol 1389                                  166             0                     0
+Symbol 1390                                  691             0                     0
+Symbol 1391                                  121             0                     0
+Symbol 1392                                  678             0                     0
+Symbol 1393                                  921             0                     0
+Symbol 1394                                  915             0                     0
+Symbol 1395                                  753             0                     0
+Symbol 1396                                  161             0                     0
+Symbol 1397                                  771             0                     0
+Symbol 1398                                  883             0                     0
+Symbol 1399                                  760             0                     0
+Symbol 1400                                  159             0                     0
+Symbol 1401                                  769             0                     0
+Symbol 1402                                  753             0                     0
+Symbol 1403                                  741             0                     0
+Symbol 1404                                  164             0                     0
+Symbol 1405                                  750             0                     0
+Symbol 1406                                  752             0                     0
+Symbol 1407                                  165             0                     0
+Symbol 1408                                  808             0                     0
+Symbol 1409                                  113             0                     0
+Symbol 1410                                  653             0                     0
+Symbol 1411                                  813             0                     0
+Symbol 1412                                  665             0                     0
+Symbol 1413                                  158             0                     0
+Symbol 1414                                  656             0                     0
+Symbol 1415                                  799             0                     0
+Symbol 1416                                  813             0                     0
+Symbol 1417                                  809             0                     0
+Symbol 1418                                  557             0                     0
+Symbol 1419                                  111             0                     0
+Symbol 1420                                  169             0                     0
+Symbol 1421                                  639             0                     0
+Symbol 1422                                  167             0                     0
+Symbol 1423                                  659             0                     0
+Symbol 1424                                  656             0                     0
+Symbol 1425                                  713             0                     0
+Symbol 1426                                  105             0                     0
+Symbol 1427                                  818             0                     0
+Symbol 1428                                  795             0                     0
+Symbol 1429                                  724             0                     0
+Symbol 1430                                  793             0                     0
+Symbol 1431                                  640             0                     0
+Symbol 1432                                  170             0                     0
+Symbol 1433                                  531             0                     0
+Symbol 1434                                  801             0                     0
+Symbol 1435                                  783             0                     0
+Symbol 1436                                  788             0                     0
+Symbol 1437                                  802             0                     0
+Symbol 1438                                  806             0                     0
+Symbol 1439                                  808             0                     0
+Symbol 1440                                  653             0                     0
+Symbol 1441                                  177             0                     0
+Symbol 1442                                  642             0                     0
+Symbol 1443                                  636             0                     0
+Symbol 1444                                  637             0                     0
+Symbol 1445                                  474             0                     0
+Symbol 1446                                  167             0                     0
+Symbol 1447                                  474             0                     0
+Symbol 1448                                  627             0                     0
+Symbol 1449                                  646             0                     0
+Symbol 1450                                  533             0                     0
+Symbol 1451                                  622             0                     0
+Symbol 1452                                  620             0                     0
+Symbol 1453                                  646             0                     0
+Symbol 1454                                  644             0                     0
+Symbol 1455                                  659             0                     0
+Symbol 1456                                  632             0                     0
+Symbol 1457                                  638             0                     0
+Symbol 1458                                  659             0                     0
+Symbol 1459                                  467             0                     0
+Symbol 1460                                  169             0                     0
+Symbol 1461                                  483             0                     0
+Symbol 1462                                  659             0                     0
+Symbol 1463                                  645             0                     0
+Symbol 1464                                  479             0                     0
+Symbol 1465                                  169             0                     0
+Symbol 1466                                  636             0                     0
+Symbol 1467                                  495             0                     0
+Symbol 1468                                  632             0                     0
+Symbol 1469                                  535             0                     0
+Symbol 1470                                  117             0                     0
+Symbol 1471                                  367             0                     0
+Symbol 1472                                  167             0                     0
+Symbol 1473                                  492             0                     0
+Symbol 1474                                  484             0                     0
+Symbol 1475                                  382             0                     0
+Symbol 1476                                  114             0                     0
+Symbol 1477                                  164             0                     0
+Symbol 1478                                  540             0                     0
+Symbol 1479                                  372             0                     0
+Symbol 1480                                  534             0                     0
+Symbol 1481                                  536             0                     0
+Symbol 1482                                  547             0                     0
+Symbol 1483                                  559             0                     0
+Symbol 1484                                  566             0                     0
+Symbol 1485                                  574             0                     0
+Symbol 1486                                  406             0                     0
+Symbol 1487                                  167             0                     0
+Symbol 1488                                  403             0                     0
+Symbol 1489                                  403             0                     0
+Symbol 1490                                  575             0                     0
+Symbol 1491                                  576             0                     0
+Symbol 1492                                  578             0                     0
+Symbol 1493                                  412             0                     0
+Symbol 1494                                  161             0                     0
+Symbol 1495                                  431             0                     0
+Symbol 1496                                  593             0                     0
+Symbol 1497                                  598             0                     0
+Symbol 1498                                  576             0                     0
+Symbol 1499                                  592             0                     0
+Symbol 1500                                  583             0                     0
+Symbol 1501                                  419             0                     0
+Symbol 1502                                  170             0                     0
+Symbol 1503                                  405             0                     0
+Symbol 1504                                  405             0                     0
+Symbol 1505                                  165             0                     0
+Symbol 1506                                  572             0                     0
+Symbol 1507                                  379             0                     0
+Symbol 1508                                  380             0                     0
+Symbol 1509                                  176             0                     0
+Symbol 1510                                  390             0                     0
+Symbol 1511                                  366             0                     0
+Symbol 1512                                  166             0                     0
+Symbol 1513                                  539             0                     0
+Symbol 1514                                  508             0                     0
+Symbol 1515                                  350             0                     0
+Symbol 1516                                  540             0                     0
+Symbol 1517                                  365             0                     0
+Symbol 1518                                  173             0                     0
+Symbol 1519                                  362             0                     0
+Symbol 1520                                  361             0                     0
+Symbol 1521                                  171             0                     0
+Symbol 1522                                  348             0                     0
+Symbol 1523                                  508             0                     0
+Symbol 1524                                  536             0                     0
+Symbol 1525                                  532             0                     0
+Symbol 1526                                  526             0                     0
+Symbol 1527                                  537             0                     0
+Symbol 1528                                  540             0                     0
+Symbol 1529                                  525             0                     0
+Symbol 1530                                  528             0                     0
+Symbol 1531                                  532             0                     0
+Symbol 1532                                  547             0                     0
+Symbol 1533                                  538             0                     0
+Symbol 1534                                  530             0                     0
+Symbol 1535                                  545             0                     0
+Symbol 1536                                  543             0                     0
+Symbol 1537                                  395             0                     0
+Symbol 1538                                  173             0                     0
+Symbol 1539                                  385             0                     0
+Symbol 1540                                  566             0                     0
+Symbol 1541                                  384             0                     0
+Symbol 1542                                  175             0                     0
+Symbol 1543                                  395             0                     0
+Symbol 1544                                  553             0                     0
+Symbol 1545                                  566             0                     0
+Symbol 1546                                  563             0                     0
+Symbol 1547                                  568             0                     0
+Symbol 1548                                  561             0                     0
+Symbol 1549                                  568             0                     0
+Symbol 1550                                  198             0                     0
+Symbol 1551                                  216             0                     0
+Symbol 1552                                  172             0                     0
+Symbol 1553                                  392             0                     0
+Symbol 1554                                  199             0                     0
+Symbol 1555                                  556             0                     0
+Symbol 1556                                  560             0                     0
+Symbol 1557                                  558             0                     0
+Symbol 1558                                  575             0                     0
+Symbol 1559                                  577             0                     0
+Symbol 1560                                  551             0                     0
+Symbol 1561                                  571             0                     0
+Symbol 1562                                  550             0                     0
+Symbol 1563                                  537             0                     0
+Symbol 1564                                  545             0                     0
+Symbol 1565                                  557             0                     0
+Symbol 1566                                  545             0                     0
+Symbol 1567                                  543             0                     0
+Symbol 1568                                  554             0                     0
+Symbol 1569                                  541             0                     0
+Symbol 1570                                  537             0                     0
+Symbol 1571                                  547             0                     0
+Symbol 1572                                  547             0                     0
+Symbol 1573                                  541             0                     0
+Symbol 1574                                  532             0                     0
+Symbol 1575                                  536             0                     0
+Symbol 1576                                  548             0                     0
+Symbol 1577                                  531             0                     0
+Symbol 1578                                  506             0                     0
+Symbol 1579                                  522             0                     0
+Symbol 1580                                  537             0                     0
+Symbol 1581                                  542             0                     0
+Symbol 1582                                  513             0                     0
+Symbol 1583                                  508             0                     0
+Symbol 1584                                  518             0                     0
+Symbol 1585                                  525             0                     0
+Symbol 1586                                  535             0                     0
+Symbol 1587                                  537             0                     0
+terter                                        36             0                     0
+teye                                           0             0                     0
+treter                                       130             0                     0
+lsd_4 copy                                 28825             0                     0
+lsd_3 copy                                 10219             0                     0
+lsd_2 copy                                  7974             0                     0
+lsd_1 copy                                 47128             0                     0
+lsd_6 copy                                 39596             0                     0
+ytwerqwe                                     380             0                     0
+ytytry                                         0             0                     0
+Twdfgeen 23                                    0             0                     0
+Tween 35                                     105             0                     0
+twrqwrqwe                                     83             0                     0
+werwe                                          0             0                     0
+OPeningScene                                   0             0                     0
+Tween 38                                      72             0                     0
+OpeningSceneGraphic                           39             0                     0
+OPeningSceneCity                               0             0                     0
+STartScene1                                   94             0                     0
+StartScene2                                    0             0                     0
+STartScene3Cotainret                           0             0                     0
+Tween 49                                       0             0                     0
+Tween 50                                      99             0                     0
+Tween 34                                   12395             0                     0
+StartScene3                                    0             0                     0
+Level1Background2                              0             0                     0
+Level1Background1                              0             0                     0
+Light                                          0             0                     0
+Tween 35                                     105             0                     0
+Symbol 14                                    831             0                     0
+Tween 30                                       0             0                     0
+Tween 26                                       0             0                     0
+Symbol 6                                    1568             0                     0
+Tween 32                                       0             0                     0
+Symbol 2 copy                                199             0                     0
+ClosingScene                                   0             0                     0
+barrel                                         0             0                     0
+barrel_artwork                               121             0                     0
+healthDefine                                  32             0                     0
+blimp                                          0             0                     0
+blimpArtwork                                 267             0                     0
+building1                                      0             0                     0
+Symbol 1                                     664             0                     0
+building1_artwork                            244             0                     0
+Chaple                                         0             0                     0
+ChapleArtwork                                175             0                     0
+darkDebry                                    223             0                     0
+house                                          0             0                     0
+house_artwork                                 81             0                     0
+houseDebry                                   223             0                     0
+tree                                           0             0                     0
+tree_artwork                                 597             0                     0
+House2                                         0             0                     0
+House2Artwork                                103             0                     0
+industrial13                                   0             0                     0
+industrial13_artwork                         134             0                     0
+industrial14                                   0             0                     0
+industrial14_artwork                          51             0                     0
+industrial15                                   0             0                     0
+industrail16_artwork                         571             0                     0
+industrial17                                   0             0                     0
+industrial17_artwork                         573             0                     0
+industrial18                                   0             0                     0
+industrial167                                  0             0                     0
+industrial24                                   0             0                     0
+industrial24_artwork                         118             0                     0
+industrial20                                   0             0                     0
+industrial20_artwork                         118             0                     0
+industrial21                                   0             0                     0
+industrial21_artwork                          94             0                     0
+industrial22                                   0             0                     0
+industrial22_artwork                          99             0                     0
+industrial23                                   0             0                     0
+Industrial7                                    0             0                     0
+industrial11_artwork                          79             0                     0
+industrial8                                    0             0                     0
+industrial12_artwork                           0             0                     0
+industrial9                                    0             0                     0
+insutrial6                                     0             0                     0
+industrial10_artwork                         106             0                     0
+IndustrialArtwork1                           139             0                     0
+INdustrialPart2_Artork                        58             0                     0
+InsutrialPart1                                 0             0                     0
+InsutrialPart2                                 0             0                     0
+InsutrialPart3                                 0             0                     0
+ScienceArtwork copy                          336             0                     0
+ScienceArtwork copy 2                        336             0                     0
+scienceBuilding                                0             0                     0
+scienceBuilding copy                           0             0                     0
+TowerArtwork                                 244             0                     0
+TowerBuilding                                  0             0                     0
+Car                                            0             0                     0
+CarArtwork                                    97             0                     0
+CityLuminescence                               0             0                     0
+DoorDark_rtwork copy                         133             0                     0
+Doors                                          0             0                     0
+DoorSrtwork                                  133             0                     0
+Doors_Dark                                     0             0                     0
+EnemieSizes.swf                                0             0                     0
+Circles                                        0             0                     0
+explosion                                   9657             0                     0
+explosionAnimation                             0             0                     0
+explosionAnimation copy                        0             0                     0
+ExplosionCircle                               60             0                     0
+explosionObject                                0             0                     0
+Tween 3                                      113             0                     0
+explosionWhiteAnimatiom                        0             0                     0
+smallExplosionObject                           0             0                     0
+SmallExplosionSmoke                            0             0                     0
+whiteExplosion                                 0             0                     0
+whiteExplosion copy                            0             0                     0
+MilitaryBuilding_9_Artwork                   179             0                     0
+MillitaryBuilding_1                            0             0                     0
+MillitaryBuilding_1_Artwork                  289             0                     0
+MillitaryBuilding_2                            0             0                     0
+MillitaryBuilding_2_Artwork                  269             0                     0
+MillitaryBuilding_3                            0             0                     0
+MillitaryBuilding_3_Artwork                  205             0                     0
+MillitaryBuilding_4                            0             0                     0
+MillitaryBuilding_4_Artwork                  541             0                     0
+levelLight2                                    0             0                     0
+MillitaryBuilding_5                            0             0                     0
+MillitaryBuilding_5_Artwork                  307             0                     0
+MillitaryBuilding_6                            0             0                     0
+MillitaryBuilding_6_Artwork                   75             0                     0
+MillitaryBuilding_7                            0             0                     0
+MillitaryBuilding_7_Artwork                   73             0                     0
+MillitaryBuilding_8                            0             0                     0
+MillitaryBuilding_8_Artwork                  162             0                     0
+StreetLampLights                               0             0                     0
+MillitaryBuilding_9                            0             0                     0
+MillitaryBuilding_10                           0             0                     0
+MillitaryBuilding_10_Artwork                 225             0                     0
+MillitaryBuilding_11                           0             0                     0
+MillitaryBuilding_11_Artwork                 436             0                     0
+MillitaryBuilding_12                           0             0                     0
+MillitaryBuilding_12_Artwork                 820             0                     0
+MillitaryBuilding_13                           0             0                     0
+MillitaryBuilding_13_Artwork                 351             0                     0
+MillitaryBuilding_14                           0             0                     0
+Symbol 13                                   7885             0                     0
+person                                       121             0                     0
+personRunning                                307             0                     0
+smokeObj                                     335             0                     0
+Texture                                        0             0                     0
+DownLight                                      0             0                     0
+Archer                                         0             0                     0
+Archer_Artwork                                 0             0                     0
+ArcherGunAnimation                             0             0                     0
+ArcherBody                                   194             0                     0
+ArcherGun                                     41             0                     0
+Bomb                                          74             0                     0
+Bomber                                         0             0                     0
+SetScreenPoint                                61             0                     0
+BomberArtwork                                120             0                     0
+BomberReverse                                  0             0                     0
+droid                                          0             0                     0
+droidArtwork                                 184             0                     0
+droidArm                                       0             0                     0
+enemy_container                                0             0                     0
+enemy1                                         0             0                     0
+enemy1_artwork                                61             0                     0
+enemy1_death                                   0             0                     0
+enemyDebry                                   255             0                     0
+enemySpawnContainer copy                       0             0                     0
+SpawnHitSpot                                  38             0                     0
+enemySpawnContainer copy 2                     0             0                     0
+enemySpawnContainer copy 3                     0             0                     0
+enemySpawnContainer copy 4                     0             0                     0
+enemySpawnContainer1                           0             0                     0
+enemySpawnContainer1 copy                      0             0                     0
+enemySpawnContainer2                           0             0                     0
+enemySpawnContainer2 copy                      0             0                     0
+enemySpawnContainer3                           0             0                     0
+SpinBot                                        0             0                     0
+SpinBotArtwork                               253             0                     0
+Tank                                           0             0                     0
+TankArtwork                                   70             0                     0
+TankArm                                       33             0                     0
+Tween 14                                      46             0                     0
+Tween 12                                     123             0                     0
+fdsfdsf                                       66             0                     0
+Fuel                                           0             0                     0
+Symbol 1                                     664             0                     0
+Symbol 2                                     374             0                     0
+Symbol 3                                     170             0                     0
+Symbol 4                                    3320             0                     0
+Thor                                           0             0                     0
+Thor_Animation                                 0             0                     0
+Thor_AirGun                                    0             0                     0
+Thor_WalkAgain                                 0             0                     0
+Thor_LowerLeg                                 41             0                     0
+Thor_UpperLeg                                 42             0                     0
+Thor_foot                                     76             0                     0
+Thor_ShootBody                                 0             0                     0
+Thor_ShootArm                                  0             0                     0
+Thor_Arm                                     274             0                     0
+Thor_Body                                    112             0                     0
+Thor_gun                                     103             0                     0
+Thor_Walk                                      0             0                     0
+Tween 1                                     6232             0                     0
+Tween 1 copy                                 142             0                     0
+Tween 1 copy 2                               128             0                     0
+Tween 1 copy 3                               156             0                     0
+Tween 1 copy 4                               126             0                     0
+Tween 2                                      126             0                     0
+Tween 2 copy                                 189             0                     0
+Tween 4                                        0             0                     0
+Tween 5                                     2041             0                     0
+Tween 5 copy                                   0             0                     0
+Tween 6                                        0             0                     0
+Tween 7                                     2695             0                     0
+Tween 8                                        0             0                     0
+enemiesKilledText                              0            66                     0
+FastFade                                      72             0                     0
+<Group>_1                                    295             0                     0
+<Group>_1                                    295             0                     0
+<Compound Path>                              126             0                     0
+<Compound Path>_1                            102             0                     0
+<Compound Path>_2                            185             0                     0
+<Group>                                      133             0                     0
+<Path>                                       113             0                     0
+<Path>_1                                      78             0                     0
+fsafs copy 2                                   0             0                     0
+FuelBar                                       81             0                     0
+FuelBackground                                66             0                     0
+FuelItem                                       0             0                     0
+Green_Gear                                  2218             0                     0
+OrbPoint                                       0             0                     0
+OrbSymbol                                    366             0                     0
+OrbPointEnd                                  102             0                     0
+GearSymbol                                     0             0                     0
+GameEndGradient                              174             0                     0
+3                                              0             0                     0
+Bar                                          100             0                     0
+BlackPointBar                                 34             0                     0
+HealthBar                                    102             0                     0
+ShieldBar                                     57             0                     0
+Tween 47                                      34             0                     0
+bar                                           34             0                     0
+healthBack                                    34             0                     0
+healthBar                                      0             0                     0
+HUD                                           90             0                     0
+Score                                          0             0                     0
+hud_fade                                       0             0                     0
+TEXTURE                                        0             0                     0
+Tween 9                                       59             0                     0
+HUDWhiteFade                                   0             0                     0
+Tween 40                                       0             0                     0
+Num                                         1693            50                     0
+Arrow                                          0             0                     0
+arrowHead                                     51             0                     0
+OffScreen                                    185             0                     0
+HeroAnimation                                  0             0                     0
+Symbol 1                                     664             0                     0
+OverheatSymbol                                 0             0                     0
+SheildBarWithMask                              0             0                     0
+Tween 24 copy                                  0             0                     0
+ShieldShine                                   36             0                     0
+ShieldBar                                     57             0                     0
+ShieldBar2                                     0             0                     0
+ShieldShine                                   36             0                     0
+BlackGear                                    358             0                     0
+Buy                                          925             0                     0
+BuyHover                                    1138             0                     0
+Symbol 9                                    1866            46                     0
+Symbol 10                                   2784            46                     0
+WeaponIcon1                                    0             0                     0
+WeaponIcon2                                    0             0                     0
+WeaponIcon3                                    0             0                     0
+WeaponIcon4                                    0             0                     0
+WeaponIcon5                                    0             0                     0
+WeaponIcon6                                    0             0                     0
+WeaponIcon7                                    0             0                     0
+WeaponIcon8                                    0             0                     0
+WeaponIcon9                                    0             0                     0
+WeaponIconContainer                           87             0                     0
+WeaponKeys                                     0             0                     0
+WeaponUI                                      46           247                     0
+arm                                            0             0                     0
+LaserGunAnimationy                             0             0                     0
+MissileLauncherAnimation                       0             0                     0
+MiniGunAnimation                               0             0                     0
+clusterLauncherAnimation                       0             0                     0
+waveCannonAnimation                            0             0                     0
+vineAnimation                                  0             0                     0
+gausseCannonAnimation                          0             0                     0
+ArmContainer                                   0             0                     0
+Body                                           0             0                     0
+BoosterFlame                                 319             0                     0
+Fall                                           0             0                     0
+Fire                                         335             0                     0
+Foot                                          79             0                     0
+Basckwidnow                                   55             0                     0
+Body                                           0             0                     0
+BodyCase                                     123             0                     0
+Console                                       35             0                     0
+Foot                                          79             0                     0
+<Group>                                      133             0                     0
+<Path>                                       113             0                     0
+LowerLeg                                      40             0                     0
+UpperLeg                                      72             0                     0
+UpperWindow                                   59             0                     0
+Idle                                           0             0                     0
+StartRun                                       0             0                     0
+Run                                            0             0                     0
+Land                                           0             0                     0
+Stop                                           0             0                     0
+Jump                                           0             0                     0
+startLevelLand                               176             0                     0
+runBackwards                                   0             0                     0
+LowerLeg                                      40             0                     0
+Tween 51                                      66             0                     0
+fall                                           0             0                     0
+idle                                           0             0                     0
+jump                                           0             0                     0
+land                                           0             0                     0
+run                                            0             0                     0
+booster                                      136             0                     0
+body                                         284             0                     0
+outerLeg2                                    149             0                     0
+outerLeg1                                    128             0                     0
+knee1                                         75             0                     0
+foot1                                        145             0                     0
+pelvis                                       124             0                     0
+innerLeg1                                    144             0                     0
+innerLeg2                                    130             0                     0
+knee2                                         76             0                     0
+foot2                                        147             0                     0
+hand                                         104             0                     0
+innerArm1                                     86             0                     0
+innerArm2                                    205             0                     0
+elbow                                         83             0                     0
+stop                                           0             0                     0
+Hero_Clip                                      0             0                     0
+UpperLeg                                      72             0                     0
+JetpackSymbol                                682             0                     0
+ShineAnimation                                 0             0                     0
+LaserLight                                    89             0                     0
+LeaderBoardInfoButton                        281             0                     0
+level 1 foreground                           389             0                     0
+LevelEnd                                       0             0                     0
+LevelEndArtwork                              222           169                     0
+HeroSpawn                                    307             0                     0
+level1                                         0             0                     0
+Symbol 2 copy 3                                0             0                     0
+Symbol 6 copy                                  0             0                     0
+level1_hero_container                          0             0                     0
+level1_ground_enemy_container                  0             0                     0
+level1Neutral                                358             0                     0
+EndGame                                       39             0                     0
+level1 deign                                   0             0                     0
+level1_enemy_container                         0             0                     0
+level1_ground_container                        0             0                     0
+level1Ground                                 618             0                     0
+Symbol 10                                   2784            46                     0
+Symbol 9                                    1866            46                     0
+MiniGunItem                                 1129             0                     0
+Symbol 1 copy                                 93             0                     0
+Light                                          0             0                     0
+level2                                         0             0                     0
+level2_hero_container                          0             0                     0
+level2_ground_enemy_container                  0             0                     0
+level2Neutral                                  0             0                     0
+Level2Background2                              0             0                     0
+Level2Background1                              0             0                     0
+level2_design                                  0             0                     0
+level2_enemy_container                         0             0                     0
+level2_ground_container                        0             0                     0
+level2Ground                                 109             0                     0
+level2_ground_objects                          0             0                     0
+level3                                       104             0                     0
+level3_hero_container                          0             0                     0
+level3Neutral                                  0             0                     0
+level3_ground_enemy_container                  0             0                     0
+Level3Background2                              0             0                     0
+Level3Background1                              0             0                     0
+level3_design                                  0             0                     0
+level3_enemy_container                         0             0                     0
+level3_ground_container                        0             0                     0
+level3Ground                                 137             0                     0
+level4                                         0             0                     0
+level4_hero_container                          0             0                     0
+level4Neutral                                  0             0                     0
+level4_ground_enemy_container                  0             0                     0
+Level4Background2                           8320             0                     0
+Level4Background1                           9409             0                     0
+Sun                                            0             0                     0
+level4 design                                  0             0                     0
+level4_enemy_container                         0             0                     0
+level4_ground_container                        0             0                     0
+level4Ground                                 136             0                     0
+level5                                         0             0                     0
+level5_hero_container                          0             0                     0
+level5Neutral                                  0             0                     0
+level5_ground_enemy_container                  0             0                     0
+Level5Background2                           8388             0                     0
+Level5Background1                           9459             0                     0
+level5 design                                  0             0                     0
+level5_enemy_container                         0             0                     0
+level5_ground_container                        0             0                     0
+level5Ground                                 196             0                     0
+SlowMissileLauncher                           39             0                     0
+level6                                        84             0                     0
+level6Neutral                                  0             0                     0
+level6_hero_container                          0             0                     0
+level6_ground_enemy_container                  0             0                     0
+Level6Background2                           8388             0                     0
+Level6Background1                           9435             0                     0
+level6 design                                  0             0                     0
+level6_enemy_container                         0             0                     0
+level6_ground_container                        0             0                     0
+level6Ground                                 300             0                     0
+level7                                         0             0                     0
+level7Neutral                                  0             0                     0
+level7_hero_container                          0             0                     0
+level7_ground_enemy_container                  0             0                     0
+backlightContainer                             0             0                     0
+Level7Background2                           6246             0                     0
+Level7Background1                           2059             0                     0
+level7 design                                  0             0                     0
+level7_enemy_container                         0             0                     0
+level7_ground_container                       72             0                     0
+level7Ground                                 190             0                     0
+Symbol 13                                   7885             0                     0
+Symbol 11                                   1004             0                     0
+Symbol 12                                   8346             0                     0
+level8                                         0             0                     0
+level8Neutral                                  0             0                     0
+level8_hero_container                          0             0                     0
+level8_ground_enemy_container                  0             0                     0
+Level8Background2                           5961             0                     0
+Level8Background1                           2059             0                     0
+level8_design                                  0             0                     0
+level8_enemy_container                         0             0                     0
+level8_ground_container                        0             0                     0
+level8Ground                                 199             0                     0
+level9                                         0             0                     0
+Symbol 1 copy 4                               52             0                     0
+level9Neutral                                  0             0                     0
+level9_hero_container                          0             0                     0
+level9_ground_enemy_container                 75             0                     0
+level9_midground                             204             0                     0
+Level9Background2                           6191             0                     0
+Level9Background1                           2161             0                     0
+level9_Design                                  0             0                     0
+level9_enemy_container                         0             0                     0
+level9_ground_container                        0             0                     0
+level9Ground                                 790             0                     0
+Symbol 3                                     170             0                     0
+Loading                                     2077             0                     0
+LoadingBarMask                                 0             0                     0
+LoadingBlackout                              624             0                     0
+LoadingBlackoutBlack                          38             0                     0
+LoadoutMenuButton                              0             0                     0
+LoadoutPrompt                                 58           110                     0
+Lock                                         195             0                     0
+LoginPrompt                                    0             0                     0
+6                                              0             0                     0
+BackToLogin                                    0            59                     0
+BackToLogin2                                  50            57                     0
+CancelButton                                   0           196                     0
+ChoicePromp                                    0            50                     0
+PromptOK                                       0            53                     0
+Symbol 1                                     664             0                     0
+ModalBackgrounds                               0             0                     0
+CloseButton                                    0           195                     0
+CloseLeaderboardsButton2                       0             0                     0
+ContinueGame                                   0           199                     0
+continueWithoutLeaderboardsButton              0            62                     0
+ControlsButton                                 0           108                     0
+ControlsPrompt                               934           804                     0
+Symbol 8 copy                                256             0                     0
+EndLevelScreen                               139           140                     0
+Tween 46                                      74             0                     0
+totalScoreText copy                            0            57                     0
+Symbol 8                                       0             0                     0
+totalScoreText                                 0            63                     0
+ScreenGrabDisplay                             54             0                     0
+Symbol 1 copy 3                                0             0                     0
+EndScreenAnimation                             0             0                     0
+FindMeButton                                   0            59                     0
+AddWeapon                                      0             0                     0
+Symbol 17                                    297             0                     0
+Symbol 17 copy                               297             0                     0
+BuyButton                                      0             0                     0
+BuyWeapon                                      0           169                     0
+ContinueButton                                 0            68                     0
+GenericLevelStatus                             0             0                     0
+INbetween Menus                                0             0                     0
+MenuStatus                                    68             0                     0
+WeaponUI                                      46           247                     0
+LevelStatus                                    0             0                     0
+LoadoutStatus                                  0            72                     0
+MoneyStatus                                    0           246                     0
+userStats                                      0             0                     0
+Tween 18                                       0             0                     0
+Level1Status                                   0             0                     0
+Level2Status                                   0             0                     0
+Level3Status                                   0             0                     0
+Level1Button                                   0             0                     0
+OverLight                                      0             0                     0
+Level2Button                                   0             0                     0
+OVerLightSmall                                 0             0                     0
+Level3Button                                   0             0                     0
+Level4Button                                   0             0                     0
+Level5Button                                   0             0                     0
+Level6Button                                   0             0                     0
+Level7Button                                   0             0                     0
+Level8Button                                   0             0                     0
+LoadOutDisplay                                36             0                     0
+SmallWeaponIcons                               0             0                     0
+MenuTabbar                                     0           116                     0
+SelectWeaponGlow                               0             0                     0
+SelectLevel                                    0             0                     0
+TabBarButtonLeft                               0             0                     0
+TabBarButtonRight                              0             0                     0
+QualityTabba                                 107           127                     0
+RemoveWeapon                                   0             0                     0
+Symbol 17 copy 2                             240             0                     0
+Symbol 17 copy 3                             226             0                     0
+Symbol 16                                      0             0                     0
+SelectWeaponGLowAnimation                     69             0                     0
+NEwWeaponGUIAnimation                          0             0                     0
+Upgrades                                       0           213                     0
+upgradeGlow                                   48             0                     0
+InfoModal                                      0            70                     0
+JetpackRetrievedPrompt                         0            70                     0
+jetpackRetrievedIconAnimation                555             0                     0
+Symbol 1 copy 2                               70             0                     0
+LeaderBoards                                   0             0                     0
+LeaderboardSelect1                             0             0                     0
+LeaderboardSelect2                             0             0                     0
+LeaderboardSelect4                             0             0                     0
+LeaderboardSelect7                            35             0                     0
+leaderboardUserContext                         0           176                     0
+Symbol 9 copy                                  0             0                     0
+Symbol 2                                     374             0                     0
+Leaderboards2                                 53            64                     0
+LEaderboardsBackground                         0             0                     0
+LeaderboardSelect3                             0             0                     0
+LeaderboardSelect5                             0             0                     0
+LeaderboardSelect8                             0             0                     0
+LeaderboardSelect9                             0             0                     0
+LeaderboardTitleButton                         0            64                     0
+Top10Button                                    0            58                     0
+Level1Button                                   0             0                     0
+Level2Button                                   0             0                     0
+Level3Button                                   0             0                     0
+loadingMenu                                    0             0                     0
+LoadingScreen                                  0             0                     0
+LoginButton                                    0            58                     0
+LoginScreen                                  165          1652                     0
+NewUserButtoon                                 0            61                     0
+RegisterButton                                 0            60                     0
+menuBackground                                59             0                     0
+Symbol 4                                    3320             0                     0
+fsdfsd                                         0             0                     0
+rehrtj                                         0             0                     0
+newWeaponUI                                   57             0                     0
+UpgradeNode                                  198             0                     0
+pauseMenu                                      0           109                     0
+PausePrompt                                    0            63                     0
+PausePromptResume                              0            68                     0
+PausePromptMenu                                0            61                     0
+PausePromptEndLevel                            0            61                     0
+Prompt                                         0            70                     0
+RegistrationInfoPrompt                         0          1032                     0
+ResultRow                                    102           280                     0
+RollOverColor                                  0             0                     0
+Symbol 1                                     664             0                     0
+SmallWeaponIconsGreen                          0             0                     0
+TitleScreen                                    0            66                     0
+titleScreenUserContext                         0           331                     0
+UpgradeStatus                                  0             0                     0
+WeaponRetrievedPrompt                          0            72                     0
+weaponRetrievedIconAnimation                   0             0                     0
+dvvgfdjyjrgfdgszdv                             0             0                     0
+dvvv                                        2695             0                     0
+fdgfdg                                      1634             0                     0
+gdfgdf                                         0             0                     0
+gfgdefgfdgdf                                   0             0                     0
+ggrhhjyrjy                                     0             0                     0
+ghrhjy                                         0             0                     0
+Symbol 14                                    831             0                     0
+mkkihv                                         0             0                     0
+pointmass                                     45             0                     0
+rotating                                       0             0                     0
+NEW                                          124             0                     0
+NewSymbol                                    576             0                     0
+BouncyObject                                  40             0                     0
+box                                            0             0                     0
+camRoof                                       50             0                     0
+shakething                                    98             0                     0
+spawnhitSpot                                   0             0                     0
+ScreenShotCOntainer                            0             0                     0
+sfasfas                                        0             0                     0
+Shield                                         0             0                     0
+shieldWarpIn                                   0             0                     0
+ShieldHit                                   2224             0                     0
+ShieldItem                                   198             0                     0
+ShieldMask                                    68             0                     0
+shieldOverallhit                               0             0                     0
+Tween 16                                      89             0                     0
+Tween 23 copy                                140             0                     0
+Tween 22                                       0             0                     0
+SkipButton                                     0           100                     0
+SoundCOntainer                                 0             0                     0
+Symbol 2                                     374             0                     0
+Symbol 2 copy 2                                0             0                     0
+Symbol 5 copy 2                               78             0                     0
+Symbol 4 copy 2                              121             0                     0
+Symbol 3 copy 2                               77             0                     0
+Symbol 3                                     170             0                     0
+Symbol 3 copy                                  0             0                     0
+Symbol 4 copy                                  0             0                     0
+Symbol 5                                    1200             0                     0
+Symbol 5 copy                                  0             0                     0
+Symbol 6                                    1568             0                     0
+Tween 42                                      39             0                     0
+Symbol 7                                     274             0                     0
+Symbol 7 copy                                100             0                     0
+Tween 36                                      96             0                     0
+Symbol 985                                   157             0                     0
+Symbol 1009                                  208             0                     0
+Symbol 1010                                  114             0                     0
+Symbol 1011                                  107             0                     0
+Symbol 1012                                    0             0                     0
+Symbol 1013                                  169             0                     0
+Symbol 1136                                  172             0                     0
+Symbol 1977                                    0             0                     0
+Symbol 1978                                    0             0                     0
+Symbol 1979                                    0             0                     0
+Symbol 1980                                    0             0                     0
+Symbol 1981                                    0             0                     0
+Symbol 1982                                   50             0                     0
+Symbol 1983                                    0             0                     0
+Symbol 1984                                   34             0                     0
+Symbol 2768                                    0             0                     0
+Symbol 2769                                    0             0                     0
+Symbol 2770                                    0             0                     0
+Symbol 2771                                    0             0                     0
+Symbol 2772                                    0             0                     0
+Symbol 2773                                    0             0                     0
+Tween 52                                       0             0                     0
+Symbol 2                                     374             0                     0
+Symbol 4                                    3320             0                     0
+Symbol 5                                    1200             0                     0
+Symbol 7                                     274             0                     0
+Symbol 8                                       0             0                     0
+Symbol 11                                   1004             0                     0
+Symbol 12                                   8346             0                     0
+Symbol 15                                      0             0                     0
+Symbol 18                                    184             0                     0
+Symbol 18 copy                               148             0                     0
+Symbol 899                                   145             0                     0
+Tween 10                                       0             0                     0
+Tween 11                                      96             0                     0
+Tween 13                                       0             0                     0
+Tween 15                                       0             0                     0
+Tween 16 copy                                  0             0                     0
+Tween 17                                       0             0                     0
+Tween 19                                       0             0                     0
+Tween 20                                     130             0                     0
+Tween 21                                       0             0                     0
+Tween 23                                       0             0                     0
+Tween 24                                       0             0                     0
+Tween 25                                       0             0                     0
+Tween 27                                       0             0                     0
+Tween 28                                       0             0                     0
+Tween 29                                       0             0                     0
+Tween 31                                       0             0                     0
+Tween 33                                       0             0                     0
+Tween 37                                       0             0                     0
+Tween 39                                       0             0                     0
+Tween 41                                       0             0                     0
+Tween 43                                       0             0                     0
+Tween 44                                       0             0                     0
+Tween 45                                       0             0                     0
+Tween 48                                       0             0                     0
+ClusterLauncherIcon                         1143             0                     0
+Symbol 795                                     0             0                     0
+Symbol 796                                    35             0                     0
+Symbol 797                                     0             0                     0
+Symbol 798                                    38             0                     0
+Symbol 799                                    38             0                     0
+Symbol 800                                    34             0                     0
+Symbol 801                                    38             0                     0
+Symbol 802                                    38             0                     0
+Symbol 803                                    34             0                     0
+Symbol 804                                     0             0                     0
+Symbol 805                                     0             0                     0
+Symbol 806                                     0             0                     0
+Symbol 807                                    61             0                     0
+ClusterLauncherItem                          598             0                     0
+ClusterRocket                                 67             0                     0
+ClusterLockLauncherIcon                        0             0                     0
+Symbol 166                                     0             0                     0
+Symbol 167                                     0             0                     0
+Symbol 168                                     0             0                     0
+Symbol 169                                     0             0                     0
+Symbol 170                                     0             0                     0
+Symbol 171                                    35             0                     0
+Symbol 172                                     0             0                     0
+ClusterLockLauncherItem                      395             0                     0
+EMpWave                                      100             0                     0
+GausseCannonIcon                             409             0                     0
+BigLaserCannotShot                             0             0                     0
+LaserBeam3Flash                              179             0                     0
+LaserBeamFlash                               246             0                     0
+LaserCannon3Artwork                            0             0                     0
+StreakMask                                     0             0                     0
+laserHit                                       0             0                     0
+MiniGunHitSpot                               248             0                     0
+LaserCannonArtwork                             0             0                     0
+LaserCannonItem                              661             0                     0
+LaserIcon                                   1528             0                     0
+Symbol 832                                    79             0                     0
+Symbol 833                                     0             0                     0
+Symbol 834                                    61             0                     0
+Symbol 835                                   179             0                     0
+Symbol 836                                   181             0                     0
+Symbol 837                                    95             0                     0
+Symbol 838                                    87             0                     0
+Symbol 839                                   145             0                     0
+Symbol 840                                   149             0                     0
+Symbol 841                                    83             0                     0
+Symbol 842                                   115             0                     0
+Symbol 843                                     0             0                     0
+Symbol 844                                    44             0                     0
+Symbol 845                                     0             0                     0
+Symbol 846                                   180             0                     0
+Symbol 847                                   175             0                     0
+Symbol 848                                    96             0                     0
+Symbol 849                                    90             0                     0
+Symbol 850                                   146             0                     0
+Symbol 851                                   152             0                     0
+Symbol 852                                     0             0                     0
+Symbol 853                                   181             0                     0
+Symbol 854                                   230             0                     0
+Lock                                         195             0                     0
+MaskArtwork                                   59             0                     0
+MiniGun3Artwork                                0             0                     0
+MiniGunFlash copy                            189             0                     0
+MiniGunArtwork                                 0             0                     0
+MiniGunFlash                                 343             0                     0
+MiniGunIcon                                  818             0                     0
+Symbol 146                                     0             0                     0
+Symbol 147                                     0             0                     0
+Symbol 148                                     0             0                     0
+Symbol 149                                     0             0                     0
+Symbol 150                                     0             0                     0
+Symbol 151                                     0             0                     0
+Symbol 152                                    47             0                     0
+Symbol 153                                    48             0                     0
+Tween 1                                     6232             0                     0
+missile                                       85             0                     0
+MissileLauncherIcon                          545             0                     0
+MissileLauncherItem                          827             0                     0
+MissileLock                                    0             0                     0
+Slow                                          83             0                     0
+SlowMissile                                    0             0                     0
+steamObj                                       0             0                     0
+TheVineItem                                  772             0                     0
+VineIcon                                    3754             0                     0
+Symbol 868                                   192             0                     0
+Symbol 869                                   160             0                     0
+Symbol 870                                   172             0                     0
+Symbol 871                                   142             0                     0
+Symbol 872                                   216             0                     0
+Symbol 873                                    58             0                     0
+Symbol 874                                   231             0                     0
+Symbol 875                                   255             0                     0
+Symbol 876                                   147             0                     0
+Symbol 877                                   140             0                     0
+Symbol 878                                   310             0                     0
+Symbol 879                                   252             0                     0
+WaveCannonItem                               672             0                     0
+WaveIcon                                    2332             0                     0
+Symbol 881                                   238             0                     0
+Symbol 882                                   191             0                     0
+Symbol 883                                   124             0                     0
+Symbol 884                                   145             0                     0
+Symbol 885                                   189             0                     0
+Symbol 886                                   145             0                     0
+Symbol 887                                    81             0                     0
+Symbol 888                                   237             0                     0
+Symbol 889                                   243             0                     0
+Symbol 890                                   106             0                     0
+Symbol 891                                   150             0                     0
+Symbol 892                                   251             0                     0
+WaveParticle                                   0             0                     0
+Symbol 728                                     0             0                     0
+Symbol 729                                     0             0                     0
+Symbol 730                                     0             0                     0
+Symbol 731                                     0             0                     0
+Symbol 732                                     0             0                     0
+Symbol 733                                     0             0                     0
+Symbol 734                                     0             0                     0
+Symbol 735                                     0             0                     0
+Symbol 736                                     0             0                     0
+Symbol 737                                     0             0                     0
+Symbol 738                                     0             0                     0
+Symbol 739                                     0             0                     0
+Symbol 740                                     0             0                     0
+Symbol 741                                     0             0                     0
+Symbol 742                                     0             0                     0
+Symbol 743                                     0             0                     0
+Symbol 744                                     0             0                     0
+Symbol 745                                     0             0                     0
+Symbol 746                                     0             0                     0
+Symbol 747                                     0             0                     0
+Symbol 748                                     0             0                     0
+Symbol 749                                     0             0                     0
+Symbol 750                                     0             0                     0
+Symbol 751                                     0             0                     0
+Symbol 752                                     0             0                     0
+Symbol 753                                     0             0                     0
+Symbol 755                                     0             0                     0
+Symbol 756                                     0             0                     0
+Symbol 757                                     0             0                     0
+Symbol 758                                     0             0                     0
+Symbol 759                                     0             0                     0
+Symbol 760                                     0             0                     0
+Symbol 761                                     0             0                     0
+Symbol 762                                     0             0                     0
+Symbol 763                                     0             0                     0
+Symbol 764                                     0             0                     0
+Symbol 765                                     0             0                     0
+Symbol 766                                     0             0                     0
+Symbol 767                                     0             0                     0
+Symbol 768                                     0             0                     0
+Symbol 769                                     0             0                     0
+Symbol 770                                     0             0                     0
+Symbol 771                                     0             0                     0
+Symbol 772                                     0             0                     0
+Symbol 773                                     0             0                     0
+Symbol 774                                     0             0                     0
+Symbol 775                                     0             0                     0
+Symbol 776                                     0             0                     0
+Symbol 777                                     0             0                     0
+Symbol 778                                     0             0                     0
+Symbol 779                                     0             0                     0
+Symbol 780                                     0             0                     0
+Symbol 781                                     0             0                     0
+Symbol 782                                     0             0                     0
+Symbol 783                                     0             0                     0
+Symbol 784                                     0             0                     0
+Symbol 785                                     0             0                     0
+Symbol 786                                     0             0                     0
+Symbol 787                                     0             0                     0
+Symbol 788                                     0             0                     0
+Symbol 789                                     0             0                     0
+Symbol 790                                     0             0                     0
+Symbol 791                                     0             0                     0
+Symbol 792                                     0             0                     0
+Symbol 793                                     0             0                     0
+Symbol 794                                     0             0                     0
+Symbol 809                                     0             0                     0
+Symbol 810                                     0             0                     0
+Symbol 811                                     0             0                     0
+Symbol 812                                     0             0                     0
+Symbol 813                                     0             0                     0
+Symbol 814                                     0             0                     0
+Symbol 815                                     0             0                     0
+Symbol 816                                     0             0                     0
+Symbol 817                                     0             0                     0
+Symbol 818                                     0             0                     0
+Symbol 819                                     0             0                     0
+Symbol 820                                     0             0                     0
+Symbol 821                                     0             0                     0
+Symbol 822                                     0             0                     0
+Symbol 823                                     0             0                     0
+Symbol 824                                     0             0                     0
+Symbol 825                                     0             0                     0
+Symbol 826                                     0             0                     0
+Symbol 827                                     0             0                     0
+Symbol 828                                     0             0                     0
+Symbol 829                                     0             0                     0
+Symbol 830                                     0             0                     0
+Symbol 831                                     0             0                     0
+Symbol 856                                    87             0                     0
+Symbol 857                                   144             0                     0
+Symbol 858                                   149             0                     0
+Symbol 859                                     0             0                     0
+Symbol 860                                   175             0                     0
+Symbol 861                                   191             0                     0
+Symbol 862                                    96             0                     0
+Symbol 863                                    98             0                     0
+Symbol 864                                   145             0                     0
+Symbol 865                                   148             0                     0
+Symbol 866                                     0             0                     0
+Symbol 867                                   173             0                     0
+
+
+Tweened Shapes: 1756 bytes
+
+Font Name                   Bytes         Characters
+------------------------    ----------    ----------
+Impact                             804    KOSikp
+AkzidenzGroteskBQ-Medium         41015     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĐŒœŠšŸƒˆˉ˜μ–—‘’‚“”„†‡•…‰‹›€™
+MyriadPro-Regular                  403    EQ
+ArialMT                            360    EPTY
+
+ActionScript Bytes    Location
+------------------    --------
+            164937    Scene 2092:Frame 1
+             64909    Scene 2092:Frame 2
+
+Bitmap                               Compressed    Original      Compression
+---------------------------------    ----------    ----------    -----------
+LightMask.png                             10493        258064    JPEG Quality=80
+Prompt.png                                10129        409600    JPEG Quality=80
+MenuTextureScreen.jpg                    113210       1920000    Imported JPEG=102
+PromptButtonNormal.png                     2887         54808    JPEG Quality=80
+PromptButtonHovered.png                    3188         54808    JPEG Quality=80
+PromptButtonPressed.png                    3020         54808    JPEG Quality=80
+MenuTextureScreenBroken.jpg              183920       1920000    Imported JPEG=102
+PromptTabButtonNormal.png                  2367         44392    JPEG Quality=80
+PromptTabButtonHovered.png                 2605         44392    JPEG Quality=80
+PromptTabButtonPressed.png                 2479         44392    JPEG Quality=80
+PromptTabButtonFlippedNormal.png           2256         44392    JPEG Quality=80
+PromptTabButtonFlippedHovered.png          2504         44392    JPEG Quality=80
+PromptTabButtonFlippedPressed.png          2385         44392    JPEG Quality=80
+MenuTexture.jpg                           85261       1920000    Imported JPEG=102
+MenuBackground.jpg                        59046       3842400    JPEG Quality=80
+Level1Locked.jpg                           3085         38416    JPEG Quality=80
+Level1Unlocked.jpg                         3068         38416    JPEG Quality=80
+GenericOff.jpg                              688          6084    JPEG Quality=80
+GenericUnlocked.jpg                         756          6084    JPEG Quality=80
+GenericChoose.jpg                           730          6084    JPEG Quality=80
+Level2Locked.jpg                           2519         38416    JPEG Quality=80
+Level2Unlocked.jpg                         3763         38416    JPEG Quality=80
+Level3Locked.jpg                           2497         38416    JPEG Quality=80
+Level3Unlocked.jpg                         3915         38416    JPEG Quality=80
+SelectLevelOout.png                        3383         38808    JPEG Quality=80
+SelectLevel.png                            3465         38808    JPEG Quality=80
+SelectLevelIn.png                          3544         38808    JPEG Quality=80
+ChooseLoadoutOver.png                      3828         38808    JPEG Quality=80
+LoadoutSphereBad.png                       2961         38808    JPEG Quality=80
+LoadoutSphereGoing.png                     2733         38808    JPEG Quality=80
+LoadoutSphereGood.png                      2888         38808    JPEG Quality=80
+Gears.png                                  4050         38808    JPEG Quality=80
+GearsRed.png                               4002         38808    JPEG Quality=80
+WeaponNull.png                             3153        195488    JPEG Quality=80
+WeaponSelected.png                         7329        195488    JPEG Quality=80
+Level0.png copy                              96          4032    Lossless
+BuyOut.png                                  475          8832    Lossless
+BuyOver.png                                 519          8832    Lossless
+Level1.png                                  117          4032    Lossless
+Level0.png                                   96          4032    Lossless
+Level2.png                                  102          4032    Lossless
+Level3.png                                   96          4032    Lossless
+WeaponUnselected.png                       6528        195488    JPEG Quality=80
+starsSMALL.jpg                            41689       2880000    Imported JPEG=102
+OverheatIcon.png                           1372         16640    Lossless
+TextureFinalTest.jpg                      21147       1920000    Imported JPEG=102
+SmallMoon.png                              1284         10000    JPEG Quality=80
+Earth.png                                 13783        249000    JPEG Quality=80
+BigMoon.png                              290729       5760000    JPEG Quality=80
+EndSceneBackground.jpg                    28712       6242484    JPEG Quality=80
+EndSceneForground.png                     20730       6242484    Lossless
+Tube.png                                   8911        339080    JPEG Quality=80
+
+Event Sounds: 11KHz Mono 16 kbps MP3
+
+
+Sound name                         Bytes         Format
+-------------------------------    ----------    ------
+WoodCrashSmall.mp3                       9084    11KHz Mono 16 kbps MP3
+WoodCrash.mp3                           43397    11KHz Mono 16 kbps MP3
+weaponPickUp.mp3                        15754    11KHz Mono 16 kbps MP3
+weaponOverheat.mp3                      28015    11KHz Mono 16 kbps MP3
+weaponHot.mp3                           15754    11KHz Mono 16 kbps MP3
+WaveShot.mp3                            21263    11KHz Mono 16 kbps MP3
+VineShot.mp3                            22887    11KHz Mono 16 kbps MP3
+VineHit.mp3                             18550    11KHz Mono 16 kbps MP3
+ting.mp3                                13422    11KHz Mono 16 kbps MP3
+thorStep.mp3                            18902    11KHz Mono 16 kbps MP3
+tankShot.mp3                            18902    11KHz Mono 16 kbps MP3
+steamOverload.mp3                       28015    11KHz Mono 16 kbps MP3
+steamBig.mp3                            28015    11KHz Mono 16 kbps MP3
+steam.mp3                               18902    11KHz Mono 16 kbps MP3
+spinMove.mp3                            20476    11KHz Mono 16 kbps MP3
+song8.mp3                             4491081    11KHz Mono 16 kbps MP3
+song7.mp3                             4491081    11KHz Mono 16 kbps MP3
+song6.mp3                               64981    11KHz Mono 16 kbps MP3
+song5.mp3                              701802    11KHz Mono 16 kbps MP3
+song4.mp3                             2710351    11KHz Mono 16 kbps MP3
+song3.mp3                              319455    11KHz Mono 16 kbps MP3
+song2.mp3                             3602884    11KHz Mono 16 kbps MP3
+song1.mp3                             2361394    11KHz Mono 16 kbps MP3
+ShieldHit2.mp3                          36298    11KHz Mono 16 kbps MP3
+ShieldHit1.mp3                          30381    11KHz Mono 16 kbps MP3
+missileLaunch.mp3                       16972    11KHz Mono 16 kbps MP3
+miniGun.mp3                             22493    11KHz Mono 16 kbps MP3
+MetalCrash.mp3                          28804    11KHz Mono 16 kbps MP3
+lockOn.mp3                              20476    11KHz Mono 16 kbps MP3
+locking.mp3                             18902    11KHz Mono 16 kbps MP3
+Level1Backtrack.mp3                    958968    11KHz Mono 16 kbps MP3
+laserStart.mp3                          17328    11KHz Mono 16 kbps MP3
+laser.mp3                               15754    11KHz Mono 16 kbps MP3
+land.mp3                                17328    11KHz Mono 16 kbps MP3
+jetPack.mp3                             15754    11KHz Mono 16 kbps MP3
+HitSound.mp3                            17328    11KHz Mono 16 kbps MP3
+HeroHit2.mp3                            12239    11KHz Mono 16 kbps MP3
+HeroHit1.mp3                            41424    11KHz Mono 16 kbps MP3
+HeroHit.mp3                             17328    11KHz Mono 16 kbps MP3
+GetShield.mp3                           44185    11KHz Mono 16 kbps MP3
+getOrb                                  15000    11KHz Mono 16 kbps MP3
+GausseShot.mp3                          15788    11KHz Mono 16 kbps MP3
+explosion3.mp3                          17721    11KHz Mono 16 kbps MP3
+explosion2.mp3                          17721    11KHz Mono 16 kbps MP3
+explosion1.mp3                          20082    11KHz Mono 16 kbps MP3
+EnemyDie2.mp3                           36692    11KHz Mono 16 kbps MP3
+EnemyDie1.mp3                           36692    11KHz Mono 16 kbps MP3
+Desperat-adam_p89-8151_hifi.mp3         99522    11KHz Mono 16 kbps MP3
+Dance509-Daniel_N-9593_hifi.mp3         74281    11KHz Mono 16 kbps MP3
+CarCrash.mp3                            16183    11KHz Mono 16 kbps MP3
+bombFall.mp3                            15754    11KHz Mono 16 kbps MP3
+BarrelExplode.mp3                       15788    11KHz Mono 16 kbps MP3
+AutoCrash IE01_02_5.wav                  6295    11KHz Mono 16 kbps MP3
+AutoCrash CRB01_16_2.wav                 3547    11KHz Mono 16 kbps MP3
+
+Binary Data               Bytes         Location
+----------------------    ----------    --------
+gameStart_XMLDataClass          9237    
+
+
+
+

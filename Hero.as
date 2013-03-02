@@ -117,6 +117,7 @@ animation.gotoAndStop("idle");
 			globals.HUD.placeCam();
 			progRun=false;
 			globals.HUD.progRun=false;
+			animation.scaleX=1;
 			animation.gotoAndStop("startLevelLand");
 		}
 public override function destroy():void
@@ -160,6 +161,7 @@ public override function destroy():void
 		private function loadSelf(e:Event):void
 		{
 			globals.setArmCannon(armCannon);
+			firstRunInterval=0;
 			ground = globals.groundContainer;
 			armCannon.resumeArmFunction();
 			healthBarObj.initialize(this);
@@ -194,6 +196,7 @@ public override function destroy():void
 				{
 					Hero.disableHero=true;
 				}else{
+					
 					Hero.disableHero=false;
 				}
 				firstRunInterval++;
@@ -357,7 +360,12 @@ shield=null;
 			{
 				globalFunctions.makeDebry("enemyDebry",6,globalFunctions.getMainX(this),globalFunctions.getMainY(this));
 			}
-			removeSelf();
+			armCannon.progRun = false;
+			ground=null;
+			progRun = false;
+			armCannon.removeSelf();
+			progRun = false;
+			//removeSelf();
 		}
 
 		private function roof():void

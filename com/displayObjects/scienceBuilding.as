@@ -16,6 +16,7 @@
 		public override function die():void
 		{
 			var weaponDropChance:int = int(Math.random() * 10);
+			weaponDropChance=2;
 			if (weaponDropChance==2)
 			{
 			var possibleList:Array = new Array();
@@ -62,10 +63,12 @@
 					if(possibleList[i]!=spawnedItem)
 					{
 						possibleList[i].destroy();
-						possibleList[i]=null;
+						
 					}
+					possibleList[i]=null;
 				}
 			}
+			possibleList=null;
 			}else{
 			globalFunctions.spawnOrbs(20, globalFunctions.getMainX(this), globalFunctions.getMainY(this)+100);
 			}

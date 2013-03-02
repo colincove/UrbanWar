@@ -28,7 +28,12 @@ tabBarControl.addEventListener(TabBarControl.BTN2, loadoutClick);
 		}
 		private function launch(e:MenuEvent):void
 		{
-			tabBarControl.setState(TabBarControl.BTN1, true);
+			
+			tabBarControl.setState(TabBarControl.BTN1, false);
+			tabBarControl.setState(TabBarControl.BTN2, false);
+			update();
+			tabBarControl.setState(TabBarControl.BTN1, false);
+			setState(true);
 		}
 		private function armoryClick(e:Event=null):void
 		{
@@ -48,6 +53,7 @@ tabBarControl.addEventListener(TabBarControl.BTN2, loadoutClick);
 		}
 		private function onClickLoadout(e:MouseEvent):void
 		{
+			GameMenuPM.setLoadoutStatus();
 			GameMenuPM.menuState=GameMenuPM.LOADOUT;
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE));
 		}
@@ -106,16 +112,8 @@ shineAnimation.visible=false;
 					//this.gotoAndStop("choose");
 				}
 			}
-			if(GameMenuPM.loadoutSelected)
-			{
-				shineAnimation.visible=true;
-				loadoutButton.visible=false;
-				playLevelButton.x=playLevelButtonX;
-				playLevelButton.visible=true;
-			}else{
-				loadoutButton.visible=true;
-				shineAnimation.visible=false;
-			}
+			setState(GameMenuPM.loadoutSelected);
+			
 			/*if(GameMenuPM.weaponList.length==GameMenuPM.loadOut.length)
 			{
 			this.gotoAndStop("select");
@@ -127,6 +125,18 @@ shineAnimation.visible=false;
 			this.gotoAndStop("choose");
 			}
 			}*/
+		}
+		public function setState(state:Boolean):void{
+			if(state)
+			{
+				shineAnimation.visible=true;
+				loadoutButton.visible=false;
+				playLevelButton.x=playLevelButtonX;
+				playLevelButton.visible=true;
+			}else{
+				loadoutButton.visible=true;
+				shineAnimation.visible=true;
+			}
 		}
 	}
 }

@@ -114,6 +114,8 @@ private var overlayLayer:MovieClip;
 		public function update():Object 
 		{
 			globals.neutralContainer.graphics.clear();
+			
+			
 
 			this.BG1.x=this.x-globals.HUD.x/2;
 			this.BG2.x=this.x-globals.HUD.x/6;

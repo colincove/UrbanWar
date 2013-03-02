@@ -3,6 +3,7 @@
 	import flash.events.MouseEvent;
 	import com.globals;
 	import com.events.MenuEvent;
+	import com.UI.LevelStatus;
 
 	public class LevelButton extends SimpleButton
 	{
@@ -14,7 +15,7 @@
 		private function onClick(e:MouseEvent):void
 		{
 			globals.main.getGame().playSelectLevel(level);
-			this.dispatchEvent(new MenuEvent(MenuEvent.SELECT_WEAPONS,true));
+			LevelStatus(parent).selectLevel(level);
 		}
 	}
 }

@@ -50,9 +50,12 @@
 			gameVars=new Object();
 			globals.gameVars=defineGameVars(gameVars);
 		}
-		public function playSelectLevel(selectedLevel:int):void {
+		public function playSelectLevel(selectedLevel:int):void 
+		{
+			
 			playLevelID=selectedLevel;
-			replayingLevel=true;
+			
+			if(selectedLevel!=levelsUnlocked)replayingLevel=true;
 		}
 		public function continueCampaign():void {
 			playLevelID=currentLevelID;
@@ -72,7 +75,7 @@
 			}
 			
 			globals.resetLists();
-			WeaponList.emptyLoadout();
+			//WeaponList.emptyLoadout();
 			globals.smoke.destroy();
 			globals.static_progThread.pauseProgram();
 			globals.hero.removeSelf();
@@ -91,6 +94,7 @@
 				//WeaponList.loadDefaultWeapons(gameVars);
 			gameStart.firstLevelPlay=true;
 				globals.skipWeaponMenu=true;
+				
 				//globals.main.playGame();
 			}else{
 				gameStart.firstLevelPlay=false;

@@ -11,6 +11,7 @@
 	import flash.events.TimerEvent;
 	import com.GameComponent;
 	import com.UI.ControlsPrompt;
+	import flash.geom.Point;
 
 	public class Cam extends GameComponent implements Program
 	{
@@ -25,6 +26,11 @@
 		private var stopHorizontal:Boolean = false;
 		private var whiteFade:HUDWhiteFade;
 		public var screenSpeedMod:Number = 0.0;
+		public var heroDead:Boolean=false;
+		private var xVel:Number=5;
+		private var yVel:Number=5;
+		private var deathFade:MovieClip;
+		private var oldPoint:Point=new Point(0,0);
 		public function Cam():void
 		{
 			super();
@@ -33,8 +39,12 @@
 			shake = 0;
 			xShake = 0;
 			yShake = 0;
+			deathFade=new hud_fade();
+			deathFade.x=-400;
+			deathFade.y=-300;
 			randomNum = Math.random() * 100;
 			globals.hero.addEventListener(Event.ADDED_TO_STAGE,spawnCam,false,0,true);
+			
 
 		}
 		public override function destroy():void
@@ -60,6 +70,10 @@
 		}
 		public function spawnCam(e:Event):void
 		{
+			if(deathFade.parent!=null){
+				deathFade.parent.removeChild(deathFade);
+			}
+			
 			x = globalFunctions.getMainX(globals.hero);
 			y = (globalFunctions.getMainY(globals.hero)-globals.levelObj.y)/5;
 			xPos = x;
@@ -96,7 +110,9 @@
 		{
 
 			whiteFade= new HUDWhiteFade();
+			
 			addChild(whiteFade);
+			
 			firstRunInterval = 0;
 			globals.main.y =  -  y + globals.gameHeight / 2;
 			globals.main.x =  -  x + globals.gameWidth / 2;
@@ -104,6 +120,16 @@
 		private var firstRunInterval:int = 0;
 		public function update():Object
 		{
+			if(heroDead)
+			{
+				yVel+=0.03;
+				y+=yVel;
+				globals.main.y =  -  y + globals.gameHeight / 2;
+			globals.main.x =  -  x + globals.gameWidth / 2;
+			   }else{
+			   yVel=0.0;
+			  
+			
 			if (gameStart.firstLevelPlay)
 			{
 				globals.hideUI = true;
@@ -183,6 +209,7 @@
 					xPos +=  xDist - 300;
 				}
 			}
+			 }
 			return this;
 		}
 		public function isRunning():Boolean
@@ -193,10 +220,18 @@
 		{
 			stopHorizontal = true;
 		}
-		public function stopCAM():void
+		public function stopCAM(heroDie:Boolean =false):void
 		{
 			//this.fade.play();
-			pauseCam();
+			if(heroDie)
+			{
+			heroDead=true;
+			addChild(deathFade);
+			deathFade.gotoAndPlay(1);
+			}
+			oldPoint.x=globals.hero.x;
+			oldPoint.y=globals.hero.y;
+			//pauseCam();
 		}
 		public function pauseCam():void
 		{
@@ -206,6 +241,7 @@
 		{
 			this.fade.gotoAndStop(1);
 			progRun = true;
+			heroDead=false;
 			stopHorizontal = false;
 		}
 		public function shakeFunction(strength:Number):void

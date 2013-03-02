@@ -12,10 +12,12 @@
 	import flash.events.Event;
 
 	import com.globals;
+	import com.events.MenuTipEvent;
+
 	public class WeaponPurchaseUI extends MovieClip
 	{
 		private var id:int;
-		private var selected:Boolean;
+		private var _selected:Boolean;
 		private var weapon:Weapon;
 		private var icon:MovieClip;
 		public var colorTransform:ColorTransform;
@@ -38,6 +40,7 @@
 			GameMenuPM.dispatcher.addEventListener(MenuEvent.CLEAR_WEAPONS,clearWeapon);
 			addEventListener(MenuEvent.PURCHASE,purchase);
 			addEventListener(MenuEvent.HOVER_UPDATE,hoverUpdate);
+			addEventListener(MenuEvent.LAUNCH,hoverUpdate);
 			addEventListener(MenuEvent.ROLL_OUT,onRollOut);
 			purchaseUI.gotoAndStop(1);
 			colorTransform=new ColorTransform();
@@ -50,9 +53,90 @@
 			GameMenuPM.dispatcher.addEventListener(MenuEvent.WEAPON_SELECTED, onWeaponSelect);
 			addEventListener(MenuEvent.UPGRADE_BUY_OVER, upgradeOver);
 			addEventListener(MenuEvent.UPGRADE_BUY_OUT, upgradeOut);
+			GameMenuPM.dispatcher.addEventListener(MenuEvent.LAUNCH, onLaunch);
 			update();
 			upgradeTextDisplay.visible = false;
 			purchaseUI.addEventListener(Event.ADDED_TO_STAGE, purchaseUIAdded);
+			addEventListener(Event.ENTER_FRAME, traceStuff);
+		}
+		private function traceStuff(e:Event):void
+		{
+
+			if (GameMenuPM.menuState == GameMenuPM.LOADOUT)
+			{
+				if (addButton!=null)
+				{
+					if (weapon.purchased)
+					{
+						icon.buttonMode = true;
+						addButton.visible = true;
+					}
+					else
+					{
+						icon.buttonMode = false;
+						addButton.visible = false;
+
+					}
+				}
+			}
+			else
+			{
+
+				if (weapon!=null)
+				{
+					if (weapon.purchased)
+					{
+						icon.buttonMode = false;
+						addButton.visible = false;
+					}
+					else
+					{
+						icon.buttonMode = true;
+						if (icon.transform.colorTransform != colorTransform)
+						{
+							icon.transform.colorTransform = colorTransform;
+							icon.alpha=0.2;
+						}
+
+						//icon.transform.colorTransform=new ColorTransform();
+						addButton.visible = true;
+					}
+				}
+			}
+		}
+		private function onLaunch(e:MenuEvent):void
+		{
+		
+			if (this.weapon != null)
+			{
+				
+				if(weapon.purchased)
+				{
+					icon.transform.colorTransform=new ColorTransform();
+				}else{
+					defineButton(buyButton);
+					icon.transform.colorTransform=colorTransform;
+					icon.alpha = 0.20;
+				}
+
+				for (var i=0; i<GameMenuPM.oldLoadout.length; i++)
+				{
+
+					if (this.weapon.weaponType == Weapon(GameMenuPM.oldLoadout[i]).weaponType)
+					{
+						addButton.visible = false;
+						selected = true;
+						defineButton(removeButton);
+						icon.transform.colorTransform=new ColorTransform();
+						GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.WEAPON_SELECTED,true));
+						GameMenuPM.selectWeaponForced(true,weapon);
+					}
+					else
+					{
+						deselect(true);
+					}
+				}
+			}
 		}
 		private function purchaseUIAdded(e:Event):void
 		{
@@ -98,11 +182,27 @@
 					{
 						if (GameMenuPM.menuState == GameMenuPM.LOADOUT)
 						{
-							
+
 							addButton.visible = true;
-							if(GameMenuPM.loadoutSelected && !selected)
+							if (GameMenuPM.loadoutSelected && ! selected)
 							{
-								addButton.visible=false;
+								addButton.visible = false;
+							}
+							if (selected)
+							{
+								if (addButton!=removeButton)
+								{
+									icon.transform.colorTransform=new ColorTransform();
+									defineButton(removeButton);
+								}
+							}
+							else
+							{
+								if (addButton!=addButtonButton)
+								{
+									icon.transform.colorTransform = colorTransform;
+									defineButton(addButtonButton);
+								}
 							}
 							gotoAndStop("upgradingDisabled");
 							addButton.gotoAndStop(1);
@@ -118,6 +218,7 @@
 						if (GameMenuPM.menuState == GameMenuPM.ARMORY)
 						{
 							addButton.visible = true;
+
 							gotoAndStop("Unselected");
 						}
 						else
@@ -268,8 +369,8 @@
 					GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.HOVER_UPDATE,true,false));
 					}*/
 				}
-				
-				
+
+
 				//if(!weapon.purchased)
 				//{
 				GameMenuPM.selectedMoney = cost;
@@ -277,7 +378,17 @@
 				//};
 				if (GameMenuPM.menuState == GameMenuPM.ARMORY)
 				{
-					icon.alpha=.6;
+					if (this.cost < GameMenuPM.money - globals.memoryPadding)
+					{
+						icon.alpha = .6;
+						dispatchEvent(new MenuTipEvent(MenuTipEvent.TIP,"Buy Weapon",MenuTipEvent.COLOR_WHITE,true,false));
+					}
+					else
+					{
+						dispatchEvent(new MenuTipEvent(MenuTipEvent.TIP,"Cannot Afford Weapon",MenuTipEvent.COLOR_RED,true,false));
+					}
+
+
 					//addButton.visible = true;
 				}
 			}
@@ -285,6 +396,15 @@
 			{
 				if (GameMenuPM.menuState == GameMenuPM.LOADOUT)
 				{
+					if (addButton==removeButton)
+					{
+						dispatchEvent(new MenuTipEvent(MenuTipEvent.TIP,"Remove From Loadout",MenuTipEvent.COLOR_WHITE,true,false));
+					}
+					else
+					{
+						dispatchEvent(new MenuTipEvent(MenuTipEvent.TIP,"Add to Loadout",MenuTipEvent.COLOR_WHITE,true,false));
+					}
+
 					//addButton.visible = true;
 					addButton.gotoAndStop(2);
 				}
@@ -294,12 +414,14 @@
 		private function rollOut(e:MouseEvent):void
 		{
 			rolled = false;
+			dispatchEvent(new MenuTipEvent(MenuTipEvent.CANCEL,"Add to Loadout",MenuTipEvent.COLOR_WHITE,true,false));
 			GameMenuPM.selectedMoney = 0;
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.HOVER_UPDATE,true,false));
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.ROLL_OUT,true,false));
 			addButton.gotoAndStop(1);
-			if (! weapon.purchased){
-			icon.alpha=0.20;
+			if (! weapon.purchased)
+			{
+				icon.alpha = 0.20;
 			}
 		}
 		//addButton.visible=false;
@@ -324,14 +446,14 @@
 			if (! weapon.purchased)
 			{
 
-				if (GameMenuPM.money-globals.memoryPadding >= weapon.wpnUpVars.cost && GameMenuPM.menuState == GameMenuPM.ARMORY)
+				if (GameMenuPM.money - globals.memoryPadding >= weapon.wpnUpVars.cost && GameMenuPM.menuState == GameMenuPM.ARMORY)
 				{
 					weapon.purchased = true;
 					GameMenuPM.money -=  weapon.wpnUpVars.cost;
 					GameMenuPM.dispatcher.dispatchEvent(new PurchaseWeaponEvent(weapon, PurchaseWeaponEvent.PURCHASE_WEAPON));
 					GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE,true));
 					defineButton(addButtonButton);
-					addButton.visible=false;
+					addButton.visible = false;
 				}
 				else
 				{
@@ -342,7 +464,7 @@
 			{
 				if (GameMenuPM.menuState == GameMenuPM.LOADOUT)
 				{
-					if(!selected && GameMenuPM.loadoutSelected)
+					if (! selected && GameMenuPM.loadoutSelected)
 					{
 						return;
 					}
@@ -367,10 +489,10 @@
 			}
 			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE,true));
 		}
-		//if it is soft, then dont dispatch events that will alert other elements to whats going on. 
+		//if it is soft, then dont dispatch events that will alert other elements to whats going on. ;
 		private function deselect(soft:Boolean=false):void
 		{
-			
+
 			selected = false;
 			if (icon!=null)
 			{
@@ -380,12 +502,14 @@
 			{
 				//weaponName.transform.colorTransform = colorTransform;
 			}
-			if(!soft){
-			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.WEAPON_SELECTED,true));
+			if (! soft)
+			{
+				GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.WEAPON_SELECTED,true));
 			}
 			defineButton(addButtonButton);
-			if(!soft){
-			GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE,true));
+			if (! soft)
+			{
+				GameMenuPM.dispatcher.dispatchEvent(new MenuEvent(MenuEvent.UPDATE,true));
 			}
 		}
 		private function defineButton(button:MovieClip):void
@@ -466,6 +590,25 @@
 				//gotoAndStop('over');
 				}*/
 			}
+		}
+		public function get selected():Boolean
+		{
+			if (GameMenuPM.loadOut != null)
+			{
+				for (var i=0; i<GameMenuPM.loadOut.length; i++)
+				{
+					if (GameMenuPM.loadOut[i] == this.weapon)
+					{
+						return true;
+
+					}
+				}
+			}
+			return false;
+		}
+		public function set selected(value:Boolean):void
+		{
+
 		}
 	}
 

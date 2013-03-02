@@ -35,7 +35,6 @@
 		}
 		protected function checkDown(e:KeyboardEvent):void
 		{
-			trace(e.keyCode);
 			switch (e.keyCode)
 			{
 				case 32 :

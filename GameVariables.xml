@@ -149,7 +149,7 @@
       <Upgrade id='2'cost='400'damage = '5' heatUp='110' coolDown='24' fireDelay='2' pointWorth="15" stager='2'></Upgrade>
 	<Upgrade id='3'cost='400'damage = '5' heatUp='100' coolDown='25' fireDelay='1' pointWorth="15" stager='1'></Upgrade>
 	-->
-      <Upgrade id='0' cost='300'damage = '5' heatUp='30' coolDown='20' fireDelay='3' pointWorth="15" stager='5'></Upgrade>
+      <Upgrade id='0' cost='300'damage = '5' heatUp='30' coolDown='5' fireDelay='3' pointWorth="15" stager='5'></Upgrade>
       <Upgrade id='1'cost='300'damage = '5' heatUp='50' coolDown='23' fireDelay='2' pointWorth="15" stager='3'></Upgrade>
       <Upgrade id='2'cost='400'damage = '5' heatUp='75' coolDown='24' fireDelay='2' pointWorth="15" stager='2'></Upgrade>
 	<Upgrade id='3'cost='400'damage = '5' heatUp='100' coolDown='25' fireDelay='1' pointWorth="15" stager='1'></Upgrade>

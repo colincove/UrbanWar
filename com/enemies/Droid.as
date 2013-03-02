@@ -17,6 +17,8 @@
 	import com.weapons.MissileLauncher;
 	import com.weapons.MiniGun;
 	import com.enemies.Enemy;
+	import com.GameComponent;
+
 	public class Droid extends Enemy implements dieable,pausable, removable, Program {
 		private var interval:int;
 		private var arm:MovieClip;
@@ -32,9 +34,6 @@
 			bounce=0;
 			size=2;
 			arm = new DroidArm();
-			arm.y=-50;
-			arm.x=15;
-			
 			Speed=2;
 			right=true;
 			xSpeed=Speed;
@@ -44,6 +43,13 @@
 		public override function destroy():void
 		{
 			super.destroy();
+			if(arm!=null)
+			{
+			if(arm.parent!=null)
+			{
+			arm.parent.removeChild(arm);
+			}
+			}
 			arm=null;
 			shootPoint=null;
 			
@@ -66,7 +72,7 @@
 			destroy();
 		}
 		public function added(e:Event):void {
-			this.addChild(arm);
+			//this.addChild(arm);
 			globals.game_progThread.addProg(this);
 			progRun=true;
 		}
@@ -83,8 +89,13 @@
 			checkScreen();
 			if (onScreen)
 			{
+				if(arm.parent==null){
+					globals.neutralContainer.addChild(arm);
+				}
 				moveObj();
 				interval++;
+				arm.y=y-50;
+			arm.x=x+15;
 				arm.rotation+=myAngle.angleDiff(arm.rotation,myAngle.getObjAngle(this,globals.hero))/15;
 				shootPoint.x=globalFunctions.getMainX(arm);
 				shootPoint.y=globalFunctions.getMainY(arm);

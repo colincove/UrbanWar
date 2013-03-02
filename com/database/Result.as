@@ -37,11 +37,9 @@ addEventListener(MouseEvent.ROLL_OUT, rollOut);
 		}
 		private function onClick(e:MouseEvent):void
 		{
-			trace("CLICK",playthroughData);
 			if(playthroughData!=null)
 			{
 							var display:EndLevelScreen = new EndLevelScreen(false,playthroughData);
-							trace(display.parent);
 							
 							//display.x=0;
 							//display.y=0;

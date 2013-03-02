@@ -21,7 +21,7 @@
 		public static var loadoutSelected:Boolean=false;
 		public static function get money():int
 		{
-			return _money;
+			return _money;awd
 		}
 		public static function set money(value:int):void
 		{
@@ -31,6 +31,7 @@
 		}
 		public static var launching:Boolean=false;
 		public static var loadOut:Array;
+		public static var oldLoadout:Array=new Array();
 		public static var selectedMoney:int=0;
 		public static var gameWeaponMenu:weaponMenu;
 		
@@ -48,7 +49,22 @@
 		{
 			//selectedMoney=0;
 			weaponList = WeaponList.weaponList;
-			WeaponList.emptyLoadout();
+			
+			if(loadOut!=null){
+				oldLoadout=new Array(loadOut.length);
+			for(var i=0;i<loadOut.length;i++)
+			{
+				oldLoadout[i]=loadOut[i];
+			}
+			}else{
+				oldLoadout=new Array();
+				for(i=0;i<WeaponList.loadOut.length;i++){
+				oldLoadout[i]=WeaponList.loadOut[i];
+			}
+			}
+			
+		WeaponList.emptyLoadout();
+			
 			loadOut=WeaponList.loadOut;
 			money=globals.gameVars.orbs;
 			currentLevel=globals.levelProgress;
@@ -72,7 +88,14 @@
 			}
 		}
 		public static function selectWeapon(selectState:Boolean, weapon:Weapon):Boolean
-		{if(!launching)
+		{
+			if(!launching)
+			{
+			return selectWeaponForced(selectState,weapon);
+			}
+			return false;
+		}
+		public static function selectWeaponForced(selectState:Boolean, weapon:Weapon):Boolean
 		{
 			if(selectState)
 			{
@@ -93,10 +116,8 @@
 				setLoadoutStatus();
 				return false;
 			}
-			
-		}
-		setLoadoutStatus();
-		return false;
+			return false;
+		
 		}
 		public static function setLoadoutStatus():void
 		{
@@ -130,6 +151,7 @@
 			menuState=ARMORY;
 			globals.gameVars.orbs=money;
 			dispatcher.dispatchEvent(new MenuEvent(MenuEvent.CLEAR_WEAPONS,true, true));
+			globals.main.getWeaponMenu().fadeIn.gotoAndStop(1);
 			globals.main.getWeaponMenu().parent.removeChild(globals.main.getWeaponMenu());
 			globals.main.getGame().currentLevelID=globals.main.getGame().currentLevelID++;
 			globals.main.getGame().startLevel();

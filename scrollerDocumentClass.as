@@ -38,6 +38,7 @@ var endLevelScreen:EndLevelScreen;
 		public function initialize():void
 		{
 		// create instance with encryption key
+		globals.setMain(this);//must set before starting game. 
 			WebServices.init();
 			GlobalSounds.defineSounds();
 			menuBackground=new MenuBackground();
@@ -50,7 +51,7 @@ var endLevelScreen:EndLevelScreen;
 		levelUI  =  new levelMenu();
 			pauseUI  =  new PauseUI();
 			loginScreen = new LoginScreen();
-			globals.setMain(this);//must set before starting game. 
+			
 			globals.setGravity(1);//must set before starting game.
 			launchLoginScreen();
 			game = new gameStart();
@@ -167,31 +168,40 @@ var endLevelScreen:EndLevelScreen;
 		
 		private function listenForCompleteEndAnimation(e:Event):void
 		{
+			if(outroAnimation!=null){
+			
+			
 			if(outroAnimation.currentFrame==530)
 			{
 				
 				x=0;
 			y=0;
 			globals.endOfGame=true;
-			
+			if(globals.main!=null){
+				
+			if(globals.main.getGame()!=null){
 					globals.main.getGame().beatCurrentLevel();
-			}
+			}}}
 			if(outroAnimation.currentFrame==1300)
 			{
+				if(skipButton!=null){
 				skipButton.removeEventListener(MouseEvent.CLICK, skipScene);
 							removeChild(skipButton);
 skipButton=null;
+				}
 			}
 			
 			if(outroAnimation.currentFrame==1525)
 			{
+				if(globals.main!=null){
 				globals.main.launchEndLevelScreen();
+				}
 				
 				outroAnimation.stop();
 				outroAnimation.removeEventListener(Event.ENTER_FRAME, listenForCompleteEndAnimation);
 				//removeChild(introAnimation);
 				removeChildrenUtil.removeAllChildren(outroAnimation);
-			}
+			}}
 			}
 		private function listenForCompleteAnimation(e:Event):void
 		{
@@ -205,7 +215,7 @@ skipButton=null;
 skipButton=null;
 
 			}
-			if(introAnimation.currentFrame==706)
+			if(introAnimation.currentFrame==640)
 			//if(introAnimation.currentFrame==1000)
 			{
 							
@@ -213,7 +223,7 @@ skipButton=null;
 				//removeChild(introAnimation);
 				removeChildrenUtil.removeAllChildren(introAnimation);
 				introAnimation.stop();
-				trace(5);
+				
 				if(introAnimation.parent!=null){
 					removeChild(introAnimation);
 				}
@@ -262,7 +272,7 @@ loginScreen.launch();
 		{
 			game.wonLevel=false;
 			globals.gameVars.orbs=globals.gameVars.oldOrbs;
-			globals.HUD.stopCAM();
+			globals.HUD.stopCAM(true);
 			if(game.levelsUnlocked==1)
 			{
 				//if the hero died while on the first level, we need to remove the jetpack that he retrieved. 
@@ -279,7 +289,7 @@ loginScreen.launch();
 		}
 		public function endLevelTimer(e:TimerEvent):void
 		{
-			
+			globals.hero.removeSelf();
 			levelEndTimer.reset();
 				levelEndTimer.removeEventListener(TimerEvent.TIMER,endLevelTimer);
 				

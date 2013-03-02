@@ -35,7 +35,7 @@
 		{
 			maxDebry=0;
 			debryCount=0;
-			currentGrab.bitmapData.dispose();
+			//currentGrab.bitmapData.dispose();
 		}
 		public static function getScreen():void
 		{

@@ -68,5 +68,6 @@
 			//for the speed in which it locks on targets. 
 			//will remain empty for weapons that require no extra variables. 
 		}
+		
 	}
 }

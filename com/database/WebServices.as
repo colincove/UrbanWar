@@ -66,8 +66,6 @@
 			function onComplete(e:Event):void
 			{
 				//sometimes i find random ￛ at the end of these messsgaes. not sure why. 
-				trace("Login",e.target.data);
-				trace("LoginDecrpyted",handleData(e.target.data));
 				callback(handleData(e.target.data));
 			}
 			function onFail(e:Event):void
@@ -132,7 +130,6 @@
 			function onComplete(e:Event):void
 			{
 				//var dataString = RC4.decrypt(,KEY);
-				trace("RegisterStuff",e.target.data,RC4.decrypt(e.target.data,KEY));
 				callback(handleData(e.target.data));
 			}
 			function onFail(e:Event):void
@@ -246,7 +243,6 @@
 			postData.unlockedWeapons = User.unlockedWeapons;
 			postData.gears = User.gears-globals.memoryPadding;
 			postData.uid = User.uid;
-			trace("UpdateUserPostData", JSON.encode(postData));
 			variables.postData = RC4.encrypt(JSON.encode(postData),KEY);
 			request.data = variables;
 			var loader:URLLoader = new URLLoader(request);
@@ -295,8 +291,6 @@
 				//{
 				//trace(resultData[i].name+" "+resultData[i].score);
 				//}
-trace("Got Results First", e.target.data);
-				trace("Got Results", handleData(e.target.data));
 				resultDisplay.createResults(JSON.decode(handleData(e.target.data)));
 				callback();
 			}

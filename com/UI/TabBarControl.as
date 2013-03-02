@@ -52,23 +52,16 @@
 
 		private function setActiveButton(newButton:MovieClip, silent:Boolean=false):void {
 			
-			trace(0);
 			if (activeButton==null)
 			{
-				trace(0.5);
 					activeButton=btn1;
 				}
-				trace(0.55, newButton, activeButton);
-				trace(1, newButton.name, activeButton.name);
-				trace(2);
 				
 			if (activeButton!=newButton || silent==true)
 			{
-trace(3);
 				
 				if (activeButton!=null)
 				{
-					trace(4);
 					//activeButton.removeEventListener(MouseEvent.MOUSE_DOWN,btn1Hit);
 					activeButton.removeEventListener(MouseEvent.ROLL_OUT, btnRollOut);
 					activeButton.removeEventListener(MouseEvent.ROLL_OVER, btnRollOver);
@@ -81,7 +74,6 @@ trace(3);
 					//activeButton.addEventListener(MouseEvent.ROLL_OVER, btnDown);
 					activeButton.buttonMode=true;
 					activeButton.gotoAndStop(1);
-					trace(5);
 					if (! silent) {
 						this.dispatchEvent(new Event(state));
 					}

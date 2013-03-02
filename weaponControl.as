@@ -287,6 +287,7 @@
 		}
 		public function clearWeapon():void
 		{
+			WeaponList.emptyLoadout();
 			selectedWeapon=null;
 			globals.hero.armCannon.gotoAndStop(1);
 		}

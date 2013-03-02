@@ -16,7 +16,7 @@
 		}
 		private function onContinue(e:MouseEvent):void
 		{
-			globals.main.getGame().continueCampaign();
+			//globals.main.getGame().continueCampaign();
 			this.dispatchEvent(new MenuEvent(MenuEvent.SELECT_WEAPONS,true));
 			///GameMenuPM.continueCampaign();
 		}

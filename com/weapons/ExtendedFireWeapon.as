@@ -20,7 +20,7 @@
 		protected function stopExtendedWeapon():void 
 		{
 			shooting=false;
-			setHeat(this.getHeatCapacity());
+			//setHeat(this.getHeatCapacity());
 		}
 	}/**/
 }
