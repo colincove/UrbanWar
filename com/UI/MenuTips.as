@@ -9,14 +9,14 @@ private var listenClip:MovieClip;
 private var tipBox:MovieClip;
 		public function MenuTips(listenClip:MovieClip) {
 			// constructor code
-			this.listenClip=listenClip;
-			listenClip.addEventListener(MenuTipEvent.TIP, displayTip);
-			listenClip.addEventListener(MenuTipEvent.CANCEL, cancelTip);
-			globals.main.addEventListener(Event.ENTER_FRAME, moveBox);
-			tipBox = new TipBox();
-			globals.main.addChild(tipBox);
+			//this.listenClip=listenClip;
+			//listenClip.addEventListener(MenuTipEvent.TIP, displayTip);
+			//listenClip.addEventListener(MenuTipEvent.CANCEL, cancelTip);
+			//globals.main.addEventListener(Event.ENTER_FRAME, moveBox);
+			//tipBox = new TipBox();
+			//globals.main.addChild(tipBox);
 		}
-	private function displayTip(e:MenuTipEvent):void{
+	/*private function displayTip(e:MenuTipEvent):void{
 		tipBox.visible=true;
 		tipBox.tipText.text=e.tipText;
 		if(e.color==MenuTipEvent.COLOR_WHITE){
@@ -37,7 +37,7 @@ private var tipBox:MovieClip;
 		tipBox.x=globals.main.stage.mouseX;
 		tipBox.y=globals.main.stage.mouseY;
 		tipBox.alpha=1.0;
-	}
+	}*/
 
 	}
 	
