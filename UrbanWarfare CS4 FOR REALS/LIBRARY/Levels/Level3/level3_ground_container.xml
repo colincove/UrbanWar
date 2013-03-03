@@ -1,0 +1,460 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level3/level3_ground_container" itemID="4daf208a-000009fa" linkageExportForAS="true" linkageBaseClass="com.levels.GroundControl" linkageClassName="level3_ground_container" lastModified="1341537626" lastUniqueIdentifier="66">
+  <timeline>
+    <DOMTimeline name="level3_ground_container">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/building1" centerPoint3DX="28.35" centerPoint3DY="593">
+                  <matrix>
+                    <Matrix tx="-1.65" ty="676.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30" y="-100"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/building1">
+                  <matrix>
+                    <Matrix tx="606.5" ty="679.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30" y="-83.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House2Folder/House2">
+                  <matrix>
+                    <Matrix tx="816.3" ty="677.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.2" y="10.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="972.1" centerPoint3DY="734.95">
+                  <matrix>
+                    <Matrix tx="963" ty="750.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/house" centerPoint3DX="1323.45" centerPoint3DY="752.25">
+                  <matrix>
+                    <Matrix tx="1320.15" ty="678.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.3" y="-17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="1424.05" centerPoint3DY="772.05">
+                  <matrix>
+                    <Matrix tx="1414.95" ty="787.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House2Folder/House2">
+                  <matrix>
+                    <Matrix tx="1827.2" ty="716.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.2" y="10.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/house">
+                  <matrix>
+                    <Matrix tx="2024.1" ty="678.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.3" y="-17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree">
+                  <matrix>
+                    <Matrix tx="1948.5" ty="719.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-24.3" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="2646.3" centerPoint3DY="704.85">
+                  <matrix>
+                    <Matrix tx="2641.95" ty="681.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-24.3" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House2Folder/House2">
+                  <matrix>
+                    <Matrix tx="2978.65" ty="633.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.2" y="10.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House2Folder/House2">
+                  <matrix>
+                    <Matrix a="-0.953414916992188" tx="2919.15" ty="633.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.15" y="10.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car">
+                  <matrix>
+                    <Matrix tx="3108.2" ty="703.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/house" centerPoint3DX="3333.75" centerPoint3DY="668.2">
+                  <matrix>
+                    <Matrix tx="3330.45" ty="594"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.3" y="-17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Tower/TowerBuilding">
+                  <matrix>
+                    <Matrix tx="3771" ty="631.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="45.8" y="126.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="3610.4" centerPoint3DY="773.7">
+                  <matrix>
+                    <Matrix tx="3601.3" ty="789.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/ChapleFolder/Chaple">
+                  <matrix>
+                    <Matrix tx="4227.45" ty="522.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="106.3" y="-13.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Tower/TowerBuilding" centerPoint3DX="4641.5" centerPoint3DY="385.05">
+                  <matrix>
+                    <Matrix tx="4639.9" ty="510.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="45.8" y="126.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree">
+                  <matrix>
+                    <Matrix tx="4451.8" ty="604.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-24.3" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House2Folder/House2" centerPoint3DX="4860.2" centerPoint3DY="632.85">
+                  <matrix>
+                    <Matrix tx="4821" ty="596.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.2" y="36.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/building1" centerPoint3DX="2320.15" centerPoint3DY="632.7">
+                  <matrix>
+                    <Matrix a="-1" tx="2350.15" ty="716.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30" y="-83.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House2Folder/House2" centerPoint3DX="3965.45" centerPoint3DY="752.7">
+                  <matrix>
+                    <Matrix tx="3926.25" ty="716.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.2" y="10.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/ScienceBuilding_/scienceBuilding" centerPoint3DX="5156.1" centerPoint3DY="570.4">
+                  <matrix>
+                    <Matrix tx="5142.1" ty="440.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14" y="147.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="5015.45" centerPoint3DY="631.85">
+                  <matrix>
+                    <Matrix tx="5011.1" ty="608.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.35" y="22.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="1623.4" centerPoint3DY="745.7">
+                  <matrix>
+                    <Matrix tx="1619.05" ty="722.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.35" y="22.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="1665.4" centerPoint3DY="774">
+                  <matrix>
+                    <Matrix tx="1656.3" ty="789.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.1" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/building1" centerPoint3DX="5468" centerPoint3DY="511.95">
+                  <matrix>
+                    <Matrix a="-1" tx="5498" ty="595.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30" y="-83.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/house">
+                  <matrix>
+                    <Matrix tx="5680.6" ty="559.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.3" y="-17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/building1" centerPoint3DX="6996.05" centerPoint3DY="569.7">
+                  <matrix>
+                    <Matrix a="-1" tx="7026.05" ty="653.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30" y="-83.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House2Folder/House2" centerPoint3DX="6212.1" centerPoint3DY="692.95">
+                  <matrix>
+                    <Matrix tx="6172.9" ty="656.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.2" y="36.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="6353.2" centerPoint3DY="683.15">
+                  <matrix>
+                    <Matrix tx="6348.85" ty="660.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-24.3" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="6315.35" centerPoint3DY="713.25">
+                  <matrix>
+                    <Matrix tx="6306.25" ty="729.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/house" centerPoint3DX="442.55" centerPoint3DY="712.9">
+                  <matrix>
+                    <Matrix tx="439.25" ty="638.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.3" y="-17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="2098.1" centerPoint3DY="745.7">
+                  <matrix>
+                    <Matrix tx="2093.75" ty="722.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.35" y="22.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="2140.1" centerPoint3DY="774">
+                  <matrix>
+                    <Matrix tx="2131" ty="789.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.1" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="1495.4" centerPoint3DY="772.05">
+                  <matrix>
+                    <Matrix tx="1486.3" ty="787.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="1237.4" centerPoint3DY="743.85">
+                  <matrix>
+                    <Matrix tx="1233.05" ty="720.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.35" y="22.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="355.5" centerPoint3DY="705.85">
+                  <matrix>
+                    <Matrix tx="351.15" ty="682.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.35" y="22.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="317.5" centerPoint3DY="735.95">
+                  <matrix>
+                    <Matrix tx="308.4" ty="751.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="2684.3" centerPoint3DY="729.75">
+                  <matrix>
+                    <Matrix tx="2675.2" ty="745.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="2805.35" centerPoint3DY="657.85">
+                  <matrix>
+                    <Matrix tx="2801" ty="634.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-24.3" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="3401.3" centerPoint3DY="657.85">
+                  <matrix>
+                    <Matrix tx="3396.95" ty="634.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-24.3" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="3441.3" centerPoint3DY="687.95">
+                  <matrix>
+                    <Matrix tx="3432.2" ty="703.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="3876.2" centerPoint3DY="742.9">
+                  <matrix>
+                    <Matrix tx="3871.85" ty="719.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-24.3" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="4771.2" centerPoint3DY="623.55">
+                  <matrix>
+                    <Matrix tx="4766.85" ty="600.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.35" y="22.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="5775.8" centerPoint3DY="653.65">
+                  <matrix>
+                    <Matrix tx="5766.7" ty="669.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="5827.05" centerPoint3DY="631.85">
+                  <matrix>
+                    <Matrix tx="5822.7" ty="608.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.35" y="22.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="LevelEnd" selected="true" centerPoint3DX="6797.1" centerPoint3DY="556.7">
+                  <matrix>
+                    <Matrix tx="6797.35" ty="526.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.75" y="45.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House_/tree" centerPoint3DX="6855.3" centerPoint3DY="683.15">
+                  <matrix>
+                    <Matrix tx="6850.95" ty="660.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-24.3" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="6817.45" centerPoint3DY="713.25">
+                  <matrix>
+                    <Matrix tx="6808.35" ty="729.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level3/level3Ground" symbolType="button">
+                  <transformationPoint>
+                    <Point x="1522.35" y="481.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="4499.2" centerPoint3DY="653.65">
+                  <matrix>
+                    <Matrix tx="4490.1" ty="669.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="4964.2" centerPoint3DY="653.65">
+                  <matrix>
+                    <Matrix tx="4955.1" ty="669.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Car/Car" centerPoint3DX="5303.3" centerPoint3DY="653.65">
+                  <matrix>
+                    <Matrix tx="5294.2" ty="669.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="-15.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

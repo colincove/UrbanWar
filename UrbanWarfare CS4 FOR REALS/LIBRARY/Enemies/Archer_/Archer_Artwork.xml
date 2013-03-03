@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Archer_/Archer_Artwork" itemID="4d1d3716-0000010d" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="Archer_Artwork" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Enemies/Archer_/Archer_Artwork" sourceLastModified="1293820687" lastModified="1293820687" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="Archer_Artwork">
+      <layers>
+        <DOMLayer name="ArcherGun" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/ArcherGunAnimation" name="animation" selected="true" centerPoint3DX="32.25" centerPoint3DY="10.5">
+                  <matrix>
+                    <Matrix tx="15.7" ty="2.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.55" y="8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ArcherBody" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/ArcherBody" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="31.15" y="23.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

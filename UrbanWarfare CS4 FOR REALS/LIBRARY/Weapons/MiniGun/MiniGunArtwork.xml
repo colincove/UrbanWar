@@ -1,0 +1,50 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Weapons/MiniGun/MiniGunArtwork" itemID="4ce1fef8-00000053" linkageExportForAS="true" linkageClassName="MiniGunArtwork" lastModified="1291923956" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="MiniGunArtwork">
+      <layers>
+        <DOMLayer name="Mask" color="#4FFF4F" locked="true" autoNamed="false" visible="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Weapons/MiniGun/StreakMask" name="StreakMask" centerPoint3DX="929.2" centerPoint3DY="42">
+                  <transformationPoint>
+                    <Point x="929.2" y="42"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="trail" color="#FF800A" parentLayerIndex="0" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Weapons/MiniGun/MiniGunFlash" name="trail" selected="true" centerPoint3DX="35.3" centerPoint3DY="-16.65">
+                  <transformationPoint>
+                    <Point x="86.5" y="3.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="hitSpot" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Weapons/MiniGun/MiniGunHitSpot" name="hitSpot" selected="true" centerPoint3DX="202.95" centerPoint3DY="19.65">
+                  <matrix>
+                    <Matrix tx="178.45" ty="-0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24.5" y="20.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

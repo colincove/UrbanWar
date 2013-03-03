@@ -1,0 +1,38 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tweens/Tween 21" itemID="4f02b13a-0000088f" symbolType="graphic" lastModified="1325576506">
+  <timeline>
+    <DOMTimeline name="Tween 21">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.020751953125" c="-1.12847900390625" d="0" tx="0.1"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" alpha="0" ratio="0.00784313725490196"/>
+                        <GradientEntry color="#FFFFFF" ratio="0.380392156862745"/>
+                        <GradientEntry color="#FFFFFF" ratio="0.67843137254902"/>
+                        <GradientEntry color="#FFFFFF" alpha="0" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!18489 -340S2|18489 340!18489 340|-18489 340!-18489 340|-18489 -340!-18489 -340|18489 -340"/>
+                    <Edge cubics="!-18489 340(;-18489,340 -18489,-340 -18489,-340q-18489 340 -18489 -340);"/>
+                    <Edge cubics="!18489 -340(;18489,-340 18489,340 18489,340q18489 -340 18489 340);"/>
+                    <Edge cubics="!-18489 -340(;-18489,-340 18489,-340 18489,-340q-18489 -340 18489 -340);"/>
+                    <Edge cubics="!18489 340(;18489,340 -18489,340 -18489,340q18489 340 -18489 340);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

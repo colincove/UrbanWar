@@ -1,0 +1,261 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level8/level8_enemy_container" itemID="4daf25ab-00001865" lastModified="1345323034" lastUniqueIdentifier="51">
+  <timeline>
+    <DOMTimeline name="level8_enemy_container">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level8/level8Ground" centerPoint3DX="1954.35" centerPoint3DY="481.1">
+                  <transformationPoint>
+                    <Point x="1522.35" y="481.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="1329.95" centerPoint3DY="779.95">
+                  <matrix>
+                    <Matrix tx="1346.25" ty="802.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16.3" y="-22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="1724.4" centerPoint3DY="701.9">
+                  <matrix>
+                    <Matrix tx="1740.7" ty="724.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16.3" y="-22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/Archer" centerPoint3DX="1263.25" centerPoint3DY="380.35">
+                  <matrix>
+                    <Matrix tx="1365.1" ty="363.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101.85" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/Archer" centerPoint3DX="1366.4" centerPoint3DY="430.95">
+                  <matrix>
+                    <Matrix tx="1468.25" ty="413.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101.85" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/Archer" centerPoint3DX="1402.4" centerPoint3DY="330.95">
+                  <matrix>
+                    <Matrix tx="1504.25" ty="313.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101.85" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/Archer" centerPoint3DX="1459.4" centerPoint3DY="414.95">
+                  <matrix>
+                    <Matrix tx="1561.25" ty="397.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101.85" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/Archer" centerPoint3DX="1543.4" centerPoint3DY="345.95">
+                  <matrix>
+                    <Matrix tx="1645.25" ty="328.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101.85" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/Archer" centerPoint3DX="1561.4" centerPoint3DY="454.95">
+                  <matrix>
+                    <Matrix tx="1663.25" ty="437.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101.85" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/DroidFolder/droid" centerPoint3DX="3141.8" centerPoint3DY="776.95">
+                  <matrix>
+                    <Matrix tx="3144.1" ty="803.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.5" y="5.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/DroidFolder/droid" centerPoint3DX="2804.3" centerPoint3DY="776.95">
+                  <matrix>
+                    <Matrix tx="2806.6" ty="803.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.5" y="5.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Weapons/SlowMissiles/SlowMissileLauncher" centerPoint3DX="2978.15" centerPoint3DY="334.05">
+                  <matrix>
+                    <Matrix a="1.1199951171875" d="1.5791015625" tx="2972" ty="328.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="4937.2" centerPoint3DY="660.9">
+                  <matrix>
+                    <Matrix tx="4953.5" ty="683.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16.3" y="-22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="5042.2" centerPoint3DY="595.9">
+                  <matrix>
+                    <Matrix tx="5058.5" ty="618.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16.3" y="-22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Bomber_/Bomber" centerPoint3DX="2512.85" centerPoint3DY="258">
+                  <matrix>
+                    <Matrix tx="2709.2" ty="249.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-196.35" y="8.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Bomber_/Bomber" centerPoint3DX="2478.3" centerPoint3DY="311.95">
+                  <matrix>
+                    <Matrix tx="2674.65" ty="303.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-196.35" y="8.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Bomber_/Bomber" centerPoint3DX="2444.35" centerPoint3DY="365.65">
+                  <matrix>
+                    <Matrix tx="2640.7" ty="356.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-196.35" y="8.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="5654.65" centerPoint3DY="660.9">
+                  <matrix>
+                    <Matrix tx="5670.95" ty="683.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16.3" y="-22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="5767.65" centerPoint3DY="660.9">
+                  <matrix>
+                    <Matrix tx="5783.95" ty="683.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16.3" y="-22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/SpinBot_/SpinBot" centerPoint3DX="3998.1" centerPoint3DY="319.35">
+                  <matrix>
+                    <Matrix tx="3997.85" ty="319.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.25" y="0.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/SpinBot_/SpinBot" centerPoint3DX="4091.1" centerPoint3DY="436.35">
+                  <matrix>
+                    <Matrix tx="4090.85" ty="436.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.25" y="0.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="LevelEnd" centerPoint3DX="6736.1" centerPoint3DY="649.95">
+                  <matrix>
+                    <Matrix tx="6736.4" ty="618.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.75" y="45.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="6479.65" centerPoint3DY="802.9">
+                  <matrix>
+                    <Matrix tx="6495.95" ty="825.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16.3" y="-22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="6592.65" centerPoint3DY="802.9">
+                  <matrix>
+                    <Matrix tx="6608.95" ty="825.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16.3" y="-22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/Archer" centerPoint3DX="6288" centerPoint3DY="429.75">
+                  <matrix>
+                    <Matrix tx="6389.85" ty="412.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101.85" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/Archer" centerPoint3DX="6391.15" centerPoint3DY="480.35">
+                  <matrix>
+                    <Matrix tx="6493" ty="463.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101.85" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/Archer" centerPoint3DX="6427.15" centerPoint3DY="380.35">
+                  <matrix>
+                    <Matrix tx="6529" ty="363.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101.85" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/Archer" centerPoint3DX="6484.15" centerPoint3DY="464.35">
+                  <matrix>
+                    <Matrix tx="6586" ty="447.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101.85" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/Archer" centerPoint3DX="6568.15" centerPoint3DY="395.35">
+                  <matrix>
+                    <Matrix tx="6670" ty="378.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101.85" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Archer_/Archer" centerPoint3DX="6586.15" centerPoint3DY="504.35">
+                  <matrix>
+                    <Matrix tx="6688" ty="487.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-101.85" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="6223.1" centerPoint3DY="802.9">
+                  <matrix>
+                    <Matrix tx="6239.4" ty="825.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16.3" y="-22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

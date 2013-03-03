@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Foot" itemID="4d013b90-000001da" lastModified="1291928092">
+  <timeline>
+    <DOMTimeline name="Foot">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#D50000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!2054 915S2|1645 915!1645 915[1648 850 1616 785!1616 785[1551 655 1375 655!1375 655|795 655!795 655[787 655 774 659!774 659[749 667 728 688!728 688[660 753 660 915!660 915|0 915!0 915[142 832 284 702!284 702[568 440 568 200!568 200[568
+ -35 696 6!696 6[723 14 808 61!808 61[878 99 911 99!911 99[996 99 1499 362!1499 362[2000 623 2021 673!2021 673[2048 738 2054 915"/>
+                    <Edge cubics="!2054 915(;2054,915 1645,915 1645,915q2054 915 1645 915);"/>
+                    <Edge cubics="!1645 915(;1645,915 1657,655 1375,655q1645 915Q1648 850q1616 785Q1551 655q1375 655);"/>
+                    <Edge cubics="!1375 655(;1094,655 795,655 795,655q1375 655 795 655);"/>
+                    <Edge cubics="!795 655(;795,655 660,655 660,915q795 655Q787 655q774 659Q749 667q728 688Q660 753q660 915);"/>
+                    <Edge cubics="!660 915(;312,915 0,915 0,915q660 915 0 915);"/>
+                    <Edge cubics="!0 915(;0,915 568,584 568,200q0 915Q142 832q284 702Q568 440q568 200);"/>
+                    <Edge cubics="!568 200(;568,-184 795,99 911,99q568 200Q568 -35q696 6Q723 14q808 61Q878 99q911 99);"/>
+                    <Edge cubics="!911 99(;1027,99 1994,608 2021,673q911 99Q996 99q1499 362Q2000 623q2021 673);"/>
+                    <Edge cubics="!2021 673(;2048,738 2054,915 2054,915q2021 673Q2048 738q2054 915);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

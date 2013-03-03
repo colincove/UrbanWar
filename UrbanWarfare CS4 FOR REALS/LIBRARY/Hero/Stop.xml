@@ -1,0 +1,375 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Stop" itemID="4d26099a-000001d3" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Hero/Stop" sourceLastModified="1291929529" lastModified="1291929529">
+  <timeline>
+    <DOMTimeline name="Stop" currentFrame="29">
+      <layers>
+        <DOMLayer name="Foot" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/Foot" centerPoint3DX="24.95" centerPoint3DY="283.8">
+                  <matrix>
+                    <Matrix tx="10.45" ty="277.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.5" y="6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/Foot" centerPoint3DX="37.3" centerPoint3DY="283.8">
+                  <matrix>
+                    <Matrix tx="22.8" ty="277.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.5" y="6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="15" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/Foot" centerPoint3DX="37.3" centerPoint3DY="283.8">
+                  <matrix>
+                    <Matrix tx="22.8" ty="277.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.5" y="6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/Foot" centerPoint3DX="24.95" centerPoint3DY="283.8">
+                  <matrix>
+                    <Matrix tx="10.45" ty="277.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.5" y="6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="LowerLeg" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/LowerLeg">
+                  <matrix>
+                    <Matrix a="0.821014404296875" b="-0.5704345703125" c="0.5704345703125" d="0.821014404296875" tx="-9.55" ty="261.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.05" y="17.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/LowerLeg">
+                  <matrix>
+                    <Matrix a="0.528366088867188" b="-0.84814453125" c="0.84814453125" d="0.528366088867188" tx="-2.65" ty="274.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.1" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="15" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/LowerLeg">
+                  <matrix>
+                    <Matrix a="0.44403076171875" b="-0.89483642578125" c="0.89483642578125" d="0.44403076171875" tx="-4.5" ty="277.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.1" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/LowerLeg">
+                  <matrix>
+                    <Matrix a="0.821014404296875" b="-0.5704345703125" c="0.5704345703125" d="0.821014404296875" tx="-9.55" ty="261.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.05" y="17.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="UpperLeg" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/UpperLeg">
+                  <matrix>
+                    <Matrix a="0.929168701171875" b="-0.3665771484375" c="0.3665771484375" d="0.929168701171875" tx="-6.85" ty="246.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.9" y="9.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/UpperLeg">
+                  <matrix>
+                    <Matrix a="0.62139892578125" b="-0.78204345703125" c="0.78204345703125" d="0.62139892578125" tx="-8.9" ty="263"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.9" y="9.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="15" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/UpperLeg">
+                  <matrix>
+                    <Matrix a="0.397811889648438" b="-0.916244506835938" c="0.916244506835938" d="0.397811889648438" tx="-13.35" ty="268.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.95" y="9.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/UpperLeg">
+                  <matrix>
+                    <Matrix a="0.929168701171875" b="-0.3665771484375" c="0.3665771484375" d="0.929168701171875" tx="-6.85" ty="246.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.9" y="9.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Foot" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/Foot">
+                  <matrix>
+                    <Matrix tx="-9.9" ty="277.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.5" y="6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/Foot">
+                  <matrix>
+                    <Matrix tx="-9.9" ty="277.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.5" y="6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="15" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/Foot">
+                  <matrix>
+                    <Matrix tx="-9.9" ty="277.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.5" y="6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/Foot">
+                  <matrix>
+                    <Matrix tx="-9.9" ty="277.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.5" y="6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="LowerLeg" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/LowerLeg">
+                  <matrix>
+                    <Matrix tx="-14.6" ty="246.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.1" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/LowerLeg">
+                  <matrix>
+                    <Matrix a="0.944442749023438" b="-0.325592041015625" c="0.325592041015625" d="0.944442749023438" tx="-25.8" ty="253.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.1" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="15" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/LowerLeg">
+                  <matrix>
+                    <Matrix a="0.85955810546875" b="-0.507797241210938" c="0.507797241210938" d="0.85955810546875" tx="-28.8" ty="258.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.15" y="16.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/LowerLeg">
+                  <matrix>
+                    <Matrix tx="-14.6" ty="246.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.1" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="UpperLeg" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/UpperLeg">
+                  <matrix>
+                    <Matrix tx="-9.35" ty="238.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.9" y="9.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/UpperLeg">
+                  <matrix>
+                    <Matrix a="0.9962158203125" b="0.0836944580078125" c="-0.0836944580078125" d="0.9962158203125" tx="-14.85" ty="242.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.85" y="9.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="15" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/UpperLeg">
+                  <matrix>
+                    <Matrix a="0.9962158203125" b="0.0836944580078125" c="-0.0836944580078125" d="0.9962158203125" tx="-18.95" ty="244.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.85" y="9.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/UpperLeg">
+                  <matrix>
+                    <Matrix tx="-9.35" ty="238.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.9" y="9.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Body" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/Body" centerPoint3DX="15.35" centerPoint3DY="231.4">
+                  <matrix>
+                    <Matrix tx="-3.55" ty="207.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.9" y="23.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/Body" centerPoint3DX="8.2" centerPoint3DY="240.9">
+                  <matrix>
+                    <Matrix tx="-10.7" ty="217.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.9" y="23.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="15" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/Body" centerPoint3DX="4.45" centerPoint3DY="241.75">
+                  <matrix>
+                    <Matrix a="0.99041748046875" b="0.1348876953125" c="-0.1348876953125" d="0.99041748046875" tx="-11.05" ty="215.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.9" y="23.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <Actionscript>
+                <script><![CDATA[stop()]]></script>
+              </Actionscript>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Hero.ai Assets/Body" selected="true" centerPoint3DX="15.35" centerPoint3DY="231.4">
+                  <matrix>
+                    <Matrix tx="-3.55" ty="207.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.9" y="23.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Thor_/Tween 4" itemID="4d0c1b45-00000118" symbolType="graphic" lastModified="1292639045">
+  <timeline>
+    <DOMTimeline name="Tween 4">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix ty="4.5"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!2540 -1440S2|360 20!360 20|2720 160!2720 160|320 240!320 240|1060 1259!1060 1259|300 640!300 640|380 1239!380 1239|56 562!56 562|-270 1399!-270 1399|-270 647.5!-270 647.5|-1060 1879!-1060 1879|-560 640!-560 640|-1860 879!-1860 879|-440
+ 340!-440 340|-1600 340!-1600 340|-520 160!-520 160|-2720 -360!-2720 -360|-200 -120!-200 -120|-1740 -1640!-1740 -1640|-20 -300!-20 -300|-160 -1120!-160 -1120|140 -260!140 -260|1100 -2060!1100 -2060|260 -220!260 -220|2540 -1440"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

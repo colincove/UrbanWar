@@ -1,0 +1,126 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/arm" itemID="4cc089ad-00000041" linkageExportForAS="true" linkageClassName="arm" lastModified="1345522924" lastUniqueIdentifier="16">
+  <timeline>
+    <DOMTimeline name="arm">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" name="default" labelType="name" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Weapons/MiniGun/LaserGunAnimationy" name="artwork" centerPoint3DX="19.5" centerPoint3DY="0.45">
+                  <matrix>
+                    <Matrix tx="-4.45" ty="-9.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="23.95" y="9.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" name="MissileLauncher" labelType="name" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Weapons/MissileLauncher/MissileLauncherAnimation" name="artwork" centerPoint3DX="17.4" centerPoint3DY="1.15">
+                  <matrix>
+                    <Matrix tx="-11.25" ty="-12.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28.65" y="13.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" name="MiniGun" labelType="name" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Weapons/MiniGun/MiniGunAnimation" name="artwork" selected="true" centerPoint3DX="19.5" centerPoint3DY="0.45">
+                  <matrix>
+                    <Matrix tx="-4.45" ty="-9.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="23.95" y="9.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" name="ClusterLauncher" labelType="name" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Weapons/ClusterLauncher/clusterLauncherAnimation" name="artwork" selected="true" centerPoint3DX="17.4" centerPoint3DY="1.15">
+                  <matrix>
+                    <Matrix tx="-11.25" ty="-12.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28.65" y="13.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" name="LaserCannon" labelType="name" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Weapons/MiniGun/LaserGunAnimationy" name="artwork" centerPoint3DX="19.5" centerPoint3DY="0.45">
+                  <matrix>
+                    <Matrix tx="-4.45" ty="-9.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="23.95" y="9.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" name="ClusterLockLauncher" labelType="name" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Weapons/ClusterLauncher/clusterLauncherAnimation" name="artwork" centerPoint3DX="17.4" centerPoint3DY="1.15">
+                  <matrix>
+                    <Matrix tx="-11.25" ty="-12.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28.65" y="13.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" name="WaveCannon" labelType="name" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Weapons/WaveCannon/waveCannonAnimation" name="artwork" centerPoint3DX="17.7" centerPoint3DY="0.9">
+                  <matrix>
+                    <Matrix tx="-10.95" ty="-12.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28.65" y="13.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" name="TheVine" labelType="name" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Weapons/Vine/vineAnimation" name="artwork" selected="true" centerPoint3DX="17">
+                  <matrix>
+                    <Matrix tx="-11.65" ty="-13.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28.65" y="13.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" name="GausseCannon" labelType="name" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Weapons/Vine/gausseCannonAnimation" name="artwork" centerPoint3DX="17">
+                  <matrix>
+                    <Matrix tx="-11.65" ty="-13.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28.65" y="13.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

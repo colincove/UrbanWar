@@ -1,0 +1,76 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Suit/Hero_Clip" itemID="4d260999-0000017e" linkageExportForAS="true" linkageClassName="Hero" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Hero/Suit/Hero_Clip" sourceLastModified="1292565784" lastModified="1292565784" lastUniqueIdentifier="40">
+  <timeline>
+    <DOMTimeline name="Hero_Clip">
+      <layers>
+        <DOMLayer name="Layer 25" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Animation" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/HeroAnimation" name="animation" selected="true" centerPoint3DX="8.05" centerPoint3DY="-37.6">
+                  <matrix>
+                    <Matrix tx="3.75" ty="0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.7" y="-58.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Arm" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/ArmContainer" name="armContainer" centerPoint3DX="20.5" centerPoint3DY="23.5">
+                  <transformationPoint>
+                    <Point x="20.5" y="23.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 26" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/BoosterFlame" name="backFlame" centerPoint3DX="-12.65" centerPoint3DY="-55.95">
+                  <matrix>
+                    <Matrix tx="-30.05" ty="-59.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.4" y="3.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Hero/BoosterFlame" name="bottemFlame" centerPoint3DX="7.85" centerPoint3DY="-34.75">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="4.05" ty="-17.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.4" y="3.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Hero/BoosterFlame" name="frontFlame" centerPoint3DX="29.1" centerPoint3DY="-54.25">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="46.5" ty="-50.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.4" y="3.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

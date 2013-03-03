@@ -1,0 +1,782 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Cinematics/Closing/ClosingScene/fdsfdsfsdfsdfsd" itemID="4f03a941-000000f6" symbolType="graphic" lastModified="1345664137">
+  <timeline>
+    <DOMTimeline name="fdsfdsfsdfsdfsd" currentFrame="844">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" duration="76" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/werew" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-2.9" ty="-3.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="76" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/werew" symbolType="graphic" firstFrame="76" loop="loop">
+                  <matrix>
+                    <Matrix tx="-2.9" ty="-3.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="77" duration="496" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="573" duration="369" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="168" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Twdfgdfeen 2" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="543.3" ty="-196.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="168" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Twdfgdfeen 2" symbolType="graphic" firstFrame="168" loop="loop">
+                  <matrix>
+                    <Matrix tx="-4.7" ty="-196.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="169" duration="57" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Twdfgdfeen 2" selected="true" symbolType="graphic" firstFrame="169" loop="loop">
+                  <matrix>
+                    <Matrix tx="-7.95" ty="-196.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="226" duration="347" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.333333333333333"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Twdfgdfeen 2" selected="true" symbolType="graphic" firstFrame="226" loop="loop">
+                  <matrix>
+                    <Matrix tx="-193.9" ty="-196.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="573" duration="158" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.6047" y="0.0382"/>
+                  <Point x="0.8116" y="0.5104"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Twdfgdfeen 2" selected="true" symbolType="graphic" firstFrame="573" loop="loop">
+                  <matrix>
+                    <Matrix tx="-193.9" ty="-196.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="731" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Twdfgdfeen 2" symbolType="graphic" firstFrame="731" loop="loop">
+                  <matrix>
+                    <Matrix tx="-193.9" ty="1126.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="732" duration="210" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Isolation Mode" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="573" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="573" duration="369" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" duration="573" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="573" duration="369" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="573" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="573" duration="59" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="632" duration="164" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" selected="true" symbolType="graphic" loop="play once">
+                  <matrix>
+                    <Matrix tx="-55.8" ty="-566.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="796" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" selected="true" symbolType="graphic" firstFrame="164" loop="play once">
+                  <matrix>
+                    <Matrix tx="-652.5" ty="12.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="806" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="174" loop="play once">
+                  <matrix>
+                    <Matrix tx="-688.9" ty="47.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="808" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="176" loop="play once">
+                  <matrix>
+                    <Matrix tx="-684.2" ty="26.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="810" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="178" loop="play once">
+                  <matrix>
+                    <Matrix tx="-703.45" ty="62"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="812" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="180" loop="play once">
+                  <matrix>
+                    <Matrix tx="-730.75" ty="49.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="814" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="182" loop="play once">
+                  <matrix>
+                    <Matrix tx="-698" ty="76.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="816" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" selected="true" symbolType="graphic" firstFrame="184" loop="play once">
+                  <matrix>
+                    <Matrix tx="-725.25" ty="71.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="818" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="186" loop="play once">
+                  <matrix>
+                    <Matrix tx="-748.55" ty="102.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="819" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="187" loop="play once">
+                  <matrix>
+                    <Matrix tx="-736.2" ty="93.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="820" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="188" loop="play once">
+                  <matrix>
+                    <Matrix tx="-751.85" ty="73.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="821" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="189" loop="play once">
+                  <matrix>
+                    <Matrix tx="-727.45" ty="100.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="822" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="190" loop="play once">
+                  <matrix>
+                    <Matrix tx="-771.1" ty="136.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="823" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="191" loop="play once">
+                  <matrix>
+                    <Matrix tx="-734.75" ty="75.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="824" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="192" loop="play once">
+                  <matrix>
+                    <Matrix tx="-814.35" ty="123.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="825" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="193" loop="play once">
+                  <matrix>
+                    <Matrix tx="-758" ty="114.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="826" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="194" loop="play once">
+                  <matrix>
+                    <Matrix tx="-689.65" ty="102.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="827" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="195" loop="play once">
+                  <matrix>
+                    <Matrix tx="-765.3" ty="121.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="828" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="196" loop="play once">
+                  <matrix>
+                    <Matrix tx="-820.95" ty="125.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="829" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="197" loop="play once">
+                  <matrix>
+                    <Matrix tx="-772.55" ty="129"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="830" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="198" loop="play once">
+                  <matrix>
+                    <Matrix tx="-716.2" ty="72.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="831" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="199" loop="play once">
+                  <matrix>
+                    <Matrix tx="-779.85" ty="136.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="832" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="200" loop="play once">
+                  <matrix>
+                    <Matrix tx="-811.5" ty="127.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="833" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="201" loop="play once">
+                  <matrix>
+                    <Matrix tx="-787.1" ty="143.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="834" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="202" loop="play once">
+                  <matrix>
+                    <Matrix tx="-782.75" ty="158.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="836" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="204" loop="play once">
+                  <matrix>
+                    <Matrix tx="-798.05" ty="153.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="838" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="206" loop="play once">
+                  <matrix>
+                    <Matrix tx="-773.3" ty="128.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="840" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="208" loop="play once">
+                  <matrix>
+                    <Matrix tx="-812.55" ty="167.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="842" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" selected="true" symbolType="graphic" firstFrame="210" loop="play once">
+                  <matrix>
+                    <Matrix tx="-867.85" ty="130.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="844" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="212" loop="play once">
+                  <matrix>
+                    <Matrix tx="-851.1" ty="159.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="846" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" selected="true" symbolType="graphic" firstFrame="214" loop="play once">
+                  <matrix>
+                    <Matrix tx="-834.4" ty="189"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="848" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="216" loop="play once">
+                  <matrix>
+                    <Matrix tx="-825.7" ty="176.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="850" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" selected="true" symbolType="graphic" firstFrame="218" loop="play once">
+                  <matrix>
+                    <Matrix tx="-849" ty="203.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="852" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="220" loop="play once">
+                  <matrix>
+                    <Matrix tx="-868.25" ty="198.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="854" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="222" loop="play once">
+                  <matrix>
+                    <Matrix tx="-863.55" ty="217.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="856" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="224" loop="play once">
+                  <matrix>
+                    <Matrix tx="-854.85" ty="212.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="858" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="226" loop="play once">
+                  <matrix>
+                    <Matrix tx="-878.1" ty="231.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="860" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="228" loop="play once">
+                  <matrix>
+                    <Matrix tx="-881.4" ty="226.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="862" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="230" loop="play once">
+                  <matrix>
+                    <Matrix tx="-892.65" ty="245.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="864" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" selected="true" symbolType="graphic" firstFrame="232" loop="play once">
+                  <matrix>
+                    <Matrix tx="-915.95" ty="240.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="866" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" selected="true" symbolType="graphic" firstFrame="234" loop="play once">
+                  <matrix>
+                    <Matrix tx="-891.2" ty="255.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="868" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="236" loop="play once">
+                  <matrix>
+                    <Matrix tx="-914.5" ty="266.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="870" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="238" loop="play once">
+                  <matrix>
+                    <Matrix tx="-921.8" ty="273.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="872" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="240" loop="play once">
+                  <matrix>
+                    <Matrix tx="-921.05" ty="276.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="874" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="242" loop="play once">
+                  <matrix>
+                    <Matrix tx="-936.35" ty="287.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="876" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="244" loop="play once">
+                  <matrix>
+                    <Matrix tx="-947.6" ty="290.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="878" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" symbolType="graphic" firstFrame="246" loop="play once">
+                  <matrix>
+                    <Matrix tx="-950.85" ty="301.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="880" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" selected="true" symbolType="graphic" firstFrame="248" loop="play once">
+                  <matrix>
+                    <Matrix tx="-950.15" ty="304.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="882" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" selected="true" symbolType="graphic" firstFrame="250" loop="play once">
+                  <matrix>
+                    <Matrix tx="-965.45" ty="315.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="884" duration="57" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" selected="true" symbolType="graphic" firstFrame="252" loop="play once">
+                  <matrix>
+                    <Matrix tx="-972.75" ty="322.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="941" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/hbbgbhbhbbjh" selected="true" symbolType="graphic" firstFrame="309" loop="play once">
+                  <matrix>
+                    <Matrix tx="-1180.05" ty="524.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2795.95" y="199.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

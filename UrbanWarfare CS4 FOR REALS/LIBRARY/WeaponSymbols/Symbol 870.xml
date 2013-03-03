@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="WeaponSymbols/Symbol 870" itemID="4ddac02f-000002db" symbolType="graphic" lastModified="1306181679">
+  <timeline>
+    <DOMTimeline name="Symbol 870">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#D10000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1874 0|688 0!688 0[682 140 627 261!627 261[572 382 478 475!478 475[385 567 263 620!263 620[141 673 0 677!0 677|1074 677!1074 677|1074 667!1074 667[1074 623 1085 583!1085 583|549 583!549 583|549 425!549 425|1195 425!1195 425[1246 387
+ 1310 373!1310 373|1310 306!1310 306|1548 306!1548 306|1548 366!1548 366|1874 366!1874 366|1874 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

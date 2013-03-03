@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tweens/Symbol 3" itemID="4dd992d7-0000024f" symbolType="graphic" lastModified="1306104541">
+  <timeline>
+    <DOMTimeline name="Symbol 3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFB3"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!18737 2447[19745 3455 19745 4880!19745 4880[19745 6305 18737 7313!18737 7313[17729 8321 16304 8321!16304 8321[14879 8321 13871 7313!13871 7313[12863 6305 12863 4880!12863 4880[12863 3455 13871 2447!13871 2447[14879 1439 16304 1439!16304
+ 1439[17729 1439 18737 2447"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="1212.3" ty="272.05"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.690643310546875" d="0.690643310546875" tx="-429.05"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFB3" ratio="0"/>
+                        <GradientEntry color="#FFFFB3" alpha="0" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!-688 -7893S2[2582 -4623 2582 0!2582 0[2582 4623 -688 7893!-688 7893[-3958 11163 -8581 11163!-8581 11163[-13204 11163 -16474 7893!-16474 7893[-19744 4623 -19744 0!-19744 0[-19744 -4623 -16474 -7893!-16474 -7893[-13204 -11163 -8581 -11163
+!-8581 -11163[-3958 -11163 -688 -7893"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

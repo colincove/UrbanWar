@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Cinematics/Closing/ClosingScene/AlienDeadAnimation" itemID="503003e3-00000d8c" symbolType="graphic" lastModified="1345325721">
+  <timeline>
+    <DOMTimeline name="AlienDeadAnimation" currentFrame="231">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="234" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="234" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="234" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 1 copy" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="16.3" ty="-102.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.65" y="53.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="234" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 1 copy" symbolType="graphic" firstFrame="234" loop="loop">
+                  <matrix>
+                    <Matrix tx="16.3" ty="-102.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.65" y="53.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

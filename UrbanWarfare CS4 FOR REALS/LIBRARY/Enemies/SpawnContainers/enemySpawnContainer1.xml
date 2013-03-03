@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/SpawnContainers/enemySpawnContainer1" itemID="4d260999-0000014e" linkageExportForAS="true" linkageBaseClass="com.enemies.enemySpawnContainer" linkageClassName="enemySpawnContainer1" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Enemies/SpawnContainers/enemySpawnContainer1" sourceLastModified="1297198938" lastModified="1303418436" lastUniqueIdentifier="15">
+  <timeline>
+    <DOMTimeline name="enemySpawnContainer1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="GUI/SpawnHitSpot" name="hitSpot" centerPoint3DX="-692.2" centerPoint3DY="57.85">
+                  <matrix>
+                    <Matrix d="2.5299072265625" tx="-798.2" ty="-425.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="106" y="190.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

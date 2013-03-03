@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Cinematics/Closing/ClosingScene/dfgdf" itemID="4f03a8f0-000000d7" symbolType="graphic" lastModified="1325639920">
+  <timeline>
+    <DOMTimeline name="dfgdf">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FF0000"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!150 -503S1[111 -593 62 -633!62 -633[13 -674 -35 -673!-35 -673[-93 -672 -133 -625!-133 -625[-173 -579 -177 -501!-177 -501[-181 -423 -130 -329!-130 -329[-90 -255 -59 -158!-59 -158[-28 -60 -6 45!-6 45[16 151 31 252!31 252[46 353 54 434
+!54 434[63 516 67 564!67 564[70 612 70 613!70 613[70 614 75 629!75 629[81 643 91 658!91 658[102 672 118 673!118 673[129 673 143 663!143 663[167 644 173 635!173 635[180 627 176 616!176 616[173 606 165 581!165 581[141 485 131 369!131 369
+[120 254 119 132!119 132[117 10 122 -103!122 -103[126 -216 133 -306!133 -306[139 -396 145 -449!145 -449[150 -502 150 -503"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

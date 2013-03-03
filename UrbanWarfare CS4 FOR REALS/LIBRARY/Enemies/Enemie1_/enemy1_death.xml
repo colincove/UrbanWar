@@ -1,0 +1,62 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Enemie1_/enemy1_death" itemID="4cd4899e-00000082" linkageExportForAS="true" linkageClassName="com.displayObjects.enemy1Death" lastModified="1289000684" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="enemy1_death" currentFrame="52">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="41" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/Explosion_/explosion" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="54.2" ty="60.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-6.2" y="-6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" duration="41" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/Explosion_/explosion" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="124.7" ty="6.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-6.2" y="-6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" duration="41" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/Explosion_/explosion" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="12.2" ty="11.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-6.2" y="-6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

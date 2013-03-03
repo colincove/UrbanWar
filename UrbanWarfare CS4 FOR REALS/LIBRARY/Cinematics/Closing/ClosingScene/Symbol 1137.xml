@@ -1,0 +1,69 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Cinematics/Closing/ClosingScene/Symbol 1137" itemID="50305eab-00000e8f" symbolType="graphic" lastModified="1345347243">
+  <timeline>
+    <DOMTimeline name="Symbol 1137">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 834" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="65.8" ty="16.55"/>
+                  </matrix>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="0" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 1138" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.961746215820313" b="0.329818725585938" c="0.336380004882813" d="0.942962646484375" tx="251.9" ty="254.35"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 1139" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.961746215820313" b="0.329818725585938" c="0.336380004882813" d="0.942962646484375" tx="214.1" ty="243.05"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 1140" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.961746215820313" b="0.329818725585938" c="0.336380004882813" d="0.942962646484375" tx="231.95" ty="200.3"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 1141" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.961746215820313" b="0.329818725585938" c="0.336380004882813" d="0.942962646484375" tx="244" ty="198.7"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 1142" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.961746215820313" b="0.329818725585938" c="0.336380004882813" d="0.942962646484375" tx="187.3" ty="176.45"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 1143" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.961746215820313" b="0.329818725585938" c="0.336380004882813" d="0.942962646484375" tx="235.75" ty="223.85"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 841" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.961746215820313" b="0.329818725585938" c="0.336380004882813" d="0.942962646484375" tx="219.7" ty="86.2"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 842" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1.0198974609375" tx="180.85" ty="97.6"/>
+                  </matrix>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

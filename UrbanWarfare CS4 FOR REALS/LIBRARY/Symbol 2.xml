@@ -1,0 +1,219 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 2" itemID="5046b117-0000096a" symbolType="graphic" lastModified="1346810135">
+  <timeline>
+    <DOMTimeline name="Symbol 2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2772 1055S1|142 1055!142 1055|142 865!142 865|2772 865!2772 865|2772 1055!2832 805|82 805!82 805|82 1115!82 1115|2832 1115!2832 1115|2832 805"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2237 1290S1|142 1290!142 1290|142 1140!142 1140|2237 1140!2237 1140|2237 1290!2297 1080|82 1080!82 1080|82 1350!82 1350|2297 1350!2297 1350|2297 1080"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!980 865S1|980 1485!980 1485|843 1485!843 1485|843 865!843 865|980 865!1040 1545|1040 805!1040 805|783 805!783 805|783 1545!783 1545|1040 1545"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1745 1485S1|1608 1485!1608 1485|1608 865!1608 865|1745 865!1745 865|1745 1485!1805 805|1548 805!1548 805|1548 1545!1548 1545|1805 1545!1805 1545|1805 805"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#33FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2128 865S1|2128 1485!2128 1485|1991 1485!1991 1485|1991 865!1991 865|2128 865!1931 805|1931 1545!1931 1545|2188 1545!2188 1545|2188 805!2188 805|1931 805"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1262 785S1|762 785!762 785|762 1385!762 1385|222 1385!222 1385|222 785!222 785|142 785!142 785|142 655!142 655|222 655!222 655|222 150!222 150|762 150!762 150|1262 655!1262 655|1262 785!1322 630|787 90!787 90|162 90!162 90|162 595!162
+ 595|82 595!82 595|82 845!82 845|162 845!162 845|162 1445!162 1445|822 1445!822 1445|822 845!822 845|1322 845!1322 845|1322 630"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!60 60S1|635 60!635 60|635 665!635 665|60 665!60 665|60 60!0 0|0 725!0 725|695 725!695 725|695 0!695 0|0 0"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!285 725S1|285 1530!285 1530|695 1530!695 1530|695 725!695 725|285 725!635 785|635 1470!635 1470|345 1470!345 1470|345 785!345 785|635 785"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1977" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="7.1" ty="43.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1978" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="7.1" ty="57"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1979" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="42.15" ty="43.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1980" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="80.4" ty="43.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1981" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="99.55" ty="43.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1982" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="7.1" ty="7.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1983" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1984" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="17.25" ty="39.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Hero.ai Assets/Layer 1/&lt;Path&gt;" itemID="4d013b40-000001cc" lastModified="1291926806">
+  <timeline>
+    <DOMTimeline name="&lt;Path&gt;">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#0019FF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!238 55[29 -56 3 55!3 55[-9 111 20 189!20 189|137 1126!137 1126|145 1239!145 1239[169 1368 254 1454!254 1454[391 1591 715 1829!715 1829|832 1712!832 1712|980 1150!980 1150[878 921 735 670!735 670[447 167 238 55"/>
+                    <Edge cubics="!20 189(;20,189 137,1126 137,1126q20 189p137 1126);"/>
+                    <Edge cubics="!137 1126(;137,1126 118,1317 254,1454q137 1126Q137 1126q145 1239Q169 1368q254 1454);"/>
+                    <Edge cubics="!254 1454(;391,1591 715,1829 715,1829q254 1454Q391 1591q715 1829);"/>
+                    <Edge cubics="!715 1829(;715,1829 832,1712 832,1712q715 1829 832 1712);"/>
+                    <Edge cubics="!832 1712(;832,1712 980,1150 980,1150q832 1712 980 1150);"/>
+                    <Edge cubics="!980 1150(;980,1150 573,234 238,55q980 1150Q878 921q735 670Q447 167q238 55);"/>
+                    <Edge cubics="!238 55(;-97,-123 20,189 20,189q238 55Q29 -56q3 55Q-9 111q20 189);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

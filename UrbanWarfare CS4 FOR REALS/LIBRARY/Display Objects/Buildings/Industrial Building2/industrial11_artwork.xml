@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/Industrial Building2/industrial11_artwork" itemID="4dd9a18b-000002bd" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="industrial11_artwork" lastModified="1330726565" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="industrial11_artwork">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F38827"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!109 -2973|109 758!109 758|-81 758!-81 758|-81 -1126!-81 -1126|-144 -1126!-144 -1126|-144 -1521!-144 -1521|-367 -1521!-367 -1521|-367 -1126!-367 -1126|-427 -1126!-427 -1126|-427 758!-427 758|-572 758!-572 758|-572 1247!-572 1247|-427
+ 1247!-427 1247|-427 4596!-427 4596|-69 4596!-69 4596|-69 1247!-69 1247|109 1247!109 1247|109 4607!109 4607|445 4607!445 4607|445 1247!445 1247|572 1247!572 1247|572 758!572 758|455 758!455 758|455 -2973!455 -2973|109 -2973"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

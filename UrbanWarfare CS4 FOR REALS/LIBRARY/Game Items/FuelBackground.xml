@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Game Items/FuelBackground" itemID="4d7140b3-000008a8" sourceFlashFilepath="Users/kmr14/Desktop/Side Scroller.fla" sourceLibraryItemHRef="Display Objects/FuelItemFolder/FuelBackground" sourceLastModified="1299269623" symbolType="graphic" lastModified="1299269623">
+  <timeline>
+    <DOMTimeline name="FuelBackground">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#006600" alpha="0.501960784313725"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="3">
+                        <fill>
+                          <SolidColor color="#00E100"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!127 -190|-115 -190!-115 -190[-200 -190 -200 -104!-200 -104|-200 137!-200 137[-200 223 -115 223!-115 223|127 223!127 223[212 223 212 137!212 137|212 -104!212 -104[212 -190 127 -190"/>
+                    <Edge cubics="!-200 137(;-200,194 -172,223 -115,223q-200 137Q-200 223q-115 223)-115,223;"/>
+                    <Edge cubics="!-200 -104(;-200,-104 -200,137 -200,137q-200 -104 -200 137);"/>
+                    <Edge cubics="!-115 -190(;-172,-190 -200,-161 -200,-104q-115 -190Q-200 -190q-200 -104)-200,-104;"/>
+                    <Edge cubics="!127 -190(127,-190;127,-190 -115,-190 -115,-190q127 -190 -115 -190)-115,-190;"/>
+                    <Edge cubics="!-115 223(-115,223;-115,223 127,223 127,223q-115 223 127 223)127,223;"/>
+                    <Edge cubics="!212 137(;212,137 212,-104 212,-104q212 137 212 -104);"/>
+                    <Edge cubics="!212 -104(;212,-161 184,-190 127,-190q212 -104Q212 -190q127 -190);"/>
+                    <Edge cubics="!127 223(;184,223 212,194 212,137q127 223Q212 223q212 137);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

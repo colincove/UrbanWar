@@ -1,0 +1,131 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level6/level6" itemID="4daf2404-00002bfb" linkageExportForAS="true" linkageBaseClass="com.levels.level" linkageClassName="level6" lastModified="1346953799" lastUniqueIdentifier="15">
+  <timeline>
+    <DOMTimeline name="level6">
+      <layers>
+        <DOMLayer name="neutral" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level6/level6Neutral" name="neutral_contrainer" centerPoint3DX="1564.75" centerPoint3DY="-39.65">
+                  <matrix>
+                    <Matrix tx="-389.6" ty="-520.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1486.4" y="481.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Misc/EndGame" name="endGame" centerPoint3DX="12961.25" centerPoint3DY="-601.5">
+                  <matrix>
+                    <Matrix b="0.0142059326171875" d="2.26103210449219" tx="12862.75" ty="-1478.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.5" y="387.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Hero_Container" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level6/level6_hero_container" name="hero_container" centerPoint3DX="-375.25" centerPoint3DY="-499.7">
+                  <matrix>
+                    <Matrix tx="-389.6" ty="-520.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.35" y="21.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="enemy_Container" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level6/level6_ground_enemy_container" name="ground_enemy_container" centerPoint3DX="1132.75" centerPoint3DY="-39.65">
+                  <matrix>
+                    <Matrix tx="-389.6" ty="-520.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1522.35" y="481.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="Background1" color="#808080" parentLayerIndex="3" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level6/Level6Background2" name="BG1" centerPoint3DX="3352.3" centerPoint3DY="393.2">
+                  <matrix>
+                    <Matrix tx="-1223.85" ty="0.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4866.2" y="671.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background2" color="#FF4F4F" parentLayerIndex="3" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level6/Level6Background1" name="BG2" selected="true" centerPoint3DX="1414.85" centerPoint3DY="273.25">
+                  <matrix>
+                    <Matrix tx="-389.6" ty="-209.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1804.45" y="575.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="3">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Sun" name="sun" centerPoint3DX="1180.35" centerPoint3DY="-128">
+                  <matrix>
+                    <Matrix tx="1180.35" ty="-128"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-112.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Light3" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#1D44E2"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!443603 -16683|443603 10843!443603 10843|-44479 10843!-44479 10843|-44479 -16683!-44479 -16683|443603 -16683"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

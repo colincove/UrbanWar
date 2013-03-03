@@ -1,0 +1,244 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level6/level6_ground_container" itemID="4daf2456-0000370f" linkageExportForAS="true" linkageBaseClass="com.levels.GroundControl" linkageClassName="level6_ground_container" lastModified="1331933710" lastUniqueIdentifier="34">
+  <timeline>
+    <DOMTimeline name="level6_ground_container">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Industrial building 5/industrial23" centerPoint3DX="148" centerPoint3DY="624.95">
+                  <matrix>
+                    <Matrix tx="148" ty="625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Industrial Building2/industrial9" centerPoint3DX="1126.95" centerPoint3DY="568">
+                  <matrix>
+                    <Matrix tx="1126.95" ty="565.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="2.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/IdnustrialBuilding3/industrial15" centerPoint3DX="1838.9" centerPoint3DY="676.95">
+                  <matrix>
+                    <Matrix tx="1838.9" ty="676.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/industrail building 6/industrial24" centerPoint3DX="1387.9" centerPoint3DY="555">
+                  <matrix>
+                    <Matrix tx="1387.9" ty="555"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/industrail building 6/industrial24" centerPoint3DX="814.95" centerPoint3DY="708.95">
+                  <matrix>
+                    <Matrix tx="814.95" ty="708.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Industrial Building2/industrial9" centerPoint3DX="2425.85" centerPoint3DY="324.45">
+                  <matrix>
+                    <Matrix tx="2425.85" ty="322.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="2.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Industrial building 5/industrial23" centerPoint3DX="3360.8" centerPoint3DY="470">
+                  <matrix>
+                    <Matrix a="0.723190307617188" d="0.723190307617188" tx="3360.8" ty="470.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/IdnustrialBuilding3/industrial15" centerPoint3DX="2820.8" centerPoint3DY="719.95">
+                  <matrix>
+                    <Matrix tx="2820.8" ty="719.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Industrial building 5/industrial23" centerPoint3DX="4264.75" centerPoint3DY="412.2">
+                  <matrix>
+                    <Matrix a="-0.723190307617188" d="0.723190307617188" tx="4264.75" ty="412.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/IdnustrialBuilding3/industrial15" centerPoint3DX="3839.75" centerPoint3DY="631.9">
+                  <matrix>
+                    <Matrix a="1.06022644042969" d="1.06022644042969" tx="3839.75" ty="631.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Indsutrial building 4/industrial18" centerPoint3DX="5189.7" centerPoint3DY="561.15">
+                  <matrix>
+                    <Matrix tx="5193.2" ty="561.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/IdnustrialBuilding3/industrial15" centerPoint3DX="5531" centerPoint3DY="636.45">
+                  <matrix>
+                    <Matrix a="-1" tx="5531" ty="636.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Industrial building 5/industrial23" centerPoint3DX="5963.15" centerPoint3DY="735.85">
+                  <matrix>
+                    <Matrix a="-0.723190307617188" d="0.723190307617188" tx="5963.15" ty="735.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/IdnustrialBuilding3/industrial15" centerPoint3DX="6943.15" centerPoint3DY="784.85">
+                  <matrix>
+                    <Matrix d="1.1324462890625" tx="6943.15" ty="784.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Indsutrial building 4/industrial18" centerPoint3DX="6507.6" centerPoint3DY="716.95">
+                  <matrix>
+                    <Matrix tx="6511.1" ty="716.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/IdnustrialBuilding3/industrial15" centerPoint3DX="7228.05" centerPoint3DY="636.45">
+                  <matrix>
+                    <Matrix tx="7228.05" ty="636.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Industrial building 5/industrial23" centerPoint3DX="8327.95" centerPoint3DY="685.6">
+                  <matrix>
+                    <Matrix a="-1" tx="8327.95" ty="685.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/ScienceBuilding_/scienceBuilding" centerPoint3DX="7615.6" centerPoint3DY="573.05">
+                  <matrix>
+                    <Matrix tx="7601.6" ty="443.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14" y="129.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Industrial Building2/industrial9" centerPoint3DX="7424.55" centerPoint3DY="489">
+                  <matrix>
+                    <Matrix tx="7424.55" ty="486.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="2.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/industrail building 6/industrial24_artwork" centerPoint3DX="7854.55" centerPoint3DY="630.95">
+                  <matrix>
+                    <Matrix tx="7854.55" ty="630.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Industrial building 5/industrial23" centerPoint3DX="9172.9" centerPoint3DY="725.4">
+                  <matrix>
+                    <Matrix tx="9172.9" ty="725.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Industrial Building2/industrial9" centerPoint3DX="9693.9" centerPoint3DY="645.95">
+                  <matrix>
+                    <Matrix tx="9693.9" ty="643.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="2.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/Industrial Building2/industrial9" centerPoint3DX="11312.9" centerPoint3DY="586.95">
+                  <matrix>
+                    <Matrix a="1.18994140625" d="1.18994140625" tx="11312.9" ty="584.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="2.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/industrail building 6/industrial24" centerPoint3DX="11533.8" centerPoint3DY="767">
+                  <matrix>
+                    <Matrix tx="11533.8" ty="767"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/industrail building 6/industrial24" centerPoint3DX="10310.9" centerPoint3DY="766">
+                  <matrix>
+                    <Matrix tx="10310.9" ty="766"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/industrail building 6/industrial24" centerPoint3DX="9961.95" centerPoint3DY="687.1">
+                  <matrix>
+                    <Matrix tx="9961.95" ty="687.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level6/level6Ground" symbolType="button">
+                  <transformationPoint>
+                    <Point x="1522.35" y="481.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

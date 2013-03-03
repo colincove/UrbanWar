@@ -1,0 +1,47 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Weapons/ClusterLauncher/ClusterRocket" itemID="4d045e1d-000000b9" linkageExportForAS="true" linkageClassName="com.weapons.ClusterRocket" lastModified="1307294078">
+  <timeline>
+    <DOMTimeline name="ClusterRocket">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!95 -16[92 -32 84 -45!84 -45[74 -64 55 -75!55 -75[36 -85 13 -86!13 -86|-384 -86!-384 -86|-384 -122!-384 -122|-577 -122!-577 -122|-577 -49!-577 -49|-502 -49!-502 -49|-502 42!-502 42|-577 42!-577 42|-577 115!-577 115|-384 115!-384 115|-384
+ 79!-384 79|13 79!13 79[36 78 55 67!55 67[74 57 84 38!84 38[92 24 95 9!95 9|114 9!114 9|114 -16!114 -16|95 -16"/>
+                    <Edge cubics="!-384 -86(;-384,-86 -384,-122 -384,-122q-384 -86 -384 -122);"/>
+                    <Edge cubics="!-384 115(;-384,115 -384,79 -384,79q-384 115 -384 79);"/>
+                    <Edge cubics="!-502 -49(;-502,-49 -502,42 -502,42q-502 -49 -502 42);"/>
+                    <Edge cubics="!114 -16(;114,-16 95,-16 95,-16q114 -16 95 -16);"/>
+                    <Edge cubics="!55 -75(;43,-82 29,-85 13,-86q55 -75Q36 -85q13 -86);"/>
+                    <Edge cubics="!84 -45(84,-45;77,-57 67,-67 55,-75q84 -45Q74 -64q55 -75)55,-75;"/>
+                    <Edge cubics="!13 79(13,79;28,78 42,74 55,67q13 79Q36 78q55 67);"/>
+                    <Edge cubics="!55 67(55,67;67,60 77,50 84,38q55 67Q74 57q84 38);"/>
+                    <Edge cubics="!95 9(;95,9 114,9 114,9q95 9 114 9)114,9;"/>
+                    <Edge cubics="!95 -16(95,-16;93,-27 90,-36 84,-45q95 -16Q92 -32q84 -45)84,-45;"/>
+                    <Edge cubics="!84 38(84,38;90,29 93,19 95,9q84 38Q92 24q95 9)95,9;"/>
+                    <Edge cubics="!114 9(114,9;114,9 114,-16 114,-16q114 9 114 -16)114,-16;"/>
+                    <Edge cubics="!13 -86(;13,-86 -384,-86 -384,-86q13 -86 -384 -86);"/>
+                    <Edge cubics="!13 79(;13,79 -384,79 -384,79q13 79 -384 79);"/>
+                    <Edge cubics="!-577 -122(;-577,-122 -577,-49 -577,-49q-577 -122 -577 -49);"/>
+                    <Edge cubics="!-577 42(;-577,42 -577,115 -577,115q-577 42 -577 115);"/>
+                    <Edge cubics="!-577 -49(;-577,-49 -502,-49 -502,-49q-577 -49 -502 -49);"/>
+                    <Edge cubics="!-384 -122(;-384,-122 -577,-122 -577,-122q-384 -122 -577 -122);"/>
+                    <Edge cubics="!-577 115(;-577,115 -384,115 -384,115q-577 115 -384 115);"/>
+                    <Edge cubics="!-502 42(;-502,42 -577,42 -577,42q-502 42 -577 42);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

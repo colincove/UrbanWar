@@ -1,0 +1,132 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/RegistrationInfoPrompt" itemID="503e7605-00001fc5" linkageExportForAS="true" linkageClassName="com.UI.RegistrationInfoPrompt" lastModified="1347250809" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="RegistrationInfoPrompt">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="310.4" height="390.7" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="427.95" ty="168"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Emails are </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>not</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> stored, but are encrypted. &#xD;&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>No</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> personal information is required to register. &#xD;&#xD;Leaderboards do </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>not</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> display emails, but display names. &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1" centerPoint3DX="571.05" centerPoint3DY="313">
+                  <matrix>
+                    <Matrix tx="410.1" ty="152"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="160.95" y="161"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter angle="90" blurX="20" blurY="20" distance="8"/>
+                  </filters>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1" centerPoint3DX="250.95" centerPoint3DY="313">
+                  <matrix>
+                    <Matrix tx="90" ty="152"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="160.95" y="161"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter angle="90" blurX="20" blurY="20" distance="8"/>
+                  </filters>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/PromptOK" name="okButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="146.45" ty="379.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="107.95" y="31"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText width="310.4" height="362.65" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="106.85" ty="168"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Registering will record a players items, currency, and stats on each level played. This will include players in leaderboards and allow them to retrieve thier progress on other computers. &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ModalBackgrounds" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-105.35" ty="-79"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="505.3" y="379"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

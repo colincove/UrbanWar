@@ -1,0 +1,73 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level 1/level1 deign" itemID="4dae3d65-0000014a" lastModified="1337973292" lastUniqueIdentifier="11">
+  <timeline>
+    <DOMTimeline name="level1 deign">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="level 1 foreground" centerPoint3DX="219.05" centerPoint3DY="154">
+                  <matrix>
+                    <Matrix tx="-37.95" ty="39"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="257" y="115"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="neutral" color="#808080" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level 1/level1Neutral" name="neutral_contrainer" selected="true" centerPoint3DX="1564.75" centerPoint3DY="-8.65">
+                  <matrix>
+                    <Matrix tx="-389.6" ty="-489.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1486.4" y="481.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Hero_Container" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level 1/level1_hero_container" name="hero_container" centerPoint3DX="-375.25" centerPoint3DY="-468.7">
+                  <matrix>
+                    <Matrix tx="-389.6" ty="-489.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.35" y="21.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="enemy_Container" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level 1/level1_ground_enemy_container" name="ground_enemy_container" centerPoint3DX="1132.75" centerPoint3DY="-8.65">
+                  <matrix>
+                    <Matrix tx="-389.6" ty="-489.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1522.35" y="481.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" autoNamed="false" layerType="folder"/>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

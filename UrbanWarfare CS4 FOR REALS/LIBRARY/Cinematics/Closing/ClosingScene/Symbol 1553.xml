@@ -1,0 +1,98 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Cinematics/Closing/ClosingScene/Symbol 1553" itemID="50305eab-0000102f" symbolType="graphic" lastModified="1345347243">
+  <timeline>
+    <DOMTimeline name="Symbol 1553">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 834" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="65.8" ty="16.55"/>
+                  </matrix>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="0" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 1554" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.990859985351563" b="-0.23382568359375" c="-0.238479614257813" d="0.971511840820313" tx="298.3" ty="350.1"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FF6600"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!5618 5488|5631 5470!5631 5470[5742 5330 5787 5282!5787 5282|5901 5201!5901 5201|5887 5203!5887 5203|5882 5195!5882 5195|5890 5183!5890 5183[5908 5165 5951 5156!5951 5156[6011 5143 6025 5182!6025 5182[6038 5220 5988 5298!5988 5298|5976
+ 5304!5976 5304|5970 5300!5970 5300|5948 5326!5948 5326|5857 5409!5857 5409[5788 5467 5762 5496!5762 5496[5673 5485 5711 5553!5711 5553|5780 5677!5780 5677[5861 5823 5892 5902!5892 5902|5907 5948!5907 5948[5949 6086 5925 6127!5925 6127
+|5885 6187!5885 6187|5747 6459!5747 6459[5670 6582 5626 6628!5626 6628|5495 6735!5495 6735[5396 6814 5353 6830!5353 6830[5323 6841 5262 6846!5262 6846|5154 6853!5154 6853[5054 6835 5007 6877!5007 6877[4976 6906 4997 6952!4997 6952[4950
+ 7070 4941 7084!4941 7084[4926 7101 4891 7127!4891 7127|4823 7179!4823 7179[4781 7202 4754 7240!4754 7240[4719 7295 4702 7379!4702 7379|4653 7483!4653 7483[4603 7574 4579 7565!4579 7565[4569 7562 4560 7551!4560 7551|4555 7529!4555 7529
+|4558 7524!4558 7524|4559 7521!4559 7521[4564 7510 4589 7485!4589 7485|4616 7453!4616 7453[4679 7276 4720 7225!4720 7225|4744 7199!4744 7199[4831 7126 4883 7049!4883 7049|4883 7048!4883 7048[4891 7035 4926 6919!4926 6919[4932 6857 4959
+ 6830!4959 6830[5024 6766 5251 6744!5251 6744|5311 6737!5311 6737[5410 6701 5564 6580!5564 6580|5574 6571!5574 6571|5608 6529!5608 6529[5656 6467 5683 6417!5683 6417|5744 6256!5744 6256|5827 6082!5827 6082|5774 5945!5774 5945|5628 5650
+!5628 5650[5579 5537 5618 5488!5827 6082|5828 6082!5828 6082[5833 6095 5830 6076!5830 6076|5827 6082"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 1409" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.990859985351563" b="-0.23382568359375" c="-0.238479614257813" d="0.971511840820313" tx="311.35" ty="294.05"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 1476" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.990859985351563" b="-0.23382568359375" c="-0.238479614257813" d="0.971511840820313" tx="322.4" ty="299.1"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 1441" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.990859985351563" b="-0.23382568359375" c="-0.238479614257813" d="0.971511840820313" tx="286.95" ty="250.2"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FF6600"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!5616 5357[5700 5314 5824 5311!5824 5311[5922 5306 5994 5343!5994 5343[6069 5378 6130 5476!6130 5476[6195 5580 6184 5665!6184 5665|6183 5666!6183 5666|6215 5774!6215 5774|6213 5778!6213 5778[6171 5868 6067 5907!6067 5907|5980 5939!5980
+ 5939[5940 5959 5931 5991!5931 5991[5917 6037 5942 6079!5942 6079[5965 6117 6012 6151!6012 6151|6035 6172!6035 6172[6048 6184 6063 6188!6063 6188[6084 6192 6115 6184!6115 6184|6236 6157!6236 6157|6333 6153!6333 6153[6393 6147 6392 6088
+!6392 6088|6376 5854!6376 5854[6370 5763 6374 5753!6374 5753|6386 5726!6386 5726[6400 5707 6434 5715!6434 5715|6434 5664!6434 5664|6450 5654!6450 5654[6488 5727 6467 5837!6467 5837|6454 5928!6454 5928[6449 5978 6465 6030!6465 6030|6479
+ 6094!6479 6094|6480 6095!6480 6095[6481 6106 6462 6133!6462 6133[6443 6159 6433 6165!6433 6165[6394 6187 6336 6208!6336 6208[6277 6226 6190 6244!6190 6244|6178 6247!6178 6247[6074 6272 6044 6267!6044 6267|5962 6230!5962 6230[5892 6194
+ 5828 6149!5828 6149[5775 6114 5725 6065!5725 6065|5642 5982!5642 5982|5588 5944!5588 5944[5472 5829 5457 5658!5457 5658|5455 5631!5455 5631[5449 5437 5616 5357"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 841" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.990859985351563" b="-0.23382568359375" c="-0.238479614257813" d="0.971511840820313" tx="364.1" ty="191.6"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 842" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1.0198974609375" tx="180.85" ty="97.6"/>
+                  </matrix>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

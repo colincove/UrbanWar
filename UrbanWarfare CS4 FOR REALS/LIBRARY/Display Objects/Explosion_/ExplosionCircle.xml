@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Explosion_/ExplosionCircle" itemID="4d0c1bc9-00000128" lastModified="1292639177">
+  <timeline>
+    <DOMTimeline name="ExplosionCircle">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF9900"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!238 476S2[139 476 69 406!69 406[0 337 0 238!0 238[0 139 69 69!69 69[139 0 238 0!238 0[337 0 406 69!406 69[476 139 476 238!476 238[476 337 406 406!406 406[337 476 238 476"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

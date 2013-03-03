@@ -1,0 +1,93 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/TitleScreen" itemID="4f00fba1-000002df" linkageExportForAS="true" linkageClassName="com.UI.TitleScreen" lastModified="1357345469" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="TitleScreen">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="489.95" height="82.95" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="49.15" ty="27.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Urban Warfare</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="70" bitmapSize="1400" face="Akzidenz-Grotesk_BQ*" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/LeaderboardTitleButton" name="leaderboardsButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="56.1" ty="190.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/ContinueGame" name="playGameButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="56.1" ty="115.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/titleScreenUserContext" name="userContext" centerPoint3DX="658.1" centerPoint3DY="115.1">
+                  <matrix>
+                    <Matrix tx="658.1" ty="115.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/ControlsButton" name="controlsButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="56.1" ty="266.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements>
+                <DOMBitmapInstance libraryItemName="Menus/MenuTextureScreen.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Menus/MenuTextureScreenBroken.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

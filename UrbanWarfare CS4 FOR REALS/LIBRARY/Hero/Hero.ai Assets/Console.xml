@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Hero.ai Assets/Console" itemID="4d013dd4-00000415" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Hero/Hero.ai Assets/Console" sourceLastModified="1292029160" lastModified="1292029160">
+  <timeline>
+    <DOMTimeline name="Console">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#972923"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!174 245|274 71!274 71|150 76!150 76|0 0!0 0|174 245"/>
+                    <Edge cubics="!174 245(;174,245 274,71 274,71p174 245q274 71);"/>
+                    <Edge cubics="!274 71(;274,71 150,76 150,76p274 71q150 76);"/>
+                    <Edge cubics="!150 76(;150,76 0,0 0,0q150 76 0 0);"/>
+                    <Edge cubics="!0 0(;0,0 174,245 174,245q0 0 174 245);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

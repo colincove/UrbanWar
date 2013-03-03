@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tweens/Tween 16" itemID="4db89df4-000001d7" symbolType="graphic" lastModified="1303944975">
+  <timeline>
+    <DOMTimeline name="Tween 16">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.079254150390625" d="0.079254150390625"/>
+                        </matrix>
+                        <GradientEntry color="#00FF00" alpha="0" ratio="0"/>
+                        <GradientEntry color="#00FF00" alpha="0" ratio="0.635294117647059"/>
+                        <GradientEntry color="#00FF00" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!912 -913[1290 -534 1290 0!1290 0[1290 534 912 912!912 912[534 1290 0 1290!0 1290[-534 1290 -913 912!-913 912[-1290 534 -1290 0!-1290 0[-1290 -534 -913 -913!-913 -913[-534 -1290 0 -1290!0 -1290[534 -1290 912 -913"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

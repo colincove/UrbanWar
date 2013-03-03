@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ShieldFolder/ShieldMask" itemID="4db895cc-000001a3" linkageExportForAS="true" linkageClassName="ShieldMask" lastModified="1303942604">
+  <timeline>
+    <DOMTimeline name="ShieldMask">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00E100"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!742 -743S2[1050 -435 1050 0!1050 0[1050 435 742 742!742 742[435 1050 0 1050!0 1050[-435 1050 -743 742!-743 742[-1050 435 -1050 0!-1050 0[-1050 -435 -743 -743!-743 -743[-435 -1050 0 -1050!0 -1050[435 -1050 742 -743"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

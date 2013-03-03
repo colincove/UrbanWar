@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Hero.ai Assets/UpperWindow" itemID="4d013da5-00000409" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Hero/Hero.ai Assets/UpperWindow" sourceLastModified="1291926949" lastModified="1291926949">
+  <timeline>
+    <DOMTimeline name="UpperWindow">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#0019FF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!72 411S1[111 450 202 517!202 517|235 484!235 484|277 325!277 325[248 260 208 189!208 189[126 47 67 16!67 16[8 -16 1 16!1 16[-2 31 6 53!6 53|41 350!41 350[48 387 72 411"/>
+                    <Edge cubics="!72 411(;111,450 202,517 202,517q72 411Q111 450q202 517);"/>
+                    <Edge cubics="!202 517(;202,517 235,484 235,484q202 517 235 484);"/>
+                    <Edge cubics="!235 484(;235,484 277,325 277,325q235 484 277 325);"/>
+                    <Edge cubics="!277 325(;277,325 162,66 67,16q277 325Q248 260q208 189Q126 47q67 16);"/>
+                    <Edge cubics="!67 16(;-27,-35 6,53 6,53q67 16Q8 -16q1 16Q-2 31q6 53);"/>
+                    <Edge cubics="!41 350(;46,375 56,395 72,411q41 350Q48 387q72 411);"/>
+                    <Edge cubics="!6 53(;6,53 41,350 41,350q6 53 41 350);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

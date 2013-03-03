@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Texture" itemID="4d02d7db-00000146" sourceFlashFilepath="..\Side Scroller.fla" sourceLibraryItemHRef="Display Objects/Texture" sourceLastModified="1292355030" lastModified="1306185459">
+  <timeline>
+    <DOMTimeline name="Texture">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="Misc/TextureFinalTest.jpg">
+                  <matrix>
+                    <Matrix tx="0.45" ty="-0.05"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,152 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/HUD" itemID="4cb78691-000000dd" linkageExportForAS="true" linkageBaseClass="com.camera.Cam" linkageClassName="HUD" sourceFlashFilepath=".\CurrentBuild\UrbanWarfare.fla" sourceLibraryItemHRef="GUI/HUD" sourceLastModified="1331928826" lastModified="1346475351" lastUniqueIdentifier="26">
+  <timeline>
+    <DOMTimeline name="HUD">
+      <layers>
+        <DOMLayer name="Layer 5" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="GUI/Score" centerPoint3DX="477.6" centerPoint3DY="-272.75">
+                  <matrix>
+                    <Matrix tx="391.5" ty="-278.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="86.1" y="5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!8000 -6000|8000 6000!8000 6000|-8000 6000!-8000 6000|-8000 -6000!-8000 -6000|8000 -6000"/>
+                    <Edge cubics="!8000 -6000(;8000,-6000 8000,-600 8000,-600q8000 -6000 8000 -600);"/>
+                    <Edge cubics="!8000 -600(;8000,-600 8000,6000 8000,6000q8000 -600 8000 6000);"/>
+                    <Edge cubics="!8000 6000(8000,6000;8000,6000 -8000,6000 -8000,6000q8000 6000 -8000 6000)-8000,6000;"/>
+                    <Edge cubics="!-8000 6000(;-8000,6000 -8000,-6000 -8000,-6000q-8000 6000 -8000 -6000);"/>
+                    <Edge cubics="!-8000 -6000(;-8000,-6000 -1340,-6000 -1340,-6000q-8000 -6000 -1340 -6000);"/>
+                    <Edge cubics="!-1340 -6000(;-1340,-6000 8000,-6000 8000,-6000q-1340 -6000 8000 -6000);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames/>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 9" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 10" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="GUI/HealthBar" centerPoint3DX="-220.75" centerPoint3DY="-198.1">
+                  <matrix>
+                    <Matrix tx="-311.45" ty="-290.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90.7" y="92.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4F80FF" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#010101" alpha="0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!9020 7099|-9219 7099!-9219 7099|-9219 -6980!-9219 -6980|9020 -6980!9020 -6980|9020 7099"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 11" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="GUI/hud_fade" name="fade">
+                  <matrix>
+                    <Matrix tx="-400" ty="-300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="400" y="300"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 12" color="#FF4FFF" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="GUI/TEXTURE" blendMode="overlay" centerPoint3DY="0.45">
+                  <matrix>
+                    <Matrix ty="0.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.3515625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

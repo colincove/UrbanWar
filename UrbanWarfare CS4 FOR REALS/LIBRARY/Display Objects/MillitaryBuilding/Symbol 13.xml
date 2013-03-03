@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/MillitaryBuilding/Symbol 13" itemID="4df57f82-000004db" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Display Objects/MillitaryBuilding/Symbol 13" sourceLastModified="1325903762" lastModified="1325903762">
+  <timeline>
+    <DOMTimeline name="Symbol 13">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.02740478515625" d="0.009368896484375" tx="0.15" ty="-0.95"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" alpha="0" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-446 75|-446 -94!-446 -94|452 -549!452 -549|452 553!452 553|-446 75"/>
+                    <Edge cubics="!452 -549(;452,-549 452,553 452,553q452 -549 452 553);"/>
+                    <Edge cubics="!-446 75(;-446,75 -446,-94 -446,-94q-446 75 -446 -94);"/>
+                    <Edge cubics="!-446 -94(;-446,-94 452,-549 452,-549q-446 -94 452 -549);"/>
+                    <Edge cubics="!452 553(;452,553 -446,75 -446,75q452 553 -446 75);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,53 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Suit/Parts/hand" itemID="4d26099a-00000196" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Hero/Suit/Parts/hand" sourceLastModified="1215922696" lastModified="1215922696">
+  <timeline>
+    <DOMTimeline name="hand">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="-8.85" ty="-20.4"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#999999"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!196 455[210 451 216 446!216 446[234 430 240 425!240 425[257 411 261 409!261 409[272 405 286 414!286 414[288 416 305 422!305 422[314 425 314 438!314 438[316 487 316 492!316 492[316 503 313 507!313 507[303 514 291 523!291 523[276 536 267
+ 530!267 530[253 525 237 531!237 531[220 541 218 541!218 541[210 541 193 530!193 530[177 519 177 514!177 514[183 507 183 492!183 492[183 476 186 468!186 468[191 460 196 455"/>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="
+!305 454[305 436 308 427!308 427[306 427 256 419!256 419[229 454 202 465!202 465[191 470 191 498!191 498[191 530 218 530!218 530[227 525 235 522!235 522[240 522 264 523!264 523[280 526 288 514!288 514[306 495 306 490!306 490|305 454"/>
+                    <Edge cubics="!316 492(;316,509 314,504 291,523q316 492Q316 503q313 507Q303 514q291 523);"/>
+                    <Edge cubics="!291 523(;265,545 269,517 237,531q291 523Q276 536q267 530Q253 525q237 531);"/>
+                    <Edge cubics="!237 531(;229,536 221,541 218,541q237 531Q220 541q218 541);"/>
+                    <Edge cubics="!218 541(;207,541 177,519 177,514q218 541Q210 541q193 530Q177 519q177 514);"/>
+                    <Edge cubics="!177 514(;177,511 183,507 183,492q177 514Q183 507q183 492);"/>
+                    <Edge cubics="!183 492(;183,484 183,473 186,468q183 492Q183 476q186 468);"/>
+                    <Edge cubics="!186 468(;191,455 199,458 216,446q186 468Q191 460q196 455Q210 451q216 446);"/>
+                    <Edge cubics="!216 446(;220,444 234,430 240,425q216 446Q234 430q240 425);"/>
+                    <Edge cubics="!240 425(;254,413 264,398 286,414q240 425Q257 411q261 409Q272 405q286 414);"/>
+                    <Edge cubics="!286 414(;295,424 314,416 314,438q286 414Q288 416q305 422Q314 425q314 438);"/>
+                    <Edge cubics="!314 438(;313,455 316,487 316,492q314 438Q316 487q316 492);"/>
+                    <Edge cubics="!256 419(;201,490 191,444 191,498q256 419Q229 454q202 465Q191 470q191 498);"/>
+                    <Edge cubics="!191 498(;191,509 194,530 218,530q191 498Q191 530q218 530);"/>
+                    <Edge cubics="!218 530(;220,530 227,525 235,522q218 530Q227 525q235 522);"/>
+                    <Edge cubics="!235 522(;254,517 275,533 288,514q235 522Q240 522q264 523Q280 526q288 514);"/>
+                    <Edge cubics="!288 514(;291,511 306,495 306,490q288 514Q306 495q306 490);"/>
+                    <Edge cubics="!306 490(;306,485 305,466 305,454q306 490 305 454);"/>
+                    <Edge cubics="!305 454(;305,419 332,427 256,419q305 454Q305 436q308 427Q306 427q256 419);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

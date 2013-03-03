@@ -1,0 +1,1343 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Thor_/Thor_WalkAgain" itemID="4d1b8da3-000000f9" lastModified="1346701715" lastUniqueIdentifier="237">
+  <timeline>
+    <DOMTimeline name="Thor_WalkAgain" currentFrame="50">
+      <layers>
+        <DOMLayer name="SOUND" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" duration="26" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[import com.enemies.Thor;
+if(parent!==null){
+	if(parent.parent!=null){
+		Thor(parent.parent).thorStep();
+	}
+}
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="40" duration="61" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[
+import com.enemies.Thor;
+if(parent!==null){
+	if(parent.parent!=null){
+		Thor(parent.parent).thorStep();
+	}
+}
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 17" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Body" centerPoint3DX="82.4" centerPoint3DY="54.1">
+                  <matrix>
+                    <Matrix tx="25" ty="3.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="57.4" y="50.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="58.35" centerPoint3DY="122.7">
+                  <matrix>
+                    <Matrix a="0.817123413085938" b="0.573776245117188" c="-0.573776245117188" d="0.817123413085938" tx="50.4" ty="95.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.15" y="17.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="71.4" centerPoint3DY="136.2">
+                  <matrix>
+                    <Matrix tx="49.25" ty="118.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.15" y="17.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="79" centerPoint3DY="104.6">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-0.5" c="0.5" d="0.86602783203125" tx="42.95" ty="96.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27" y="25.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="75.65" centerPoint3DY="153.95">
+                  <matrix>
+                    <Matrix tx="38.5" ty="142.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.15" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="77.3" centerPoint3DY="100.1">
+                  <matrix>
+                    <Matrix a="0.928878784179688" b="0.3673095703125" c="-0.3673095703125" d="0.928878784179688" tx="61.55" ty="66.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="26.95" y="25.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="58.85" centerPoint3DY="145.7">
+                  <matrix>
+                    <Matrix a="0.965927124023438" b="-0.258819580078125" c="0.258819580078125" d="0.965927124023438" tx="20" ty="144.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.15" y="11.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="63.25" centerPoint3DY="115.4">
+                  <matrix>
+                    <Matrix tx="-8.5" ty="92.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="55.05" centerPoint3DY="111.75">
+                  <matrix>
+                    <Matrix tx="-16.7" ty="89.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" centerPoint3DX="76.25" centerPoint3DY="59">
+                  <matrix>
+                    <Matrix tx="29.95" ty="6.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" centerPoint3DX="84.45" centerPoint3DY="62.65">
+                  <matrix>
+                    <Matrix tx="38.15" ty="9.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" duration="49" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="50" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[gotoAndPlay('loop');]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="51" duration="50" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_Arm" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" centerPoint3DX="76.25" centerPoint3DY="59">
+                  <matrix>
+                    <Matrix tx="29.95" ty="6.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" selected="true" centerPoint3DX="86.7" centerPoint3DY="55.9">
+                  <matrix>
+                    <Matrix tx="40.4" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" centerPoint3DX="85.95" centerPoint3DY="60.65">
+                  <matrix>
+                    <Matrix tx="39.65" ty="7.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" selected="true" centerPoint3DX="83.75" centerPoint3DY="63.4">
+                  <matrix>
+                    <Matrix tx="37.45" ty="10.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" selected="true" centerPoint3DX="82.75" centerPoint3DY="59.6">
+                  <matrix>
+                    <Matrix tx="36.45" ty="6.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" centerPoint3DX="80.25" centerPoint3DY="53.8">
+                  <matrix>
+                    <Matrix tx="33.95" ty="0.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" duration="51" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" centerPoint3DX="76.25" centerPoint3DY="59">
+                  <matrix>
+                    <Matrix tx="29.95" ty="6.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_gun" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="9" name="loop" labelType="name" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="63.25" centerPoint3DY="115.4">
+                  <matrix>
+                    <Matrix tx="-8.5" ty="92.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="73.7" centerPoint3DY="112.3">
+                  <matrix>
+                    <Matrix tx="1.95" ty="89.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="72.95" centerPoint3DY="117.05">
+                  <matrix>
+                    <Matrix tx="1.2" ty="94.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" selected="true" centerPoint3DX="70.75" centerPoint3DY="119.8">
+                  <matrix>
+                    <Matrix tx="-1" ty="97.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" selected="true" centerPoint3DX="69.75" centerPoint3DY="116">
+                  <matrix>
+                    <Matrix tx="-2" ty="93.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="67.25" centerPoint3DY="110.2">
+                  <matrix>
+                    <Matrix tx="-4.5" ty="87.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" duration="51" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="63.25" centerPoint3DY="115.4">
+                  <matrix>
+                    <Matrix tx="-8.5" ty="92.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_Arm" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="50" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="51" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" selected="true" centerPoint3DX="101.15" centerPoint3DY="56.55">
+                  <matrix>
+                    <Matrix tx="54.85" ty="3.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="60" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" selected="true" centerPoint3DX="95.65" centerPoint3DY="61.8">
+                  <matrix>
+                    <Matrix tx="49.35" ty="8.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="65" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" selected="true" centerPoint3DX="90.95" centerPoint3DY="68.05">
+                  <matrix>
+                    <Matrix tx="44.65" ty="15.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="75" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" selected="true" centerPoint3DX="95.45" centerPoint3DY="61">
+                  <matrix>
+                    <Matrix tx="49.15" ty="8.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="85" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" selected="true" centerPoint3DX="86.45" centerPoint3DY="59.7">
+                  <matrix>
+                    <Matrix tx="40.15" ty="6.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="90" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" centerPoint3DX="79.7" centerPoint3DY="64.4">
+                  <matrix>
+                    <Matrix tx="33.4" ty="11.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="100" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" centerPoint3DX="101.15" centerPoint3DY="56.55">
+                  <matrix>
+                    <Matrix tx="54.85" ty="3.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_Arm" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="50" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="51" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" centerPoint3DX="92.95" centerPoint3DY="52.9">
+                  <matrix>
+                    <Matrix tx="46.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="60" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" selected="true" centerPoint3DX="87.45" centerPoint3DY="58.15">
+                  <matrix>
+                    <Matrix tx="41.15" ty="5.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="65" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" selected="true" centerPoint3DX="82.75" centerPoint3DY="64.4">
+                  <matrix>
+                    <Matrix tx="36.45" ty="11.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="75" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" selected="true" centerPoint3DX="87.25" centerPoint3DY="57.35">
+                  <matrix>
+                    <Matrix tx="40.95" ty="4.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="85" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" selected="true" centerPoint3DX="78.25" centerPoint3DY="56.05">
+                  <matrix>
+                    <Matrix tx="31.95" ty="3.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="90" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" centerPoint3DX="71.5" centerPoint3DY="60.75">
+                  <matrix>
+                    <Matrix tx="25.2" ty="7.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="100" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Arm" centerPoint3DX="92.95" centerPoint3DY="52.9">
+                  <matrix>
+                    <Matrix tx="46.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46.3" y="52.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_gun" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="50" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="51" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="71.75" centerPoint3DY="105.65">
+                  <matrix>
+                    <Matrix ty="83.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="60" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" selected="true" centerPoint3DX="66.25" centerPoint3DY="110.9">
+                  <matrix>
+                    <Matrix tx="-5.5" ty="88.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="65" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" selected="true" centerPoint3DX="61.55" centerPoint3DY="117.15">
+                  <matrix>
+                    <Matrix tx="-10.2" ty="94.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="75" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" selected="true" centerPoint3DX="66.05" centerPoint3DY="110.1">
+                  <matrix>
+                    <Matrix tx="-5.7" ty="87.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="85" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" selected="true" centerPoint3DX="57.05" centerPoint3DY="108.8">
+                  <matrix>
+                    <Matrix tx="-14.7" ty="86.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="90" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="50.3" centerPoint3DY="113.5">
+                  <matrix>
+                    <Matrix tx="-21.45" ty="91"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="100" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="71.75" centerPoint3DY="105.65">
+                  <matrix>
+                    <Matrix ty="83.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_gun" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="50" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="51" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="79.95" centerPoint3DY="109.3">
+                  <matrix>
+                    <Matrix tx="8.2" ty="86.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="60" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" selected="true" centerPoint3DX="74.45" centerPoint3DY="114.55">
+                  <matrix>
+                    <Matrix tx="2.7" ty="92.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="65" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" selected="true" centerPoint3DX="69.75" centerPoint3DY="120.8">
+                  <matrix>
+                    <Matrix tx="-2" ty="98.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="75" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" selected="true" centerPoint3DX="74.25" centerPoint3DY="113.75">
+                  <matrix>
+                    <Matrix tx="2.5" ty="91.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="85" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" selected="true" centerPoint3DX="65.25" centerPoint3DY="112.45">
+                  <matrix>
+                    <Matrix tx="-6.5" ty="89.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="90" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="58.5" centerPoint3DY="117.15">
+                  <matrix>
+                    <Matrix tx="-13.25" ty="94.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="100" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_gun" centerPoint3DX="79.95" centerPoint3DY="109.3">
+                  <matrix>
+                    <Matrix tx="8.2" ty="86.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="71.75" y="22.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_foot" color="#FF0000" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="58.85" centerPoint3DY="145.7">
+                  <matrix>
+                    <Matrix a="0.965927124023438" b="-0.258819580078125" c="0.258819580078125" d="0.965927124023438" tx="20" ty="144.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.15" y="11.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="26.25" centerPoint3DY="144.15">
+                  <matrix>
+                    <Matrix a="0.959259033203125" b="0.276580810546875" c="-0.276580810546875" d="0.959259033203125" tx="-6.25" ty="122.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.2" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="31.5" centerPoint3DY="155.1">
+                  <matrix>
+                    <Matrix a="0.9984130859375" b="-0.0088653564453125" c="0.0088653564453125" d="0.9984130859375" tx="-5.7" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.15" y="11.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="65.75" centerPoint3DY="154.85">
+                  <matrix>
+                    <Matrix a="0.9984130859375" b="-0.0088653564453125" c="0.0088653564453125" d="0.9984130859375" tx="28.55" ty="143.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.15" y="11.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="99" centerPoint3DY="154.85">
+                  <matrix>
+                    <Matrix a="0.9984130859375" b="-0.0088653564453125" c="0.0088653564453125" d="0.9984130859375" tx="61.8" ty="143.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.15" y="11.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="105.75" centerPoint3DY="144.9">
+                  <matrix>
+                    <Matrix a="0.962127685546875" b="-0.2669677734375" c="0.2669677734375" d="0.962127685546875" tx="66.9" ty="143.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.2" y="11.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" duration="51" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="58.85" centerPoint3DY="145.7">
+                  <matrix>
+                    <Matrix a="0.965927124023438" b="-0.258819580078125" c="0.258819580078125" d="0.965927124023438" tx="20" ty="144.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.15" y="11.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_UpperLeg" color="#FF0000" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="77.3" centerPoint3DY="100.1">
+                  <matrix>
+                    <Matrix a="0.928878784179688" b="0.3673095703125" c="-0.3673095703125" d="0.928878784179688" tx="61.55" ty="66.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="26.95" y="25.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="73.55" centerPoint3DY="100.1">
+                  <matrix>
+                    <Matrix a="0.928878784179688" b="0.3673095703125" c="-0.3673095703125" d="0.928878784179688" tx="57.8" ty="66.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="26.95" y="25.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="71.8" centerPoint3DY="108.4">
+                  <matrix>
+                    <Matrix a="0.92889404296875" b="0.367340087890625" c="-0.367340087890625" d="0.92889404296875" tx="56.05" ty="74.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27" y="25.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="79.3" centerPoint3DY="97.35">
+                  <matrix>
+                    <Matrix a="0.828826904296875" b="-0.554611206054688" c="0.554611206054688" d="0.828826904296875" tx="42.95" ty="91.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="26.95" y="25.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="82.8" centerPoint3DY="97.35">
+                  <matrix>
+                    <Matrix a="0.541244506835938" b="-0.836181640625" c="0.836181640625" d="0.541244506835938" tx="47.1" ty="106.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27" y="25.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="81.55" centerPoint3DY="102.85">
+                  <matrix>
+                    <Matrix a="0.73919677734375" b="-0.6676025390625" c="0.6676025390625" d="0.73919677734375" tx="44.75" ty="102.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27" y="25.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" duration="51" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="77.3" centerPoint3DY="100.1">
+                  <matrix>
+                    <Matrix a="0.928878784179688" b="0.3673095703125" c="-0.3673095703125" d="0.928878784179688" tx="61.55" ty="66.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="26.95" y="25.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_foot" color="#9900FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="75.65" centerPoint3DY="153.95">
+                  <matrix>
+                    <Matrix tx="38.5" ty="142.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.15" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="95.65" centerPoint3DY="153.95">
+                  <matrix>
+                    <Matrix tx="58.5" ty="142.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.15" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="102.65" centerPoint3DY="149.95">
+                  <matrix>
+                    <Matrix a="0.965927124023438" b="-0.258819580078125" c="0.258819580078125" d="0.965927124023438" tx="63.75" ty="148.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.2" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="87.05" centerPoint3DY="141.95">
+                  <matrix>
+                    <Matrix a="0.965927124023438" b="-0.258819580078125" c="0.258819580078125" d="0.965927124023438" tx="48.15" ty="140.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.2" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="42.85" centerPoint3DY="146">
+                  <matrix>
+                    <Matrix a="0.965927124023438" b="0.258819580078125" c="-0.2587890625" d="0.965927124023438" tx="9.9" ty="125.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.2" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="39.1" centerPoint3DY="154.45">
+                  <matrix>
+                    <Matrix c="1.52587890625e-005" tx="1.85" ty="142.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.25" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" duration="51" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_foot" centerPoint3DX="75.65" centerPoint3DY="153.95">
+                  <matrix>
+                    <Matrix tx="38.5" ty="142.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="37.15" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_UpperLeg" color="#9900FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="79" centerPoint3DY="104.6">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-0.5" c="0.5" d="0.86602783203125" tx="42.95" ty="96.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27" y="25.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="86.2" centerPoint3DY="104.6">
+                  <matrix>
+                    <Matrix a="0.61029052734375" b="-0.790740966796875" c="0.790740966796875" d="0.61029052734375" tx="49.7" ty="110.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.05" y="25.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="86.2" centerPoint3DY="109.35">
+                  <matrix>
+                    <Matrix a="0.8270263671875" b="-0.55828857421875" c="0.55828857421875" d="0.8270263671875" tx="49.75" ty="103.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.05" y="25.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="74.7" centerPoint3DY="97.9">
+                  <matrix>
+                    <Matrix a="0.9788818359375" b="-0.195648193359375" c="0.195648193359375" d="0.9788818359375" tx="43.3" ty="78.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.05" y="25.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="72.2" centerPoint3DY="96.9">
+                  <matrix>
+                    <Matrix a="0.996185302734375" b="0.0643768310546875" c="-0.0643768310546875" d="0.996185302734375" tx="46.9" ty="70"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.05" y="25.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="69.95" centerPoint3DY="101.9">
+                  <matrix>
+                    <Matrix a="0.996185302734375" b="0.0643768310546875" c="-0.0643768310546875" d="0.996185302734375" tx="44.65" ty="75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.05" y="25.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" duration="51" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_UpperLeg" centerPoint3DX="79" centerPoint3DY="104.6">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-0.5" c="0.5" d="0.86602783203125" tx="42.95" ty="96.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27" y="25.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_LowerLeg" color="#9900FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="71.4" centerPoint3DY="136.2">
+                  <matrix>
+                    <Matrix tx="49.25" ty="118.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.15" y="17.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="93.15" centerPoint3DY="134.2">
+                  <matrix>
+                    <Matrix tx="71" ty="116.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.15" y="17.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="97.65" centerPoint3DY="134.2">
+                  <matrix>
+                    <Matrix a="0.965927124023438" b="-0.258819580078125" c="0.258819580078125" d="0.965927124023438" tx="71.65" ty="122.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.15" y="17.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="73.4" centerPoint3DY="128.5">
+                  <matrix>
+                    <Matrix a="0.965927124023438" b="-0.258819580078125" c="0.258819580078125" d="0.965927124023438" tx="47.4" ty="117.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.15" y="17.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="53.1" centerPoint3DY="128.25">
+                  <matrix>
+                    <Matrix a="0.5" b="0.86602783203125" c="-0.86602783203125" d="0.5" tx="57.45" ty="100.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.2" y="17.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="49.1" centerPoint3DY="133.25">
+                  <matrix>
+                    <Matrix a="0.707122802734375" b="0.70709228515625" c="-0.70709228515625" d="0.707122802734375" tx="46" ty="104.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.25" y="17.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" duration="51" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="71.4" centerPoint3DY="136.2">
+                  <matrix>
+                    <Matrix tx="49.25" ty="118.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.15" y="17.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_LowerLeg" color="#FF0000" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="58.35" centerPoint3DY="122.7">
+                  <matrix>
+                    <Matrix a="0.817123413085938" b="0.573776245117188" c="-0.573776245117188" d="0.817123413085938" tx="50.4" ty="95.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.15" y="17.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="45.3" centerPoint3DY="128.85">
+                  <matrix>
+                    <Matrix a="0.337875366210938" b="0.937835693359375" c="-0.937835693359375" d="0.337875366210938" tx="54.4" ty="102.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.2" y="17.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="43.05" centerPoint3DY="134.85">
+                  <matrix>
+                    <Matrix a="0.337875366210938" b="0.937835693359375" c="-0.937835693359375" d="0.337875366210938" tx="52.15" ty="108.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.2" y="17.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="70.35" centerPoint3DY="134.85">
+                  <matrix>
+                    <Matrix a="0.761520385742188" b="0.64324951171875" c="-0.64324951171875" d="0.761520385742188" tx="64.85" ty="107.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.2" y="17.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="96.1" centerPoint3DY="134.85">
+                  <matrix>
+                    <Matrix a="0.902069091796875" b="0.42425537109375" c="-0.424240112304688" d="0.902069091796875" tx="83.6" ty="109.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.2" y="17.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="92.65" centerPoint3DY="132.85">
+                  <matrix>
+                    <Matrix a="0.99334716796875" b="-0.0836181640625" c="0.0836334228515625" d="0.99334716796875" tx="69.05" ty="117.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.25" y="17.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" duration="51" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_LowerLeg" centerPoint3DX="58.35" centerPoint3DY="122.7">
+                  <matrix>
+                    <Matrix a="0.817123413085938" b="0.573776245117188" c="-0.573776245117188" d="0.817123413085938" tx="50.4" ty="95.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="22.15" y="17.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Thor_Body" color="#000000" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Body" centerPoint3DX="82.4" centerPoint3DY="54.1">
+                  <matrix>
+                    <Matrix tx="25" ty="3.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="57.4" y="50.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Body" centerPoint3DX="75.45" centerPoint3DY="58.1">
+                  <matrix>
+                    <Matrix tx="18.05" ty="7.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="57.4" y="50.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Body" centerPoint3DX="72" centerPoint3DY="64.95">
+                  <matrix>
+                    <Matrix tx="14.6" ty="14.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="57.4" y="50.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Body" selected="true" centerPoint3DX="78.5" centerPoint3DY="56.7">
+                  <matrix>
+                    <Matrix tx="21.1" ty="5.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="57.4" y="50.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" duration="5" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Body" centerPoint3DX="70.75" centerPoint3DY="53.95">
+                  <matrix>
+                    <Matrix tx="13.35" ty="3.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="57.4" y="50.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="10" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Body" centerPoint3DX="66.75" centerPoint3DY="60.45">
+                  <matrix>
+                    <Matrix tx="9.35" ty="9.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="57.4" y="50.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" duration="51" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Body" centerPoint3DX="82.4" centerPoint3DY="54.1">
+                  <matrix>
+                    <Matrix tx="25" ty="3.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="57.4" y="50.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,56 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Suit/Parts/innerLeg2" itemID="4d26099a-0000019f" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Hero/Suit/Parts/innerLeg2" sourceLastModified="1215920857" lastModified="1215920857">
+  <timeline>
+    <DOMTimeline name="innerLeg2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#666666"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="!135 79[135 51 111 27!111 27[89 5 65 9!65 9[49 16 38 27!38 27[16 49 14 88!14 88[14 120 13 128!13 128[19 131 26 137!26 137|27 139!27 139[32 144 27 164!27 164[21 186 22 188!22 188[33 199 62 190!62 190[89 175 109 193!109 193|109 190!109
+ 190[111 185 114 182!114 182[117 169 122 149!122 149[128 120 136 103!136 103[136 90 135 79"/>
+                    <Edge fillStyle1="1" edges="
+!146 96[147 111 139 141!139 141[131 152 124 194!124 194|122 196!122 196|119 202!119 202[117 204 98 198!98 198[78 186 65 196!65 196[54 207 46 209!46 209[33 212 16 194!16 194[10 188 18 164!18 164[22 147 7 134!7 134|5 133!5 133[3 131 0 128
+!0 128|2 123!2 123[3 122 5 123!5 123[3 84 8 66!8 66[13 39 33 19!33 19[76 -24 122 28!122 28[139 46 146 68!146 68[152 87 146 96"/>
+                    <Edge cubics="!136 103(;130,96 150,66 111,27q136 103 135 79Q135 51q111 27);"/>
+                    <Edge cubics="!111 27(;76,-8 44,20 38,27q111 27Q89 5q65 9Q49 16q38 27);"/>
+                    <Edge cubics="!38 27(;2,63 26,115 13,128q38 27Q16 49q14 88 13 128);"/>
+                    <Edge cubics="!7 134(;7,134 8,136 5,133q7 134Q8 136q5 133);"/>
+                    <Edge cubics="!5 123(;7,112 7,81 8,66q5 123 8 66);"/>
+                    <Edge cubics="!8 66(;13,46 19,33 33,19q8 66Q13 39q33 19);"/>
+                    <Edge cubics="!33 19(;92,-40 161,62 146,96q33 19Q76 -24q122 28Q139 46q146 68Q152 87q146 96);"/>
+                    <Edge cubics="!114 182(;119,168 125,133 136,103q114 182 122 149 136 103);"/>
+                    <Edge cubics="!146 96(;149,112 141,130 139,141q146 96Q147 111q139 141);"/>
+                    <Edge cubics="!124 194(;122,196 122,196 122,196q124 194 122 196);"/>
+                    <Edge cubics="!109 193(;108,191 114,182 114,182q109 193 109 190 114 182);"/>
+                    <Edge cubics="!119 202(;111,210 90,180 65,196q119 202Q117 204q98 198Q78 186q65 196);"/>
+                    <Edge cubics="!65 196(;52,202 43,221 16,194q65 196Q54 207q46 209Q33 212q16 194);"/>
+                    <Edge cubics="!16 194(;2,180 29,160 7,134q16 194Q10 188q18 164Q22 147q7 134);"/>
+                    <Edge cubics="!5 133(;8,133 3,131 0,128q5 133 0 128);"/>
+                    <Edge cubics="!0 128(;0,128 -1,126 2,123q0 128Q0 128q2 123);"/>
+                    <Edge cubics="!2 123(;2,123 2,123 5,123q2 123 5 123);"/>
+                    <Edge cubics="!13 128(;18,130 21,133 26,137q13 128 26 137);"/>
+                    <Edge cubics="!26 137(;26,137 26,137 27,139q26 137 27 139);"/>
+                    <Edge cubics="!27 139(;35,147 19,185 22,188q27 139Q32 144q27 164Q21 186q22 188);"/>
+                    <Edge cubics="!22 188(;48,213 73,163 109,193q22 188Q33 199q62 190Q89 175q109 193);"/>
+                    <Edge cubics="!122 196(;122,196 119,202 119,202q122 196 119 202);"/>
+                    <Edge cubics="!139 141(;134,148 129,166 124,194q139 141Q131 152q124 194);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

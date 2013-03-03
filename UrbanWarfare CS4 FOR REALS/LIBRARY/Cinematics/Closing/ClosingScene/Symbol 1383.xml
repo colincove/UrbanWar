@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Cinematics/Closing/ClosingScene/Symbol 1383" itemID="50305eab-00000f85" symbolType="graphic" lastModified="1345347243">
+  <timeline>
+    <DOMTimeline name="Symbol 1383">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF6600"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!342 -407|323 -378!323 -378[309 -353 285 -349!285 -349|268 -351!268 -351|250 -357!250 -357|240 -358!240 -358|156 -349!156 -349[127 -338 130 -325!130 -325[133 -310 178 -294!178 -294[298 -273 340 -310!340 -310|378 -343!378 -343[412 -362
+ 479 -372!479 -372[512 -378 539 -362!539 -362|570 -341!570 -341[597 -334 635 -341!635 -341|671 -344!671 -344|674 -342!674 -342|692 -301!692 -301[709 -258 734 -230!734 -230[789 -170 817 -155!817 -155|852 -175!852 -175[861 -186 854 -195
+!854 -195|777 -238!777 -238[756 -252 712 -324!712 -324[677 -382 658 -373!658 -373|656 -372!656 -372|642 -376!642 -376[625 -383 625 -384!625 -384|472 -432!472 -432|395 -426!395 -426|342 -407"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Thor_/Symbol 1" itemID="4d0c33a2-0000012e" lastModified="1331934025" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Symbol 1">
+      <layers>
+        <DOMLayer name="Layer 5" color="#4FFFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="GUI/HealthBar" name="healthBar" centerPoint3DX="167.8" centerPoint3DY="92.65">
+                  <matrix>
+                    <Matrix tx="77.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90.7" y="92.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

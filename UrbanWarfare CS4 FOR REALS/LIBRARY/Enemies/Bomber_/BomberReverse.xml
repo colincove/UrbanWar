@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Bomber_/BomberReverse" itemID="4d77c706-000004f7" linkageExportForAS="true" linkageClassName="com.enemies.BomberReverse" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Enemies/Bomber_/BomberReverse" sourceLastModified="1303515812" lastModified="1303515812" lastUniqueIdentifier="9">
+  <timeline>
+    <DOMTimeline name="BomberReverse">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SetScreenPoint">
+                  <matrix>
+                    <Matrix tx="894.15" ty="25.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.25" y="10.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" name="in" labelType="name" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Bomber_/BomberArtwork" centerPoint3DX="-2" centerPoint3DY="4.55">
+                  <matrix>
+                    <Matrix a="-1" tx="49.05" ty="-18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="51.05" y="22.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" name="out" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

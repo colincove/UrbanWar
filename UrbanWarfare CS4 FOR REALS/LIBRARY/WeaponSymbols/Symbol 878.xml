@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="WeaponSymbols/Symbol 878" itemID="4ddac02f-000002e3" symbolType="graphic" lastModified="1306181679">
+  <timeline>
+    <DOMTimeline name="Symbol 878">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#D10000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1081 109[938 18 761 2!761 2|761 483!761 483[836 497 891 547!891 547[945 598 964 671!964 671|1407 671!1407 671[1397 492 1310 346!1310 346[1223 201 1081 109!846 949[790 982 719 983!719 983|719 1408!719 1408[860 1404 982 1351!982 1351[1104
+ 1298 1198 1206!1198 1206[1291 1114 1346 993!1346 993[1401 871 1407 731!1407 731|971 731!971 731[970 801 936 858!936 858[903 915 846 949!701 0[605 1 517 25!517 25[429 49 352 94!352 94|352 677!352 677|474 677!474 677[493 595 554 542!554
+ 542[615 488 701 481!701 481|701 0!121 308[51 411 20 534!20 534|20 677!20 677|292 677!292 677|292 133!292 133[191 206 121 308!352 741|0 741!0 741[1 756 2 772!2 772|471 772!471 772[468 755 468 737!468 737|352 737!352 737|352 741!641 971
+|641 1406!641 1406[650 1406 659 1407!659 1407|659 976!659 976[650 973 641 971"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
