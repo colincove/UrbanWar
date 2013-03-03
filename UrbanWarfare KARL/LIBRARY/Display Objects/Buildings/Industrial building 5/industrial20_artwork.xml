@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/Industrial building 5/industrial20_artwork" itemID="4dd9dc9a-00000365" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="industrial20_artwork" lastModified="1306178131">
+  <timeline>
+    <DOMTimeline name="industrial20_artwork">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F38827"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!2423 -1404|2423 -784!2423 -784|2863 -784!2863 -784|2863 -1677!2863 -1677[2823 -2027 2398 -2060!2398 -2060|-2314 -2060!-2314 -2060[-2737 -2027 -2777 -1677!-2777 -1677|-2777 144!-2777 144[-2737 494 -2314 527!-2314 527|-1155 527!-1155 527
+|-1155 165!-1155 165|-1985 165!-1985 165[-2309 140 -2339 -128!-2339 -128|-2339 -1404!-2339 -1404[-2309 -1673 -1985 -1698!-1985 -1698|2071 -1698!2071 -1698[2393 -1673 2423 -1404!-1229 718|-2307 718!-2307 718[-2730 751 -2770 1101!-2770
+ 1101|-2770 1847!-2770 1847|-2862 1847!-2862 1847|-2862 2061!-2862 2061|-2256 2061!-2256 2061|-2256 1847!-2256 1847|-2332 1847!-2332 1847|-2332 1374!-2332 1374[-2302 1105 -1978 1080!-1978 1080|-1229 1080!-1229 1080|-1229 718"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

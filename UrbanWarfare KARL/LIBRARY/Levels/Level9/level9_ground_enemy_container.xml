@@ -1,0 +1,80 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level9/level9_ground_enemy_container" itemID="4daf264f-0000080b" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Levels/Level9/level9_ground_enemy_container" sourceLastModified="1334963681" lastModified="1346699003" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="level9_ground_enemy_container">
+      <layers>
+        <DOMLayer name="level1_enemy_container" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level9/level9_enemy_container" name="enemy_container" selected="true" centerPoint3DX="3670.95" centerPoint3DY="-63.2">
+                  <transformationPoint>
+                    <Point x="3670.95" y="-63.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="level1_ground_objects" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level9/level9_ground_container" name="ground_container" selected="true" centerPoint3DX="3670.95" centerPoint3DY="163.05">
+                  <transformationPoint>
+                    <Point x="3670.95" y="163.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!172254 11449|173125 11449!173125 11449|173687 10909!173687 10909|173687 9529!173687 9529|174463 8784!59149 4835|57229 6755!57229 6755|57229 8135!57229 8135|56689 8675!56689 8675|55853 8675"/>
+                    <Edge cubics="!56689 8675(;56689,8675 55853,8675 55853,8675q56689 8675 55853 8675);"/>
+                    <Edge cubics="!57229 8135(;57229,8135 56689,8675 56689,8675q57229 8135 56689 8675);"/>
+                    <Edge cubics="!57229 6755(57229,6755;57229,6755 57229,8135 57229,8135q57229 6755 57229 8135);"/>
+                    <Edge cubics="!188314 13503(;188314,13503 188314,19803 188314,19803q188314 13503 188314 19803);"/>
+                    <Edge cubics="!172254 19803(172254,19803;172254,19803 172254,11449 172254,11449q172254 19803 172254 11449);"/>
+                    <Edge cubics="!188314 19803(;188314,19803 172254,19803 172254,19803q188314 19803 172254 19803);"/>
+                    <Edge cubics="!174463 8784(;174463,8784 173687,9529 173687,9529q174463 8784 173687 9529);"/>
+                    <Edge cubics="!173125 11449(;173125,11449 172254,11449 172254,11449q173125 11449 172254 11449);"/>
+                    <Edge cubics="!173687 10909(;173687,10909 173125,11449 173125,11449q173687 10909 173125 11449);"/>
+                    <Edge cubics="!173687 9529(173687,9529;173687,9529 173687,10909 173687,10909q173687 9529 173687 10909);"/>
+                    <Edge cubics="!185627 9023(185627,9023;185627,9023 185876,8784 185876,8784q185627 9023 185876 8784);"/>
+                    <Edge cubics="!187439 13503(;187439,13503 188314,13503 188314,13503q187439 13503 188314 13503);"/>
+                    <Edge cubics="!185627 11763(185627,11763;185627,11763 187439,13503 187439,13503q185627 11763 187439 13503);"/>
+                    <Edge cubics="!185627 9023(;185627,9023 185627,11763 185627,11763q185627 9023 185627 11763);"/>
+                    <Edge cubics="!174463 8784(;174463,8784 178603,8784 178603,8784q174463 8784 178603 8784);"/>
+                    <Edge cubics="!183705 8784(183705,8784;183705,8784 185876,8784 185876,8784q183705 8784 185876 8784);"/>
+                    <Edge cubics="!183705 8149(;183705,8149 183705,8784 183705,8784q183705 8149 183705 8784);"/>
+                    <Edge cubics="!178603 8784(;178603,8784 178603,8149 178603,8149q178603 8784 178603 8149);"/>
+                    <Edge cubics="!178603 8149(;178603,8149 183705,8149 183705,8149q178603 8149 183705 8149);"/>
+                    <Edge cubics="!59149 4835(;59149,4835 57229,6755 57229,6755q59149 4835 57229 6755);"/>
+                    <Edge cubics="!274549 20352(;274549,20352 274549,-3573 274549,-3573q274549 20352 274549 -3573);"/>
+                    <Edge cubics="!418543 20352(;418543,20352 274549,20352 274549,20352q418543 20352 274549 20352);"/>
+                    <Edge cubics="!418543 -3573(;418543,-3573 418543,20352 418543,20352q418543 -3573 418543 20352);"/>
+                    <Edge cubics="!274549 -3573(;274549,-3573 418543,-3573 418543,-3573q274549 -3573 418543 -3573);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,120 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Thor_/Symbol 3" itemID="4d0c3a7f-000001f4" sourceFlashFilepath="..\..\My Documents\Downloads\UpdatedEnemiesUrbanWarfare CS4.fla" sourceLibraryItemHRef="Enemies/Thor_/Symbol 3" sourceLastModified="1292647990" symbolType="graphic" lastModified="1292647990">
+  <timeline>
+    <DOMTimeline name="Symbol 3" currentFrame="437">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!0 4216[335 4217 841 4212!841 4212[1853 4201 2709 4168!2709 4168[2957 3908 3050 3782!3050 3782[3257 3504 3359 3177!3359 3177[3639 2280 3186 850"/>
+                    <Edge cubics="!0 4216(0,4216;0,4216 1340,4220 2709,4168q0 4216Q335 4217q841 4212Q1853 4201q2709 4168);"/>
+                    <Edge cubics="!2709 4168(;3109,3748 3883,3052 3186,850q2709 4168Q2957 3908q3050 3782Q3257 3504q3359 3177Q3639 2280q3186 850)2489,-1352;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide: Layer 1" color="#FF800A" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="1000" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!0 4216[335 4217 841 4212!841 4212[1853 4201 2709 4168!2709 4168[2957 3908 3050 3782!3050 3782[3257 3504 3359 3177!3359 3177[3639 2280 3186 850"/>
+                    <Edge cubics="!0 4216(0,4216;0,4216 1340,4220 2709,4168q0 4216Q335 4217q841 4212Q1853 4201q2709 4168);"/>
+                    <Edge cubics="!2709 4168(;3109,3748 3883,3052 3186,850q2709 4168Q2957 3908q3050 3782Q3257 3504q3359 3177Q3639 2280q3186 850)2489,-1352;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="415" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Symbol 2" selected="true" symbolType="graphic" firstFrame="999" loop="loop">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="169.8" ty="84.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="415" duration="8" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Symbol 2" symbolType="graphic" firstFrame="1414" loop="loop">
+                  <matrix>
+                    <Matrix a="0.82421875" b="-0.56353759765625" c="0.56353759765625" d="0.82421875" tx="131.35" ty="208.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="423" duration="575" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Symbol 2" selected="true" symbolType="graphic" firstFrame="1422" loop="loop">
+                  <matrix>
+                    <Matrix tx="130.4" ty="208.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="998" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Symbol 2" symbolType="graphic" firstFrame="1997" loop="loop">
+                  <matrix>
+                    <Matrix tx="0.3" ty="211.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="999" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Symbol 2" symbolType="graphic" firstFrame="1998" loop="loop">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="169.8" ty="84.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

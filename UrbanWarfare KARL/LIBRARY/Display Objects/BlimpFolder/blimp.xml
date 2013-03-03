@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/BlimpFolder/blimp" itemID="4d260999-00000151" linkageExportForAS="true" linkageClassName="com.worldObjects.blimp" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Display Objects/BlimpFolder/blimp" sourceLastModified="1292713880" lastModified="1299264213" lastUniqueIdentifier="10">
+  <timeline>
+    <DOMTimeline name="blimp">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/BlimpFolder/blimpArtwork" centerPoint3DX="17" centerPoint3DY="47.65">
+                  <matrix>
+                    <Matrix tx="-79.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="96.3" y="47.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="GUI/HealthBar_/healthDefine" name="_25" centerPoint3DX="14.5" centerPoint3DY="36.45">
+                  <matrix>
+                    <Matrix tx="8.9" ty="30.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

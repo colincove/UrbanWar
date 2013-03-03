@@ -1,0 +1,69 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Cinematics/Closing/ClosingScene/Symbol 852" itemID="50305eab-00000d72" symbolType="graphic" lastModified="1345347243">
+  <timeline>
+    <DOMTimeline name="Symbol 852">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 834" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="65.8" ty="16.55"/>
+                  </matrix>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="0" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 853" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1.01976013183594" b="0.013702392578125" c="0.01397705078125" d="0.999847412109375" tx="173.75" ty="251.5"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 854" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1.01976013183594" b="0.013702392578125" c="0.01397705078125" d="0.999847412109375" tx="141.55" ty="229.1"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 855" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1.01976013183594" b="0.013702392578125" c="0.01397705078125" d="0.999847412109375" tx="172.3" ty="194.05"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 856" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1.01976013183594" b="0.013702392578125" c="0.01397705078125" d="0.999847412109375" tx="184.25" ty="196.25"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 857" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1.01976013183594" b="0.013702392578125" c="0.01397705078125" d="0.999847412109375" tx="137.6" ty="157.45"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 858" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1.01976013183594" b="0.013702392578125" c="0.01397705078125" d="0.999847412109375" tx="168.3" ty="217.55"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 841" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1.01976013183594" b="0.013702392578125" c="0.01397705078125" d="0.999847412109375" tx="197.35" ty="81.9"/>
+                  </matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Symbol 842" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1.0198974609375" tx="180.85" ty="97.6"/>
+                  </matrix>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

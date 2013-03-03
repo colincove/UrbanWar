@@ -1,0 +1,59 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Weapons/MiniGun/MiniGunHitSpot" itemID="4ce1ff12-00000064" lastModified="1291923950">
+  <timeline>
+    <DOMTimeline name="MiniGunHitSpot">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!17 -3[15 -7 13 -11!13 -11[13 -7 13 -3!13 -3[15 -4 17 -3!28 15[23 7 18 -2!18 -2[16 5 15 11!15 11|15 12!15 12[14 15 13 17!13 17[13 18 13 19!13 19[15 20 16 24!16 24[15 24 14 25!14 25|15 26!15 26[16 27 16 31!16 31[13 29 10 28!10 28[3 49
+ -5 70!-5 70[-3 69 1 69!1 69[-82 248 -221 400!-221 400|-223 397!-223 397[-168 302 -106 209!-106 209[-59 117 -8 27!-8 27[-61 28 -99 -28!-99 -28[-100 -30 -99 -31!-99 -31[-191 -82 -288 -140!-288 -140|-279 -139!-279 -139[-119 -93 -1 12!-1
+ 12[0 12 1 13!1 13[2 10 3 8!3 8[-15 -37 -29 -99!-29 -99[-86 -232 -116 -391!-116 -391[-116 -393 -108 -391!-108 -391[-62 -261 -18 -132!-18 -132[0 -98 7 -59!7 -59[19 -24 30 10!30 10[31 11 28 15"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!8 -62S2[-21 -55 -14 -111!-14 -111[-14 -113 -7 -114!-7 -114[26 -97 10 -68!10 -68[9 -65 8 -62!-224 -720[-134 -598 -106 -454!-106 -454[-106 -451 -107 -447!-107 -447[-174 -567 -229 -720!-229 -720|-224 -720!-672 -442|-665 -443!-665 -443[-553
+ -386 -452 -319!-452 -319[-451 -319 -451 -315!-451 -315[-570 -344 -672 -442!-33 -252[-8 -240 -9 -213!-9 -213[-9 -210 -9 -207!-9 -207[-46 -194 -35 -252!-35 -252|-33 -252!-237 -194[-195 -177 -160 -145!-160 -145[-158 -143 -157 -140!-157
+ -140[-212 -130 -241 -192!-241 -192|-237 -194!-58 101[-52 93 -46 92!-46 92[-51 158 -132 247!-132 247[-134 250 -139 250!-139 250[-114 172 -58 101!-224 336[-234 392 -226 336!-226 336|-224 336!-395 591[-373 544 -339 504!-339 504[-335 498
+ -328 501!-328 501[-331 555 -386 591!-386 591[-389 594 -395 591"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" duration="3" name="fire" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

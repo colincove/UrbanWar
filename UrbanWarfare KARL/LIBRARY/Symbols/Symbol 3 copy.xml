@@ -1,0 +1,1053 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbols/Symbol 3 copy" itemID="5032ca57-0000074a" symbolType="graphic" lastModified="1340050884">
+  <timeline>
+    <DOMTimeline name="Symbol 3 copy">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2660 1247S1|1030 1247!1030 1247|1030 880!1030 880|2660 880!2660 880|2660 1247!2720 820|970 820!970 820|970 1307!970 1307|2720 1307!2720 1307|2720 820"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2247 1219S1|2247 908!2247 908|2694 908!2694 908|2694 1219!2694 1219|2247 1219!2187 848|2187 1279!2187 1279|2754 1279!2754 1279|2754 848!2754 848|2187 848"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2576 943S1|2576 1310!2576 1310|2435 1310!2435 1310|2435 943!2435 943|2576 943!2375 883|2375 1370!2375 1370|2636 1370!2636 1370|2636 883!2636 883|2375 883"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2154 883S1|2154 1370!2154 1370|2415 1370!2415 1370|2415 883!2415 883|2154 883!2355 943|2355 1310!2355 1310|2214 1310!2214 1310|2214 943!2214 943|2355 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1932 883S1|1932 1370!1932 1370|2193 1370!2193 1370|2193 883!2193 883|1932 883!2133 943|2133 1310!2133 1310|1992 1310!1992 1310|1992 943!1992 943|2133 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1711 883S1|1711 1370!1711 1370|1972 1370!1972 1370|1972 883!1972 883|1711 883!1912 943|1912 1310!1912 1310|1771 1310!1771 1310|1771 943!1771 943|1912 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1751 883S1|1490 883!1490 883|1490 1370!1490 1370|1751 1370!1751 1370|1751 883!1691 1310|1550 1310!1550 1310|1550 943!1550 943|1691 943!1691 943|1691 1310"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1269 883S1|1269 1370!1269 1370|1530 1370!1530 1370|1530 883!1530 883|1269 883!1470 943|1470 1310!1470 1310|1329 1310!1329 1310|1329 943!1329 943|1470 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1048 883S1|1048 1370!1048 1370|1309 1370!1309 1370|1309 883!1309 883|1048 883!1249 943|1249 1310!1249 1310|1108 1310!1108 1310|1108 943!1108 943|1249 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2660 490S1|1030 490!1030 490|1030 123!1030 123|2660 123!2660 123|2660 490!2720 63|970 63!970 63|970 550!970 550|2720 550!2720 550|2720 63"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2694 462S1|2247 462!2247 462|2247 151!2247 151|2694 151!2694 151|2694 462!2754 91|2187 91!2187 91|2187 522!2187 522|2754 522!2754 522|2754 91"/>
+                        <Edge cubics="!4186 1717(;4186,1717 3979,1717 3979,1717q4186 1717p3979 1717);"/>
+                        <Edge cubics="!3979 1717(;3979,1717 3979,1511 3979,1511q3979 1717p3979 1511)3979,1511;"/>
+                        <Edge cubics="!3979 1511(;3979,1496 3967,1484 3952,1484q3979 1511Q3979 1500q3971 1492Q3963 1484q3952 1484);"/>
+                        <Edge cubics="!3952 1484(;3952,1484 3849,1484 3849,1484q3952 1484 3849 1484);"/>
+                        <Edge cubics="!3849 1484(3849,1484;3834,1484 3822,1496 3822,1511q3849 1484Q3838 1484q3830 1492Q3822 1500q3822 1511);"/>
+                        <Edge cubics="!3822 1511(;3822,1511 3822,1717 3822,1717q3822 1511 3822 1717);"/>
+                        <Edge cubics="!3822 1717(;3822,1717 3615,1717 3615,1717q3822 1717 3615 1717);"/>
+                        <Edge cubics="!3615 1717(3615,1717;3600,1717 3588,1729 3588,1744q3615 1717Q3604 1717q3596 1725Q3588 1733q3588 1744)3588,1744;"/>
+                        <Edge cubics="!3588 1744(3588,1744;3588,1744 3588,1848 3588,1848q3588 1744 3588 1848);"/>
+                        <Edge cubics="!3588 1848(3588,1848;3588,1863 3600,1875 3615,1875q3588 1848Q3588 1859q3596 1867Q3604 1875q3615 1875)3615,1875;"/>
+                        <Edge cubics="!3615 1875(3615,1875;3615,1875 3822,1875 3822,1875q3615 1875 3822 1875);"/>
+                        <Edge cubics="!3822 1875(3822,1875;3822,1875 3822,2081 3822,2081q3822 1875 3822 2081)3822,2081;"/>
+                        <Edge cubics="!3822 2081(;3822,2096 3834,2108 3849,2108q3822 2081Q3822 2093q3830 2101Q3838 2108q3849 2108)3849,2108;"/>
+                        <Edge cubics="!3849 2108(3849,2108;3849,2108 3952,2108 3952,2108q3849 2108 3952 2108);"/>
+                        <Edge cubics="!3952 2108(3952,2108;3967,2108 3979,2096 3979,2081q3952 2108Q3963 2108q3971 2101Q3979 2093q3979 2081)3979,2081;"/>
+                        <Edge cubics="!3979 2081(3979,2081;3979,2081 3979,1875 3979,1875q3979 2081 3979 1875)3979,1875;"/>
+                        <Edge cubics="!3979 1875(3979,1875;3979,1875 4186,1875 4186,1875q3979 1875 4186 1875)4186,1875;"/>
+                        <Edge cubics="!4186 1875(4186,1875;4201,1875 4213,1863 4213,1848q4186 1875Q4197 1875q4205 1867Q4213 1859q4213 1848)4213,1848;"/>
+                        <Edge cubics="!4213 1848(4213,1848;4213,1848 4213,1744 4213,1744q4213 1848 4213 1744)4213,1744;"/>
+                        <Edge cubics="!4213 1744(4213,1744;4213,1729 4201,1717 4186,1717q4213 1744Q4213 1733q4205 1725Q4197 1717q4186 1717)4186,1717;"/>
+                        <Edge cubics="!3952 1449(3952,1449;3952,1449 3849,1449 3849,1449q3952 1449 3849 1449)3849,1449;"/>
+                        <Edge cubics="!3849 1449(3849,1449;3815,1449 3787,1477 3787,1511q3849 1449Q3823 1449q3805 1467Q3787 1485q3787 1511)3787,1511;"/>
+                        <Edge cubics="!3787 1511(3787,1511;3787,1511 3787,1683 3787,1683q3787 1511 3787 1683)3787,1683;"/>
+                        <Edge cubics="!3787 1683(;3787,1683 3615,1683 3615,1683q3787 1683 3615 1683)3615,1683;"/>
+                        <Edge cubics="!3615 1683(3615,1683;3581,1683 3553,1710 3553,1744q3615 1683Q3590 1683q3572 1701Q3553 1719q3553 1744);"/>
+                        <Edge cubics="!3553 1744(;3553,1744 3553,1848 3553,1848q3553 1744 3553 1848);"/>
+                        <Edge cubics="!3553 1848(;3553,1882 3581,1909 3615,1909q3553 1848Q3553 1873q3572 1891Q3590 1909q3615 1909)3615,1909;"/>
+                        <Edge cubics="!3615 1909(;3615,1909 3787,1909 3787,1909q3615 1909 3787 1909)3787,1909;"/>
+                        <Edge cubics="!3787 1909(;3787,1909 3787,2081 3787,2081q3787 1909 3787 2081)3787,2081;"/>
+                        <Edge cubics="!3787 2081(3787,2081;3787,2115 3815,2143 3849,2143q3787 2081Q3787 2107q3805 2125Q3823 2143q3849 2143);"/>
+                        <Edge cubics="!3849 2143(3849,2143;3849,2143 3952,2143 3952,2143q3849 2143 3952 2143);"/>
+                        <Edge cubics="!3952 2143(3952,2143;3986,2143 4014,2115 4014,2081q3952 2143Q3978 2143q3996 2125Q4014 2107q4014 2081)4014,2081;"/>
+                        <Edge cubics="!4014 2081(4014,2081;4014,2081 4014,1909 4014,1909q4014 2081 4014 1909);"/>
+                        <Edge cubics="!4014 1909(;4014,1909 4186,1909 4186,1909q4014 1909 4186 1909)4186,1909;"/>
+                        <Edge cubics="!4186 1909(4186,1909;4220,1909 4247,1882 4247,1848q4186 1909Q4211 1909q4229 1891Q4247 1873q4247 1848)4247,1848;"/>
+                        <Edge cubics="!4247 1848(;4247,1848 4247,1744 4247,1744q4247 1848 4247 1744)4247,1744;"/>
+                        <Edge cubics="!4247 1744(4247,1744;4247,1710 4220,1683 4186,1683q4247 1744Q4247 1719q4229 1701Q4211 1683q4186 1683);"/>
+                        <Edge cubics="!4186 1683(4186,1683;4186,1683 4014,1683 4014,1683q4186 1683 4014 1683);"/>
+                        <Edge cubics="!4014 1683(4014,1683;4014,1683 4014,1511 4014,1511q4014 1683 4014 1511);"/>
+                        <Edge cubics="!4014 1511(4014,1511;4014,1477 3986,1449 3952,1449q4014 1511Q4014 1485q3996 1467Q3978 1449q3952 1449);"/>
+                        <Edge cubics="!2247 151(2247,151;2247,151 2694,151 2694,151q2247 151 2694 151)2694,151;"/>
+                        <Edge cubics="!2754 91(;2754,91 2187,91 2187,91q2754 91 2187 91);"/>
+                        <Edge cubics="!2694 462(2694,462;2694,462 2247,462 2247,462q2694 462 2247 462);"/>
+                        <Edge cubics="!2187 522(2187,522;2187,522 2754,522 2754,522q2187 522 2754 522);"/>
+                        <Edge cubics="!2694 151(2694,151;2694,151 2694,462 2694,462q2694 151 2694 462)2694,462;"/>
+                        <Edge cubics="!2247 462(;2247,462 2247,151 2247,151q2247 462 2247 151);"/>
+                        <Edge cubics="!2754 522(2754,522;2754,522 2754,91 2754,91q2754 522 2754 91);"/>
+                        <Edge cubics="!2187 91(;2187,91 2187,522 2187,522q2187 91 2187 522);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2576 427S1|2435 427!2435 427|2435 60!2435 60|2576 60!2576 60|2576 427!2636 0|2375 0!2375 0|2375 487!2375 487|2636 487!2636 487|2636 0"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2154 487S1|2415 487!2415 487|2415 0!2415 0|2154 0!2154 0|2154 487!2355 427|2214 427!2214 427|2214 60!2214 60|2355 60!2355 60|2355 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1932 487S1|2193 487!2193 487|2193 0!2193 0|1932 0!1932 0|1932 487!2133 427|1992 427!1992 427|1992 60!1992 60|2133 60!2133 60|2133 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1711 487S1|1972 487!1972 487|1972 0!1972 0|1711 0!1711 0|1711 487!1912 427|1771 427!1771 427|1771 60!1771 60|1912 60!1912 60|1912 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1751 0S1|1490 0!1490 0|1490 487!1490 487|1751 487!1751 487|1751 0!1691 427|1550 427!1550 427|1550 60!1550 60|1691 60!1691 60|1691 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1269 487S1|1530 487!1530 487|1530 0!1530 0|1269 0!1269 0|1269 487!1470 427|1329 427!1329 427|1329 60!1329 60|1470 60!1470 60|1470 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1048 487S1|1309 487!1309 487|1309 0!1309 0|1048 0!1048 0|1048 487!1249 427|1108 427!1108 427|1108 60!1108 60|1249 60!1249 60|1249 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1940 1063S1|1161 1063!1161 1063|1161 301!1161 301|1940 301!1940 301|1940 1063!2000 241|1101 241!1101 241|1101 1123!1101 1123|2000 1123!2000 1123|2000 241"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2033 838S1|1254 838!1254 838|1254 525!1254 525|2033 525!2033 525|2033 838!2093 465|1194 465!1194 465|1194 898!1194 898|2093 898!2093 898|2093 465"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!0 183S1|0 1181!0 1181|899 1181!899 1181|899 183!899 183|0 183!60 1121|60 243!60 243|839 243!839 243|839 1121!839 1121|60 1121"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1107 427S1|113 427!113 427|113 301!113 301|1107 301!1107 301|1107 427!1167 241|53 241!53 241|53 487!53 487|1167 487!1167 487|1167 241"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!0 883S1|0 1129!0 1129|1168 1129!1168 1129|1168 883!1168 883|0 883!60 1069|60 943!60 943|1108 943!1108 943|1108 1069!1108 1069|60 1069"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 832" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="51.5" ty="44"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 833" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="112.35" ty="45.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 834" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="121.75" ty="47.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 835" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="110.7" ty="47.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 836" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="99.65" ty="47.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 837" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="88.55" ty="47.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 838" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="77.5" ty="47.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 839" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="66.45" ty="47.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 840" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="55.4" ty="47.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 841" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="51.5" ty="6.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 842" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="112.35" ty="7.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 843" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="121.75" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 844" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="110.7" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 845" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="99.65" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 846" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="88.55" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 847" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="77.5" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 848" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="66.45" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 849" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="55.4" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 850" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="58.05" ty="15.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 851" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="62.7" ty="26.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 852" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="12.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 853" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="5.65" ty="15.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="WeaponSymbols/Symbol 854" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="3" ty="47.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!2660 880S4|1030 880!1030 880|1030 1247!1030 1247|2660 1247!2660 1247|2660 880"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!2247 908S4|2247 1219!2247 1219|2694 1219!2694 1219|2694 908!2694 908|2247 908"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!2435 943S4|2435 1310!2435 1310|2576 1310!2576 1310|2576 943!2576 943|2435 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!2214 943S4|2214 1310!2214 1310|2355 1310!2355 1310|2355 943!2355 943|2214 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!1993 943S4|1993 1310!1993 1310|2134 1310!2134 1310|2134 943!2134 943|1993 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!1771 943S4|1771 1310!1771 1310|1912 1310!1912 1310|1912 943!1912 943|1771 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!1691 943S4|1550 943!1550 943|1550 1310!1550 1310|1691 1310!1691 1310|1691 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!1329 943S4|1329 1310!1329 1310|1470 1310!1470 1310|1470 943!1470 943|1329 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!1108 943S4|1108 1310!1108 1310|1249 1310!1249 1310|1249 943!1249 943|1108 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!2660 490S4|1030 490!1030 490|1030 123!1030 123|2660 123!2660 123|2660 490"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!2694 462S4|2247 462!2247 462|2247 151!2247 151|2694 151!2694 151|2694 462"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!2576 427S4|2435 427!2435 427|2435 60!2435 60|2576 60!2576 60|2576 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!2355 427S4|2214 427!2214 427|2214 60!2214 60|2355 60!2355 60|2355 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!2134 427S4|1993 427!1993 427|1993 60!1993 60|2134 60!2134 60|2134 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!1912 427S4|1771 427!1771 427|1771 60!1771 60|1912 60!1912 60|1912 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!1691 427S4|1550 427!1550 427|1550 60!1550 60|1691 60!1691 60|1691 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!1470 427S4|1329 427!1329 427|1329 60!1329 60|1470 60!1470 60|1470 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!1249 427S4|1108 427!1108 427|1108 60!1108 60|1249 60!1249 60|1249 427"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!1940 301S4|1161 301!1161 301|1161 1063!1161 1063|1940 1063!1940 1063|1940 301"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!2033 525S4|1254 525!1254 525|1254 838!1254 838|2033 838!2033 838|2033 525"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!60 243S4|60 1121!60 1121|839 1121!839 1121|839 243!839 243|60 243"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!1107 301S4|113 301!113 301|113 427!113 427|1107 427!1107 427|1107 301"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#CF2027"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!60 943S4|60 1069!60 1069|1108 1069!1108 1069|1108 943!1108 943|60 943"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

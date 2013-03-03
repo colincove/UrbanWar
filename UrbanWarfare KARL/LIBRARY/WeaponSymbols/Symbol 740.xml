@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="WeaponSymbols/Symbol 740" itemID="4ddab618-0000022a" symbolType="graphic" lastModified="1306179096">
+  <timeline>
+    <DOMTimeline name="Symbol 740">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#ED1F24"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!0 351[4 500 103 599!103 599[202 698 351 702!351 702[500 698 599 599!599 599[698 500 702 351!702 351[698 202 599 103!599 103[500 4 351 0!351 0[202 4 103 103!103 103[4 202 0 351"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

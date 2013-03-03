@@ -1,0 +1,65 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/pauseMenu" itemID="4db8c496-00000191" linkageExportForAS="true" linkageClassName="com.UI.PauseUI" lastModified="1345323547">
+  <timeline>
+    <DOMTimeline name="pauseMenu">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="242" height="59.25" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-105" ty="-115.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Paused</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="50" face="TimesNewRomanPSMT" fillColor="#00FF00"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText width="6.2" height="59.25" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-540.95" ty="-228.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="50" face="TimesNewRomanPSMT" fillColor="#00FF00"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ModalBackgrounds" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-505.35" ty="-382"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="505.3" y="379"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

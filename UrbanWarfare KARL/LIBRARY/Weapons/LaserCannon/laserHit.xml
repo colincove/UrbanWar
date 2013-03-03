@@ -1,0 +1,51 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Weapons/LaserCannon/laserHit" itemID="4d77d321-000007d0" linkageExportForAS="true" linkageClassName="laserHit" lastModified="1345509189" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="laserHit" currentFrame="14">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="2" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="LaserLight" blendMode="add">
+                  <matrix>
+                    <Matrix a="0.459121704101563" d="0.459121704101563" tx="-26.65" ty="-24.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="55" y="55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="12" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="LaserLight" blendMode="add">
+                  <matrix>
+                    <Matrix tx="-56.35" ty="-54.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="55" y="55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements>
+                <DOMSymbolInstance libraryItemName="LaserLight" selected="true" blendMode="add">
+                  <matrix>
+                    <Matrix a="0.603775024414063" d="0.603775024414063" tx="-34.55" ty="-32.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="55" y="55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

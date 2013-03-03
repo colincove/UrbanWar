@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SetScreenPoint" itemID="4d77c298-0000021a" linkageExportForAS="true" linkageClassName="com.displayObjects.screenCheckPoint" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="SetScreenPoint" sourceLastModified="1299694243" lastModified="1299694243">
+  <timeline>
+    <DOMTimeline name="SetScreenPoint">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000" alpha="0.501960784313725"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!190 -140[250 -80 250 5!250 5[250 90 190 150!190 150[130 210 45 210!45 210[-40 210 -100 150!-100 150[-160 90 -160 5!-160 5[-160 -80 -100 -140!-100 -140[-40 -200 45 -200!45 -200[130 -200 190 -140"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

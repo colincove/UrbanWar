@@ -1,0 +1,181 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/HeroAnimation" itemID="4d26099a-00000187" linkageExportForAS="true" linkageClassName="com.displayObjects.HeroAnimation" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="HeroAnimation" sourceLastModified="1292563748" lastModified="1360816074" lastUniqueIdentifier="9">
+  <timeline>
+    <DOMTimeline name="HeroAnimation" currentFrame="10">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Idle" centerPoint3DX="4.3" centerPoint3DY="-37.65">
+                  <matrix>
+                    <Matrix tx="-8.1" ty="-286.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.25" y="165.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/StartRun" centerPoint3DX="4.3" centerPoint3DY="-37.65">
+                  <matrix>
+                    <Matrix tx="-8.1" ty="-286.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.25" y="165.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Run" centerPoint3DX="4.3" centerPoint3DY="-37.65">
+                  <matrix>
+                    <Matrix tx="-8.1" ty="-286.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.25" y="165.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Fall" centerPoint3DX="4.3" centerPoint3DY="-37.65">
+                  <matrix>
+                    <Matrix tx="-8.1" ty="-286.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.25" y="165.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Land" centerPoint3DX="4.3" centerPoint3DY="-37.65">
+                  <matrix>
+                    <Matrix tx="-8.1" ty="-286.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.25" y="165.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Stop" centerPoint3DX="4.3" centerPoint3DY="-37.65">
+                  <matrix>
+                    <Matrix tx="-8.1" ty="-286.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.25" y="165.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Jump" centerPoint3DX="4.3" centerPoint3DY="-37.65">
+                  <matrix>
+                    <Matrix tx="-8.1" ty="-286.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.25" y="165.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="HereoDie" selected="true" centerPoint3DX="12.5" centerPoint3DY="-12.5">
+                  <matrix>
+                    <Matrix tx="-150.1" ty="-178.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="162.6" y="165.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/startLevelLand" centerPoint3DX="4.3" centerPoint3DY="-37.65">
+                  <matrix>
+                    <Matrix tx="-8.1" ty="-286.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="126.25" y="165.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Animation" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" name="idle" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" name="runStart" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" name="runBackwardStart" labelType="name" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Suit/Animation/runBackwards" centerPoint3DX="0.75" centerPoint3DY="-17.45">
+                  <matrix>
+                    <Matrix tx="-13.95" ty="-39.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.35" y="21.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" name="run" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" name="runBackward" labelType="name" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Hero/Suit/Animation/runBackwards" centerPoint3DX="0.75" centerPoint3DY="-17.45">
+                  <matrix>
+                    <Matrix tx="-13.95" ty="-39.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.35" y="21.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" name="fall" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" name="land" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="7" name="stop" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" name="jump" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" name="die" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="10" name="startLevelLand" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

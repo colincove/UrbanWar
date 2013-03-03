@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/SpawnContainers/enemySpawnContainer copy 2" itemID="4d260999-00000169" linkageExportForAS="true" linkageBaseClass="com.enemies.enemySpawnContainer" linkageClassName="enemySpawnContainercopy2" sourceFlashFilepath=".\UrbanWar\trunk\Side Shooter\Work Environment\Karl Builds\Build 1\Side Scoller.fla" sourceLibraryItemHRef="Enemies/SpawnContainers/enemySpawnContainer copy 2" sourceLastModified="1292628539" lastModified="1299264213" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="enemySpawnContainer copy 2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/BlimpFolder/blimp" selected="true" centerPoint3DX="391.05" centerPoint3DY="20.6">
+                  <matrix>
+                    <Matrix tx="385.05" ty="-37"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="11.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="GUI/SpawnHitSpot" name="hitSpot" centerPoint3DX="-187.5" centerPoint3DY="-207.5">
+                  <matrix>
+                    <Matrix d="2.73893737792969" tx="-293.5" ty="-730.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="106" y="190.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

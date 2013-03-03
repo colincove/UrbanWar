@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/BlackPointBar" itemID="4d0c26b5-000001c5" sourceFlashFilepath=".\CurrentBuild\UrbanWarfare.fla" sourceLibraryItemHRef="GUI/BlackPointBar" sourceLastModified="1292641983" lastModified="1292641983">
+  <timeline>
+    <DOMTimeline name="BlackPointBar">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#010101"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!46 225|-3399 225!-3399 225|-3399 0!-3399 0|46 0!46 0|46 225"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,295 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Weapons/GausseCannonItem" itemID="510ecc7e-000010a7" linkageExportForAS="true" linkageClassName="com.items.GausseCannonItem" lastModified="1359924417">
+  <timeline>
+    <DOMTimeline name="GausseCannonItem">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true" current="true" isSelected="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!108 -68|108 -131!108 -131|-85 -326!-85 -326|-118 -326!-118 -326|-118 -358!-118 -358|-368 -358!-368 -358|-368 -97!-368 -97|-338 -97!-338 -97|-338 128!-338 128|-310 128!-310 128|-310 162!-310 162|-265 162!-265 162|-265 193!-265 193|-118
+ 193!-118 193|-118 162!-118 162|-86 162!-86 162|-86 198!-86 198|6 198!6 198|6 128!6 128|189 128!189 128|189 198!189 198|282 198!282 198|282 128!282 128|327 128!327 128|327 198!327 198|419 198!419 198|419 128!419 128|459 128!459 128|459
+ 43!459 43|651 43!651 43|651 -68!651 -68|108 -68"/>
+                    <Edge cubics="!327 128(;327,128 327,198 327,198q327 128 327 198);"/>
+                    <Edge cubics="!327 198(;327,198 419,198 419,198q327 198 419 198);"/>
+                    <Edge cubics="!419 198(;419,198 419,128 419,128q419 198 419 128);"/>
+                    <Edge cubics="!419 128(;419,128 459,128 459,128q419 128 459 128);"/>
+                    <Edge cubics="!459 128(;459,128 459,43 459,43q459 128 459 43);"/>
+                    <Edge cubics="!282 198(;282,198 282,128 282,128q282 198 282 128);"/>
+                    <Edge cubics="!282 128(282,128;282,128 327,128 327,128q282 128 327 128);"/>
+                    <Edge cubics="!459 43(;459,43 651,43 651,43q459 43 651 43);"/>
+                    <Edge cubics="!651 43(;651,43 651,-68 651,-68q651 43 651 -68);"/>
+                    <Edge cubics="!108 -68(;108,-68 108,-131 108,-131q108 -68 108 -131);"/>
+                    <Edge cubics="!-85 -326(;-85,-326 -118,-326 -118,-326q-85 -326 -118 -326);"/>
+                    <Edge cubics="!-118 -326(;-118,-326 -118,-358 -118,-358q-118 -326 -118 -358);"/>
+                    <Edge cubics="!-118 -358(;-118,-358 -368,-358 -368,-358q-118 -358 -368 -358);"/>
+                    <Edge cubics="!-368 -358(;-368,-358 -368,-97 -368,-97q-368 -358 -368 -97);"/>
+                    <Edge cubics="!-368 -97(;-368,-97 -338,-97 -338,-97q-368 -97 -338 -97);"/>
+                    <Edge cubics="!-338 128(;-338,128 -310,128 -310,128q-338 128 -310 128);"/>
+                    <Edge cubics="!-310 128(;-310,128 -310,162 -310,162q-310 128 -310 162);"/>
+                    <Edge cubics="!-310 162(;-310,162 -265,162 -265,162q-310 162 -265 162);"/>
+                    <Edge cubics="!-265 162(;-265,162 -265,193 -265,193q-265 162 -265 193);"/>
+                    <Edge cubics="!-265 193(;-265,193 -118,193 -118,193q-265 193 -118 193);"/>
+                    <Edge cubics="!-118 193(;-118,193 -118,162 -118,162q-118 193 -118 162);"/>
+                    <Edge cubics="!-118 162(;-118,162 -86,162 -86,162q-118 162 -86 162);"/>
+                    <Edge cubics="!-86 162(;-86,162 -86,198 -86,198q-86 162 -86 198);"/>
+                    <Edge cubics="!6 198(;6,198 6,128 6,128q6 198 6 128);"/>
+                    <Edge cubics="!6 128(;6,128 189,128 189,128q6 128 189 128);"/>
+                    <Edge cubics="!189 128(;189,128 189,198 189,198q189 128 189 198);"/>
+                    <Edge cubics="!108 -131(;108,-131 -85,-326 -85,-326q108 -131 -85 -326);"/>
+                    <Edge cubics="!-338 -97(;-338,-97 -338,128 -338,128q-338 -97 -338 128);"/>
+                    <Edge cubics="!-86 198(;-86,198 6,198 6,198q-86 198 6 198);"/>
+                    <Edge cubics="!651 -68(;651,-68 108,-68 108,-68q651 -68 108 -68);"/>
+                    <Edge cubics="!189 198(;189,198 282,198 282,198q189 198 282 198);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="0" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ShineAnimation" centerPoint3DX="-35.75" centerPoint3DY="-48.3">
+                  <matrix>
+                    <Matrix a="1.00051879882813" d="1.00051879882813" tx="-14.4" ty="-73.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.6" y="46.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!651 -68|-338 -68!-338 -68|-338 43!-338 43|651 43!651 43|651 -68!630 22|-317 22!-317 22|-317 -47!-317 -47|630 -47!630 -47|630 22"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!459 31|-338 31!-338 31|-338 128!-338 128|459 128!459 128|459 31!437 106|-317 106!-317 106|-317 52!-317 52|437 52!437 52|437 106"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!-15 -47|-15 176!-15 176|-65 176!-65 176|-65 -47!-65 -47|-15 -47!-86 198|6 198!6 198|6 -68!6 -68|-86 -68!-86 -68|-86 198"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!189 -68|189 198!189 198|282 198!282 198|282 -68!282 -68|189 -68!260 -47|260 176!260 176|211 176!211 176|211 -47!211 -47|260 -47"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#33FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!327 -68|327 198!327 198|419 198!419 198|419 -68!419 -68|327 -68!398 -47|398 176!398 176|349 176!349 176|349 -47!349 -47|398 -47"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!108 -131|-85 -326!-85 -326|-310 -326!-310 -326|-310 -144!-310 -144|-338 -144!-338 -144|-338 -54!-338 -54|-310 -54!-310 -54|-310 162!-310 162|-72 162!-72 162|-72 -54!-72 -54|108 -54!108 -54|108 -131!86 -75|-94 -75!-94 -75|-94 140!-94
+ 140|-288 140!-288 140|-288 -75!-288 -75|-317 -75!-317 -75|-317 -122!-317 -122|-288 -122!-288 -122|-288 -304!-288 -304|-94 -304!-94 -304|86 -122!86 -122|86 -75"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!-118 -358|-368 -358!-368 -358|-368 -97!-368 -97|-118 -97!-118 -97|-118 -358!-346 -119|-346 -336!-346 -336|-139 -336!-139 -336|-139 -119!-139 -119|-346 -119"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!-139 -75|-139 171!-139 171|-244 171!-244 171|-244 -75!-244 -75|-139 -75!-265 -97|-265 193!-265 193|-118 193!-118 193|-118 -97!-118 -97|-265 -97"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1977" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.359909057617188" d="0.359909057617188" tx="-15.8" ty="-2.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1978" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.359909057617188" d="0.359909057617188" tx="-15.8" ty="2.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1979" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.359909057617188" d="0.359909057617188" tx="-3.25" ty="-2.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1980" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.359909057617188" d="0.359909057617188" tx="10.55" ty="-2.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1981" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.359909057617188" d="0.359909057617188" tx="17.45" ty="-2.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1982" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.359909057617188" d="0.359909057617188" tx="-15.8" ty="-15.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1983" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.359909057617188" d="0.359909057617188" tx="-17.3" ty="-16.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1984" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.359909057617188" d="0.359909057617188" tx="-12.2" ty="-3.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

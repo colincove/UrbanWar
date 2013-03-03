@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Enemie1_/enemy_container" itemID="4cc87788-0000003f" lastModified="1288996096" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="enemy_container">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Enemie1_/enemy1" selected="true">
+                  <transformationPoint>
+                    <Point x="58" y="39"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

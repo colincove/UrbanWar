@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="WeaponSymbols/Symbol 863" itemID="4ddabf26-000002d4" symbolType="graphic" lastModified="1306181414">
+  <timeline>
+    <DOMTimeline name="Symbol 863">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#D10000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!840 840[701 979 492 984!492 984[283 979 144 840!144 840[5 701 0 492!0 492[5 283 144 144!144 144[283 5 492 0!492 0[701 5 840 144!840 144[979 283 984 492!984 492[979 701 840 840"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

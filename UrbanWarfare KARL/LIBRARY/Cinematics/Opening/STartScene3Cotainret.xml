@@ -1,0 +1,52 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Cinematics/Opening/STartScene3Cotainret" itemID="503151ec-00002a67" symbolType="graphic" lastModified="1345662625">
+  <timeline>
+    <DOMTimeline name="STartScene3Cotainret" currentFrame="16">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="64" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Opening/StartScene3" symbolType="graphic" firstFrame="52" loop="loop">
+                  <matrix>
+                    <Matrix tx="515.15" ty="-268.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="804.8" y="600"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="64" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Opening/StartScene3" selected="true" symbolType="graphic" firstFrame="116" loop="loop">
+                  <matrix>
+                    <Matrix tx="330.15" ty="-268.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="804.8" y="600"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="65" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tweens/Symbol 6" name="sky" centerPoint3DX="530.65" centerPoint3DY="250.55">
+                  <matrix>
+                    <Matrix tx="530.65" ty="250.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

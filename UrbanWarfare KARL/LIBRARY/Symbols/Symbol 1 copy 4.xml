@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbols/Symbol 1 copy 4" itemID="50468744-000009ad" symbolType="graphic" lastModified="1346699510">
+  <timeline>
+    <DOMTimeline name="Symbol 1 copy 4">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.66949462890625" d="0.77899169921875" tx="548.45" ty="638.15"/>
+                        </matrix>
+                        <GradientEntry color="#091340" alpha="0" ratio="0"/>
+                        <GradientEntry color="#091340" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 0S2|21938 0!21938 0|21938 25526!21938 25526|0 25526!0 25526|0 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

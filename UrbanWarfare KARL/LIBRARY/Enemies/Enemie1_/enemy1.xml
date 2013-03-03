@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Enemie1_/enemy1" itemID="4cc87780-0000003a" linkageExportForAS="true" linkageClassName="com.enemies.enemy1" lastModified="1290210367" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="enemy1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Enemie1_/enemy1_artwork" centerPoint3DX="58" centerPoint3DY="39">
+                  <transformationPoint>
+                    <Point x="58" y="39"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="GUI/HealthBar_/healthDefine" name="_200" centerPoint3DX="96.35" centerPoint3DY="-38.65">
+                  <matrix>
+                    <Matrix tx="90.75" ty="-44.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

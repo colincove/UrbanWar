@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/GameMenu/LoadoutStatus" itemID="5041a8c9-00001d59" linkageExportForAS="true" linkageClassName="com.UI.LoadoutStatus" lastModified="1346809175">
+  <timeline>
+    <DOMTimeline name="LoadoutStatus">
+      <layers>
+        <DOMLayer name="Layer 5" color="#4FFFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="loadoutValue" selected="true" width="226" height="55.35" includeOutlines="true">
+                  <matrix>
+                    <Matrix tx="-63" ty="21.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="35" bitmapSize="700" face="Akzidenz-Grotesk_BQ*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="LoadoutSphereBad.png" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" name="red" labelType="name" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Menus/LoadoutSphereBad.png"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" name="normal" labelType="name" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Menus/LoadoutSphereGoing.png"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" name="green" labelType="name" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Menus/LoadoutSphereGood.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

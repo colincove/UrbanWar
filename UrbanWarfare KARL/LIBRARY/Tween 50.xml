@@ -1,0 +1,35 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 50" itemID="504688ec-00000a34" symbolType="graphic" lastModified="1346799852">
+  <timeline>
+    <DOMTimeline name="Tween 50">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="-3971.5" ty="267.8"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.89373779296875" c="-12.8542175292969" d="0" tx="3971.5" ty="-267.8"/>
+                        </matrix>
+                        <GradientEntry alpha="0.349019607843137" ratio="0"/>
+                        <GradientEntry color="#000033" alpha="0" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!290034 9287S2|-131174 9287!-131174 9287|-131174 -19999!-131174 -19999|290034 -19999!290034 -19999|290034 9287"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

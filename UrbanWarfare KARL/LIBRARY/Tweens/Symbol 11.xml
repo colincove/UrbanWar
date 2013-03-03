@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tweens/Symbol 11" itemID="4debca07-0000039d" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Tweens/Symbol 11" sourceLastModified="1307298311" symbolType="graphic" lastModified="1307298311">
+  <timeline>
+    <DOMTimeline name="Symbol 11">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!150 -781|150 780!150 780|-150 780!-150 780|-150 -781!-150 -781|150 -781"/>
+                    <Edge cubics="!-150 780(-150,780;-150,780 -150,-781 -150,-781q-150 780 -150 -781)-150,-781;"/>
+                    <Edge cubics="!150 780(;150,780 -150,780 -150,780q150 780 -150 780);"/>
+                    <Edge cubics="!150 -781(;150,-781 150,780 150,780q150 -781 150 780);"/>
+                    <Edge cubics="!-150 -781(;-150,-781 150,-781 150,-781q-150 -781 150 -781);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/House2Folder/House2Artwork" itemID="4d6d5dd4-00000255" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="House2Artwork" lastModified="1299618525">
+  <timeline>
+    <DOMTimeline name="House2Artwork">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F38827"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1144 397|1287 451!1287 451|1547 801!1547 801|1470 801!1470 801|1461 1231!1461 1231|1567 1231!1567 1231|1567 1455!1567 1455|0 1455!0 1455|0 1231!0 1231|96 1231!96 1231|96 746!96 746|50 746!50 746|136 243!136 243|191 243!191 243|191 161
+!191 161|220 161!220 161|220 120!220 120|191 120!191 120|191 91!191 91|261 64!261 64|331 91!331 91|331 120!331 120|302 120!302 120|302 161!302 161|331 161!331 161|331 243!331 243|415 243!415 243|671 0!671 0|925 242!925 242|1107 241!1107
+ 241|1144 397!243 120|243 161!243 161|279 161!279 161|279 120!279 120|243 120"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

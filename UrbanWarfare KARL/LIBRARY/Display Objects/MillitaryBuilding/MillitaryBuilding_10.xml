@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/MillitaryBuilding/MillitaryBuilding_10" itemID="4f8f1151-0000081f" linkageExportForAS="true" linkageBaseClass="com.displayObjects.house" linkageClassName="MillitaryBuilding_10" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Display Objects/MillitaryBuilding/MillitaryBuilding_10" sourceLastModified="1334784255" lastModified="1334784255" lastUniqueIdentifier="8">
+  <timeline>
+    <DOMTimeline name="MillitaryBuilding_10">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_10_Artwork" centerPoint3DX="3" centerPoint3DY="-21.05">
+                  <matrix>
+                    <Matrix tx="-31" ty="-181"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="34" y="159.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="GUI/HealthBar_/healthDefine" name="_160" selected="true" centerPoint3DX="0.5" centerPoint3DY="-179.5">
+                  <matrix>
+                    <Matrix tx="-5.1" ty="-185.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

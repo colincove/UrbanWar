@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Car/CarArtwork" itemID="4d260999-0000012a" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="CarArtwork" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Display Objects/Car/CarArtwork" sourceLastModified="1292713824" lastModified="1292713824">
+  <timeline>
+    <DOMTimeline name="CarArtwork">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F38827"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!706 -153[730 -149 776 -65!776 -65[823 21 892 142!892 142|1170 142!1170 142[1180 146 1247 244!1247 244[1314 343 1324 490!1324 490|1223 490!1223 490[1224 502 1226 513!1226 513|1162 513!1162 513[1141 616 1028 626!1028 626[915 616 895 513
+!895 513|831 513!831 513[832 502 835 490!835 490|437 490!437 490[438 502 439 513!439 513|362 513!362 513[341 616 228 626!228 626[114 616 95 513!95 513|45 513!45 513[46 502 49 490!49 490|0 490!0 490|0 148!0 148[-4 129 163 -2!163 -2[329
+ -134 706 -153"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

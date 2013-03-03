@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/LowerLeg" itemID="4d013b95-000001e0" lastModified="1291928096">
+  <timeline>
+    <DOMTimeline name="LowerLeg">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#D50000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!491 0S1|0 1022!0 1022|1064 2406!1064 2406|1147 2352!1147 2352|550 520!550 520|491 0"/>
+                    <Edge cubics="!1147 2352(;1147,2352 550,520 550,520p1147 2352q550 520);"/>
+                    <Edge cubics="!550 520(;550,520 491,0 491,0p550 520q491 0);"/>
+                    <Edge cubics="!491 0(491,0;491,0 0,1022 0,1022p491 0q0 1022);"/>
+                    <Edge cubics="!0 1022(;0,1022 1064,2406 1064,2406p0 1022q1064 2406);"/>
+                    <Edge cubics="!1064 2406(;1064,2406 1147,2352 1147,2352p1064 2406q1147 2352);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

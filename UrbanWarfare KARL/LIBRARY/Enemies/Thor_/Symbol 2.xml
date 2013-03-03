@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Thor_/Symbol 2" itemID="4d0c3a47-000001e5" sourceFlashFilepath="..\..\My Documents\Downloads\UpdatedEnemiesUrbanWarfare CS4.fla" sourceLibraryItemHRef="Enemies/Thor_/Symbol 2" sourceLastModified="1292647634" symbolType="graphic" lastModified="1292647634">
+  <timeline>
+    <DOMTimeline name="Symbol 2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20 -4159|20 3860!20 3860|-6759 3860!-6759 3860|-6759 -4159!-6759 -4159|20 -4159"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

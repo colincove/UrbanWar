@@ -1,0 +1,172 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/OffScreenDisplay/OffScreen" itemID="4db78db8-000001fb" linkageExportForAS="true" linkageClassName="com.UI.OffScreen" lastModified="1303933623" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="OffScreen">
+      <layers>
+        <DOMLayer name="Layer 7" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" duration="100" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" duration="100" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!862 -8[862 353 606 607!606 607[351 863 -9 863!-9 863[-370 863 -626 607!-626 607[-880 353 -880 -8!-880 -8[-880 -368 -626 -624!-626 -624[-370 -879 -9 -879!-9 -879[351 -879 606 -624!606 -624[862 -368 862 -8"/>
+                    <Edge cubics="!606 607(;436,778 231,863 -9,863q606 607Q351 863q-9 863);"/>
+                    <Edge cubics="!-9 863(;-249,863 -455,778 -626,607q-9 863Q-370 863q-626 607);"/>
+                    <Edge cubics="!-9 -879(;231,-879 436,-794 606,-624q-9 -879Q351 -879q606 -624);"/>
+                    <Edge cubics="!-626 -624(;-455,-794 -249,-879 -9,-879q-626 -624Q-370 -879q-9 -879);"/>
+                    <Edge cubics="!-880 -8(;-880,-248 -795,-454 -626,-624q-880 -8Q-880 -368q-626 -624);"/>
+                    <Edge cubics="!-626 607(;-795,438 -880,232 -880,-8q-626 607Q-880 353q-880 -8);"/>
+                    <Edge cubics="!606 -624(;776,-454 862,-248 862,-8q606 -624Q862 -368q862 -8);"/>
+                    <Edge cubics="!862 -8(;862,232 776,438 606,607q862 -8Q862 353q606 607);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="Hero/HeroAnimation" name="hero" centerPoint3DX="1.75" centerPoint3DY="-7.5">
+                  <matrix>
+                    <Matrix tx="-2.55" ty="30.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.7" y="-58.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="99" tweenType="motion" motionTweenRotate="clockwise" motionTweenRotateTimes="1" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tweens/Symbol 1" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1" d="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="99" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tweens/Symbol 1" symbolType="graphic" firstFrame="99" loop="loop">
+                  <matrix>
+                    <Matrix a="-1" d="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="2" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="50" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!690 -708[980 -417 980 -8!980 -8[980 402 690 691!690 691[#193.32 #3D2.CB 0 982!0 982|0 -998!0 -998[#193.32 #FFFC1D.32 690 -708"/>
+                    <Edge cubics="!690 691(;499,882 271,978 0,982q690 691Q403 979q0 982)0,982;"/>
+                    <Edge cubics="!0 982(;-1,982 -5,982 -9,982q0 982 -9 982);"/>
+                    <Edge cubics="!-9 982(;-282,982 -516,885 -710,691q-9 982Q-419 982q-710 691);"/>
+                    <Edge cubics="!-9 -998(;-6,-998 -3,-998 0,-998q-9 -998 0 -998);"/>
+                    <Edge cubics="!0 -998(;269,-996 498,-899 690,-708q0 -998Q403 -995q690 -708);"/>
+                    <Edge cubics="!-710 -708(;-516,-901 -282,-998 -9,-998q-710 -708Q-419 -998q-9 -998);"/>
+                    <Edge cubics="!-999 -8(;-999,-281 -902,-515 -710,-708q-999 -8Q-999 -417q-710 -708);"/>
+                    <Edge cubics="!-710 691(;-902,499 -999,265 -999,-8q-710 691Q-999 402q-999 -8);"/>
+                    <Edge cubics="!690 -708(;883,-515 980,-281 980,-8q690 -708Q980 -417q980 -8);"/>
+                    <Edge cubics="!980 -8(;980,265 883,499 690,691q980 -8Q980 402q690 691);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" duration="50" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-690 -707[-403 -995 0 -998!0 -998|0 982!0 982[-403 979 -690 692!-690 692[-980 401 -980 -8!-980 -8[-980 -418 -690 -707"/>
+                    <Edge cubics="!0 982(;0,982 0,-998 0,-998q0 982 0 -998);"/>
+                    <Edge cubics="!-690 -707(;-499,-898 -271,-994 0,-998q-690 -707Q-403 -995q0 -998)0,-998;"/>
+                    <Edge cubics="!0 982(;-269,980 -498,883 -690,692q0 982Q-403 979q-690 692);"/>
+                    <Edge cubics="!-690 692(;-883,499 -980,265 -980,-8q-690 692Q-980 401q-980 -8);"/>
+                    <Edge cubics="!-980 -8(;-980,-281 -883,-515 -690,-707q-980 -8Q-980 -418q-690 -707);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" duration="50" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="50" duration="50" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!980 -8[980 402 690 691!690 691[#193.32 #3D2.CB 0 982!0 982|0 -998!0 -998[#193.32 #FFFC1D.32 690 -708!690 -708[980 -417 980 -8"/>
+                    <Edge cubics="!690 691(;499,882 271,978 0,982q690 691Q403 979q0 982)0,982;"/>
+                    <Edge cubics="!0 -998(;269,-996 498,-899 690,-708q0 -998Q403 -995q690 -708);"/>
+                    <Edge cubics="!690 -708(;883,-515 980,-281 980,-8q690 -708Q980 -417q980 -8);"/>
+                    <Edge cubics="!980 -8(;980,265 883,499 690,691q980 -8Q980 402q690 691);"/>
+                    <Edge cubics="!0 982(;0,982 0,-998 0,-998q0 982 0 -998);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="100" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="GUI/OffScreenDisplay/Arrow" name="pointer" selected="true" centerPoint3DX="13.4" centerPoint3DY="26.8">
+                  <transformationPoint>
+                    <Point x="13.4" y="26.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

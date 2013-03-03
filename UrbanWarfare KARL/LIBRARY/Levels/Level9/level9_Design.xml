@@ -1,0 +1,88 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level9/level9_Design" itemID="5044f540-00000732" lastModified="1346699243" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="level9_Design">
+      <layers>
+        <DOMLayer name="neutral" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level9/level9Neutral" name="neutral_contrainer" centerPoint3DX="1564.75" centerPoint3DY="-39.65">
+                  <matrix>
+                    <Matrix tx="-389.6" ty="-520.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1486.4" y="481.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Misc/EndGame" name="endGame" centerPoint3DX="7152.05" centerPoint3DY="12.45">
+                  <matrix>
+                    <Matrix tx="7053.55" ty="-375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="98.5" y="387.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Hero_Container" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level9/level9_hero_container" name="hero_container" selected="true" centerPoint3DX="-375.25" centerPoint3DY="-499.7">
+                  <matrix>
+                    <Matrix tx="-389.6" ty="-520.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.35" y="21.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="enemy_Container" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level9/level9_ground_enemy_container" name="ground_enemy_container" centerPoint3DX="1132.75" centerPoint3DY="-39.65">
+                  <matrix>
+                    <Matrix tx="-389.6" ty="-520.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1522.35" y="481.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level9/level9_midground" name="ground_enemy_container" centerPoint3DX="1132.75" centerPoint3DY="-39.65">
+                  <matrix>
+                    <Matrix tx="-389.6" ty="-520.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1522.35" y="481.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" autoNamed="false" visible="false" layerType="folder"/>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

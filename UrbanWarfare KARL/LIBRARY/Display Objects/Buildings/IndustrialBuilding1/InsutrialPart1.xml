@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/IndustrialBuilding1/InsutrialPart1" itemID="4dd98ed1-0000019c" linkageExportForAS="true" linkageBaseClass="com.displayObjects.MetalBuilding" linkageClassName="InsutrialPart1" lastModified="1336501975" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="InsutrialPart1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/IndustrialBuilding1/INdustrialPart2_Artork">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

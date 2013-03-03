@@ -1,0 +1,85 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/GameMenu/LevelButtons/Level1Button" itemID="4fabfe3c-00000344" linkageExportForAS="true" linkageClassName="com.UI.LevelButtons.Level1Button" symbolType="button" lastModified="1336767522">
+  <timeline>
+    <DOMTimeline name="Level1Button">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/GameMenu/OverLight" blendMode="overlay" centerPoint3DX="49.15" centerPoint3DY="49.15">
+                  <matrix>
+                    <Matrix tx="3.15" ty="3.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46" y="46"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="DownLight" blendMode="overlay" centerPoint3DX="49.15" centerPoint3DY="49.15">
+                  <matrix>
+                    <Matrix tx="3.15" ty="3.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="46" y="46"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.91015625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/GameMenu/Level1Status" symbolType="graphic" firstFrame="1" loop="single frame">
+                  <matrix>
+                    <Matrix tx="49" ty="49"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/GameMenu/Level1Status" symbolType="graphic" firstFrame="1" loop="single frame">
+                  <matrix>
+                    <Matrix tx="49" ty="49"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/GameMenu/Level1Status" symbolType="graphic" firstFrame="1" loop="single frame">
+                  <matrix>
+                    <Matrix tx="49" ty="49"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

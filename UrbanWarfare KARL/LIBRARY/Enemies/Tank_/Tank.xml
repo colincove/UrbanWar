@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Tank_/Tank" itemID="4d07cd76-000000f3" linkageExportForAS="true" linkageClassName="com.enemies.Tank" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Enemies/Tank_/Tank" sourceLastModified="1304024217" lastModified="1304024217" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="Tank">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/TankArtwork" name="animation" centerPoint3DX="-16.3" centerPoint3DY="-23">
+                  <matrix>
+                    <Matrix tx="-65.1" ty="-46"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48.8" y="23"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

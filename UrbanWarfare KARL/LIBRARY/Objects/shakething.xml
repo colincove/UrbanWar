@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Objects/shakething" itemID="4cd4b65e-000000a9" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="shakething" lastModified="1289965015">
+  <timeline>
+    <DOMTimeline name="shakething">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#D50000"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="2" edges="!760 -550[1043 -316 980 0!980 0[#2F7.AF #FFFE22.A6 391.5 -837.5!391.5 -837.5[#243.43 #FFFD44.A6 760 -550"/>
+                    <Edge fillStyle1="1" edges="!700 0|700 579!700 579|0 579!0 579|0 0!0 0|700 0"/>
+                    <Edge fillStyle1="2" edges="!-2160 -305[-2266 -614 -2247 -1052!-2247 -1052[-2223 -1601 -2180 -2105!-2180 -2105[#FFFA39.6C -1897.125 -842 -1585!-842 -1585[-1508.5 #FFF8D7.0E -2155 -2030!-2155 -2030[-2155 -1685 -2153 -1340!-2153 -1340[-2151 -873 -2171 -410!-2171 -410
+[-2173 -353 -2160 -305"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

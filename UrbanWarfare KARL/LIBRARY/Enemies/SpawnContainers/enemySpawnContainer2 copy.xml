@@ -1,0 +1,39 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/SpawnContainers/enemySpawnContainer2 copy" itemID="4d260999-0000016f" linkageExportForAS="true" linkageBaseClass="com.enemies.enemySpawnContainer" linkageClassName="enemySpawnContainer2copy" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Enemies/SpawnContainers/enemySpawnContainer2 copy" sourceLastModified="1292714850" lastModified="1345323031">
+  <timeline>
+    <DOMTimeline name="enemySpawnContainer2 copy">
+      <layers>
+        <DOMLayer name="hitSpot" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="GUI/SpawnHitSpot" name="hitSpot" centerPoint3DX="-1155.85" centerPoint3DY="1156.8">
+                  <matrix>
+                    <Matrix a="0.846160888671875" c="0.00335693359375" d="2.37811279296875" tx="-1246.25" ty="703.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="106.15" y="190.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/DroidFolder/droid" name="droid1" centerPoint3DX="-326" centerPoint3DY="1342">
+                  <matrix>
+                    <Matrix tx="-432" ty="1262.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="106" y="79.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

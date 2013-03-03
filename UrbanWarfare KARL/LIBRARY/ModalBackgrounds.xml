@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ModalBackgrounds" itemID="503001fb-00000c53" symbolType="graphic" lastModified="1346371919">
+  <timeline>
+    <DOMTimeline name="ModalBackgrounds">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix a="1.6688232421875" d="1.6688232421875" tx="-337.95" ty="-253.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="505.3" y="379"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.6"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20213 15160S2|0 15160!0 15160|0 0!0 0|20213 0!20213 0|20213 15160"/>
+                    <Edge cubics="!20213 0(;20213,0 20213,15160 20213,15160q20213 0 20213 15160);"/>
+                    <Edge cubics="!0 15160(;0,15160 0,0 0,0q0 15160 0 0);"/>
+                    <Edge cubics="!0 0(;0,0 20213,0 20213,0q0 0 20213 0);"/>
+                    <Edge cubics="!20213 15160(;20213,15160 0,15160 0,15160q20213 15160 0 15160);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

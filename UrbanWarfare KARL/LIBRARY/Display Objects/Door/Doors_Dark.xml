@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Door/Doors_Dark" itemID="5044f5b1-00000762" linkageExportForAS="true" linkageBaseClass="com.displayObjects.MetalBuilding" linkageClassName="Doors_Dark" lastModified="1346697275" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Doors_Dark">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/DoorDark_rtwork copy" selected="true" centerPoint3DX="7.85" centerPoint3DY="94.25">
+                  <matrix>
+                    <Matrix tx="-40.85" ty="-30.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48.7" y="124.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

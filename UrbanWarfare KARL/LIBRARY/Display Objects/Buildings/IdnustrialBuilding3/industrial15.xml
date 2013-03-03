@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/IdnustrialBuilding3/industrial15" itemID="4dd9a2dc-00000327" lastModified="1306108636" lastUniqueIdentifier="8">
+  <timeline>
+    <DOMTimeline name="industrial15">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/IdnustrialBuilding3/industrial13" centerPoint3DX="-30.2">
+                  <matrix>
+                    <Matrix tx="-30.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/IdnustrialBuilding3/industrial14" centerPoint3DX="21.45" centerPoint3DY="19.25">
+                  <matrix>
+                    <Matrix tx="21.45" ty="19.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

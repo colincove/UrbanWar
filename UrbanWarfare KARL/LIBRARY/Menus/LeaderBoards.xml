@@ -1,0 +1,169 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/LeaderBoards" itemID="4f00fd3c-0000089e" linkageExportForAS="true" linkageClassName="com.UI.Leaderboards" lastModified="1347250805" lastUniqueIdentifier="8">
+  <timeline>
+    <DOMTimeline name="LeaderBoards">
+      <layers>
+        <DOMLayer name="LevelStatus" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.333333333333333"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/LeaderboardSelect1" name="leaderboard1" symbolType="button">
+                  <matrix>
+                    <Matrix tx="67.9" ty="64.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/LeaderboardSelect2" name="leaderboard2" symbolType="button">
+                  <matrix>
+                    <Matrix tx="163.65" ty="64.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/LeaderboardSelect4" name="leaderboard4" symbolType="button">
+                  <matrix>
+                    <Matrix tx="325.65" ty="64.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/LeaderboardSelect7" name="leaderboard7" symbolType="button">
+                  <matrix>
+                    <Matrix tx="583.4" ty="64.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/LeaderboardSelect2" name="leaderboard3" symbolType="button">
+                  <matrix>
+                    <Matrix tx="229.9" ty="64.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/LeaderboardSelect2" name="leaderboard5" symbolType="button">
+                  <matrix>
+                    <Matrix tx="421.4" ty="64.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/LeaderboardSelect2" name="leaderboard6" symbolType="button">
+                  <matrix>
+                    <Matrix tx="487.65" ty="64.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/LeaderboardSelect2" name="leaderboard8" symbolType="button">
+                  <matrix>
+                    <Matrix tx="679.15" ty="64.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/LeaderboardSelect2" name="leaderboard9" symbolType="button">
+                  <matrix>
+                    <Matrix tx="745.4" ty="64.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/CloseButton" name="CloseButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="587.7" ty="128.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/leaderboardUserContext" name="userContext" selected="true" centerPoint3DX="106.5" centerPoint3DY="189.4">
+                  <matrix>
+                    <Matrix tx="107" ty="177.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 18" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 9 copy" centerPoint3DX="15.25" centerPoint3DY="280">
+                  <matrix>
+                    <Matrix tx="-791.45" ty="-39.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="806.95" y="319.7"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter angle="90" blurX="20" blurY="20" distance="8"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 17" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 19" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 2" centerPoint3DX="400" centerPoint3DY="300">
+                  <matrix>
+                    <Matrix tx="400" ty="300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

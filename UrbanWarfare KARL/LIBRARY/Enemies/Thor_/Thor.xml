@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Thor_/Thor" itemID="4d1a9284-00000125" linkageExportForAS="true" linkageClassName="com.enemies.Thor" lastModified="1331933716" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="Thor">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Enemies/Thor_/Thor_Animation" name="animation" selected="true" centerPoint3DX="78.25" centerPoint3DY="201.6">
+                  <matrix>
+                    <Matrix ty="120.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="78.25" y="81.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" name="Walk" labelType="name" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

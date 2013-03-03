@@ -1,0 +1,748 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level9/level9_ground_container" itemID="4daf265f-00000963" linkageExportForAS="true" linkageBaseClass="com.levels.GroundControl" linkageClassName="level9_ground_container" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Levels/Level9/level9_ground_container" sourceLastModified="1334964044" lastModified="1346719158" lastUniqueIdentifier="253">
+  <timeline>
+    <DOMTimeline name="level9_ground_container">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_9" centerPoint3DX="777.3" centerPoint3DY="725.3">
+                  <matrix>
+                    <Matrix tx="704.75" ty="633.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="72.55" y="92.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_11" centerPoint3DX="928.25" centerPoint3DY="794.95">
+                  <matrix>
+                    <Matrix a="-1" tx="924.25" ty="812.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-4" y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_6" centerPoint3DX="653.3" centerPoint3DY="811.45">
+                  <matrix>
+                    <Matrix tx="644.9" ty="817.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.4" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_7" centerPoint3DX="621.3" centerPoint3DY="816.95">
+                  <matrix>
+                    <Matrix tx="611.5" ty="822.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.8" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_4" centerPoint3DX="1501.9" centerPoint3DY="737.9">
+                  <matrix>
+                    <Matrix tx="1496.3" ty="725"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="12.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_8" centerPoint3DX="1087.95" centerPoint3DY="715.3">
+                  <matrix>
+                    <Matrix tx="1087.95" ty="714.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_8" centerPoint3DX="1408.4" centerPoint3DY="752.9">
+                  <matrix>
+                    <Matrix tx="1408.4" ty="752.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_1" centerPoint3DX="2100.2" centerPoint3DY="690.35">
+                  <matrix>
+                    <Matrix tx="2094.6" ty="658.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="31.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_5" centerPoint3DX="1931.2" centerPoint3DY="801.95">
+                  <matrix>
+                    <Matrix tx="1925.6" ty="807.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_8" centerPoint3DX="2283.85" centerPoint3DY="777.3">
+                  <matrix>
+                    <Matrix tx="2283.85" ty="776.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_9" centerPoint3DX="17.5" centerPoint3DY="665.95">
+                  <matrix>
+                    <Matrix tx="-55.05" ty="573.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="72.55" y="92.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_11" centerPoint3DX="1606.25" centerPoint3DY="762.95">
+                  <matrix>
+                    <Matrix a="-1" tx="1602.25" ty="780.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-4" y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_6" centerPoint3DX="1443.25" centerPoint3DY="778.95">
+                  <matrix>
+                    <Matrix tx="1434.85" ty="784.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.4" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_7" centerPoint3DX="1398.3" centerPoint3DY="783.95">
+                  <matrix>
+                    <Matrix tx="1388.5" ty="789.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.8" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_14" centerPoint3DX="2468.85" centerPoint3DY="735.3">
+                  <matrix>
+                    <Matrix tx="2463.55" ty="713.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.3" y="21.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_5" centerPoint3DX="3090.15" centerPoint3DY="811.95">
+                  <matrix>
+                    <Matrix tx="3084.55" ty="817.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_6" centerPoint3DX="3176.15" centerPoint3DY="820.95">
+                  <matrix>
+                    <Matrix tx="3167.75" ty="826.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.4" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_7" centerPoint3DX="3209.15" centerPoint3DY="825.95">
+                  <matrix>
+                    <Matrix tx="3199.35" ty="831.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.8" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_7" centerPoint3DX="3014.3" centerPoint3DY="826.5">
+                  <matrix>
+                    <Matrix tx="3004.5" ty="832.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.8" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_11" centerPoint3DX="3592.15" centerPoint3DY="454">
+                  <matrix>
+                    <Matrix a="-1" tx="3588.15" ty="472"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-4" y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_1" centerPoint3DX="3168.15" centerPoint3DY="83.35">
+                  <matrix>
+                    <Matrix tx="3162.55" ty="51.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="31.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_11" centerPoint3DX="3006.15" centerPoint3DY="200">
+                  <matrix>
+                    <Matrix tx="3010.15" ty="218"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-4" y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_11" centerPoint3DX="2934.3" centerPoint3DY="804.15">
+                  <matrix>
+                    <Matrix tx="2938.3" ty="822.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-4" y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_3" centerPoint3DX="3381.15" centerPoint3DY="210">
+                  <matrix>
+                    <Matrix tx="3375.55" ty="215.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_9" centerPoint3DX="3829.1" centerPoint3DY="708.3">
+                  <matrix>
+                    <Matrix tx="3756.55" ty="616.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="72.55" y="92.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_4" centerPoint3DX="4594.75" centerPoint3DY="673.75">
+                  <matrix>
+                    <Matrix tx="4589.15" ty="660.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="12.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_7" centerPoint3DX="4543.1" centerPoint3DY="717.95">
+                  <matrix>
+                    <Matrix tx="4533.3" ty="723.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.8" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_8" centerPoint3DX="4368.75" centerPoint3DY="629.85">
+                  <matrix>
+                    <Matrix tx="4368.75" ty="629.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_14" centerPoint3DX="5155.7" centerPoint3DY="629.95">
+                  <matrix>
+                    <Matrix tx="5150.4" ty="608.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.3" y="21.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_12" centerPoint3DX="4762.7" centerPoint3DY="749.3">
+                  <matrix>
+                    <Matrix tx="4759" ty="746.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.7" y="3.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_8" centerPoint3DX="5038.65" centerPoint3DY="645.3">
+                  <matrix>
+                    <Matrix tx="5038.65" ty="644.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_8" centerPoint3DX="5273.15" centerPoint3DY="640.4">
+                  <matrix>
+                    <Matrix tx="5273.15" ty="639.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_2" centerPoint3DX="5636.7" centerPoint3DY="660.45">
+                  <matrix>
+                    <Matrix tx="5636.7" ty="643.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="16.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_11" centerPoint3DX="5447.05" centerPoint3DY="518">
+                  <matrix>
+                    <Matrix a="-1" tx="5443.05" ty="536"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-4" y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_2" centerPoint3DX="6417.1" centerPoint3DY="660.45">
+                  <matrix>
+                    <Matrix a="-1" tx="6417.1" ty="643.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="16.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_5" centerPoint3DX="5800" centerPoint3DY="786.95">
+                  <matrix>
+                    <Matrix tx="5794.4" ty="792.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_11" centerPoint3DX="6273.95" centerPoint3DY="778.95">
+                  <matrix>
+                    <Matrix tx="6277.95" ty="796.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-4" y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_14" centerPoint3DX="6836.55" centerPoint3DY="415.35">
+                  <matrix>
+                    <Matrix tx="6831.25" ty="393.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.3" y="21.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_8" centerPoint3DX="6716.6" centerPoint3DY="423.7">
+                  <matrix>
+                    <Matrix tx="6716.6" ty="423.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_1" centerPoint3DX="7529.9" centerPoint3DY="682.05">
+                  <matrix>
+                    <Matrix tx="7524.3" ty="650.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="31.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_3" centerPoint3DX="7358.9" centerPoint3DY="793.85">
+                  <matrix>
+                    <Matrix tx="7353.3" ty="799.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_9" centerPoint3DX="8068.85" centerPoint3DY="666.3">
+                  <matrix>
+                    <Matrix tx="7996.3" ty="574.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="72.55" y="92.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_2" centerPoint3DX="9254.45" centerPoint3DY="224.35">
+                  <matrix>
+                    <Matrix tx="9254.45" ty="207.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="16.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_1" centerPoint3DX="8856.8" centerPoint3DY="72.35">
+                  <matrix>
+                    <Matrix tx="8851.2" ty="40.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="31.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_4" centerPoint3DX="8353.5" centerPoint3DY="760.85">
+                  <matrix>
+                    <Matrix tx="8347.9" ty="747.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="12.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_5" centerPoint3DX="8686.85" centerPoint3DY="192.7">
+                  <matrix>
+                    <Matrix tx="8681.25" ty="198.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_8" centerPoint3DX="8270.5" centerPoint3DY="752.9">
+                  <matrix>
+                    <Matrix tx="8270.5" ty="752.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_7" centerPoint3DX="8430.85" centerPoint3DY="806.95">
+                  <matrix>
+                    <Matrix tx="8421.05" ty="812.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.8" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_2" centerPoint3DX="9847.9" centerPoint3DY="618.45">
+                  <matrix>
+                    <Matrix a="-1" tx="9847.9" ty="601.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="16.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_4" centerPoint3DX="9678.4" centerPoint3DY="761.95">
+                  <matrix>
+                    <Matrix tx="9672.8" ty="749.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="12.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_8_Artwork" centerPoint3DX="10312.35" centerPoint3DY="455">
+                  <matrix>
+                    <Matrix tx="10312.35" ty="448.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="6.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_8_Artwork" centerPoint3DX="9596.4" centerPoint3DY="783.95">
+                  <matrix>
+                    <Matrix tx="9596.4" ty="777.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="6.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_5" centerPoint3DX="10657.7" centerPoint3DY="792.4">
+                  <matrix>
+                    <Matrix tx="10652.1" ty="798"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_11" centerPoint3DX="10502.7" centerPoint3DY="571.95">
+                  <matrix>
+                    <Matrix a="-1" tx="10498.7" ty="589.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-4" y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_10" centerPoint3DX="11063.3" centerPoint3DY="506.15">
+                  <matrix>
+                    <Matrix tx="11023.65" ty="699.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.65" y="-193.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_14" centerPoint3DX="11264.3" centerPoint3DY="759.3">
+                  <matrix>
+                    <Matrix tx="11259" ty="737.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.3" y="21.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_14" centerPoint3DX="11488.8" centerPoint3DY="758.65">
+                  <matrix>
+                    <Matrix tx="11483.5" ty="737"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.3" y="21.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_4" centerPoint3DX="11867.3" centerPoint3DY="712">
+                  <matrix>
+                    <Matrix tx="11861.7" ty="699.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="12.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_7" centerPoint3DX="11112.7" centerPoint3DY="806.95">
+                  <matrix>
+                    <Matrix tx="11102.9" ty="812.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.8" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_8" centerPoint3DX="11376.3" centerPoint3DY="770.3">
+                  <matrix>
+                    <Matrix tx="11376.3" ty="769.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_8" centerPoint3DX="10726.8" centerPoint3DY="775.55">
+                  <matrix>
+                    <Matrix tx="10726.8" ty="775"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_6" centerPoint3DX="10992.65" centerPoint3DY="801.95">
+                  <matrix>
+                    <Matrix tx="10984.25" ty="807.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.4" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_7" centerPoint3DX="11024.8" centerPoint3DY="807.25">
+                  <matrix>
+                    <Matrix tx="11015" ty="812.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.8" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_11" centerPoint3DX="11756.65" centerPoint3DY="737.95">
+                  <matrix>
+                    <Matrix tx="11760.65" ty="755.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-4" y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_2" centerPoint3DX="12115.75" centerPoint3DY="669.45">
+                  <matrix>
+                    <Matrix tx="12115.75" ty="652.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="16.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_10" centerPoint3DX="12243.25" centerPoint3DY="503.35">
+                  <matrix>
+                    <Matrix tx="12203.6" ty="696.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.65" y="-193.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_11" centerPoint3DX="12449.55" centerPoint3DY="546">
+                  <matrix>
+                    <Matrix tx="12453.55" ty="564"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-4" y="-18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_6" centerPoint3DX="13507.55" centerPoint3DY="850.95">
+                  <matrix>
+                    <Matrix tx="13499.15" ty="856.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.4" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/ScienceBuilding_/scienceBuilding copy" centerPoint3DX="10849.3" centerPoint3DY="737.95">
+                  <matrix>
+                    <Matrix tx="10835.3" ty="608.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14" y="129.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="13739.05" ty="378.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="14014.1" ty="378.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="14839.3" ty="378.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="14564.2" ty="378.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="14289.15" ty="378.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="15763.5" ty="609.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="15488.4" ty="609.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="17459.95" ty="220.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="17184.85" ty="220.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="16909.8" ty="220.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="18824.3" ty="607"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="19099.35" ty="607"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="19649.45" ty="607"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/Door/Doors_Dark">
+                  <matrix>
+                    <Matrix tx="19374.4" ty="607"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-5.35" y="93.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Levels/Level9/level9Ground" symbolType="button">
+                  <transformationPoint>
+                    <Point x="1522.35" y="481.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_7" centerPoint3DX="13476.55" centerPoint3DY="855.95">
+                  <matrix>
+                    <Matrix tx="13466.75" ty="861.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.8" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_7" centerPoint3DX="12593.55" centerPoint3DY="856.25">
+                  <matrix>
+                    <Matrix tx="12583.75" ty="861.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.8" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_6" centerPoint3DX="12624.55" centerPoint3DY="851.25">
+                  <matrix>
+                    <Matrix tx="12616.15" ty="856.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.4" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_7" centerPoint3DX="13053.5" centerPoint3DY="856.25">
+                  <matrix>
+                    <Matrix tx="13043.7" ty="861.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.8" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_6" centerPoint3DX="13084.5" centerPoint3DY="851.25">
+                  <matrix>
+                    <Matrix tx="13076.1" ty="856.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.4" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Display Objects/MillitaryBuilding/MillitaryBuilding_7" centerPoint3DX="13118.2" centerPoint3DY="856.25">
+                  <matrix>
+                    <Matrix tx="13108.4" ty="861.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.8" y="-5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

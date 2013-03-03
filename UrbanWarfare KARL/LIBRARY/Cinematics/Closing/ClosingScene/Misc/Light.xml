@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Cinematics/Closing/ClosingScene/Misc/Light" itemID="4d260999-00000118" symbolType="graphic" lastModified="1292715014" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Light">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Enemies/Thor_/Symbol 4" selected="true" blendMode="overlay" centerPoint3DX="808.2" centerPoint3DY="1932.65">
+                  <transformationPoint>
+                    <Point x="808.2" y="1932.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

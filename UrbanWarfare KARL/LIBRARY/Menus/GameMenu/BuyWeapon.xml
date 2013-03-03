@@ -1,0 +1,99 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/GameMenu/BuyWeapon" itemID="4f7b802b-00000af4" linkageExportForAS="true" linkageClassName="BuyWeapon" lastModified="1361089490" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="BuyWeapon" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;-13&lt;/guideline&gt;&lt;guideline direction="h"&gt;9&lt;/guideline&gt;&lt;guideline direction="v"&gt;-63&lt;/guideline&gt;&lt;guideline direction="v"&gt;-20&lt;/guideline&gt;&lt;guideline direction="v"&gt;-102&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="cost" width="53.85" height="29.65" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-64.1" ty="-17.9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>500</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="25" bitmapSize="500" face="AkzidenzGroteskBQ-Medium" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMStaticText width="91.35" height="17.8" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-64.1" ty="-31.9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Buy Weapon</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="AkzidenzGroteskBQ-Medium" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Game Items/Orb/Green_Gear" name="green" centerPoint3DX="0.05" centerPoint3DY="-0.25">
+                  <matrix>
+                    <Matrix a="1.75115966796875" d="1.75115966796875" tx="0.05" ty="-0.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="GUI/WeaponsUI/BlackGear" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.75115966796875" d="1.75115966796875" tx="-15.7" ty="-16"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9" y="9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements>
+                <DOMSymbolInstance libraryItemName="GUI/WeaponsUI/Buy" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-11.05" ty="-20.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.05" y="20.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="GUI/WeaponsUI/BuyHover" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-11.05" ty="-20.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.05" y="20.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,361 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/LoginScreen" itemID="4ebf1c06-0000030b" linkageExportForAS="true" linkageClassName="com.UI.LoginScreen" lastModified="1361071702" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="LoginScreen">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" name="login" labelType="name" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" name="newUser" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 9" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/LoginButton" name="login" symbolType="button">
+                  <matrix>
+                    <Matrix tx="325" ty="309.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="105.5" y="26"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/NewUserButtoon" name="newUser" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="558.5" ty="309.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="105.5" y="26"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText width="424.95" height="82.15" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="324" ty="123.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>     (Optional) Login</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> or </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Register</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> to participate in leaderboards and keep track of stats. </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/RegisterButton" name="register" symbolType="button">
+                  <matrix>
+                    <Matrix tx="558.1" ty="385.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="105.5" y="26"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Menus/BackToLogin2" name="back" symbolType="button">
+                  <matrix>
+                    <Matrix tx="327.75" ty="385.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="105.5" y="26"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText width="424.95" height="82.15" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="324" ty="123.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>     Register</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> an email and display name to participate in leaderboards and keep track of stats. </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" duration="2" name="infoButton" labelType="name" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="LeaderBoardInfoButton" name="infoButton" symbolType="button">
+                  <matrix>
+                    <Matrix a="1.17680358886719" d="1.17680358886719" tx="321.8" ty="118.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.8" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 10" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMStaticText width="310.4" height="54.1" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-25.95" ty="123.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Play</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#EDEDED"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>without &#xD;leaderboards</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="Menus/continueWithoutLeaderboardsButton" name="continueButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="74" ty="179"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="105.5" y="26"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="4.5">
+                        <fill>
+                          <SolidColor color="#333333"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!6120 1873|6120 7966"/>
+                    <Edge cubics="!6120 1873(6120,1873;6120,1873 6120,7966 6120,7966q6120 1873 6120 7966);"/>
+                  </edges>
+                </DOMShape>
+                <DOMInputText name="emailInput" width="440" height="26.05" includeOutlines="true">
+                  <matrix>
+                    <Matrix a="1.01126098632813" tx="325.5" ty="266.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="220" y="13"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>colin@reconinstruments.com</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMStaticText width="301" height="26.05" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="324" ty="237.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>EMAIL:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="4.5">
+                        <fill>
+                          <SolidColor color="#333333"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!6120 1884|6120 9935"/>
+                    <Edge cubics="!6120 1884(6120,1884;6120,1884 6120,9935 6120,9935q6120 1884 6120 9935);"/>
+                  </edges>
+                </DOMShape>
+                <DOMInputText name="emailInput" width="440" height="26.05" includeOutlines="true">
+                  <matrix>
+                    <Matrix tx="328" ty="266.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>colin@reconinstruments.com</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMStaticText width="301" height="26.05" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="324" ty="237.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>EMAIL:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMInputText name="nameInput" width="439" height="26.05" includeOutlines="true">
+                  <matrix>
+                    <Matrix tx="329" ty="339"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+                <DOMStaticText width="301" height="26.05" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="323.75" ty="307.15"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>NAME:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#333333"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!15393 5971|6381 5971!6381 5971|6381 5291!6381 5291|15393 5291!15393 5291|15393 5971"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#333333"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!15400 7371|6518 7371!6518 7371|6518 6691!6518 6691|15400 6691!15400 6691|15400 7371!15393 5971|6511 5971!6511 5971|6511 5291!6511 5291|15393 5291!15393 5291|15393 5971"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Menus/MenuTexture.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/CloseLeaderboardsButton2" itemID="4fad736e-00000508" symbolType="button" lastModified="1336767342">
+  <timeline>
+    <DOMTimeline name="CloseLeaderboardsButton2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#7F7F7F"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-1981 -877|1980 -877!1980 -877|1980 878!1980 878|-1981 878!-1981 878|-1981 -877"/>
+                    <Edge cubics="!1980 878(;1980,878 -1981,878 -1981,878q1980 878 -1981 878);"/>
+                    <Edge cubics="!1980 -877(;1980,-877 1980,878 1980,878q1980 -877 1980 878);"/>
+                    <Edge cubics="!-1981 878(;-1981,878 -1981,-877 -1981,-877q-1981 878 -1981 -877);"/>
+                    <Edge cubics="!-1981 -877(;-1981,-877 1980,-877 1980,-877q-1981 -877 1980 -877);"/>
+                  </edges>
+                </DOMShape>
+                <DOMStaticText width="156" height="23.7" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-23" ty="-34.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Close</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="20" face="TimesNewRomanPSMT" fillColor="#FF0000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

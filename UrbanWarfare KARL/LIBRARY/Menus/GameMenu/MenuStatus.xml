@@ -1,0 +1,144 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/GameMenu/MenuStatus" itemID="4e2cbe97-000002e1" linkageExportForAS="true" linkageClassName="com.UI.MenuStatus" lastModified="1360627942" lastUniqueIdentifier="22">
+  <timeline>
+    <DOMTimeline name="MenuStatus">
+      <layers>
+        <DOMLayer name="Layer 8" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/GameMenu/MenuTabbar" name="tabBar" centerPoint3DX="-526.2" centerPoint3DY="-47.1">
+                  <matrix>
+                    <Matrix tx="-644.65" ty="-65.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.45" y="18.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ChooseLoadoutButton" name="loadoutButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-49.5" ty="-49"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49.5" y="49"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/GameMenu/LoadOutDisplay" centerPoint3DX="-156.85" centerPoint3DY="-34.5">
+                  <matrix>
+                    <Matrix tx="-248.8" ty="-53"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="91.95" y="18.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/GameMenu/SelectWeaponGlow" centerPoint3DX="1.05" centerPoint3DY="-181.5">
+                  <matrix>
+                    <Matrix tx="-44.7" ty="-227.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="45.75" y="45.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/GameMenu/SelectWeaponGlow" centerPoint3DX="1.05" centerPoint3DY="-194.55">
+                  <matrix>
+                    <Matrix tx="-44.7" ty="-240.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="45.75" y="45.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!646 -652[912 -386 912 -10!912 -10[912 366 646 632!646 632[380 898 4 898!4 898[-372 898 -638 632!-638 632[-904 366 -904 -10!-904 -10[-904 -386 -638 -652!-638 -652[-372 -918 4 -918!4 -918[380 -918 646 -652"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="4" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ShineAnimation" name="shineAnimation" centerPoint3DX="-36.7" centerPoint3DY="-41.65">
+                  <matrix>
+                    <Matrix a="1.95721435546875" d="1.95721435546875" tx="-37.75" ty="-132.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.55" y="46.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/GameMenu/SelectLevel" name="playLevelButton" symbolType="button">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" name="choose" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" name="select" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

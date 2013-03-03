@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 13" itemID="511c69c4-0000115c" symbolType="graphic" lastModified="1360816580">
+  <timeline>
+    <DOMTimeline name="Symbol 13">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!40 0S5|0 60!0 60|35 105!35 105|60 95!60 95|75 80!75 80|40 0"/>
+                    <Edge cubics="!40 0(;40,0 0,60 0,60q40 0 0 60);"/>
+                    <Edge cubics="!0 60(;0,60 35,105 35,105q0 60 35 105);"/>
+                    <Edge cubics="!35 105(;35,105 60,95 60,95q35 105 60 95);"/>
+                    <Edge cubics="!60 95(;60,95 75,80 75,80q60 95 75 80);"/>
+                    <Edge cubics="!75 80(;75,80 40,0 40,0q75 80 40 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

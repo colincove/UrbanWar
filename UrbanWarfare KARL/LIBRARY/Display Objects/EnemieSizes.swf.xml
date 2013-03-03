@@ -1,0 +1,100 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/EnemieSizes.swf" itemID="4d07c999-000000ba" symbolType="graphic" lastModified="1292355993">
+  <timeline>
+    <DOMTimeline name="EnemieSizes.swf">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!1064 0|1064 1064!1064 1064|0 1064!0 1064|0 0!0 0|1064 0"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FF0000"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!1064 532[1058 758 908 908!908 908[758 1058 532 1064!532 1064[306 1058 156 908!156 908[6 758 0 532!0 532[6 306 156 156!156 156[306 6 532 0!532 0[758 6 908 156!908 156[1058 306 1064 532"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!2791 1728|1063 1728!1063 1728|1063 0!1063 0|2791 0!2791 0|2791 1728"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FF0000"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!2777 874S2[2768 1237 2527 1478!2527 1478[2286 1718 1923 1728!1923 1728[1560 1719 1319 1478!1319 1478[1078 1237 1069 874!1069 874[1078 511 1319 270!1319 270[1560 29 1923 20!1923 20[2286 29 2527 270!2527 270[2767 511 2777 874"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!5272 2481|2791 2481!2791 2481|2791 0!2791 0|5272 0!5272 0|5272 2481"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FF0000"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!5273 1250[5260 1773 4911 2120!4911 2120[4562 2467 4037 2480!4037 2480[3512 2467 3164 2120!3164 2120[2815 1773 2802 1250!2802 1250[2815 727 3164 380!3164 380[3512 33 4037 20!4037 20[4562 33 4911 380!4911 380[5260 727 5273 1250"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/CityLuminescence" itemID="4d260999-00000115" sourceFlashFilepath=".\UrbanWar\trunk\Side Shooter\Work Environment\Karl Builds\Build 1\Side Scoller.fla" sourceLibraryItemHRef="Display Objects/CityLuminescence" sourceLastModified="1292629046" lastModified="1292629046">
+  <timeline>
+    <DOMTimeline name="CityLuminescence">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Misc/Light" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="5.87548828125" d="0.6732177734375" tx="-1375.8" ty="-706.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="808.2" y="808.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

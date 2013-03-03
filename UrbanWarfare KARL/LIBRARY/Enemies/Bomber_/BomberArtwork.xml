@@ -1,0 +1,35 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Bomber_/BomberArtwork" itemID="4d260999-0000015d" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="BomberArtwork" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Enemies/Bomber_/BomberArtwork" sourceLastModified="1306206570" lastModified="1346361410">
+  <timeline>
+    <DOMTimeline name="BomberArtwork">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#0630FF" alpha="0.501960784313725"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#DA1010"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="2" edges="!728 47|1103 47!1103 47|1103 45!1103 45|1302.5 0!1302.5 0|2039 0!2039 0|1768.5 313!1768.5 313|1573 313!1573 313|1573 416!1573 416|1746 416!1746 416|1805 475!1805 475|1805 655!1805 655|1730 730!1730 730|1520 730!1520 730|1348 902!1348
+ 902|1089.5 902!1089.5 902|866 796!866 796|866 714!866 714|322 714!322 714|220 671.5!220 671.5|220 619!220 619|225 619!225 619|225 618!225 618|217.5 618!217.5 618|0 526.5!0 526.5|0 414!0 414[#FFFFFE.29 #199.67 25 360!25 360[#1B.6C #163.AD
+ 30 351!30 351|32 347!32 347[35 340 39 333!39 333|40 333"/>
+                    <Edge fillStyle1="1" edges="
+!40 333[43 326 47 319!47 319[95 231 212 142!212 142[328 54 531 47!531 47[629 47 728 47"/>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="
+!728 47|640 156!640 156|634 156!634 156|634 163!634 163|495 333!495 333|40 333"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

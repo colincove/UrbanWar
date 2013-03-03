@@ -1,0 +1,68 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/titleScreenUserContext" itemID="4f022e6b-00000e40" lastModified="1359862518">
+  <timeline>
+    <DOMTimeline name="titleScreenUserContext">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Menus/BackToLogin" name="logoutButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-107.25" ty="2.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="userNameDisplay" selected="true" width="228" height="26.05" includeOutlines="true">
+                  <matrix>
+                    <Matrix tx="-110.25" ty="-51.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>sdasdds</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMStaticText width="208" height="82.15" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-105.25" ty="-97.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Login</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> to view stats and your scores on the leaberboard. </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="Menus/LoginButton" name="loginButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-107.25" ty="2.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

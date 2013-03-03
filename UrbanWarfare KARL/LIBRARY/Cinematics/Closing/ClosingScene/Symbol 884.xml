@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Cinematics/Closing/ClosingScene/Symbol 884" itemID="50305eab-00000d92" symbolType="graphic" lastModified="1345347243">
+  <timeline>
+    <DOMTimeline name="Symbol 884">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF6600"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!210 -301|201 -295!201 -295|112 -183!112 -183|21 -125!21 -125|7 -108!7 -108|-61 -5!-61 -5[-81 35 -99 118!-99 118|-107 212!-107 212|-102 253!-102 253[-78 376 -42 370!-42 370[-16 364 -19 339!-19 339[-23 324 -39 302!-39 302[-57 275 -63 243
+!-63 243[-68 211 -63 174!-63 174[-60 144 -49 115!-49 115|-11 8!-11 8[24 -52 64 -89!64 -89[92 -112 141 -136!141 -136[162 -146 178 -160!178 -160|196 -175!196 -175[243 -200 246 -223!246 -223[250 -246 209 -262!209 -262[224 -284 210 -301"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

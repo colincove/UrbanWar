@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbols/Symbol 1982" itemID="50330481-00000717" symbolType="graphic" lastModified="1345520769">
+  <timeline>
+    <DOMTimeline name="Symbol 1982">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#D10000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1120 505|620 0!620 0|80 0!80 0|80 505!80 505|0 505!0 505|0 635!0 635|80 635!80 635|80 1235!80 1235|620 1235!620 1235|620 635!620 635|1120 635!1120 635|1120 505"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

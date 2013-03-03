@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LaserLight" itemID="5032d673-000006e7" lastModified="1345509102">
+  <timeline>
+    <DOMTimeline name="LaserLight">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.098541259765625" d="0.098541259765625" tx="55.05" ty="55.05"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" alpha="0" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!2227 -24[2693 442 2693 1101!2693 1101[2693 1761 2227 2227!2227 2227[1761 2693 1101 2693!1101 2693[442 2693 -24 2227!-24 2227[-490 1761 -490 1101!-490 1101[-490 442 -24 -24!-24 -24[442 -490 1101 -490!1101 -490[1761 -490 2227 -24"/>
+                    <Edge cubics="!2693 1101(;2693,1541 2538,1917 2227,2227q2693 1101Q2693 1761q2227 2227);"/>
+                    <Edge cubics="!2227 -24(;2538,286 2693,662 2693,1101q2227 -24Q2693 442q2693 1101);"/>
+                    <Edge cubics="!-24 -24(-24,-24;286,-335 662,-490 1101,-490q-24 -24Q442 -490q1101 -490);"/>
+                    <Edge cubics="!-24 2227(;-335,1917 -490,1541 -490,1101q-24 2227Q-490 1761q-490 1101);"/>
+                    <Edge cubics="!1101 2693(;662,2693 286,2538 -24,2227q1101 2693Q442 2693q-24 2227);"/>
+                    <Edge cubics="!-490 1101(;-490,662 -335,286 -24,-24q-490 1101Q-490 442q-24 -24);"/>
+                    <Edge cubics="!1101 -490(;1541,-490 1917,-335 2227,-24q1101 -490Q1761 -490q2227 -24)2227,-24;"/>
+                    <Edge cubics="!2227 2227(;1917,2538 1541,2693 1101,2693q2227 2227Q1761 2693q1101 2693);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

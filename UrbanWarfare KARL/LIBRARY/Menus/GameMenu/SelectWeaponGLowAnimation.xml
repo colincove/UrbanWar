@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/GameMenu/SelectWeaponGLowAnimation" itemID="4f91adae-00000551" lastModified="1334947246">
+  <timeline>
+    <DOMTimeline name="SelectWeaponGLowAnimation">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1563 267S2[1831 536 1831 915!1831 915[1831 1294 1563 1562!1563 1562[1295 1831 916 1831!916 1831[537 1831 268 1562!268 1562[0 1294 0 915!0 915[0 536 268 267!268 267[537 0 916 0!916 0[1295 0 1563 267"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

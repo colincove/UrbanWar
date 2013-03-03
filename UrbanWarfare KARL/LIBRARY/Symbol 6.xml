@@ -1,0 +1,39 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 6" itemID="511c69a3-00001140" symbolType="graphic" lastModified="1360816547">
+  <timeline>
+    <DOMTimeline name="Symbol 6">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!30 115S5|55 55!55 55|65 0!65 0|0 10!0 10|30 115"/>
+                    <Edge cubics="!55 55(;55,55 65,0 65,0q55 55 65 0);"/>
+                    <Edge cubics="!65 0(;65,0 0,10 0,10q65 0 0 10);"/>
+                    <Edge cubics="!0 10(;0,10 30,115 30,115q0 10 30 115);"/>
+                    <Edge cubics="!30 115(;30,115 55,55 55,55q30 115 55 55);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

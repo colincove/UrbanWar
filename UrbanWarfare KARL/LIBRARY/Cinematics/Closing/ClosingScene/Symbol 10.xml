@@ -1,0 +1,328 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Cinematics/Closing/ClosingScene/Symbol 10" itemID="4efe3cb0-0000062c" lastModified="1345348302" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="Symbol 10" currentFrame="666">
+      <layers>
+        <DOMLayer name="Layer 8" color="#FF4F4F" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="94" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="94" duration="51" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="145" duration="599" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="744" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 12" color="#FF4FFF" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="744" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Cinematics/Closing/ClosingScene/EndSceneForground.png">
+                  <matrix>
+                    <Matrix tx="-1175.15" ty="-299.35"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="744" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Cinematics/Closing/ClosingScene/EndSceneForground.png">
+                  <matrix>
+                    <Matrix tx="-1175.15" ty="-299.35"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 11" color="#FF800A" locked="true" visible="false">
+          <frames>
+            <DOMFrame index="0" duration="744" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Cinematics/Closing/ClosingScene/Tube.png">
+                  <matrix>
+                    <Matrix tx="203" ty="18"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="744" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Cinematics/Closing/ClosingScene/Tube.png">
+                  <matrix>
+                    <Matrix tx="203" ty="18"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="113" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="113" duration="32" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="145" duration="599" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/AlienAnimationContainer" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-60.2" ty="-25.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-14.05" y="12.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="744" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/AlienAnimationContainer" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-60.2" ty="-25.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-14.05" y="12.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Sydgfmbol 2" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="744" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Sydgfmbol 2" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="327.75" ty="193.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-29.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="744" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/Sydgfmbol 2" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="327.75" ty="193.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-29.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 10" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="744" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/AlienDeadAnimation" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.582000732421875" d="0.582000732421875" tx="296.2" ty="140.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49.5" y="33"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="744" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/AlienDeadAnimation" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.582000732421875" d="0.582000732421875" tx="296.2" ty="140.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49.5" y="33"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="744" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-1179.45" ty="-359.9"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.138916015625" c="-0.138916015625" d="0" tx="1180.25" ty="174.35"/>
+                        </matrix>
+                        <GradientEntry color="#060B23" alpha="0" ratio="0"/>
+                        <GradientEntry color="#060B23" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!47125 5763|86 5763!86 5763|86 1211!86 1211|47125 1211!47125 1211|47125 5763"/>
+                    <Edge cubics="!47125 5763(;47125,5763 86,5763 86,5763p47125 5763q86 5763);"/>
+                    <Edge cubics="!86 5763(;86,5763 86,1211 86,1211p86 5763q86 1211);"/>
+                    <Edge cubics="!86 1211(;86,1211 47125,1211 47125,1211p86 1211q47125 1211);"/>
+                    <Edge cubics="!47125 1211(;47125,1211 47125,5763 47125,5763p47125 1211q47125 5763);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="744" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-1179.45" ty="-359.9"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.138916015625" c="-0.138916015625" d="0" tx="1180.25" ty="174.35"/>
+                        </matrix>
+                        <GradientEntry color="#060B23" alpha="0" ratio="0"/>
+                        <GradientEntry color="#060B23" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!47125 5763|86 5763!86 5763|86 1211!86 1211|47125 1211!47125 1211|47125 5763"/>
+                    <Edge cubics="!47125 5763(;47125,5763 86,5763 86,5763p47125 5763q86 5763);"/>
+                    <Edge cubics="!86 5763(;86,5763 86,1211 86,1211p86 5763q86 1211);"/>
+                    <Edge cubics="!86 1211(;86,1211 47125,1211 47125,1211p86 1211q47125 1211);"/>
+                    <Edge cubics="!47125 1211(;47125,1211 47125,5763 47125,5763p47125 1211q47125 5763);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 9" color="#4FFF4F" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="744" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="744" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="70" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/BossRun copy" symbolType="graphic" firstFrame="59" loop="play once">
+                  <matrix>
+                    <Matrix a="1.67271423339844" d="1.67271423339844" tx="-1180.15" ty="181.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="70" duration="74" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/BossRun copy" symbolType="graphic" firstFrame="129" loop="play once">
+                  <matrix>
+                    <Matrix a="1.67266845703125" d="1.67266845703125" tx="-387.05" ty="181.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="144" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/BossRun copy" symbolType="graphic" firstFrame="203" loop="play once">
+                  <matrix>
+                    <Matrix a="1.67271423339844" d="1.67271423339844" tx="98.45" ty="180.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="145" duration="599" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="744" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="&lt;Path&gt;_1_0" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="744" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/flash0.ai_0/Isolation Mode/&lt;Path&gt;_1_0" blendMode="layer" centerPoint3DX="-305.75" centerPoint3DY="317.65">
+                  <matrix>
+                    <Matrix tx="-1160.25" ty="275.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="854.5" y="41.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.25"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="744" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Cinematics/Closing/ClosingScene/flash0.ai_0/Isolation Mode/&lt;Path&gt;_1_0" blendMode="layer" centerPoint3DX="-305.75" centerPoint3DY="317.65">
+                  <matrix>
+                    <Matrix tx="-1160.25" ty="275.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="854.5" y="41.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.25"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 13" color="#4FFFFF" locked="true" visible="false">
+          <frames>
+            <DOMFrame index="0" duration="744" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Cinematics/Closing/ClosingScene/EndSceneBackground.jpg">
+                  <matrix>
+                    <Matrix tx="-1175.15" ty="-299.35"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="744" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Cinematics/Closing/ClosingScene/EndSceneBackground.jpg">
+                  <matrix>
+                    <Matrix tx="-1175.15" ty="-299.35"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

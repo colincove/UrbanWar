@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/ScienceBuilding_/scienceBuilding copy" itemID="4f8f1f93-000007a0" linkageExportForAS="true" linkageBaseClass="com.displayObjects.scienceBuilding" linkageClassName="scienceBuildingcopy" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Display Objects/Buildings/ScienceBuilding_/scienceBuilding copy" sourceLastModified="1334964112" lastModified="1334964112" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="scienceBuilding copy">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/ScienceBuilding_/ScienceArtwork copy 2" centerPoint3DX="44" centerPoint3DY="122">
+                  <matrix>
+                    <Matrix tx="1" ty="79"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="43" y="43"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="GUI/HealthBar_/healthDefine" name="_205" centerPoint3DX="118.5" centerPoint3DY="14.6">
+                  <matrix>
+                    <Matrix tx="112.9" ty="9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

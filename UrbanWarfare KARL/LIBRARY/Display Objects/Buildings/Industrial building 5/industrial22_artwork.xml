@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/Industrial building 5/industrial22_artwork" itemID="4dd9dc81-00000357" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="industrial22_artwork" lastModified="1306178114">
+  <timeline>
+    <DOMTimeline name="industrial22_artwork">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F38827"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!283 -1417|2095 -1417!2095 -1417|2095 1514!2095 1514|-3985 1514!-3985 1514|-3985 726!-3985 726|-4206 726!-4206 726|-4206 -577!-4206 -577|-3985 -577!-3985 -577|-3985 -1417!-3985 -1417|-532 -1417!-532 -1417|-532 -1528!-532 -1528|283 -1528
+!283 -1528|283 -1417!3323 547|2793 547!2793 547|2793 727!2793 727|2240 727!2240 727|2240 48!2240 48|2793 48!2793 48|2793 185!2793 185|3650 185!3650 185[4072 218 4112 568!4112 568|4112 1314!4112 1314|4207 1314!4207 1314|4207 1528!4207
+ 1528|3601 1528!3601 1528|3601 1314!3601 1314|3675 1314!3675 1314|3675 841!3675 841[3645 572 3323 547"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

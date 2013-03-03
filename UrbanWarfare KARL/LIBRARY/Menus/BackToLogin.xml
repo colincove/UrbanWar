@@ -1,0 +1,73 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/BackToLogin" itemID="4f00fcbb-00000328" symbolType="button" lastModified="1346276645">
+  <timeline>
+    <DOMTimeline name="BackToLogin">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMStaticText width="198.05" height="49.4" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="4.95" ty="19.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Logout&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="20" face="Akzidenz-Grotesk_BQ*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="133" height="24.4" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="94" ty="5.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>OK</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="20" face="Impact" fillColor="#F38827"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMBitmapInstance libraryItemName="GUI/PromptButtonNormal.png">
+                  <matrix>
+                    <Matrix tx="-5.75" ty="-2.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="GUI/PromptButtonHovered.png">
+                  <matrix>
+                    <Matrix tx="-5.75" ty="-2.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="GUI/PromptButtonPressed.png">
+                  <matrix>
+                    <Matrix tx="-5.75" ty="-2.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,71 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Person_/person" itemID="4cd9e01e-00000052" linkageExportForAS="true" linkageClassName="com.worldObjects.Civilian" lastModified="1292640628" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="person">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" name="running" labelType="name" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/Person_/personRunning" centerPoint3DX="1" centerPoint3DY="-15.5">
+                  <matrix>
+                    <Matrix tx="-4" ty="-31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="GUI/HealthBar_/healthDefine" name="_5" centerPoint3DX="1.2" centerPoint3DY="-50.4">
+                  <matrix>
+                    <Matrix tx="-4.4" ty="-56"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" name="dead" labelType="name" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#972923"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!262 -443[261 -437 256 -436!256 -436[#A3.EB -408.375 79.5 -438.5!79.5 -438.5[#47.F5 -435.59375 62 -439!62 -439|62 -438!62 -438[#3A.DE #FFFE48.D1 55.5 -440.5!55.5 -440.5[#4D.03 #FFFEB7.E9 74.5 -207.5!74.5 -207.5[#9B.D3 #FFFF7B.8A 209 -33
+!209 -33[209 -32 208 -31!208 -31[146 -77 84 -154!84 -154[#3C.AB #FFFF49.AB 68 -202.5!68 -202.5[#43.B2 #FFFF34.D5 67.5 -204!67.5 -204[#29.DC -129.125 -47 -61!-47 -61[-156 21 -270 54!-270 54[-90 -47 62 -202!62 -202[#40.6A #FFFF33.96 67
+ -205.5!67 -205.5[#25.BA #FFFEC3.75 49 -443!49 -443[#FFFFEC.45 #FFFE2A.01 -101 -512!-101 -512[-183 -555 -200 -602!-200 -602[-98.390625 #FFFDD8.12 -5 -488!-5 -488[#FFFFC6.6B #FFFDD9.73 -4 -642!-4 -642[#CA.B4 #FFFD9B.64 94.5 -453.5!94.5
+ -453.5[#B0.2F -452.4375 257 -449!257 -449[262 -449 262 -443!106 -491[144 -590 41 -616!41 -616[-56 -566 33 -482!33 -482[83 -434 106 -491"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#010101" alpha="0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!395 -815|395 120!395 120|-365 120!-365 120|-365 -815!-365 -815|395 -815"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

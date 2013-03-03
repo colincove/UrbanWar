@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/House2Folder/House2" itemID="4d6d5db4-00000240" linkageExportForAS="true" linkageBaseClass="com.displayObjects.house" linkageClassName="House2" lastModified="1304024089" lastUniqueIdentifier="10">
+  <timeline>
+    <DOMTimeline name="House2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Display Objects/Buildings/House2Folder/House2Artwork">
+                  <matrix>
+                    <Matrix a="1.79081726074219" d="1.79081726074219" tx="-30.95" ty="-28.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.15" y="36.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="GUI/HealthBar_/healthDefine" name="_75" centerPoint3DX="103.75" centerPoint3DY="-23.15">
+                  <matrix>
+                    <Matrix tx="98.15" ty="-28.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="5.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

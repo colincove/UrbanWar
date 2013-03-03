@@ -1,0 +1,84 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ShineAnimation" itemID="4fb6b8b8-00001eab" lastModified="1337374991">
+  <timeline>
+    <DOMTimeline name="ShineAnimation" currentFrame="24">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="7" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.333333333333333"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tweens/Tween 22" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.220977783203125" b="-0.220962524414063" c="-0.70709228515625" d="0.707107543945313" tx="0.6" ty="46.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" duration="7" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017" acceleration="-100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.666666666666667"/>
+                  <Point x="0.666666666666667" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tweens/Tween 22" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1.62164306640625" b="-1.61637878417969" c="-0.70477294921875" d="0.707077026367188" tx="21.75" ty="67.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion" motionTweenSnap="true" hasCustomEase="true" keyMode="22017" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.333333333333333"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tweens/Tween 22" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.220977783203125" b="-0.220962524414063" c="-0.70709228515625" d="0.707107543945313" tx="42.85" ty="88.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tweens/Tween 22" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.220977783203125" b="-0.220962524414063" c="-0.70709228515625" d="0.707107543945313" tx="42.85" ty="88.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
