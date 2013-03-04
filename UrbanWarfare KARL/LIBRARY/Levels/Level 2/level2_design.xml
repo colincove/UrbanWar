@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level 2/level2_design" itemID="4dae3d3b-0000013f" lastModified="1342210087" lastUniqueIdentifier="13">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level 2/level2_design" itemID="4dae3d3b-0000013f" lastModified="1362351202" lastUniqueIdentifier="14">
   <timeline>
     <DOMTimeline name="level2_design">
       <layers>
@@ -9,11 +9,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Hero_Container" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Hero_Container" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Levels/Level 2/level2_hero_container" name="hero_container" selected="true" centerPoint3DX="-458.3" centerPoint3DY="-456.85">
+                <DOMSymbolInstance libraryItemName="Levels/Level 2/level2_hero_container" name="hero_container" centerPoint3DX="-458.3" centerPoint3DY="-456.85">
                   <matrix>
                     <Matrix tx="-472.65" ty="-477.9"/>
                   </matrix>
@@ -41,13 +41,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="enemy_Container" color="#9933CC" autoNamed="false">
+        <DOMLayer name="enemy_Container" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Levels/Level 2/level2_ground_enemy_container" name="ground_enemy_container" centerPoint3DX="1049.7" centerPoint3DY="3.2">
+                <DOMSymbolInstance libraryItemName="Levels/Level 2/level2_ground_enemy_container" name="ground_enemy_container" selected="true" centerPoint3DX="1324.7" centerPoint3DY="3.2">
                   <matrix>
-                    <Matrix tx="-472.65" ty="-477.9"/>
+                    <Matrix tx="-197.65" ty="-477.9"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="1522.35" y="481.1"/>

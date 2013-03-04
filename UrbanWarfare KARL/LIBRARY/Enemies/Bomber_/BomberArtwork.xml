@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Bomber_/BomberArtwork" itemID="4d260999-0000015d" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="BomberArtwork" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Enemies/Bomber_/BomberArtwork" sourceLastModified="1306206570" lastModified="1346361410">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Bomber_/BomberArtwork" itemID="4d260999-0000015d" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="BomberArtwork" sourceFlashFilepath="../../Work Environment/CurrentBuild v 0_9_26/UrbanWarfar.fla" sourceLibraryItemHRef="Enemies/Bomber_/BomberArtwork" sourceLastModified="1306206570" lastModified="1346361410" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="BomberArtwork">
       <layers>

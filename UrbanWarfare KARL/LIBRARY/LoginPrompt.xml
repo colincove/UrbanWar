@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="424.95" height="54.1" includeOutlines="true" isSelectable="false">
+                <DOMStaticText selected="true" width="424.95" height="51.1" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="2"/>
                   </matrix>

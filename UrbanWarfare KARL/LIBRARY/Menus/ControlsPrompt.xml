@@ -59,7 +59,7 @@
                             </DOMShape>
                           </members>
                         </DOMGroup>
-                        <DOMStaticText selected="true" width="50.1" height="46.2" includeOutlines="true" isSelectable="false">
+                        <DOMStaticText selected="true" width="50.1" height="43.55" includeOutlines="true" isSelectable="false">
                           <matrix>
                             <Matrix a="0.489181518554688" d="0.489181518554688" tx="173" ty="235.85"/>
                           </matrix>
@@ -126,7 +126,7 @@
                             </DOMShape>
                           </members>
                         </DOMGroup>
-                        <DOMStaticText width="50.1" height="46.2" includeOutlines="true" isSelectable="false">
+                        <DOMStaticText width="50.1" height="43.55" includeOutlines="true" isSelectable="false">
                           <matrix>
                             <Matrix a="0.489181518554688" d="0.489181518554688" tx="175.95" ty="282.85"/>
                           </matrix>
@@ -193,7 +193,7 @@
                             </DOMShape>
                           </members>
                         </DOMGroup>
-                        <DOMStaticText width="50.1" height="46.2" includeOutlines="true" isSelectable="false">
+                        <DOMStaticText width="50.1" height="43.55" includeOutlines="true" isSelectable="false">
                           <matrix>
                             <Matrix a="0.489181518554688" d="0.489181518554688" tx="222.45" ty="283.35"/>
                           </matrix>
@@ -260,7 +260,7 @@
                             </DOMShape>
                           </members>
                         </DOMGroup>
-                        <DOMStaticText width="50.1" height="46.2" includeOutlines="true" isSelectable="false">
+                        <DOMStaticText width="50.1" height="43.55" includeOutlines="true" isSelectable="false">
                           <matrix>
                             <Matrix a="0.489181518554688" d="0.489181518554688" tx="128.45" ty="282.85"/>
                           </matrix>
@@ -331,7 +331,7 @@
                             </DOMShape>
                           </members>
                         </DOMGroup>
-                        <DOMStaticText selected="true" width="23.35" height="46.2" includeOutlines="true" isSelectable="false">
+                        <DOMStaticText selected="true" width="23.35" height="43.55" includeOutlines="true" isSelectable="false">
                           <matrix>
                             <Matrix a="0.489181518554688" d="0.489181518554688" tx="436.3" ty="232.8"/>
                           </matrix>
@@ -398,7 +398,7 @@
                             </DOMShape>
                           </members>
                         </DOMGroup>
-                        <DOMStaticText width="23.35" height="46.2" includeOutlines="true" isSelectable="false">
+                        <DOMStaticText width="23.35" height="43.55" includeOutlines="true" isSelectable="false">
                           <matrix>
                             <Matrix a="0.489181518554688" d="0.489181518554688" tx="471.2" ty="233.3"/>
                           </matrix>
@@ -465,7 +465,7 @@
                             </DOMShape>
                           </members>
                         </DOMGroup>
-                        <DOMStaticText width="23.35" height="46.2" includeOutlines="true" isSelectable="false">
+                        <DOMStaticText width="23.35" height="43.55" includeOutlines="true" isSelectable="false">
                           <matrix>
                             <Matrix a="0.489181518554688" d="0.489181518554688" tx="504.7" ty="232.95"/>
                           </matrix>
@@ -536,7 +536,7 @@
                             </DOMShape>
                           </members>
                         </DOMGroup>
-                        <DOMStaticText width="35.35" height="46.2" includeOutlines="true" isSelectable="false">
+                        <DOMStaticText width="35.35" height="43.55" includeOutlines="true" isSelectable="false">
                           <matrix>
                             <Matrix a="0.489181518554688" d="0.489181518554688" tx="434.35" ty="312.4"/>
                           </matrix>
@@ -603,7 +603,7 @@
                             </DOMShape>
                           </members>
                         </DOMGroup>
-                        <DOMStaticText width="30" height="46.2" includeOutlines="true" isSelectable="false">
+                        <DOMStaticText width="30" height="43.55" includeOutlines="true" isSelectable="false">
                           <matrix>
                             <Matrix a="0.489181518554688" d="0.489181518554688" tx="473.35" ty="312.85"/>
                           </matrix>
@@ -682,7 +682,7 @@
                             </DOMShape>
                           </members>
                         </DOMGroup>
-                        <DOMStaticText selected="true" width="35.35" height="46.2" includeOutlines="true" isSelectable="false">
+                        <DOMStaticText selected="true" width="35.35" height="43.55" includeOutlines="true" isSelectable="false">
                           <matrix>
                             <Matrix a="0.489181518554688" d="0.489181518554688" tx="434.35" ty="384.4"/>
                           </matrix>
@@ -714,7 +714,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText width="310.4" height="194.35" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="310.4" height="183.85" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="427.95" ty="168"/>
                   </matrix>
@@ -727,7 +727,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="310.4" height="194.35" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="310.4" height="183.85" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="427.95" ty="271.95"/>
                   </matrix>
@@ -740,7 +740,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="310.4" height="194.35" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="310.4" height="183.85" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="472.2" ty="385.15"/>
                   </matrix>
@@ -791,7 +791,7 @@
                     <Point x="107.95" y="31"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMStaticText width="310.4" height="194.35" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="310.4" height="183.85" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="106.85" ty="168"/>
                   </matrix>

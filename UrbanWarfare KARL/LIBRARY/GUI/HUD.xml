@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/HUD" itemID="4cb78691-000000dd" linkageExportForAS="true" linkageBaseClass="com.camera.Cam" linkageClassName="HUD" sourceFlashFilepath=".\CurrentBuild\UrbanWarfare.fla" sourceLibraryItemHRef="GUI/HUD" sourceLastModified="1331928826" lastModified="1361072846" lastUniqueIdentifier="27">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/HUD" itemID="4cb78691-000000dd" linkageExportForAS="true" linkageBaseClass="com.camera.Cam" linkageClassName="HUD" sourceFlashFilepath="./CurrentBuild/UrbanWarfare.fla" sourceLibraryItemHRef="GUI/HUD" sourceLastModified="1331928826" lastModified="1361072846" lastUniqueIdentifier="27" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="HUD">
       <layers>
@@ -47,7 +47,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="!8000 -6000|8000 6000!8000 6000|-8000 6000!-8000 6000|-8000 -6000!-8000 -6000|8000 -6000"/>
+                    <Edge strokeStyle="1" edges="!8000 6000|-8000 6000!-8000 6000|-8000 -6000!-8000 -6000|8000 -6000!8000 -6000|8000 6000"/>
                     <Edge cubics="!8000 -6000(;8000,-6000 8000,-600 8000,-600q8000 -6000 8000 -600);"/>
                     <Edge cubics="!8000 -600(;8000,-600 8000,6000 8000,6000q8000 -600 8000 6000);"/>
                     <Edge cubics="!8000 6000(8000,6000;8000,6000 -8000,6000 -8000,6000q8000 6000 -8000 6000)-8000,6000;"/>
@@ -111,7 +111,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!9020 7099|-9219 7099!-9219 7099|-9219 -6980!-9219 -6980|9020 -6980!9020 -6980|9020 7099"/>
+                    <Edge fillStyle1="1" edges="!9020 -6980|9020 7099!9020 7099|-9219 7099!-9219 7099|-9219 -6980!-9219 -6980|9020 -6980"/>
                   </edges>
                 </DOMShape>
               </elements>

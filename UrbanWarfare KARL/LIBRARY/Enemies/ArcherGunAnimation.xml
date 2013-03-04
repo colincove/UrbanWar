@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/ArcherGunAnimation" itemID="4d1e224f-00000108" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Enemies/ArcherGunAnimation" sourceLastModified="1293820586" lastModified="1346361207">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/ArcherGunAnimation" itemID="4d1e224f-00000108" sourceFlashFilepath="../../Work Environment/CurrentBuild v 0_9_26/UrbanWarfar.fla" sourceLibraryItemHRef="Enemies/ArcherGunAnimation" sourceLastModified="1293820586" lastModified="1346361207" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="ArcherGunAnimation" currentFrame="10">
       <layers>

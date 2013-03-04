@@ -16,7 +16,7 @@
 		public override function die():void
 		{
 			var weaponDropChance:int = int(Math.random() * 10);
-			weaponDropChance=2;
+			//weaponDropChance=2;
 			if (weaponDropChance==2)
 			{
 			var possibleList:Array = new Array();

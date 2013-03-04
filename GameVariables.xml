@@ -27,7 +27,7 @@
     <level stage = '1' screenSpeed='1'>
 	<GradeScale>
 			<A>25000</A>
-			<B>25000</B>
+			<B>23000</B>
 			<C>22500</C>
 			<D>20000</D>
 			<F>12500</F>
@@ -35,9 +35,9 @@
 	</level>
     <level stage = '2'screenSpeed='1'>
 	<GradeScale>
-			<A>55000</A>
-			<B>55000</B>
-			<C>50000</C>
+			<A>45000</A>
+			<B>42500</B>
+			<C>40000</C>
 			<D>42000</D>
 			<F>25500</F>
 		</GradeScale>
@@ -45,10 +45,10 @@
 	
     <level stage = '3'screenSpeed='1'>
 	<GradeScale>
-			<A>1000</A>
-			<B>600</B>
-			<C>400</C>
-			<D>200</D>
+			<A>58000</A>
+			<B>56000</B>
+			<C>52000</C>
+			<D>50000</D>
 			<F>100</F>
 		</GradeScale>
 	</level>
@@ -149,10 +149,10 @@
       <Upgrade id='2'cost='400'damage = '5' heatUp='110' coolDown='24' fireDelay='2' pointWorth="15" stager='2'></Upgrade>
 	<Upgrade id='3'cost='400'damage = '5' heatUp='100' coolDown='25' fireDelay='1' pointWorth="15" stager='1'></Upgrade>
 	-->
-      <Upgrade id='0' cost='300'damage = '5' heatUp='30' coolDown='5' fireDelay='3' pointWorth="15" stager='5'></Upgrade>
-      <Upgrade id='1'cost='300'damage = '5' heatUp='50' coolDown='23' fireDelay='2' pointWorth="15" stager='3'></Upgrade>
-      <Upgrade id='2'cost='400'damage = '5' heatUp='75' coolDown='24' fireDelay='2' pointWorth="15" stager='2'></Upgrade>
-	<Upgrade id='3'cost='400'damage = '5' heatUp='100' coolDown='25' fireDelay='1' pointWorth="15" stager='1'></Upgrade>
+      <Upgrade id='0' cost='300'damage = '4' heatUp='30' coolDown='5' fireDelay='3' pointWorth="15" stager='5'></Upgrade>
+      <Upgrade id='1'cost='300'damage = '4' heatUp='30' coolDown='5' fireDelay='2' pointWorth="15" stager='3'></Upgrade>
+      <Upgrade id='2'cost='400'damage = '4' heatUp='30' coolDown='5' fireDelay='2' pointWorth="15" stager='2'></Upgrade>
+	<Upgrade id='3'cost='400'damage = '4' heatUp='30' coolDown='5' fireDelay='1' pointWorth="15" stager='1'></Upgrade>
     </Weapon>
 
     <Weapon name='MissileLauncher' upgrade='0' >
@@ -192,10 +192,10 @@
     </Weapon> <!--IS BROKED RIGHT NOW-->
 
 	   <Weapon  name='TheVine' upgrade='0'  >
-      <Upgrade id='0' cost='350'damage = '3' heatUp='200' coolDown='10' fireDelay='4' pointWorth="5"></Upgrade>
-      <Upgrade id='1'cost='300'damage = '3' heatUp='200' coolDown='10' fireDelay='4' pointWorth="5"></Upgrade>
-      <Upgrade id='2'cost='400'damage = '4' heatUp='180' coolDown='10' fireDelay='2' pointWorth="10"></Upgrade>
-	  <Upgrade id='3'cost='500'damage = '5' heatUp='180' coolDown='10' fireDelay='2' pointWorth="10"></Upgrade>
+      <Upgrade id='0' cost='350'damage = '1' heatUp='220' coolDown='10' fireDelay='4' pointWorth="1"></Upgrade>
+      <Upgrade id='1'cost='300'damage = '1' heatUp='200' coolDown='10' fireDelay='4' pointWorth="1"></Upgrade>
+      <Upgrade id='2'cost='400'damage = '1' heatUp='180' coolDown='10' fireDelay='4' pointWorth="1"></Upgrade>
+	  <Upgrade id='3'cost='500'damage = '1' heatUp='150' coolDown='10' fireDelay='4' pointWorth="1"></Upgrade>
     </Weapon>
 	    
 	   <Weapon  name='GausseCannon' upgrade='0' >

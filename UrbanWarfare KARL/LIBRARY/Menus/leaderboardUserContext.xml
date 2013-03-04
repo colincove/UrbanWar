@@ -47,7 +47,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMStaticText width="301.1" height="54.1" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="301.1" height="51.1" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-87.15" ty="-42.05"/>
                   </matrix>

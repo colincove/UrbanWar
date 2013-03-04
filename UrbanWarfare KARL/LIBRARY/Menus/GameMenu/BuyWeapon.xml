@@ -19,7 +19,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMStaticText width="91.35" height="17.8" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="91.35" height="16.8" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-64.1" ty="-31.9"/>
                   </matrix>

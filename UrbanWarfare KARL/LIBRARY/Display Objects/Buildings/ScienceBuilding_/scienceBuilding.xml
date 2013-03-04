@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/ScienceBuilding_/scienceBuilding" itemID="4d260999-00000139" linkageExportForAS="true" linkageClassName="com.displayObjects.scienceBuilding" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Display Objects/Buildings/ScienceBuilding_/scienceBuilding" sourceLastModified="1291931617" lastModified="1345505794" lastUniqueIdentifier="15">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/ScienceBuilding_/scienceBuilding" itemID="4d260999-00000139" linkageExportForAS="true" linkageClassName="com.displayObjects.scienceBuilding" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Display Objects/Buildings/ScienceBuilding_/scienceBuilding" sourceLastModified="1291931617" lastModified="1345505794" lastUniqueIdentifier="15" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="scienceBuilding">
       <layers>

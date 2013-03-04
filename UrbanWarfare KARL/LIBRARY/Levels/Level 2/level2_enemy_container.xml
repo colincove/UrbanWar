@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level 2/level2_enemy_container" itemID="4dae3d3f-00000140" lastModified="1347996093" lastUniqueIdentifier="153">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level 2/level2_enemy_container" itemID="4dae3d3f-00000140" lastModified="1362354719" lastUniqueIdentifier="155">
   <timeline>
     <DOMTimeline name="level2_enemy_container">
       <layers>
@@ -17,22 +17,6 @@
                   </matrix>
                   <transformationPoint>
                     <Point x="5.6" y="11.15"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="4959.2" centerPoint3DY="763.25">
-                  <matrix>
-                    <Matrix tx="4962.5" ty="801.65"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="-3.3" y="-38.4"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="5336.25" centerPoint3DY="764.25">
-                  <matrix>
-                    <Matrix tx="5339.55" ty="802.65"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="-3.3" y="-38.4"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Enemies/Bomber_/BomberReverse" centerPoint3DX="5039.6" centerPoint3DY="393.15">
@@ -273,6 +257,22 @@
                   </matrix>
                   <transformationPoint>
                     <Point x="-122.85" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/DroidFolder/droid" centerPoint3DX="5299.15" centerPoint3DY="776.95">
+                  <matrix>
+                    <Matrix tx="5301.45" ty="803.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.4" y="-5.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/DroidFolder/droid" centerPoint3DX="4932.2" centerPoint3DY="776.95">
+                  <matrix>
+                    <Matrix tx="4934.5" ty="803.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.4" y="-5.7"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

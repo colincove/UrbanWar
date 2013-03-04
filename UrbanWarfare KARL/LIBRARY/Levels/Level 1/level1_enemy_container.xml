@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level 1/level1_enemy_container" itemID="4dae3d6e-0000014c" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Levels/Level 2/level2_enemy_container" sourceLastModified="1297202278" lastModified="1347995807" lastUniqueIdentifier="163">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level 1/level1_enemy_container" itemID="4dae3d6e-0000014c" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Levels/Level 2/level2_enemy_container" sourceLastModified="1297202278" lastModified="1347995807" lastUniqueIdentifier="163" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="level1_enemy_container">
       <layers>

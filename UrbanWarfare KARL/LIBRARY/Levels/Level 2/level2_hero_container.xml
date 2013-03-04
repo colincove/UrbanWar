@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level 2/level2_hero_container" itemID="4dae3d4d-00000144" lastModified="1360647565" lastUniqueIdentifier="8">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level 2/level2_hero_container" itemID="4dae3d4d-00000144" lastModified="1362351225" lastUniqueIdentifier="8">
   <timeline>
     <DOMTimeline name="level2_hero_container">
       <layers>
@@ -11,9 +11,9 @@
                     <Point x="1486.4" y="481.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Levels/HeroSpawn" centerPoint3DX="7401.5" centerPoint3DY="518.35">
+                <DOMSymbolInstance libraryItemName="Levels/HeroSpawn" centerPoint3DX="927.75" centerPoint3DY="760.75">
                   <matrix>
-                    <Matrix tx="7402.5" ty="560.05"/>
+                    <Matrix tx="928.75" ty="802.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="-1" y="-41.7"/>

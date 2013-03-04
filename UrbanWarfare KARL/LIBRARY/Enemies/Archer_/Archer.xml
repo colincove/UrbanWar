@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Archer_/Archer" itemID="4d1d371d-0000010f" linkageExportForAS="true" linkageClassName="com.enemies.Archer" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="Enemies/Archer_/Archer" sourceLastModified="1330728937" lastModified="1330728937" lastUniqueIdentifier="4">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Archer_/Archer" itemID="4d1d371d-0000010f" linkageExportForAS="true" linkageClassName="com.enemies.Archer" sourceFlashFilepath="../../Work Environment/CurrentBuild v 0_9_26/UrbanWarfar.fla" sourceLibraryItemHRef="Enemies/Archer_/Archer" sourceLastModified="1330728937" lastModified="1330728937" lastUniqueIdentifier="4" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="Archer">
       <layers>

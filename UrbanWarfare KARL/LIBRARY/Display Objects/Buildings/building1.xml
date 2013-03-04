@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/building1" itemID="4d260999-0000013f" linkageExportForAS="true" linkageClassName="com.displayObjects.BuildingBase" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Display Objects/Buildings/House_/building1" sourceLastModified="1297201672" lastModified="1336694211" lastUniqueIdentifier="18">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/building1" itemID="4d260999-0000013f" linkageExportForAS="true" linkageClassName="com.displayObjects.BuildingBase" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Display Objects/Buildings/House_/building1" sourceLastModified="1297201672" lastModified="1336694211" lastUniqueIdentifier="18" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="building1">
       <layers>

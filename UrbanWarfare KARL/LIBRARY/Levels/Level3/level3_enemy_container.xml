@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level3/level3_enemy_container" itemID="4daf2080-000008dc" lastModified="1345323032" lastUniqueIdentifier="43">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Levels/Level3/level3_enemy_container" itemID="4daf2080-000008dc" lastModified="1362354620" lastUniqueIdentifier="50">
   <timeline>
     <DOMTimeline name="level3_enemy_container">
       <layers>
@@ -131,9 +131,9 @@
                     <Point x="-16.3" y="-22.8"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Enemies/SpinBot_/SpinBot" centerPoint3DX="5041.15" centerPoint3DY="356.8">
+                <DOMSymbolInstance libraryItemName="Enemies/SpinBot_/SpinBot" centerPoint3DX="4895.15" centerPoint3DY="417.2">
                   <matrix>
-                    <Matrix tx="5040.9" ty="356.55"/>
+                    <Matrix tx="4894.9" ty="416.95"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="0.25" y="0.25"/>
@@ -179,17 +179,17 @@
                     <Point x="0.25" y="0.25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Enemies/Bomber_/BomberReverse" centerPoint3DX="6575.05" centerPoint3DY="538.95">
+                <DOMSymbolInstance libraryItemName="Enemies/Bomber_/BomberReverse" centerPoint3DX="6305.05" centerPoint3DY="538.95">
                   <matrix>
-                    <Matrix tx="6148.25" ty="530.1"/>
+                    <Matrix tx="5878.25" ty="530.1"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="544.8" y="8.85"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Enemies/Bomber_/BomberReverse" centerPoint3DX="6525.05" centerPoint3DY="474.95">
+                <DOMSymbolInstance libraryItemName="Enemies/Bomber_/BomberReverse" centerPoint3DX="6255.05" centerPoint3DY="474.95">
                   <matrix>
-                    <Matrix tx="6098.25" ty="466.1"/>
+                    <Matrix tx="5828.25" ty="466.1"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="544.8" y="8.85"/>
@@ -211,14 +211,6 @@
                     <Point x="106" y="79.8"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Enemies/DroidFolder/droid" name="droid1" centerPoint3DX="1855.7" centerPoint3DY="883.45">
-                  <matrix>
-                    <Matrix tx="1749.7" ty="803.65"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="106" y="79.8"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Enemies/DroidFolder/droid" name="droid1" centerPoint3DX="1678.7" centerPoint3DY="882.45">
                   <matrix>
                     <Matrix tx="1572.7" ty="802.65"/>
@@ -235,14 +227,6 @@
                     <Point x="106" y="79.8"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Enemies/DroidFolder/droid" name="droid1" centerPoint3DX="3807.55" centerPoint3DY="882.45">
-                  <matrix>
-                    <Matrix tx="3701.55" ty="802.65"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="106" y="79.8"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Enemies/DroidFolder/droid" name="droid1" centerPoint3DX="3912.55" centerPoint3DY="883.45">
                   <matrix>
                     <Matrix tx="3806.55" ty="803.65"/>
@@ -251,9 +235,9 @@
                     <Point x="106" y="79.8"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="4689.2" centerPoint3DY="660.55">
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="4714.2" centerPoint3DY="660.55">
                   <matrix>
-                    <Matrix tx="4705.5" ty="683.35"/>
+                    <Matrix tx="4730.5" ty="683.35"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="-16.3" y="-38.4"/>
@@ -289,6 +273,62 @@
                   </matrix>
                   <transformationPoint>
                     <Point x="106" y="79.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="1750.4" centerPoint3DY="779.9">
+                  <matrix>
+                    <Matrix tx="1766.7" ty="802.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16.3" y="-38.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="3701.25" centerPoint3DY="779.9">
+                  <matrix>
+                    <Matrix tx="3717.55" ty="802.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16.3" y="-38.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Tank_/Tank" centerPoint3DX="4593.2" centerPoint3DY="660.55">
+                  <matrix>
+                    <Matrix tx="4609.5" ty="683.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16.3" y="-38.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Bomber_/BomberReverse" centerPoint3DX="4306.2" centerPoint3DY="486.1">
+                  <matrix>
+                    <Matrix tx="3879.4" ty="477.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="544.8" y="8.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/Bomber_/BomberReverse" centerPoint3DX="4256.2" centerPoint3DY="363.1">
+                  <matrix>
+                    <Matrix tx="3829.4" ty="354.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="544.8" y="8.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/SpinBot_/SpinBot" centerPoint3DX="2536.35" centerPoint3DY="572.7">
+                  <matrix>
+                    <Matrix tx="2536.1" ty="572.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.25" y="0.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Enemies/SpinBot_/SpinBot" centerPoint3DX="4638.1" centerPoint3DY="398.6">
+                  <matrix>
+                    <Matrix tx="4637.85" ty="398.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.25" y="0.25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

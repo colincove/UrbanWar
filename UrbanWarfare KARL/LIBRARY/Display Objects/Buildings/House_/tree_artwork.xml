@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/House_/tree_artwork" itemID="4d260999-00000148" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="tree_artwork" sourceFlashFilepath="..\..\Karl Edits\Work Environment\Current Build\Side Scroller.fla" sourceLibraryItemHRef="Display Objects/Buildings/House_/tree_artwork" sourceLastModified="1292714609" lastModified="1304023802">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/House_/tree_artwork" itemID="4d260999-00000148" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="tree_artwork" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Display Objects/Buildings/House_/tree_artwork" sourceLastModified="1292714609" lastModified="1304023802" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="tree_artwork">
       <layers>
@@ -260,7 +260,7 @@
                   </fills>
                   <edges>
                     <Edge fillStyle1="1" edges="
-!594 -54|594 1646!594 1646|-511 1646!-511 1646|-511 -54!-511 -54|594 -54"/>
+!594 1646|-511 1646!-511 1646|-511 -54!-511 -54|594 -54!594 -54|594 1646"/>
                     <Edge cubics="!-511 -54(-511,-54;-511,-54 594,-54 594,-54q-511 -54 594 -54);"/>
                     <Edge cubics="!594 1646(;594,1646 -511,1646 -511,1646q594 1646 -511 1646)-511,1646;"/>
                     <Edge cubics="!594 -54(594,-54;594,-54 594,1646 594,1646q594 -54 594 1646);"/>

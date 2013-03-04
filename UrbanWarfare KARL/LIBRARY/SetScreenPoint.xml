@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SetScreenPoint" itemID="4d77c298-0000021a" linkageExportForAS="true" linkageClassName="com.displayObjects.screenCheckPoint" sourceFlashFilepath="..\..\Work Environment\CurrentBuild v 0_9_26\UrbanWarfar.fla" sourceLibraryItemHRef="SetScreenPoint" sourceLastModified="1299694243" lastModified="1299694243">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SetScreenPoint" itemID="4d77c298-0000021a" linkageExportForAS="true" linkageClassName="com.displayObjects.screenCheckPoint" sourceFlashFilepath="../../Work Environment/CurrentBuild v 0_9_26/UrbanWarfar.fla" sourceLibraryItemHRef="SetScreenPoint" sourceLastModified="1299694243" lastModified="1299694243" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="SetScreenPoint">
       <layers>

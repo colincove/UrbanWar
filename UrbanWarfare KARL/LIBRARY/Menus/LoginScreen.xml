@@ -42,7 +42,7 @@
                     <Point x="105.5" y="26"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMStaticText width="424.95" height="82.15" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="424.95" height="77.65" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="324" ty="123.4"/>
                   </matrix>
@@ -93,7 +93,7 @@
                     <Point x="105.5" y="26"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMStaticText width="424.95" height="82.15" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="424.95" height="77.65" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="324" ty="123.4"/>
                   </matrix>
@@ -136,7 +136,7 @@
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
-                <DOMStaticText width="310.4" height="54.1" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="310.4" height="51.1" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="-25.95" ty="123.4"/>
                   </matrix>
@@ -208,7 +208,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMInputText>
-                <DOMStaticText width="301" height="26.05" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="301" height="24.55" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="324" ty="237.4"/>
                   </matrix>
@@ -253,7 +253,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMInputText>
-                <DOMStaticText width="301" height="26.05" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="301" height="24.55" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="324" ty="237.4"/>
                   </matrix>
@@ -290,7 +290,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMInputText>
-                <DOMStaticText width="301" height="26.05" includeOutlines="true" isSelectable="false">
+                <DOMStaticText width="301" height="24.55" includeOutlines="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="323.75" ty="307.15"/>
                   </matrix>

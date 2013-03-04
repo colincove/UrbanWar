@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/BlackPointBar" itemID="4d0c26b5-000001c5" sourceFlashFilepath=".\CurrentBuild\UrbanWarfare.fla" sourceLibraryItemHRef="GUI/BlackPointBar" sourceLastModified="1292641983" lastModified="1292641983">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/BlackPointBar" itemID="4d0c26b5-000001c5" sourceFlashFilepath="./CurrentBuild/UrbanWarfare.fla" sourceLibraryItemHRef="GUI/BlackPointBar" sourceLastModified="1292641983" lastModified="1292641983" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="BlackPointBar">
       <layers>
