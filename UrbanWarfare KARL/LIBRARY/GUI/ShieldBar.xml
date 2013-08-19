@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/ShieldBar" itemID="4f63946a-00000b6c" linkageExportForAS="true" linkageClassName="com.UI.ShieldUI" sourceFlashFilepath="../../My Documents/Downloads/UpdatedEnemiesUrbanWarfare CS4.fla" sourceLibraryItemHRef="GUI/ShieldBar" sourceLastModified="1331928057" lastModified="1331928057" lastUniqueIdentifier="5" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/ShieldBar" itemID="4f63946a-00000b6c" linkageExportForAS="true" linkageClassName="com.UI.ShieldUI" sourceFlashFilepath="../../My Documents/Downloads/UpdatedEnemiesUrbanWarfare CS4.fla" sourceLibraryItemHRef="GUI/ShieldBar" sourceLastModified="1331928057" lastModified="1331928057" lastUniqueIdentifier="5" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="ShieldBar" currentFrame="460">
       <layers>

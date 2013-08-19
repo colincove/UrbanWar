@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/House_/house_artwork" itemID="4d260999-00000133" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="BoxArtwork" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Display Objects/Buildings/House_/house_artwork" sourceLastModified="1292713766" lastModified="1292713766" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/House_/house_artwork" itemID="4d260999-00000133" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="BoxArtwork" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Display Objects/Buildings/House_/house_artwork" sourceLastModified="1292713766" lastModified="1292713766" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="house_artwork">
       <layers>
@@ -13,8 +13,8 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!-493 309|-1051 781!-1051 781|-745 781!-745 781|-745 2005!-745 2005|-926 2005!-926 2005|-926 2066!-926 2066|-1004 2066!-1004 2066|-1004 2127!-1004 2127|-1108 2127!-1108 2127|-1108 2728!-1108 2728|516 2728!516 2728|516 2740!516 2740|1263
- 2740!1263 2740|1263 1441!1263 1441|1259 1441!1259 1441|1260 1440!1260 1440|1440 1440!1440 1440|690 808!690 808|687 810!687 810|687 781!687 781|994 781!994 781|-29 -82!-29 -82|-321 165!-321 165|-321 69!-321 69|-493 69!-493 69|-493 309"/>
+                    <Edge fillStyle0="1" edges="!687 781|994 781!994 781|-29 -82!-29 -82|-321 165!-321 165|-321 69!-321 69|-493 69!-493 69|-493 309!-493 309|-1051 781!-1051 781|-745 781!-745 781|-745 2005!-745 2005|-926 2005!-926 2005|-926 2066!-926 2066|-1004 2066!-1004 2066|-1004
+ 2127!-1004 2127|-1108 2127!-1108 2127|-1108 2728!-1108 2728|516 2728!516 2728|516 2740!516 2740|1263 2740!1263 2740|1263 1441!1263 1441|1259 1441!1259 1441|1260 1440!1260 1440|1440 1440!1440 1440|690 808!690 808|687 810!687 810|687 781"/>
                     <Edge cubics="!1260 1440(;1259,1441 1259,1441 1259,1441q1260 1440 1259 1441);"/>
                     <Edge cubics="!687 810(;687,810 687,781 687,781q687 810 687 781);"/>
                     <Edge cubics="!690 808(;690,808 687,810 687,810q690 808 687 810);"/>

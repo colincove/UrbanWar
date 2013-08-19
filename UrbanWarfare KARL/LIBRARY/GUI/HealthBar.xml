@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/HealthBar" itemID="4d0c3a16-000001d0" linkageExportForAS="true" linkageClassName="com.UI.HealthUI" sourceFlashFilepath="../../My Documents/Downloads/UpdatedEnemiesUrbanWarfare CS4.fla" sourceLibraryItemHRef="GUI/HealthBar" sourceLastModified="1331928709" lastModified="1346470844" lastUniqueIdentifier="9" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/HealthBar" itemID="4d0c3a16-000001d0" linkageExportForAS="true" linkageClassName="com.UI.HealthUI" sourceFlashFilepath="../../My Documents/Downloads/UpdatedEnemiesUrbanWarfare CS4.fla" sourceLibraryItemHRef="GUI/HealthBar" sourceLastModified="1331928709" lastModified="1346470844" lastUniqueIdentifier="9" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="HealthBar" currentFrame="3">
       <layers>
@@ -24,7 +24,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="!2214 395|-1571 395!-1571 395|-1571 -10!-1571 -10|2214 -10!2214 -10|2214 395"/>
+                    <Edge strokeStyle="1" edges="!2214 -10|2214 395!2214 395|-1571 395!-1571 395|-1571 -10!-1571 -10|2214 -10"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -116,7 +116,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!2214 395S4|-1571 395!-1571 395|-1571 -10!-1571 -10|2214 -10!2214 -10|2214 395"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!2214 -10S4|2214 395!2214 395|-1571 395!-1571 395|-1571 -10!-1571 -10|2214 -10"/>
                   </edges>
                 </DOMShape>
               </elements>

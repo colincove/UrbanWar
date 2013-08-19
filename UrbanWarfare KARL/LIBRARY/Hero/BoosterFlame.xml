@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/BoosterFlame" itemID="4d260999-00000181" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="BoosterFlame" sourceLastModified="1292564900" lastModified="1292564900" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/BoosterFlame" itemID="4d260999-00000181" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="BoosterFlame" sourceLastModified="1292564900" lastModified="1292564900" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="BoosterFlame">
       <layers>
@@ -82,11 +82,10 @@
  180!398.5 180[#191.99 #A3.BC 424 132!424 132[#1A9.2 #82.5E 426 129!426 129[#1AD.6D #7C.54 432.5 120.5!432.5 120.5[#1AB.63 #7B.2A 421.5 125.5!421.5 125.5[#15F.DD 155 180 155!180 155[160 155 157 150!157 150|157 140!157 140|158 140!158
  140[#AC.9A #7C.94 192 111!192 111[#CF.45 #64.D2 221 95!221 95[#E3.01 95 233 95!233 95[#EF.82 95 246 95!246 95[237 89 233 87!233 87[134 87 35 85!35 85[-164 83 -166 80!-166 80[#FFFF5D.AD #4C.F -161 75!-161 75|-173 75!-173 75[#FFFF50.3F
  #50.82 -176 70!-176 70[-176 #45.11 -176 68!-176 68[-176 61 -174 62!-174 62|-170 63!-170 63[#FFFF64.62 #3F.2D -143 63!-143 63|-128.5 63!-128.5 63[#FFFFAF.85 #3E.0D -61 57!-61 57[-47 49 -45 48!-45 48[#99.BC #31.2A 238 50.5!238 50.5[#10B.0D
- #33.01 282.5 51.5!282.5 51.5[#110.42 #27.D2 250 30!250 30[185 2 177 -3!177 -3|177 -15"/>
+ #33.01 282.5 51.5!282.5 51.5[#110.42 #27.D2 250 30!250 30[185 2 177 -3!177 -3|177 -15!66 74[#3.D4 #49.BD -42.5 73.5!-42.5 73.5[#FFFFC8.19 #49.26 -68 73!-68 73[#FFFFBA.E2 #49.42 -70.5 73.5!-70.5 73.5|95.5 74.5!95.5 74.5[#50.BD #4A.2 66
+ 74"/>
                     <Edge fillStyle0="1" edges="
 !67 64[#12.5D #3F.D4 -40 63.5!-40 63.5|-41 63.5!-41 63.5|-40 63!-40 63|67 62!67 62|67 64"/>
-                    <Edge fillStyle1="1" edges="
-!66 74[#3.D4 #49.BD -42.5 73.5!-42.5 73.5[#FFFFC8.19 #49.26 -68 73!-68 73[#FFFFBA.E2 #49.42 -70.5 73.5!-70.5 73.5|95.5 74.5!95.5 74.5[#50.BD #4A.2 66 74"/>
                     <Edge cubics="!670 42(;670,42 670,45 670,45p670 42q670 45)670,45;"/>
                     <Edge cubics="!670 45(;670,45 676,50 663,50q670 45Q676 50q663 50);"/>
                     <Edge cubics="!663 50(;663,50 663,50 659,48q663 50 659 48);"/>

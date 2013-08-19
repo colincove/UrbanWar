@@ -72,8 +72,8 @@
     <EventFormat>0</EventFormat>
     <EventCompress>7</EventCompress>
     <OverrideSounds>0</OverrideSounds>
-    <Version>11</Version>
-    <ExternalPlayer>FlashPlayer10.2</ExternalPlayer>
+    <Version>12</Version>
+    <ExternalPlayer>FlashPlayer10.3</ExternalPlayer>
     <ActionScriptVersion>3</ActionScriptVersion>
     <PackageExportFrame>1</PackageExportFrame>
     <PackagePaths></PackagePaths>
@@ -82,6 +82,7 @@
     <DebuggingPermitted>0</DebuggingPermitted>
     <DebuggingPassword></DebuggingPassword>
     <CompressMovie>1</CompressMovie>
+    <CompressionType>0</CompressionType>
     <InvisibleLayer>1</InvisibleLayer>
     <DeviceSound>0</DeviceSound>
     <StreamUse8kSampleRate>0</StreamUse8kSampleRate>

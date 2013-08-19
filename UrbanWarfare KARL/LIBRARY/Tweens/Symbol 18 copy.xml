@@ -47,14 +47,14 @@
                   </fills>
                   <edges>
                     <Edge fillStyle0="2" fillStyle1="4" edges="!86 -163|86 -73"/>
-                    <Edge fillStyle0="2" edges="!86 -73|260 -73"/>
-                    <Edge fillStyle0="2" fillStyle1="3" edges="!260 -73|260 -163"/>
-                    <Edge fillStyle0="2" edges="!260 -163|86 -163"/>
+                    <Edge fillStyle1="4" edges="!86 -73|-268 -73"/>
+                    <Edge fillStyle0="1" fillStyle1="4" edges="!-268 -73|-268 -163"/>
+                    <Edge fillStyle1="4" edges="!-268 -163|86 -163"/>
+                    <Edge fillStyle1="2" edges="!86 -163|260 -163"/>
+                    <Edge fillStyle0="3" fillStyle1="2" edges="!260 -163|260 -73"/>
+                    <Edge fillStyle1="2" edges="!260 -73|86 -73"/>
                     <Edge fillStyle0="3" edges="!260 -73|268 -73!268 -73[279 -73 287 -81!287 -81[295 -89 295 -100!295 -100|295 -163!295 -163|260 -163"/>
                     <Edge fillStyle1="1" edges="!-268 -73|-276 -73!-276 -73[-287 -73 -295 -81!-295 -81[-303 -89 -303 -100!-303 -100|-303 -163!-303 -163|-268 -163"/>
-                    <Edge fillStyle1="4" edges="!-268 -163|86 -163"/>
-                    <Edge fillStyle0="4" fillStyle1="1" edges="!-268 -163|-268 -73"/>
-                    <Edge fillStyle0="4" edges="!-268 -73|86 -73"/>
                     <Edge cubics="!-276 -73(-276,-73;-291,-73 -303,-85 -303,-100q-276 -73Q-287 -73q-295 -81Q-303 -89q-303 -100);"/>
                     <Edge cubics="!-303 -100(;-303,-100 -303,-163 -303,-163q-303 -100 -303 -163)-303,-163;"/>
                     <Edge cubics="!-268 -163(;-268,-163 -268,-73 -268,-73q-268 -163 -268 -73)-268,-73;"/>

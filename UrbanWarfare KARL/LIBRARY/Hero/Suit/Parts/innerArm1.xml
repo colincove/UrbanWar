@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Suit/Parts/innerArm1" itemID="4d26099a-00000193" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Hero/Suit/Parts/innerArm1" sourceLastModified="1215921004" lastModified="1215921004" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Suit/Parts/innerArm1" itemID="4d26099a-00000193" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Hero/Suit/Parts/innerArm1" sourceLastModified="1215921004" lastModified="1215921004" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="innerArm1">
       <layers>
@@ -16,8 +16,8 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="2" fillStyle1="1" edges="!159 27[143 16 121 7!121 7[86 -4 58 48!58 48[41 84 30 108!30 108[7 155 7 160!7 160[7 174 34 187!34 187[64 200 107 200!107 200[137 200 159 127!159 127[169 92 175 54!175 54[175 42 159 27"/>
                     <Edge fillStyle1="1" edges="!188 45[161 208 107 208!107 208[47 208 18 189!18 189[0 174 0 159!0 159[0 154 25 103!25 103[50 48 52 40!52 40[69 -14 131 4!131 4[188 21 188 45"/>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="!121 7[86 -4 58 48!58 48[41 84 30 108!30 108[7 155 7 160!7 160[7 174 34 187!34 187[64 200 107 200!107 200[137 200 159 127!159 127[169 92 175 54!175 54[175 42 159 27!159 27[143 16 121 7"/>
                     <Edge cubics="!188 45(;188,57 161,208 107,208q188 45Q161 208q107 208);"/>
                     <Edge cubics="!107 208(;14,208 0,171 0,159q107 208Q47 208q18 189Q0 174q0 159);"/>
                     <Edge cubics="!0 159(;0,149 47,57 52,40q0 159Q0 154q25 103Q50 48q52 40);"/>

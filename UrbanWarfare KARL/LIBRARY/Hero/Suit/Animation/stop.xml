@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Suit/Animation/stop" itemID="487acde9-00000105" sourceFlashFilepath="../Space Ninja/kNight/kNight.fla" sourceLibraryItemHRef="Hero/Suit/Animation/stop" sourceLastModified="1216972931" lastModified="1216972931" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Suit/Animation/stop" itemID="487acde9-00000105" sourceFlashFilepath="../Space Ninja/kNight/kNight.fla" sourceLibraryItemHRef="Hero/Suit/Animation/stop" sourceLastModified="1216972931" lastModified="1216972931" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="stop" currentFrame="24">
       <layers>

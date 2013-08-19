@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Weapons/MiniGun/Tween 1" itemID="4d0ae34b-00000253" sourceFlashFilepath="./KARLSide Scroller.fla" sourceLibraryItemHRef="Enemies/Thor_/Tween 1" sourceLastModified="1292559179" symbolType="graphic" lastModified="1292559179" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Weapons/MiniGun/Tween 1" itemID="4d0ae34b-00000253" sourceFlashFilepath="./KARLSide Scroller.fla" sourceLibraryItemHRef="Enemies/Thor_/Tween 1" sourceLastModified="1292559179" symbolType="graphic" lastModified="1292559179" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="Tween 1">
       <layers>

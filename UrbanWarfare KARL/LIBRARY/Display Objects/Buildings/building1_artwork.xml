@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/building1_artwork" itemID="4d260999-00000142" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="building1_artwork" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Display Objects/Buildings/building1_artwork" sourceLastModified="1292713775" lastModified="1301007833" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/Buildings/building1_artwork" itemID="4d260999-00000142" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="building1_artwork" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Display Objects/Buildings/building1_artwork" sourceLastModified="1292713775" lastModified="1301007833" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="building1_artwork">
       <layers>
@@ -31,10 +31,10 @@
 !2338 -550|2169 -550!2169 -550|2169 -1023!2169 -1023|2338 -1023!2338 -1023|2338 -1337!2338 -1337|2169 -1337!2169 -1337|2169 -1809!2169 -1809|2338 -1809!2338 -1809|2338 -2123!2338 -2123|2169 -2123!2169 -2123|2169 -2596!2169 -2596|2338
  -2596!2338 -2596|2338 -2910!2338 -2910|2169 -2910!2169 -2910|2169 -3382!2169 -3382|2338 -3382!2338 -3382|2338 -3696!2338 -3696|2169 -3696!2169 -3696|2169 -4169!2169 -4169|2338 -4169!2338 -4169|2338 -4483!2338 -4483|2169 -4483!2169 -4483
 |2169 -4918!2169 -4918|2022 -4918!2022 -4918|2022 -5103!2022 -5103|1948 -5103"/>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="
+!1948 -5103|1948 -5356!1948 -5356|1868 -5356!1868 -5356|1868 -5103"/>
                     <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="
-!1948 -5103S5|1948 -4941!1948 -4941|1868 -4941!1868 -4941|1868 -5103"/>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!1868 -5103|1868 -5356!1868 -5356|1948 -5356!1948 -5356|1948 -5103"/>
+!1868 -5103S6|1868 -4941!1868 -4941|1948 -4941!1948 -4941|1948 -5103"/>
                     <Edge fillStyle1="1" edges="
 !-64 -5947|-64 -5107!-64 -5107|-138 -5107!-138 -5107|-138 -5947!-138 -5947|-64 -5947"/>
                     <Edge cubics="!-1212 -5731(;-1212,-5731 -381,-5731 -381,-5731q-1212 -5731 -381 -5731);"/>

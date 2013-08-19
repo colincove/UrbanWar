@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Hero.ai Assets/Basckwidnow" itemID="4d013db5-0000040f" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Hero/Hero.ai Assets/Basckwidnow" sourceLastModified="1291926965" lastModified="1291926965" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Hero.ai Assets/Basckwidnow" itemID="4d013db5-0000040f" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Hero/Hero.ai Assets/Basckwidnow" sourceLastModified="1291926965" lastModified="1291926965" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="Basckwidnow">
       <layers>
@@ -13,7 +13,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!41 350S1[48 387 72 411!72 411[103 442 182 502!182 502[181 506 180 510!180 510[184 498 185 486!185 486[192 346 180 277!180 277[158 140 67 16!67 16[8 -16 1 16!1 16[-2 31 6 53!6 53|41 350"/>
+                    <Edge fillStyle0="1" edges="!72 411S1[103 442 182 502!182 502[181 506 180 510!180 510[184 498 185 486!185 486[192 346 180 277!180 277[158 140 67 16!67 16[8 -16 1 16!1 16[-2 31 6 53!6 53|41 350!41 350[48 387 72 411"/>
                     <Edge cubics="!67 16(;-27,-34 6,53 6,53q67 16Q8 -16q1 16Q-2 31q6 53);"/>
                     <Edge cubics="!72 411(;99,439 153,480 182,502q72 411Q103 442q182 502);"/>
                     <Edge cubics="!182 502(;182,505 181,508 180,510q182 502 180 510);"/>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Game Items/Orb/OrbPointEnd" itemID="4a2d7e5f-0000031e" sourceFlashFilepath="Space Ninja\kNight\kNight.fla" sourceLibraryItemHRef="PointOrbs/OrbPointEnd" sourceLastModified="1244495827" lastModified="1294337306" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Game Items/Orb/OrbPointEnd" itemID="4a2d7e5f-0000031e" sourceFlashFilepath="Space Ninja\kNight\kNight.fla" sourceLibraryItemHRef="PointOrbs/OrbPointEnd" sourceLastModified="1244495827" lastModified="1294337306" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="OrbPointEnd" currentFrame="20">
       <layers>

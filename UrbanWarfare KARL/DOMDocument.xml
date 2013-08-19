@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCCCCC" width="800" height="600" frameRate="36" currentTimeline="2" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.5 build 349" majorVersion="11" minorVersion="5" buildNumber="349" timelineLabelWidth="0" viewAngle3D="74.2651684569298" nextSceneIdentifier="2093" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCCCCC" width="800" height="600" frameRate="36" currentTimeline="2" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" timelineLabelWidth="0" viewAngle3D="74.2651684569298" nextSceneIdentifier="2093" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
      <folders>
           <DOMFolderItem name="b bcb cn vnv " itemID="4f04fdcc-00000561"/>
           <DOMFolderItem name="Cinematics" itemID="503fa18f-000006fb"/>
@@ -64,7 +64,7 @@
           <DOMFolderItem name="Levels/Level 1" itemID="4dae3dca-00000159"/>
           <DOMFolderItem name="Levels/Level 2" itemID="4dae3dce-0000015b"/>
           <DOMFolderItem name="Levels/Level3" itemID="4d260ce7-0000017b"/>
-          <DOMFolderItem name="Levels/Level4" itemID="4d2759bb-00000e31" isExpanded="true"/>
+          <DOMFolderItem name="Levels/Level4" itemID="4d2759bb-00000e31"/>
           <DOMFolderItem name="Levels/Level5" itemID="4daf223b-00001c4d"/>
           <DOMFolderItem name="Levels/Level6" itemID="4daf2240-00001c52"/>
           <DOMFolderItem name="Levels/Level7" itemID="4daf2246-00001c57"/>
@@ -2365,6 +2365,8 @@ initialize();]]></script>
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="23704866" publishTime="1376879381"/>
+          <PublishItem publishSize="23585225" publishTime="1376879273"/>
           <PublishItem publishSize="23704984" publishTime="1362355734"/>
           <PublishItem publishSize="23705171" publishTime="1362355015"/>
           <PublishItem publishSize="23705149" publishTime="1362354105"/>
@@ -2383,7 +2385,5 @@ initialize();]]></script>
           <PublishItem publishSize="23641657" publishTime="1361088279" publishDebug="true"/>
           <PublishItem publishSize="23588027" publishTime="1361087664"/>
           <PublishItem publishSize="23588022" publishTime="1361086902"/>
-          <PublishItem publishSize="23587932" publishTime="1361085835"/>
-          <PublishItem publishSize="23588028" publishTime="1361085292"/>
      </publishHistory>
 </DOMDocument>

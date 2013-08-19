@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/HeroAnimation" itemID="4d26099a-00000187" linkageExportForAS="true" linkageClassName="com.displayObjects.HeroAnimation" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="HeroAnimation" sourceLastModified="1292563748" lastModified="1360816074" lastUniqueIdentifier="9" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/HeroAnimation" itemID="4d26099a-00000187" linkageExportForAS="true" linkageClassName="com.displayObjects.HeroAnimation" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="HeroAnimation" sourceLastModified="1292563748" lastModified="1360816074" lastUniqueIdentifier="9" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="HeroAnimation" currentFrame="10">
       <layers>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Thor_/Symbol 2" itemID="4d0c3a47-000001e5" sourceFlashFilepath="../../My Documents/Downloads/UpdatedEnemiesUrbanWarfare CS4.fla" sourceLibraryItemHRef="Enemies/Thor_/Symbol 2" sourceLastModified="1292647634" symbolType="graphic" lastModified="1292647634" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Enemies/Thor_/Symbol 2" itemID="4d0c3a47-000001e5" sourceFlashFilepath="../../My Documents/Downloads/UpdatedEnemiesUrbanWarfare CS4.fla" sourceLibraryItemHRef="Enemies/Thor_/Symbol 2" sourceLastModified="1292647634" symbolType="graphic" lastModified="1292647634" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="Symbol 2">
       <layers>
@@ -13,7 +13,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!20 3860|-6759 3860!-6759 3860|-6759 -4159!-6759 -4159|20 -4159!20 -4159|20 3860"/>
+                    <Edge fillStyle1="1" edges="!20 -4159|20 3860!20 3860|-6759 3860!-6759 3860|-6759 -4159!-6759 -4159|20 -4159"/>
                   </edges>
                 </DOMShape>
               </elements>

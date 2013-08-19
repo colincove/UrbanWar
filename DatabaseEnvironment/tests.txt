@@ -1,0 +1,34 @@
+CREATE TABLE level1Playthroughs (uid int NOT NULL PRIMARY KEY AUTO INCREMENT, user int NOT NULL,loadOut tinyint NOT NULL,score bigint NOT NULL, FOREIGN KEY (user) REFERENCES users(uid))
+ALTER TABLE levelPlaythroughs ADD COLLUMN (enemiesKilled INT NOT NULL DEFAULT 0, accuracy INT NOT NULL DEFAULT 0, gearsCollected INT NOT NULL DEFAULT 0)
+
+INSERT INTO level1Playthroughs (user,loadOut,score) VALUES(4, 436,436753)
+
+SELECT * FROM level1Playthroughs ORDER BY score DESC LIMIT 5,2
+
+SELECT * FROM level1Playthroughs WHERE uid BETWEEN 3 AND 10 ORDER BY score DESC
+
+ALTER TABLE Orders
+ADD CONSTRAINT fk_PerOrders
+FOREIGN KEY (P_Id)
+REFERENCES Persons(P_Id)
+
+ALTER TABLE level1Playthroughs ADD CONSTRAINT userId FOREIGN KEY (user) REFERENCES users(uid)
+
+CREATE TABLE level2Playthroughs (uid int NOT NULL PRIMARY KEY AUTO_INCREMENT, user int NOT NULL,loadOut tinyint NOT NULL,score bigint NOT NULL, photoId varchar(255), FOREIGN KEY (user) REFERENCES users(uid))
+
+ALTER TABLE level1Playthroughs ADD COLUMN date TIMESTAMP
+
+INSERT INTO level1Playthrough (user, loadOut, score, photoId) VALUES (4,345,3456542,'dfssad4')
+
+CREATE TABLE photos (id int NOT NULL PRIMARY KEY AUTO_INCREMENT, uid int NOT NULL, degree int NOT NULL)
+
+	date	timestamp			No	0000-00-00 00:00:00		 
+	score	bigint(20)			No			 
+	loadOut	varchar(255)	utf8_general_ci		No			 
+	replay	tinyint(1)			Yes	0		 
+	user
+
+ALTER VIEW level1View AS SELECT levelPlaythroughs.date, levelPlaythroughs.score,levelPlaythroughs.loadOut,levelPlaythroughs.photoId,levelPlaythroughs.photoId  FROM `level1Playthroughs` WHERE 1
+
+ALTER VIEW level1View AS SELECT user,loadOut,score,photoId,date,replay,enemiesKilled,accuracy,gearsCollected FROM levelPlaythroughs WHERE level = 4 
+ALTER VIEW level1View AS SELECT user,loadOut,score,photoId,date,replay,enemiesKilled,accuracy,gearsCollected FROM levelPlaythroughs WHERE level = 1

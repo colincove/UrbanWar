@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/Score" itemID="4d0bdba4-00000192" linkageExportForAS="true" linkageBaseClass="com.UI.Score" linkageClassName="Score" sourceFlashFilepath="./CurrentBuild/UrbanWarfare.fla" sourceLibraryItemHRef="GUI/Score" sourceLastModified="1292642336" lastModified="1346367135" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/Score" itemID="4d0bdba4-00000192" linkageExportForAS="true" linkageBaseClass="com.UI.Score" linkageClassName="Score" sourceFlashFilepath="./CurrentBuild/UrbanWarfare.fla" sourceLibraryItemHRef="GUI/Score" sourceLastModified="1292642336" lastModified="1346367135" lastUniqueIdentifier="1" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="Score">
       <layers>

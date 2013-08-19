@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Hero.ai Assets/UpperWindow" itemID="4d013da5-00000409" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Hero/Hero.ai Assets/UpperWindow" sourceLastModified="1291926949" lastModified="1291926949" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Hero/Hero.ai Assets/UpperWindow" itemID="4d013da5-00000409" sourceFlashFilepath="../../Karl Edits/Work Environment/Current Build/Side Scroller.fla" sourceLibraryItemHRef="Hero/Hero.ai Assets/UpperWindow" sourceLastModified="1291926949" lastModified="1291926949" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="UpperWindow">
       <layers>
@@ -13,7 +13,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!67 16S1[8 -16 1 16!1 16[-2 31 6 53!6 53|41 350!41 350[48 387 72 411!72 411[111 450 202 517!202 517|235 484!235 484|277 325!277 325[248 260 208 189!208 189[126 47 67 16"/>
+                    <Edge fillStyle0="1" edges="!1 16S1[-2 31 6 53!6 53|41 350!41 350[48 387 72 411!72 411[111 450 202 517!202 517|235 484!235 484|277 325!277 325[248 260 208 189!208 189[126 47 67 16!67 16[8 -16 1 16"/>
                     <Edge cubics="!72 411(;111,450 202,517 202,517q72 411Q111 450q202 517);"/>
                     <Edge cubics="!202 517(;202,517 235,484 235,484q202 517 235 484);"/>
                     <Edge cubics="!235 484(;235,484 277,325 277,325q235 484 277 325);"/>

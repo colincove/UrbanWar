@@ -17,7 +17,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="!12000 -6000|12000 6000!12000 6000|-12000 6000!-12000 6000|-12000 -6000!-12000 -6000|12000 -6000"/>
+                    <Edge strokeStyle="1" edges="!12000 6000|-12000 6000!-12000 6000|-12000 -6000!-12000 -6000|12000 -6000!12000 -6000|12000 6000"/>
                   </edges>
                 </DOMShape>
                 <DOMSymbolInstance libraryItemName="Tweens/Symbol 7" blendMode="lighten">

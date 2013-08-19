@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/MillitaryBuilding/MillitaryBuilding_13_Artwork" itemID="4f8f1211-0000083e" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="MillitaryBuilding_13_Artwork" sourceFlashFilepath="../../Work Environment/CurrentBuild v 0_9_26/UrbanWarfar.fla" sourceLibraryItemHRef="Display Objects/MillitaryBuilding/MillitaryBuilding_13_Artwork" sourceLastModified="1334776448" lastModified="1346696966" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Display Objects/MillitaryBuilding/MillitaryBuilding_13_Artwork" itemID="4f8f1211-0000083e" linkageExportForAS="true" linkageBaseClass="com.physics.shakeObj" linkageClassName="MillitaryBuilding_13_Artwork" sourceFlashFilepath="../../Work Environment/CurrentBuild v 0_9_26/UrbanWarfar.fla" sourceLibraryItemHRef="Display Objects/MillitaryBuilding/MillitaryBuilding_13_Artwork" sourceLastModified="1334776448" lastModified="1346696966" sourceItemID="00000000-7fffffff">
   <timeline>
     <DOMTimeline name="MillitaryBuilding_13_Artwork">
       <layers>
@@ -96,12 +96,12 @@
 !3075 231|3090 231!3090 231|3090 200!3090 200|3075 200!3075 200|3075 77!3075 77|3090 77!3090 77|3090 0!3090 0|3111 0!3111 0|3111 77!3111 77|3126 77!3126 77|3126 200!3126 200|3111 200!3111 200|3111 231!3111 231|3126 231!3126 231|3126 390
 !3126 390|3111 390!3111 390|3111 734!3111 734|3116 734!3116 734|3116 1001!3116 1001[3183 1032 3239 1068!3239 1068|3239 205!3239 205|3270 205!3270 205|3270 1083!3270 1083[3475 1201 3660 1370!3660 1370[4292 1940 4292 2746!4292 2746|4216
  2746"/>
-                    <Edge fillStyle1="2" edges="
-!4216 2746|4216 4070!4216 4070|65 4070!65 4070|65 2746"/>
-                    <Edge fillStyle0="1" fillStyle1="2" edges="
-!65 2746|65 2599!65 2599|148.5 2599!148.5 2599[#C8.E1 #798.CC 724 1473!724 1473[1278 970 2038 939!2038 939|2038 1083!2038 1083|1935 1165!1935 1165|1935 1191!1935 1191|2151 1191!2151 1191|2151 1165!2151 1165|2048 1083!2048 1083|2048 939
-!2048 939[2074 939 2099 939!2099 939[2115 939 2130 939!2130 939|2141 939!2141 939[2156 939 2171 939!2171 939[2238 939 2305 949!2305 949[2613 970 2885 1073!2885 1073[3239 1206 3532 1473!3532 1473[#FD6.38 #798.CC 4110 2599!4110 2599|4216
- 2599!4216 2599|4216 2746"/>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="
+!4216 2746|4216 2599!4216 2599|4110 2599!4110 2599[#FD6.38 #798.CC 3532 1473!3532 1473[3239 1206 2885 1073!2885 1073[2613 970 2305 949!2305 949[2238 939 2171 939!2171 939[2156 939 2141 939!2141 939|2130 939!2130 939[2115 939 2099 939
+!2099 939[2074 939 2048 939!2048 939|2048 1083!2048 1083|2151 1165!2151 1165|2151 1191!2151 1191|1935 1191!1935 1191|1935 1165!1935 1165|2038 1083!2038 1083|2038 939!2038 939[1278 970 724 1473!724 1473[#C8.E1 #798.CC 148.5 2599!148.5
+ 2599|65 2599!65 2599|65 2746"/>
+                    <Edge fillStyle0="2" edges="
+!65 2746|65 4070!65 4070|4216 4070!4216 4070|4216 2746"/>
                     <Edge cubics="!143 2746(;143,2731 143,2716 144,2699q143 2746 144 2699);"/>
                     <Edge cubics="!144 2699(;145,2667 147,2636 149,2599q144 2699 149 2599);"/>
                     <Edge cubics="!149 2599(;181,2170 369,1789 724,1473q149 2599Q201 1945q724 1473);"/>
