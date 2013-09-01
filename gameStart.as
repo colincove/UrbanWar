@@ -123,7 +123,10 @@
 		{
 			if (User.active) 
 			{
-				User.levelsUnlocked=currentLevelID+1;
+				if(replayingLevel!=true)
+				{
+					User.levelsUnlocked=currentLevelID+1;
+				}
 				User.gears=globals.gameVars.orbs;
 				User.unlockedWeapons=WeaponsEnum.composeWeaponStringFromArray(WeaponList.weaponList);
 				WebServices.updateUser();

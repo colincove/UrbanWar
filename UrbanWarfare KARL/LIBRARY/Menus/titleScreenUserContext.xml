@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/titleScreenUserContext" itemID="4f022e6b-00000e40" lastModified="1359862518">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/titleScreenUserContext" itemID="4f022e6b-00000e40" lastModified="1378016695">
   <timeline>
     <DOMTimeline name="titleScreenUserContext">
       <layers>
@@ -14,9 +14,9 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMDynamicText name="userNameDisplay" selected="true" width="228" height="26.05" includeOutlines="true">
+                <DOMDynamicText name="userNameDisplay" width="228" height="62.55" includeOutlines="true" lineType="multiline">
                   <matrix>
-                    <Matrix tx="-110.25" ty="-51.55"/>
+                    <Matrix tx="-101.9" ty="-74.65"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -33,7 +33,7 @@
               <elements>
                 <DOMStaticText width="208" height="77.65" includeOutlines="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="-105.25" ty="-97.55"/>
+                    <Matrix tx="-101.9" ty="-74.65"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>

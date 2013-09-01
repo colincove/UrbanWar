@@ -64,7 +64,7 @@ globals.levelProgress=1;
 			if (User.active) {
 				userContext.gotoAndStop(1);
 				this.userContext.logoutButton.addEventListener(MouseEvent.CLICK, logout);
-				userContext.userNameDisplay.text="Welcom "+User.name;
+				userContext.userNameDisplay.text="Welcome "+User.name;
 			} else {
 				userContext.gotoAndStop(2);
 				this.userContext.loginButton.addEventListener(MouseEvent.CLICK, login);

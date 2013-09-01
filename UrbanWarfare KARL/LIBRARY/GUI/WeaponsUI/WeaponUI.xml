@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/WeaponsUI/WeaponUI" itemID="4d03d361-00000902" linkageExportForAS="true" linkageClassName="com.UI.WeaponUI" lastModified="1359862942" lastUniqueIdentifier="62">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GUI/WeaponsUI/WeaponUI" itemID="4d03d361-00000902" linkageExportForAS="true" linkageClassName="com.UI.WeaponUI" lastModified="1378017032" lastUniqueIdentifier="62">
   <timeline>
     <DOMTimeline name="WeaponUI">
       <layers>
@@ -108,7 +108,7 @@
           <frames>
             <DOMFrame index="0" duration="19" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
               <elements>
-                <DOMSymbolInstance libraryItemName="GUI/WeaponsUI/WeaponIcon1" name="Icon1" selected="true" centerPoint3DX="-120.8" centerPoint3DY="3.1">
+                <DOMSymbolInstance libraryItemName="GUI/WeaponsUI/WeaponIcon1" name="Icon1" centerPoint3DX="-120.8" centerPoint3DY="3.1">
                   <matrix>
                     <Matrix a="1.0360107421875" d="1.0360107421875" tx="-194.4" ty="-24.2"/>
                   </matrix>

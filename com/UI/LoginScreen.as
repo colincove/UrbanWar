@@ -43,7 +43,8 @@
 			{
 				OkPrompt.createPrompt(DisplayObjectContainer(root),"Please Enter email.");
 			}
-			else if (EmailValidation.check(emailInput.text))
+			else if (true)
+			//else if (EmailValidation.check(emailInput.text))
 			{
 
 				currentPrompt = InfoModal.createPrompt(DisplayObjectContainer(root),"Attempting Login...");
@@ -95,7 +96,8 @@
 
 				OkPrompt.createPrompt(DisplayObjectContainer(root),"Please Enter a display name.");
 			}
-			else if (EmailValidation.check(emailInput.text))
+			//else if (EmailValidation.check(emailInput.text))
+			else if (true)
 			{
 				currentPrompt = InfoModal.createPrompt(DisplayObjectContainer(root),"Creating Account...");
 

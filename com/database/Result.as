@@ -135,15 +135,15 @@ display.launch();
 				case WeaponsEnum.MISSILE_LAUNCHER :
 					return 3;
 				case WeaponsEnum.CLUSTER_LAUNCHER :
-					return 7;
-				case WeaponsEnum.VINE :
 					return 4;
-				case WeaponsEnum.LASER :
+				case WeaponsEnum.VINE :
 					return 5;
-				case WeaponsEnum.WAVE_CANNON :
+				case WeaponsEnum.LASER :
 					return 6;
-				case WeaponsEnum.GAUSSE_CANNON :
+				case WeaponsEnum.WAVE_CANNON :
 					return 7;
+				case WeaponsEnum.GAUSSE_CANNON :
+					return 8;
 				case "8" :
 					return 7;
 				case "9" :

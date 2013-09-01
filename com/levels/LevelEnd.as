@@ -82,7 +82,7 @@
 					}
 				}
 				globals.HUD.stopCAM();
-				globalFunctions.makeDebry("enemyDebry",6,globalFunctions.getMainX(this),globalFunctions.getMainY(this));
+				globalFunctions.makeDebry("enemyDebry",6,globalFunctions.getMainX(this),globalFunctions.getMainY(this), false);
 				globalFunctions.spawnOrbs(numberOfGears, globalFunctions.getMainX(this), globalFunctions.getMainY(this));
 				//destroy();
 				health=0;

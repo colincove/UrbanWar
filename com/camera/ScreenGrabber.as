@@ -20,6 +20,7 @@
 		}
 		public static function debryAdd(debryObj:debry):void
 		{
+			trace("debryAdd: "+debryCount+" maxDebry: "+maxDebry+" canGrab: "+canGrab );
 			debryCount++;
 			if(debryCount>maxDebry && canGrab)
 			{
@@ -51,6 +52,7 @@
 		}
 		public static function grab(e:TimerEvent):void
 		{
+			trace("GRAB SCREEN SHOT: ");
 			timer.start();
 			grabTimer.reset();
 			grabTimer.removeEventListener(TimerEvent.TIMER,grab);

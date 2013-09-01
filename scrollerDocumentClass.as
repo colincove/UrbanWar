@@ -119,11 +119,11 @@ var endLevelScreen:EndLevelScreen;
 			launchTitleScreen();
 		}
 		public function playGame():void
-		{
-			if(User.active || (User.active && User.levelsUnlocked>1)){
+		{trace("playGame: "+User.active+" : " +User.levelsUnlocked);
+			if(!User.active || (User.active && User.levelsUnlocked>1)){
 																	game.startLevel();
 			}else{
-			
+			trace("playGame again: "+menuBackground.parent);
 			if(menuBackground.parent)
 			{
 			this.removeChild(menuBackground);

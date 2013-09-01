@@ -97,8 +97,9 @@
 				globals.neutralContainer.addChild(debryObj);
 				debryObj.x=globalFunctions.makeX(debryObj,xPos);
 				debryObj.y=globalFunctions.makeY(debryObj,yPos);
-				if(screenGrab)
+				if(screenGrab==true)
 				{
+					trace("screenGgrab: "+screenGrab);
 				ScreenGrabber.debryAdd(debryObj);
 				}
 			}

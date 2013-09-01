@@ -46,7 +46,7 @@ progRun = true;
 			
 			checkDisplay();
 			checkIcons();
-			
+			//trace("UPdateGameUI: parent: "+this.parent+" hideUI: "+globals.hideUI+" loadOut.length: "+WeaponList.loadOut.length+" selectedWeapon: "+weaponSelect.selectedWeapon);
 			if(WeaponList.loadOut.length<=1)
 			{
 			weaponKeys.visible=false;

@@ -33,7 +33,7 @@
 			if (removing) {
 				dieing();
 			} else {
-				globals.smoke.smokeBM.drawObject(this.point.green);
+				//globals.smoke.smokeBM.drawObject(this.point.green);
 				moveObj();
 				rotation+=Speed;
 				scaleX=1+2/Speed;

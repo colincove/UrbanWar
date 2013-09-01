@@ -55,7 +55,7 @@
 			var variables:URLVariables = new URLVariables();
 			var postData:Object = new Object();
 			postData.action = LOGIN;
-			postData.email = MD5.hash(email);
+			postData.email = MD5.hash(email.toLowerCase());
 			variables.postData = RC4.encrypt(JSON.encode(postData),KEY);
 			request.data = variables;
 			var loader:URLLoader = new URLLoader(request);
@@ -118,7 +118,7 @@
 			var postData:Object = new Object();
 			postData.action = CREATE_USER;
 
-			postData.email = MD5.hash(email);
+			postData.email = MD5.hash(email.toLowerCase());
 			postData.name = name;
 			variables.postData = RC4.encrypt(JSON.encode(postData),KEY);
 			request.data = variables;

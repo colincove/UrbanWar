@@ -17,6 +17,7 @@
 	import com.globalFunctions;
 	import flash.utils.Timer;
 	import flash.events.TimerEvent;
+	import com.camera.ScreenGrabber;
 
 	public class Hero extends objMovement implements pausable,jetPackInterface,dieable,removable,Program
 	{
@@ -48,7 +49,6 @@ public static var disableHero:Boolean=false;
 			Speed = 1.4;
 			ySpeed = 0;
 			headRoom = 50;
-			
 			walking = false;
 			idle = false;
 			globals.setHero(this);
@@ -64,8 +64,8 @@ public static var disableHero:Boolean=false;
 		}
 		public function spawnLandingDebry():void
 		{
-							globalFunctions.makeDebry("houseDebry",6,globalFunctions.getMainX(this),globalFunctions.getMainY(this)-20);
-
+							globalFunctions.makeDebry("houseDebry",6,globalFunctions.getMainX(this),globalFunctions.getMainY(this)-20, false);
+ScreenGrabber.getScreen();
 		}
 		public function landAnimationComplete():void
 		{
@@ -76,10 +76,11 @@ animation.gotoAndStop("idle");
 		}
 		public function addShield(shield:Shield):void
 		{
-			if(this.shield!=null)
+if(this.shield!=null)
 			{
 				this.shield.removeSelf();
 			}
+			
 			this.shield = shield;
 		}
 		public function removeShield():void
@@ -160,6 +161,7 @@ public override function destroy():void
 		}
 		private function loadSelf(e:Event):void
 		{
+			addShield(null);
 			globals.setArmCannon(armCannon);
 			firstRunInterval=0;
 			ground = globals.groundContainer;

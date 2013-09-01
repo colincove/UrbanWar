@@ -1,0 +1,1 @@
+UserId: 50 level: 1 loadOut: 0-0-1 score: 8231 replay: 0 enemiesKilled: 4 accuracy: 90 gearsCollected: -140

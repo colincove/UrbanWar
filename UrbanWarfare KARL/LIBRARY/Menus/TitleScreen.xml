@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/TitleScreen" itemID="4f00fba1-000002df" linkageExportForAS="true" linkageClassName="com.UI.TitleScreen" lastModified="1359862614" lastUniqueIdentifier="6">
   <timeline>
-    <DOMTimeline name="TitleScreen">
+    <DOMTimeline name="TitleScreen" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;41&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
         <DOMLayer name="Layer 4" color="#FF4FFF">
           <frames>
@@ -43,7 +43,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Menus/titleScreenUserContext" name="userContext" centerPoint3DX="648.3" centerPoint3DY="114.75">
+                <DOMSymbolInstance libraryItemName="Menus/titleScreenUserContext" name="userContext" selected="true" centerPoint3DX="648.3" centerPoint3DY="114.75">
                   <matrix>
                     <Matrix tx="648.3" ty="114.75"/>
                   </matrix>

@@ -1,6 +1,9 @@
 <?php
 require_once('class.rc4crypt.php');
 function addPlaythrough($con, $userId,$level, $loadOut, $score,$replay,$enemiesKilled, $accuracy,$gearsCollected, $imgData){
+
+	file_put_contents("log.txt", "UserId: ".$userId." level: ".$level." loadOut: ".$loadOut." score: ".$score." replay: ".$replay." enemiesKilled: ".$enemiesKilled." accuracy: ".$accuracy." gearsCollected: ".$gearsCollected , FILE_APPEND);
+
 	$db_selected=mysql_select_db ('generichighscore', $con);
 	
 	$photoId=saveScreenShot(base64_decode($imgData));

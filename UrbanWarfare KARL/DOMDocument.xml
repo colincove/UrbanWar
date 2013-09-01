@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCCCCC" width="800" height="600" frameRate="36" currentTimeline="2" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" timelineLabelWidth="0" viewAngle3D="74.2651684569298" nextSceneIdentifier="2093" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCCCCC" width="800" height="600" frameRate="36" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" rulerVisible="true" timelineLabelWidth="0" viewAngle3D="74.2651684569298" nextSceneIdentifier="2093" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
      <folders>
           <DOMFolderItem name="b bcb cn vnv " itemID="4f04fdcc-00000561"/>
           <DOMFolderItem name="Cinematics" itemID="503fa18f-000006fb"/>
@@ -50,17 +50,17 @@
           <DOMFolderItem name="Fonts" itemID="4fb98c40-00000367"/>
           <DOMFolderItem name="Game Items" itemID="4db0613c-0000019a"/>
           <DOMFolderItem name="Game Items/Orb" itemID="4db0610e-0000018b"/>
-          <DOMFolderItem name="GUI" itemID="4d012bdf-00000083"/>
+          <DOMFolderItem name="GUI" itemID="4d012bdf-00000083" isExpanded="true"/>
           <DOMFolderItem name="GUI/HealthBar_" itemID="4d012cce-000000ae"/>
           <DOMFolderItem name="GUI/OffScreenDisplay" itemID="4fa95e01-00000501"/>
-          <DOMFolderItem name="GUI/WeaponsUI" itemID="4d03c240-000000ce"/>
+          <DOMFolderItem name="GUI/WeaponsUI" itemID="4d03c240-000000ce" isExpanded="true"/>
           <DOMFolderItem name="Hero" itemID="4d012b8c-00000060"/>
           <DOMFolderItem name="Hero/Hero.ai Assets" itemID="4d013b40-000001c7" isExpanded="true"/>
           <DOMFolderItem name="Hero/Hero.ai Assets/Layer 1" itemID="4d013b40-000001c8"/>
           <DOMFolderItem name="Hero/Suit" itemID="48797bd9-00000050" isExpanded="true"/>
           <DOMFolderItem name="Hero/Suit/Animation" itemID="48797c09-00000057"/>
           <DOMFolderItem name="Hero/Suit/Parts" itemID="48797bfc-00000054"/>
-          <DOMFolderItem name="Levels" itemID="4d012b99-0000006c" isExpanded="true"/>
+          <DOMFolderItem name="Levels" itemID="4d012b99-0000006c"/>
           <DOMFolderItem name="Levels/Level 1" itemID="4dae3dca-00000159"/>
           <DOMFolderItem name="Levels/Level 2" itemID="4dae3dce-0000015b"/>
           <DOMFolderItem name="Levels/Level3" itemID="4d260ce7-0000017b"/>
@@ -71,7 +71,7 @@
           <DOMFolderItem name="Levels/Level8" itemID="4daf224a-00001c5c"/>
           <DOMFolderItem name="Levels/Level9" itemID="4daf224f-00001c61"/>
           <DOMFolderItem name="Menus" itemID="4db0612d-00000193" isExpanded="true"/>
-          <DOMFolderItem name="Menus/GameMenu" itemID="4e2e2bad-000002be" isExpanded="true"/>
+          <DOMFolderItem name="Menus/GameMenu" itemID="4e2e2bad-000002be"/>
           <DOMFolderItem name="Menus/GameMenu/LevelButtons" itemID="4fac015a-0000067f" isExpanded="true"/>
           <DOMFolderItem name="Misc" itemID="4db060e6-00000187"/>
           <DOMFolderItem name="Objects" itemID="4d012bcf-0000007b"/>
@@ -1248,7 +1248,7 @@
           <Include href="GUI/HealthBar_/healthBack.xml" loadImmediate="false" itemID="4ccb4bd7-00000054" lastModified="1288391639"/>
           <Include href="GUI/HealthBar_/healthBar.xml" itemID="4ccb4bb6-0000003e" lastModified="1290210345"/>
           <Include href="GUI/HealthBar_/healthDefine.xml" itemID="4d260999-0000012d" lastModified="1289798730"/>
-          <Include href="GUI/HUD.xml" itemID="4cb78691-000000dd" lastModified="1361072846"/>
+          <Include href="GUI/HUD.xml" itemID="4cb78691-000000dd" lastModified="1378017116"/>
           <Include href="GUI/hud_fade.xml" itemID="4daf33b1-000011ae" lastModified="1361073205"/>
           <Include href="GUI/HUDWhiteFade.xml" itemID="503fa832-00000704" lastModified="1346351303"/>
           <Include href="GUI/menufade.xml" loadImmediate="false" itemID="51204f91-000017b1" lastModified="1361079388"/>
@@ -1280,7 +1280,7 @@
           <Include href="GUI/WeaponsUI/WeaponIcon9.xml" loadImmediate="false" itemID="4d03cc53-00000754" lastModified="1292136172"/>
           <Include href="GUI/WeaponsUI/WeaponIconContainer.xml" loadImmediate="false" itemID="4e30d131-000002be" lastModified="1360813109"/>
           <Include href="GUI/WeaponsUI/WeaponKeys.xml" itemID="503fdbbb-00000dd7" lastModified="1346810036"/>
-          <Include href="GUI/WeaponsUI/WeaponUI.xml" itemID="4d03d361-00000902" lastModified="1359862942"/>
+          <Include href="GUI/WeaponsUI/WeaponUI.xml" itemID="4d03d361-00000902" lastModified="1378017032"/>
           <Include href="HereoDie.xml" loadImmediate="false" itemID="511c67ca-000010af" lastModified="1360817611"/>
           <Include href="Hero/arm.xml" itemID="4cc089ad-00000041" lastModified="1345522924"/>
           <Include href="Hero/ArmContainer.xml" loadImmediate="false" itemID="4d260999-00000184" lastModified="1292717451"/>
@@ -1444,7 +1444,7 @@
           <Include href="LoginPrompt.xml" loadImmediate="false" itemID="50492950-0000092c" lastModified="1346971984"/>
           <Include href="Menus/6.xml" itemIcon="0" loadImmediate="false" itemID="4f00ff59-000002ee" lastModified="1325465433"/>
           <Include href="Menus/BackToLogin.xml" itemIcon="0" loadImmediate="false" itemID="4f00fcbb-00000328" lastModified="1346276645"/>
-          <Include href="Menus/BackToLogin2.xml" itemIcon="0" loadImmediate="false" itemID="4fad736f-00000509" lastModified="1344965957"/>
+          <Include href="Menus/BackToLogin2.xml" itemIcon="0" loadImmediate="false" itemID="4fad736f-00000509" lastModified="1378013530"/>
           <Include href="Menus/CancelButton.xml" itemIcon="0" loadImmediate="false" itemID="50469148-00000919" lastModified="1346802015"/>
           <Include href="Menus/ChoicePromp.xml" itemID="5046910f-0000090a" lastModified="1359859750"/>
           <Include href="Menus/CloseButton.xml" itemIcon="0" loadImmediate="false" itemID="50469144-00000917" lastModified="1359859770"/>
@@ -1514,7 +1514,7 @@
           <Include href="Menus/loadingMenu.xml" loadImmediate="false" itemID="50dde0fa-00001024" lastModified="1357345070"/>
           <Include href="Menus/LoadingScreen.xml" loadImmediate="false" itemID="50dde225-00001752" lastModified="1360812726"/>
           <Include href="Menus/LoginButton.xml" itemIcon="0" itemID="4ebf1d6e-00000334" lastModified="1359859675"/>
-          <Include href="Menus/LoginScreen.xml" itemID="4ebf1c06-0000030b" lastModified="1361071702"/>
+          <Include href="Menus/LoginScreen.xml" itemID="4ebf1c06-0000030b" lastModified="1377582492"/>
           <Include href="Menus/menuBackground.xml" itemID="4f04fe4c-00000591" lastModified="1325729034"/>
           <Include href="Menus/NewUserButtoon.xml" itemIcon="0" loadImmediate="false" itemID="4ebf1e71-0000089c" lastModified="1361079374"/>
           <Include href="Menus/newWeaponUI.xml" itemID="4db06213-000001a1" lastModified="1303405257"/>
@@ -1526,13 +1526,13 @@
           <Include href="Menus/Prompt.xml" itemID="4ebf2315-00000b56" lastModified="1359859836"/>
           <Include href="Menus/PromptOK.xml" itemIcon="0" loadImmediate="false" itemID="4ebf2474-00000b93" lastModified="1346798385"/>
           <Include href="Menus/RegisterButton.xml" itemIcon="0" loadImmediate="false" itemID="4ebf1dcf-000005cd" lastModified="1344965937"/>
-          <Include href="Menus/RegistrationInfoPrompt.xml" itemID="503e7605-00001fc5" lastModified="1359859845"/>
-          <Include href="Menus/ResultRow.xml" itemID="4ebdd0af-0000002c" lastModified="1347246720"/>
+          <Include href="Menus/RegistrationInfoPrompt.xml" itemID="503e7605-00001fc5" lastModified="1377582687"/>
+          <Include href="Menus/ResultRow.xml" itemID="4ebdd0af-0000002c" lastModified="1377582832"/>
           <Include href="Menus/SmallWeaponIcons.xml" loadImmediate="false" itemID="4ebf0c49-00000026" lastModified="1347238801"/>
           <Include href="Menus/SmallWeaponIconsGreen.xml" loadImmediate="false" itemID="4f0226a8-000005c6" lastModified="1325541150"/>
           <Include href="Menus/TipBox.xml" itemID="510de4ea-000011ca" lastModified="1359924694"/>
           <Include href="Menus/TitleScreen.xml" itemID="4f00fba1-000002df" lastModified="1359862614"/>
-          <Include href="Menus/titleScreenUserContext.xml" loadImmediate="false" itemID="4f022e6b-00000e40" lastModified="1359862518"/>
+          <Include href="Menus/titleScreenUserContext.xml" loadImmediate="false" itemID="4f022e6b-00000e40" lastModified="1378016695"/>
           <Include href="Menus/Top10Button.xml" itemIcon="0" loadImmediate="false" itemID="50468316-0000095f" lastModified="1347248317"/>
           <Include href="Menus/UpgradeNode.xml" itemID="4db062c9-000001a9" lastModified="1303411041"/>
           <Include href="Menus/Upgrades.xml" loadImmediate="false" itemID="4e2cc011-000002ec" lastModified="1359865349"/>
@@ -2365,6 +2365,11 @@ initialize();]]></script>
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="23704846" publishTime="1378014786"/>
+          <PublishItem publishSize="23585251" publishTime="1378014642"/>
+          <PublishItem publishSize="23704814" publishTime="1378012146"/>
+          <PublishItem publishSize="23704909" publishTime="1377582287"/>
+          <PublishItem publishSize="23585221" publishTime="1377582143"/>
           <PublishItem publishSize="23704866" publishTime="1376879381"/>
           <PublishItem publishSize="23585225" publishTime="1376879273"/>
           <PublishItem publishSize="23704984" publishTime="1362355734"/>
@@ -2380,10 +2385,5 @@ initialize();]]></script>
           <PublishItem publishSize="23467107" publishTime="1361090190"/>
           <PublishItem publishSize="23588078" publishTime="1361089673"/>
           <PublishItem publishSize="23588084" publishTime="1361089205"/>
-          <PublishItem publishSize="23467294" publishTime="1361089081"/>
-          <PublishItem publishSize="23588004" publishTime="1361088402"/>
-          <PublishItem publishSize="23641657" publishTime="1361088279" publishDebug="true"/>
-          <PublishItem publishSize="23588027" publishTime="1361087664"/>
-          <PublishItem publishSize="23588022" publishTime="1361086902"/>
      </publishHistory>
 </DOMDocument>

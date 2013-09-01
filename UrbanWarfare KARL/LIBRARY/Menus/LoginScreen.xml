@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/LoginScreen" itemID="4ebf1c06-0000030b" linkageExportForAS="true" linkageClassName="com.UI.LoginScreen" lastModified="1361071702" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/LoginScreen" itemID="4ebf1c06-0000030b" linkageExportForAS="true" linkageClassName="com.UI.LoginScreen" lastModified="1377582492" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="LoginScreen">
+    <DOMTimeline name="LoginScreen" currentFrame="1">
       <layers>
         <DOMLayer name="Layer 3" color="#FF800A">
           <frames>
@@ -26,7 +26,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Menus/LoginButton" name="login" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Menus/LoginButton" name="login" selected="true" symbolType="button">
                   <matrix>
                     <Matrix tx="325" ty="309.95"/>
                   </matrix>
@@ -34,7 +34,7 @@
                     <Point x="105.5" y="26"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Menus/NewUserButtoon" name="newUser" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Menus/NewUserButtoon" name="newUser" symbolType="button">
                   <matrix>
                     <Matrix tx="558.5" ty="309.95"/>
                   </matrix>
@@ -85,7 +85,7 @@
                     <Point x="105.5" y="26"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Menus/BackToLogin2" name="back" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Menus/BackToLogin2" name="back" selected="true" symbolType="button">
                   <matrix>
                     <Matrix tx="327.75" ty="385.85"/>
                   </matrix>
@@ -105,7 +105,7 @@
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
-                      <characters> an email and display name to participate in leaderboards and keep track of stats. </characters>
+                      <characters> a private login and display name to participate in leaderboards and keep track of stats. </characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#333333"/>
                       </textAttrs>
@@ -201,7 +201,7 @@
                   </transformationPoint>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>colin@reconinstruments.com</characters>
+                      <characters>Private Login ID</characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#FFFFFF"/>
                       </textAttrs>
@@ -214,7 +214,7 @@
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>EMAIL:</characters>
+                      <characters>LOGIN:</characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium" fillColor="#333333"/>
                       </textAttrs>
@@ -259,9 +259,9 @@
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>EMAIL:</characters>
+                      <characters>LOGIN:</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="22" face="Akzidenz-Grotesk_BQ*" fillColor="#333333"/>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="AkzidenzGroteskBQ-Medium*" fillColor="#333333"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

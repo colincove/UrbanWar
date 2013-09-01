@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/ResultRow" itemID="4ebdd0af-0000002c" linkageExportForAS="true" linkageClassName="com.database.Result" sourceFlashFilepath="../../DatabaseEnvironment/postTest.fla" sourceLibraryItemHRef="ResultRow" sourceLastModified="1325091221" lastModified="1347246720" lastUniqueIdentifier="20" sourceItemID="00000000-7fffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/ResultRow" itemID="4ebdd0af-0000002c" linkageExportForAS="true" linkageClassName="com.database.Result" sourceFlashFilepath="../../DatabaseEnvironment/postTest.fla" sourceLibraryItemHRef="ResultRow" sourceLastModified="1325091221" lastModified="1377582832" lastUniqueIdentifier="20" sourceItemID="00000000-7fffffff">
   <timeline>
-    <DOMTimeline name="ResultRow">
+    <DOMTimeline name="ResultRow" currentFrame="1">
       <layers>
-        <DOMLayer name="Layer 4" color="#FF4FFF" visible="false">
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Menus/SmallWeaponIcons" name="wpn1" centerPoint3DX="416.95" centerPoint3DY="7.6">
+                <DOMSymbolInstance libraryItemName="Menus/SmallWeaponIcons" name="wpn1" selected="true" centerPoint3DX="416.95" centerPoint3DY="7.6">
                   <matrix>
                     <Matrix tx="394.4" ty="-1.5"/>
                   </matrix>
@@ -34,7 +34,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 2" color="#9933CC" visible="false">
+        <DOMLayer name="Layer 2" color="#9933CC">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
@@ -106,7 +106,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 5" color="#4FFFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer 5" color="#4FFFFF">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
@@ -122,7 +122,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4FFF4F" visible="false">
+        <DOMLayer name="Layer 1" color="#4FFF4F">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -184,7 +184,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 3" color="#FF800A" locked="true" visible="false">
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
