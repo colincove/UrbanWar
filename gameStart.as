@@ -103,8 +103,9 @@
 			{
 				currentLevelID=gameVars.stageStart;
 			playLevelID=currentLevelID;
-				globals.HUD.destroy();
+				//globals.HUD.destroy();
 				
+				//globals.HUD=null;
 			}else{
 				
 			

@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/EndLevelScreen" itemID="4fcd7324-0000036e" linkageExportForAS="true" linkageClassName="com.UI.EndLevelScreen" lastModified="1359859778" lastUniqueIdentifier="40">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menus/EndLevelScreen" itemID="4fcd7324-0000036e" linkageExportForAS="true" linkageClassName="com.UI.EndLevelScreen" lastModified="1378316844" lastUniqueIdentifier="40">
   <timeline>
-    <DOMTimeline name="EndLevelScreen">
+    <DOMTimeline name="EndLevelScreen" currentFrame="2">
       <layers>
-        <DOMLayer name="Layer 2" color="#9933CC">
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
           <frames>
             <DOMFrame index="0" duration="120" keyMode="9728">
               <elements/>
@@ -36,13 +36,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 12" color="#FF4FFF" current="true" isSelected="true">
+        <DOMLayer name="Layer 12" color="#FF4FFF" locked="true">
           <frames>
             <DOMFrame index="0" duration="260" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Menus/CloseButton" name="closeButton" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Menus/CloseButton" name="closeButton" symbolType="button">
                   <matrix>
-                    <Matrix tx="91.4" ty="381.55"/>
+                    <Matrix tx="61.4" ty="381.55"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
@@ -52,7 +52,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 4" color="#FF4FFF">
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true">
           <frames>
             <DOMFrame index="0" duration="259" keyMode="9728">
               <Actionscript>
@@ -68,7 +68,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 11" color="#FF800A">
+        <DOMLayer name="Layer 11" color="#FF800A" locked="true">
           <frames>
             <DOMFrame index="0" duration="259" keyMode="9728">
               <elements/>
@@ -93,13 +93,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 13" color="#4FFFFF">
+        <DOMLayer name="Layer 13" color="#4FFFFF" locked="true">
           <frames>
             <DOMFrame index="0" duration="260" keyMode="9728">
               <elements>
                 <DOMDynamicText name="msg" width="295.95" height="88.95" includeOutlines="true" lineType="multiline">
                   <matrix>
-                    <Matrix tx="50" ty="371"/>
+                    <Matrix tx="20" ty="371"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -114,7 +114,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 10" color="#9933CC">
+        <DOMLayer name="Layer 10" color="#9933CC" locked="true">
           <frames>
             <DOMFrame index="0" duration="259" keyMode="9728">
               <elements>
@@ -129,69 +129,69 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="!3739 3489|3739 6419"/>
-                    <Edge cubics="!3739 3489(;3739,3489 3739,6419 3739,6419q3739 3489 3739 6419);"/>
+                    <Edge strokeStyle="1" edges="!3139 3489|3139 6419"/>
+                    <Edge cubics="!3139 3489(;3139,3489 3139,6419 3139,6419q3139 3489 3139 6419);"/>
                   </edges>
                 </DOMShape>
-                <DOMSymbolInstance libraryItemName="enemiesKilledText" name="enemiesKilledText" centerPoint3DX="333.95" centerPoint3DY="192">
+                <DOMSymbolInstance libraryItemName="enemiesKilledText" name="enemiesKilledText" centerPoint3DX="303.95" centerPoint3DY="192">
                   <matrix>
-                    <Matrix tx="197.95" ty="178.85"/>
+                    <Matrix tx="167.95" ty="178.85"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="136" y="13.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="accuracyText" name="accuracyText" centerPoint3DX="333.95" centerPoint3DY="227.9">
+                <DOMSymbolInstance libraryItemName="accuracyText" name="accuracyText" centerPoint3DX="303.95" centerPoint3DY="227.9">
                   <matrix>
-                    <Matrix tx="197.95" ty="214.75"/>
+                    <Matrix tx="167.95" ty="214.75"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="136" y="13.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="totalScoreText copy" name="gearsText" centerPoint3DX="333.95" centerPoint3DY="263.8">
+                <DOMSymbolInstance libraryItemName="totalScoreText copy" name="gearsText" centerPoint3DX="303.95" centerPoint3DY="263.8">
                   <matrix>
-                    <Matrix tx="197.95" ty="250.65"/>
+                    <Matrix tx="167.95" ty="250.65"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="136" y="13.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Symbols/Symbol 8" name="numberDisplayContainer1" centerPoint3DX="330.35" centerPoint3DY="202.5">
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 8" name="numberDisplayContainer1" centerPoint3DX="300.35" centerPoint3DY="202.5">
                   <matrix>
-                    <Matrix tx="167.85" ty="195.5"/>
+                    <Matrix tx="137.85" ty="195.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="162.5" y="7"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Symbols/Symbol 8" name="numberDisplayContainer2" centerPoint3DX="330.35" centerPoint3DY="237.7">
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 8" name="numberDisplayContainer2" centerPoint3DX="300.35" centerPoint3DY="237.7">
                   <matrix>
-                    <Matrix tx="167.85" ty="230.7"/>
+                    <Matrix tx="137.85" ty="230.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="162.5" y="7"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Symbols/Symbol 8" name="numberDisplayContainer3" centerPoint3DX="330.35" centerPoint3DY="272.9">
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 8" name="numberDisplayContainer3" centerPoint3DX="300.35" centerPoint3DY="272.9">
                   <matrix>
-                    <Matrix tx="167.85" ty="265.9"/>
+                    <Matrix tx="137.85" ty="265.9"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="162.5" y="7"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="totalScoreText" name="totalScoreText" centerPoint3DX="333.95" centerPoint3DY="299.7">
+                <DOMSymbolInstance libraryItemName="totalScoreText" name="totalScoreText" centerPoint3DX="303.95" centerPoint3DY="299.7">
                   <matrix>
-                    <Matrix tx="197.95" ty="286.55"/>
+                    <Matrix tx="167.95" ty="286.55"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="136" y="13.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Symbols/Symbol 8" name="numberDisplayContainer4" centerPoint3DX="330.35" centerPoint3DY="308.1">
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 8" name="numberDisplayContainer4" centerPoint3DX="300.35" centerPoint3DY="308.1">
                   <matrix>
-                    <Matrix tx="167.85" ty="301.1"/>
+                    <Matrix tx="137.85" ty="301.1"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="162.5" y="7"/>
@@ -266,13 +266,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 9" color="#4FFF4F">
+        <DOMLayer name="Layer 9" color="#4FFF4F" locked="true">
           <frames>
             <DOMFrame index="0" duration="259" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1" centerPoint3DX="197.95" centerPoint3DY="313">
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1" centerPoint3DX="167.95" centerPoint3DY="313">
                   <matrix>
-                    <Matrix tx="37" ty="152"/>
+                    <Matrix tx="7" ty="152"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="160.95" y="161"/>
@@ -300,7 +300,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 8" color="#FF4F4F" locked="true" outline="true" useOutlineView="true" layerType="mask">
+        <DOMLayer name="Layer 8" color="#FF4F4F" locked="true" layerType="mask">
           <frames>
             <DOMFrame index="0" duration="259" keyMode="9728">
               <elements>
@@ -311,15 +311,15 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!14917 3050/7194 3050!7194 3050[7140 3050 7140 3108!7140 3108|7140 9342!7140 9342[7140 9400 7194 9400!7194 9400/14917 9400!14917 9400[14970 9400 14970 9342!14970 9342/14970 3108!14970 3108[14970 3050 14917 3050"/>
-                    <Edge cubics="!7140 3108(;7140,3108 7140,9342 7140,9342q7140 3108 7140 9342);"/>
-                    <Edge cubics="!14970 3108(;14970,3069 14952,3050 14917,3050q14970 3108Q14970 3050q14917 3050);"/>
-                    <Edge cubics="!14917 9400(;14952,9400 14970,9381 14970,9342q14917 9400Q14970 9400q14970 9342);"/>
-                    <Edge cubics="!14970 9342(;14970,9342 14970,3108 14970,3108q14970 9342 14970 3108);"/>
-                    <Edge cubics="!7194 3050(;7158,3050 7140,3069 7140,3108q7194 3050Q7140 3050q7140 3108);"/>
-                    <Edge cubics="!7140 9342(;7140,9381 7158,9400 7194,9400q7140 9342Q7140 9400q7194 9400);"/>
-                    <Edge cubics="!7194 9400(;7194,9400 14917,9400 14917,9400q7194 9400 14917 9400);"/>
-                    <Edge cubics="!14917 3050(;14917,3050 7194,3050 7194,3050q14917 3050 7194 3050);"/>
+                    <Edge fillStyle0="1" edges="!19470 3108[19470 3050 19382 3050!19382 3050/6629 3050!6629 3050[6540 3050 6540 3108!6540 3108|6540 9342!6540 9342[6540 9400 6629 9400!6629 9400/19382 9400!19382 9400[19470 9400 19470 9342!19470 9342/19470 3108"/>
+                    <Edge cubics="!6540 3108(;6540,3108 6540,9342 6540,9342q6540 3108 6540 9342);"/>
+                    <Edge cubics="!19470 3108(;19470,3069 19440,3050 19382,3050q19470 3108Q19470 3050q19382 3050);"/>
+                    <Edge cubics="!19382 9400(;19440,9400 19470,9381 19470,9342q19382 9400Q19470 9400q19470 9342);"/>
+                    <Edge cubics="!19470 9342(;19470,9342 19470,3108 19470,3108q19470 9342 19470 3108);"/>
+                    <Edge cubics="!6629 3050(;6569,3050 6540,3069 6540,3108q6629 3050Q6540 3050q6540 3108);"/>
+                    <Edge cubics="!6540 9342(;6540,9381 6569,9400 6629,9400q6540 9342Q6540 9400q6629 9400);"/>
+                    <Edge cubics="!6629 9400(;6629,9400 19382,9400 19382,9400q6629 9400 19382 9400);"/>
+                    <Edge cubics="!19382 3050(;19382,3050 6629,3050 6629,3050q19382 3050 6629 3050);"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -348,16 +348,16 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 7" color="#4F80FF" parentLayerIndex="7" locked="true" outline="true" useOutlineView="true">
+        <DOMLayer name="Layer 7" color="#4F80FF" parentLayerIndex="7" locked="true">
           <frames>
             <DOMFrame index="0" duration="259" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Menus/GameMenu/ScreenGrabDisplay" name="screenGrab" centerPoint3DX="553.35" centerPoint3DY="319.45">
+                <DOMSymbolInstance libraryItemName="Menus/GameMenu/ScreenGrabDisplay" name="screenGrab" selected="true" centerPoint3DX="523.35" centerPoint3DY="319.45">
                   <matrix>
-                    <Matrix a="1.21060180664063" d="1.21060180664063" tx="357.45" ty="153.2"/>
+                    <Matrix a="1.35391235351563" d="1.35391235351563" tx="327.45" ty="153.2"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="161.9" y="137.35"/>
+                    <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -376,13 +376,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 3" color="#FF800A">
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true">
           <frames>
             <DOMFrame index="0" duration="259" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Menus/PromptOK" name="okButton" symbolType="button">
                   <matrix>
-                    <Matrix tx="1127.8" ty="286.9"/>
+                    <Matrix tx="1097.8" ty="286.9"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="107.95" y="31"/>
@@ -404,13 +404,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 6" color="#808080">
+        <DOMLayer name="Layer 6" color="#808080" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="259" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1 copy 3" centerPoint3DX="518.05" centerPoint3DY="313">
+                <DOMSymbolInstance libraryItemName="Symbols/Symbol 1 copy 3" centerPoint3DX="488.05" centerPoint3DY="313">
                   <matrix>
-                    <Matrix a="1.23381042480469" tx="357.3" ty="152"/>
+                    <Matrix a="1.23381042480469" tx="327.3" ty="152"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="-1.1" y="160"/>
@@ -438,13 +438,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 5" color="#4FFFFF">
+        <DOMLayer name="Layer 5" color="#4FFFFF" locked="true">
           <frames>
             <DOMFrame index="0" duration="259" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="ModalBackgrounds" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix tx="-166.9" ty="-108.5"/>
+                    <Matrix tx="-196.9" ty="-108.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="505.3" y="379"/>

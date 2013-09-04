@@ -22,7 +22,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="GUI/HealthBar" selected="true" centerPoint3DX="-220.75" centerPoint3DY="-198.1">
+                <DOMSymbolInstance libraryItemName="GUI/HealthBar" centerPoint3DX="-220.75" centerPoint3DY="-198.1">
                   <matrix>
                     <Matrix tx="-311.45" ty="-290.75"/>
                   </matrix>
@@ -45,7 +45,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!9020 -6980|9020 7099!9020 7099|-9219 7099!-9219 7099|-9219 -6980!-9219 -6980|9020 -6980"/>
+                    <Edge fillStyle1="1" edges="!9020 7099|-9219 7099!-9219 7099|-9219 -6980!-9219 -6980|9020 -6980!9020 -6980|9020 7099"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -56,7 +56,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="GUI/hud_fade" name="fade" selected="true">
+                <DOMSymbolInstance libraryItemName="GUI/hud_fade" name="fade">
                   <matrix>
                     <Matrix tx="-400" ty="-300"/>
                   </matrix>

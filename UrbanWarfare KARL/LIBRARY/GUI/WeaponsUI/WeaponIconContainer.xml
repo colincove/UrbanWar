@@ -29,7 +29,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!1638 738|-1620 738!-1620 738|-1620 -738!-1620 -738|1638 -738!1638 -738|1638 738"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!1638 -738|1638 738!1638 738|-1620 738!-1620 738|-1620 -738!-1620 -738|1638 -738"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -46,7 +46,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!1638 738|-1620 738!-1620 738|-1620 -738!-1620 -738|1638 -738!1638 -738|1638 738"/>
+                    <Edge fillStyle1="1" edges="!1638 -738|1638 738!1638 738|-1620 738!-1620 738|-1620 -738!-1620 -738|1638 -738"/>
                   </edges>
                 </DOMShape>
               </elements>

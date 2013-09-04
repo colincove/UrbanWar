@@ -64,6 +64,7 @@ public static var disableHero:Boolean=false;
 		}
 		public function spawnLandingDebry():void
 		{
+							armCannon.visible=true;
 							globalFunctions.makeDebry("houseDebry",6,globalFunctions.getMainX(this),globalFunctions.getMainY(this)-20, false);
 ScreenGrabber.getScreen();
 		}
@@ -73,6 +74,7 @@ Hero.disableHero=false;
 globals.HUD.progRun=true;
 progRun=true;
 animation.gotoAndStop("idle");
+
 		}
 		public function addShield(shield:Shield):void
 		{
@@ -114,6 +116,7 @@ if(this.shield!=null)
 		}
 		public function doStartAnimation():void
 		{
+			armCannon.visible=false;
 			Hero.disableHero=true;
 			globals.HUD.placeCam();
 			progRun=false;

@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCCCCC" width="800" height="600" frameRate="36" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" rulerVisible="true" timelineLabelWidth="0" viewAngle3D="74.2651684569298" nextSceneIdentifier="2093" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCCCCC" width="800" height="600" frameRate="36" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.5 build 349" majorVersion="11" minorVersion="5" buildNumber="349" timelineLabelWidth="0" viewAngle3D="74.2651684569298" nextSceneIdentifier="2093" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
      <folders>
           <DOMFolderItem name="b bcb cn vnv " itemID="4f04fdcc-00000561"/>
           <DOMFolderItem name="Cinematics" itemID="503fa18f-000006fb"/>
@@ -50,10 +50,10 @@
           <DOMFolderItem name="Fonts" itemID="4fb98c40-00000367"/>
           <DOMFolderItem name="Game Items" itemID="4db0613c-0000019a"/>
           <DOMFolderItem name="Game Items/Orb" itemID="4db0610e-0000018b"/>
-          <DOMFolderItem name="GUI" itemID="4d012bdf-00000083" isExpanded="true"/>
+          <DOMFolderItem name="GUI" itemID="4d012bdf-00000083"/>
           <DOMFolderItem name="GUI/HealthBar_" itemID="4d012cce-000000ae"/>
           <DOMFolderItem name="GUI/OffScreenDisplay" itemID="4fa95e01-00000501"/>
-          <DOMFolderItem name="GUI/WeaponsUI" itemID="4d03c240-000000ce" isExpanded="true"/>
+          <DOMFolderItem name="GUI/WeaponsUI" itemID="4d03c240-000000ce"/>
           <DOMFolderItem name="Hero" itemID="4d012b8c-00000060"/>
           <DOMFolderItem name="Hero/Hero.ai Assets" itemID="4d013b40-000001c7" isExpanded="true"/>
           <DOMFolderItem name="Hero/Hero.ai Assets/Layer 1" itemID="4d013b40-000001c8"/>
@@ -94,14 +94,14 @@
           <DOMFolderItem name="WeaponSymbols" itemID="4ddac1e0-000002f7"/>
      </folders>
      <fonts>
-          <DOMFontItem name="ArialMT 1" itemID="510dd40e-00000968" font="AkzidenzGroteskBQ-Medium" size="0" id="9" sourceLastImported="1359860750" embedRanges="9999"/>
-          <DOMFontItem name="ArialMT" itemID="510dd40e-00000966" font="AkzidenzGroteskBQ-Medium" size="0" id="8" sourceLastImported="1359860733" embedRanges="9999"/>
-          <DOMFontItem name="TimesNewRomanPSMT" itemID="510dd3fd-00000963" font="AkzidenzGroteskBQ-Medium" size="0" id="7" sourceLastImported="1359860733" embedRanges="9999"/>
-          <DOMFontItem name="AkzidenzGroteskBQ-Medium 2" itemID="510dd3c1-00000961" font="AkzidenzGroteskBQ-Medium" size="0" id="6" sourceLastImported="1359860673" embedRanges="9999"/>
-          <DOMFontItem name="AkzidenzGroteskBQ-Medium 1" itemID="510dd3c1-0000095f" font="AkzidenzGroteskBQ-Medium" size="0" id="5" sourceLastImported="1359860673" embedRanges="9999"/>
-          <DOMFontItem name="AkzidenzGroteskBQ-Medium" itemID="510dd3c1-0000095d" font="AkzidenzGroteskBQ-Medium" size="0" id="4" sourceLastImported="1359860673" embedRanges="9999"/>
-          <DOMFontItem name="Fonts/Akzidenz-Grotesk_BQ" itemID="50dde225-00001754" linkageExportForAS="true" linkageClassName="AkzidenzGrotesk_BQ" font="AkzidenzGroteskBQ-Medium" size="16" id="1" sourceLastImported="1337560117" embedRanges="9999"/>
           <DOMFontItem name="Akzidenz-Grotesk_BQ" itemID="50dde225-00001753" linkageExportForAS="true" linkageClassName="AkzidenzGrotesk_BQ" font="AkzidenzGroteskBQ-Medium" size="0" id="2" sourceLastImported="1359860642" embedRanges="9999"/>
+          <DOMFontItem name="Fonts/Akzidenz-Grotesk_BQ" itemID="50dde225-00001754" linkageExportForAS="true" linkageClassName="AkzidenzGrotesk_BQ" font="AkzidenzGroteskBQ-Medium" size="16" id="1" sourceLastImported="1337560117" embedRanges="9999"/>
+          <DOMFontItem name="AkzidenzGroteskBQ-Medium" itemID="510dd3c1-0000095d" font="AkzidenzGroteskBQ-Medium" size="0" id="4" sourceLastImported="1359860673" embedRanges="9999"/>
+          <DOMFontItem name="AkzidenzGroteskBQ-Medium 1" itemID="510dd3c1-0000095f" font="AkzidenzGroteskBQ-Medium" size="0" id="5" sourceLastImported="1359860673" embedRanges="9999"/>
+          <DOMFontItem name="AkzidenzGroteskBQ-Medium 2" itemID="510dd3c1-00000961" font="AkzidenzGroteskBQ-Medium" size="0" id="6" sourceLastImported="1359860673" embedRanges="9999"/>
+          <DOMFontItem name="TimesNewRomanPSMT" itemID="510dd3fd-00000963" font="AkzidenzGroteskBQ-Medium" size="0" id="7" sourceLastImported="1359860733" embedRanges="9999"/>
+          <DOMFontItem name="ArialMT" itemID="510dd40e-00000966" font="AkzidenzGroteskBQ-Medium" size="0" id="8" sourceLastImported="1359860733" embedRanges="9999"/>
+          <DOMFontItem name="ArialMT 1" itemID="510dd40e-00000968" font="AkzidenzGroteskBQ-Medium" size="0" id="9" sourceLastImported="1359860750" embedRanges="9999"/>
      </fonts>
      <media>
           <DOMSoundItem name="Cinematics/Audio/1-15 City, Heavy. Brake Squeals. New.wav" itemID="5035297d-0000093b" sourceExternalFilepath="./LIBRARY/Cinematics/Audio/1-15 City&amp;#044 Heavy. Brake Squeals. New.wav" sourceLastImported="1251134633" href="Cinematics/Audio/1-15 City&amp;#044 Heavy. Brake Squeals. New.wav" soundDataHRef="M 50 1345661309.dat" format="44kHz 16bit Stereo" sampleCount="10801560"/>
@@ -1453,7 +1453,7 @@
           <Include href="Menus/continueWithoutLeaderboardsButton.xml" itemIcon="0" loadImmediate="false" itemID="4f022ba4-00000e28" lastModified="1359859671"/>
           <Include href="Menus/ControlsButton.xml" itemIcon="0" loadImmediate="false" itemID="50451640-00001523" lastModified="1346798432"/>
           <Include href="Menus/ControlsPrompt.xml" itemID="50451124-00000e36" lastModified="1359860750"/>
-          <Include href="Menus/EndLevelScreen.xml" itemID="4fcd7324-0000036e" lastModified="1359859778"/>
+          <Include href="Menus/EndLevelScreen.xml" itemID="4fcd7324-0000036e" lastModified="1378316844"/>
           <Include href="Menus/EndScreenAnimation.xml" loadImmediate="false" itemID="4fd795db-000005ae" lastModified="1346455735"/>
           <Include href="Menus/FindMeButton.xml" itemIcon="0" loadImmediate="false" itemID="50468351-0000096a" lastModified="1346798439"/>
           <Include href="Menus/GameMenu/AddWeapon.xml" itemID="4e6d192a-00000323" lastModified="1333494178"/>
@@ -1600,7 +1600,7 @@
           <Include href="Symbols/Symbol 1.xml" loadImmediate="false" itemID="4ebf23be-00000b88" lastModified="1337054374"/>
           <Include href="Symbols/Symbol 1 copy.xml" loadImmediate="false" itemID="5032ca57-00000748" lastModified="1339527257"/>
           <Include href="Symbols/Symbol 1 copy 2.xml" loadImmediate="false" itemID="50414f17-00000e50" lastModified="1346457382"/>
-          <Include href="Symbols/Symbol 1 copy 3.xml" loadImmediate="false" itemID="504158f4-000015b7" lastModified="1346459892"/>
+          <Include href="Symbols/Symbol 1 copy 3.xml" loadImmediate="false" itemID="504158f4-000015b7" lastModified="1378316847"/>
           <Include href="Symbols/Symbol 1 copy 4.xml" itemIcon="1" loadImmediate="false" itemID="50468744-000009ad" lastModified="1346699510"/>
           <Include href="Symbols/Symbol 2.xml" loadImmediate="false" itemID="4f01100e-000002eb" lastModified="1325469710"/>
           <Include href="Symbols/Symbol 2 copy.xml" itemIcon="1" loadImmediate="false" itemID="50315118-000026f0" lastModified="1345409333"/>
@@ -2012,7 +2012,7 @@
                                                   <Edge cubics="!23527 3875(;23527,3860 23557,3835 23577,3830q23527 3875Q23527 3864q23545 3849Q23562 3834q23577 3830);"/>
                                              </edges>
                                         </DOMShape>
-                                        <DOMSymbolInstance libraryItemName="Menus/LoadingScreen" centerPoint3DX="400" centerPoint3DY="300">
+                                        <DOMSymbolInstance libraryItemName="Menus/LoadingScreen" selected="true" centerPoint3DX="400" centerPoint3DY="300">
                                              <transformationPoint>
                                                   <Point x="400" y="300"/>
                                              </transformationPoint>
@@ -2365,6 +2365,9 @@ initialize();]]></script>
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="23705135" publishTime="1378316716"/>
+          <PublishItem publishSize="23705028" publishTime="1378316322"/>
+          <PublishItem publishSize="23705019" publishTime="1378315079"/>
           <PublishItem publishSize="23704846" publishTime="1378014786"/>
           <PublishItem publishSize="23585251" publishTime="1378014642"/>
           <PublishItem publishSize="23704814" publishTime="1378012146"/>
@@ -2382,8 +2385,5 @@ initialize();]]></script>
           <PublishItem publishSize="23705130" publishTime="1362349972"/>
           <PublishItem publishSize="23705111" publishTime="1362349307"/>
           <PublishItem publishSize="23587823" publishTime="1361090442"/>
-          <PublishItem publishSize="23467107" publishTime="1361090190"/>
-          <PublishItem publishSize="23588078" publishTime="1361089673"/>
-          <PublishItem publishSize="23588084" publishTime="1361089205"/>
      </publishHistory>
 </DOMDocument>

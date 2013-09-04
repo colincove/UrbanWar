@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbols/Symbol 1 copy 3" itemID="504158f4-000015b7" lastModified="1346459892">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbols/Symbol 1 copy 3" itemID="504158f4-000015b7" lastModified="1378316847">
   <timeline>
     <DOMTimeline name="Symbol 1 copy 3">
       <layers>
@@ -6,7 +6,17 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance selected="true" libraryItemName="Menus/Prompt.png"/>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#999999"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!6916 6339|5246 6339!5246 6339|5246 40!5246 40|6916 40!6916 40|6916 6339"/>
+                  </edges>
+                </DOMShape>
+                <DOMBitmapInstance libraryItemName="Menus/Prompt.png"/>
               </elements>
             </DOMFrame>
           </frames>
